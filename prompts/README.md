@@ -1,7 +1,5 @@
 # 全套视觉素材与提示词索引
 
-[独立发布封面](../assets/cover.png) · [封面提示词](cover.txt)。封面不计入下面原作 397 个槽位。
-
 33 张最终图集覆盖中文版 397 个源槽位。381 个直接新绘槽位，16 个缩略图复用；包含原作本来为空的 GUI 组件。图集原始 PNG 保持生成工具输出，切片通过归一化 UV 使用。
 
 每项提示词为英文，按创建、修正顺序列出。来源是本次实际使用的文件；最终映射与 SHA-256 见 [generated-assets.json](../analysis/generated-assets.json)。
@@ -41,3 +39,7 @@
 | [ui-controller-glyphs.png](../assets/atlases/ui-controller-glyphs.png) | 42 | [ui-controller-glyphs.txt](ui-controller-glyphs.txt) |
 | [ui-panels-a.png](../assets/atlases/ui-panels-a.png) | 12 | [ui-panels-a.txt](ui-panels-a.txt) |
 | [ui-panels-b.png](../assets/atlases/ui-panels-b.png) | 8 | [ui-panels-b.txt](ui-panels-b.txt) |
+
+## 发布封面
+
+[独立生成封面](../assets/cover.png) · [创建提示词](cover.txt)。封面独立于原作 397 个槽位，不参与图集覆盖数量。
