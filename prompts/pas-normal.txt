@@ -1,0 +1,24 @@
+Use case: stylized-concept.
+Asset type: production transparent 2D visual novel sprite atlas, one PNG, exactly 4 columns x 4 rows, 16 equal square cells.
+Primary request: create NEW redraws using the supplied references, preserving character identity, with a distinct expression/pose in each specified tile. The references are design/style inputs, not output assets.
+Input images: the new Syrup atlas supplies line style and cel shading; the original character image(s) supply only identity and clothing.
+Subject: Pastille is an ADULT gentle candy-shop assistant man, fair skin, fluffy short bubblegum-pink hair, gold oval eyes, pink cheek blush. Slender compact 3.5-head chibi body, a white triangular kerchief, white puff-shoulder long-sleeved shirt, pale pink apron over dark trousers, tiny pink wrapped-candy brooch at the collar. Holds one dark brown wooden broom, its shaft upright or diagonal, never crossing the tile boundary.
+Style: Adult characters with stylized 3.5-head chibi proportions. Bold rounded black hand-drawn contours, flat pastel colors, only one crisp cel-shadow layer, large simple oval eyes, two or three tiny round white hair highlights. Match the simple compact cartoon rendering of the new Syrup atlas, without realistic anatomy, painterly rendering, 3D, fine texture or excessive anime polish. Frame every humanoid from full head to mid-thigh, same scale and baseline in every cell. Entire hair, hands, ears and tails stay within the cell with clear padding.
+Cell expressions, exact reading order (left to right, top to bottom):
+1. Disappointed neutral mouth, slightly lowered gold eyes, broom held upright.
+2. Nervous small open grin, broom upright.
+3. Shy knowing little smile, eyes to the side, broom upright.
+4. Content closed eyes and small smile, broom upright.
+5. Angry lowered brows and open mouth, broom upright.
+6. Patient gentle smile and attentive eyes, broom upright.
+7. Prepared serious neutral face, broom upright.
+8. Sad tired half-lidded eyes and downturned mouth, broom upright.
+9. Warm gentle smile, gold eyes open, broom upright.
+10. Apologetic blush, one hand at mouth while holding broom diagonally.
+11. Startled crying yelp, eyes squeezed shut, clutching broom diagonally with both hands.
+12. Concerned eyebrows and slight frown, broom upright.
+13. Excited delighted wide eyes and open grin, clutching broom diagonally.
+14. EMPTY TRANSPARENT TILE, no drawing.
+15. EMPTY TRANSPARENT TILE, no drawing.
+16. EMPTY TRANSPARENT TILE, no drawing.
+Composition: EXACT regular 4 by 4 grid of equal square tiles, no gutters, no grid lines, no overlap across cells. Every specified tile contains precisely its one sprite, except the explicitly paired Chocolate characters. Similar identity and clothing throughout each character group. GENUINELY TRANSPARENT background with clean alpha, not a painted checkerboard. No scene, no floor, no ground shadows, no written labels, no numbers, no text, no watermark.

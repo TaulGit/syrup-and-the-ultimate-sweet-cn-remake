@@ -1,0 +1,6 @@
+Use case: stylized-concept. Asset type: four landscape backgrounds in one atlas. Simple pastel 2D candy-fantasy VN background, fine monochrome colored linework, TWO or THREE flat colors, broad sharply cut diagonal light shape, sparse texture, low contrast, clear central staging, no named people, no typography or logos, no photorealism, 3D, gradient or painterly materials. New compositions with the reference visual language. EXACT 2 columns x 2 rows equal edge-to-edge 16:9 scenes, no gutters or panel frames; overall 2560x1440 preferred.
+Top-left: a narrow frozen cavern corridor framed by dangling icicles, pale cyan outlines on almost white and light ice blue, corridor receding toward a clear central opening.
+Top-right: a larger different ice cavern with a branching crystalline ice tree in centre, shallow frozen cracks across floor, lavender and pale blue linework, big angular light plane from opening.
+Bottom-left: from a jagged icy canyon entrance looking toward snow-covered mountains and small remote cabin, foreground ice spikes along both sides, very pale cyan and white.
+Bottom-right: broad empty snowfield with low distant snow hills and sparse icy rocks, simple pale blue sky and flat thin cloud shapes, minimal fine blue outlines.
+No foreground characters or animals. Each tile complete. Keep scenery much quieter than character art.

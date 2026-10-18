@@ -1,0 +1,17 @@
+Use case: stylized-concept. Asset type: TRUE TRANSPARENT 2D VN expression atlas, exactly 4 columns x 3 rows, 12 equal cells, no gutters/borders/text. Preferred 3072x2304.
+Redraw adult scientist Syrup IN WINTER CLOTHES shown by sy cold.png. Brown skin, blue oval eyes, mint side fringe and long side ponytail partly visible, cyan goggles pushed up but hidden by hood if needed. Heavy gray-blue hooded parka zipped closed with dark navy jagged fluffy fur around hood/cuffs, dark trousers. Cheeks pink from cold. Keep the actual winter parka; do NOT substitute the white lab coat.
+Use syrup-normal-a as new linework reference: 3.5-head cartoon proportions, thick rounded black contour, flat pastel fill, one crisp cel shadow, small white hair dots. No detailed textures, no photorealism or 3D.
+Every sprite same size/center, frame head to upper thighs and complete hair/hands safely inside its tile. Reading order expressions:
+1 cold uncomfortable frown, arms crossed;
+2 comforting gentle smile, open hand;
+3 calling hello, hand raised;
+4 thinking, hand chin;
+5 confused small open mouth;
+6 sarcastic raised eyebrow, palm up;
+7 frightened wide eyes, shoulders hunched;
+8 sly half-smile, folded arms;
+9 asking someone to stop, palm forward;
+10 quietly deep in thought, gaze aside;
+11 agreeing with a slight nod and smile;
+12 yelling, open mouth and clenched fists.
+One character in each cell, isolated on fully transparent alpha, clean edges. No background elements, no labels, no watermark.

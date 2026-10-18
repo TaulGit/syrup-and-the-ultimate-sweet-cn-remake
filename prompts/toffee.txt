@@ -1,0 +1,16 @@
+Use case: stylized-concept.
+Asset type: production transparent 2D visual novel sprite atlas, one PNG, exactly 4 columns x 2 rows, 8 equal square cells.
+Primary request: create NEW redraws using the supplied references, preserving character identity, with a distinct expression/pose in each specified tile. The references are design/style inputs, not output assets.
+Input images: the new Syrup atlas supplies line style and cel shading; the original character image(s) supply only identity and clothing.
+Subject: Toffee is an ADULT androgynous cat familiar, warm brown skin, simple golden-yellow oval cat eyes, short messy dark chocolate-black hair, large black cat ears and a long thick curled black tail. Plain sleeveless black tunic dress with short dark ruffled shorts beneath, large shiny gold bell on a black collar, black fingerless gloves and tiny wrist bells. Clothing is fully opaque. Keep tail and ears within each tile.
+Style: Adult characters with stylized 3.5-head chibi proportions. Bold rounded black hand-drawn contours, flat pastel colors, only one crisp cel-shadow layer, large simple oval eyes, two or three tiny round white hair highlights. Match the simple compact cartoon rendering of the new Syrup atlas, without realistic anatomy, painterly rendering, 3D, fine texture or excessive anime polish. Frame every humanoid from full head to mid-thigh, same scale and baseline in every cell. Entire hair, hands, ears and tails stay within the cell with clear padding.
+Cell expressions, exact reading order (left to right, top to bottom):
+1. Worried raised eyebrows and tiny open mouth, standing upright.
+2. Knowing mischievous half-lidded smile, standing upright.
+3. Speaking calmly, small open mouth, half-lidded gold eyes.
+4. Eyes closed, thoughtful small pout, head slightly lowered.
+5. Comically shocked cat yowl, huge gold eyes, jagged open mouth, both paws raised, hair and tail puffed.
+6. Relaxed small cat smile, upright.
+7. Sly teasing lean to one side, head tilted, one paw beneath chin, tail curled prominently.
+8. Annoyed embarrassed side-eye with small frown, upright.
+Composition: EXACT regular 4 by 2 grid of equal square tiles, no gutters, no grid lines, no overlap across cells. Every specified tile contains precisely its one sprite, except the explicitly paired Chocolate characters. Similar identity and clothing throughout each character group. GENUINELY TRANSPARENT background with clean alpha, not a painted checkerboard. No scene, no floor, no ground shadows, no written labels, no numbers, no text, no watermark.

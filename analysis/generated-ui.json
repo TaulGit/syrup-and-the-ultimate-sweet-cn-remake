@@ -1,0 +1,4177 @@
+{
+  "schema_version": 1,
+  "index_base": 0,
+  "requested_source_count": 141,
+  "atlases": [
+    {
+      "name": "ui-bars-sliders",
+      "source_group": "ui_bars_and_sliders",
+      "atlas": "assets/atlases/ui-bars-sliders.png",
+      "prompt": "prompts/ui-bars-sliders.txt",
+      "references": [
+        "analysis/reference/style/contact_gui.jpg"
+      ],
+      "rows": 6,
+      "columns": 7,
+      "status": "generated",
+      "cells": [
+        {
+          "source": "gui/bar/bottom.png",
+          "row": 0,
+          "column": 0,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.0,
+            0.0,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "thin vertical cream-pink progress strip, rounded bottom end",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/bar/left.png",
+          "row": 0,
+          "column": 1,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.14285714285714285,
+            0.0,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "thin horizontal cream-pink progress strip, rounded left end",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/bar/right.png",
+          "row": 0,
+          "column": 2,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.2857142857142857,
+            0.0,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "thin horizontal cream-pink progress strip, rounded right end",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/bar/top.png",
+          "row": 0,
+          "column": 3,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.42857142857142855,
+            0.0,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "thin vertical cream-pink progress strip, rounded top end",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/phone/bar/bottom.png",
+          "row": 0,
+          "column": 4,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.5714285714285714,
+            0.0,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "thin vertical cream-pink progress strip, rounded bottom end larger touch-friendly variant",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/phone/bar/left.png",
+          "row": 0,
+          "column": 5,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.7142857142857143,
+            0.0,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "thin horizontal cream-pink progress strip, rounded left end larger touch-friendly variant",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/phone/bar/right.png",
+          "row": 0,
+          "column": 6,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.8571428571428571,
+            0.0,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "thin horizontal cream-pink progress strip, rounded right end larger touch-friendly variant",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/phone/bar/top.png",
+          "row": 1,
+          "column": 0,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.0,
+            0.16666666666666666,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "thin vertical cream-pink progress strip, rounded top end larger touch-friendly variant",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/phone/scrollbar/horizontal_hover_bar.png",
+          "row": 1,
+          "column": 1,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.14285714285714285,
+            0.16666666666666666,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "horizontal warm honey-yellow highlighted narrow empty slider track, rounded ends and cream interior, NO handle larger touch-friendly variant",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/phone/scrollbar/horizontal_hover_thumb.png",
+          "row": 1,
+          "column": 2,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.2857142857142857,
+            0.16666666666666666,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "horizontal warm honey-yellow highlighted compact rounded slider handle, a small candy lozenge larger touch-friendly variant",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/phone/scrollbar/horizontal_idle_bar.png",
+          "row": 1,
+          "column": 3,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.42857142857142855,
+            0.16666666666666666,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "horizontal soft strawberry-pink idle narrow empty slider track, rounded ends and cream interior, NO handle larger touch-friendly variant",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/phone/scrollbar/horizontal_idle_thumb.png",
+          "row": 1,
+          "column": 4,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.5714285714285714,
+            0.16666666666666666,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "horizontal soft strawberry-pink idle compact rounded slider handle, a small candy lozenge larger touch-friendly variant",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/phone/scrollbar/vertical_hover_bar.png",
+          "row": 1,
+          "column": 5,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.7142857142857143,
+            0.16666666666666666,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "vertical warm honey-yellow highlighted narrow empty slider track, rounded ends and cream interior, NO handle larger touch-friendly variant",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/phone/scrollbar/vertical_hover_thumb.png",
+          "row": 1,
+          "column": 6,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.8571428571428571,
+            0.16666666666666666,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "vertical warm honey-yellow highlighted compact rounded slider handle, a small candy lozenge larger touch-friendly variant",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/phone/scrollbar/vertical_idle_bar.png",
+          "row": 2,
+          "column": 0,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.0,
+            0.3333333333333333,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "vertical soft strawberry-pink idle narrow empty slider track, rounded ends and cream interior, NO handle larger touch-friendly variant",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/phone/scrollbar/vertical_idle_thumb.png",
+          "row": 2,
+          "column": 1,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.14285714285714285,
+            0.3333333333333333,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "vertical soft strawberry-pink idle compact rounded slider handle, a small candy lozenge larger touch-friendly variant",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/phone/slider/horizontal_hover_bar.png",
+          "row": 2,
+          "column": 2,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.2857142857142857,
+            0.3333333333333333,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "horizontal warm honey-yellow highlighted narrow empty slider track, rounded ends and cream interior, NO handle larger touch-friendly variant",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/phone/slider/horizontal_hover_thumb.png",
+          "row": 2,
+          "column": 3,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.42857142857142855,
+            0.3333333333333333,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "horizontal warm honey-yellow highlighted compact rounded slider handle, a small candy lozenge larger touch-friendly variant",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/phone/slider/horizontal_idle_bar.png",
+          "row": 2,
+          "column": 4,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.5714285714285714,
+            0.3333333333333333,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "horizontal soft strawberry-pink idle narrow empty slider track, rounded ends and cream interior, NO handle larger touch-friendly variant",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/phone/slider/horizontal_idle_thumb.png",
+          "row": 2,
+          "column": 5,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.7142857142857143,
+            0.3333333333333333,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "horizontal soft strawberry-pink idle compact rounded slider handle, a small candy lozenge larger touch-friendly variant",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/phone/slider/vertical_hover_bar.png",
+          "row": 2,
+          "column": 6,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.8571428571428571,
+            0.3333333333333333,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "vertical warm honey-yellow highlighted narrow empty slider track, rounded ends and cream interior, NO handle larger touch-friendly variant",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/phone/slider/vertical_hover_thumb.png",
+          "row": 3,
+          "column": 0,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.0,
+            0.5,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "vertical warm honey-yellow highlighted compact rounded slider handle, a small candy lozenge larger touch-friendly variant",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/phone/slider/vertical_idle_bar.png",
+          "row": 3,
+          "column": 1,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.14285714285714285,
+            0.5,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "vertical soft strawberry-pink idle narrow empty slider track, rounded ends and cream interior, NO handle larger touch-friendly variant",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/phone/slider/vertical_idle_thumb.png",
+          "row": 3,
+          "column": 2,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.2857142857142857,
+            0.5,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "vertical soft strawberry-pink idle compact rounded slider handle, a small candy lozenge larger touch-friendly variant",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/scrollbar/horizontal_hover_bar.png",
+          "row": 3,
+          "column": 3,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.42857142857142855,
+            0.5,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "horizontal warm honey-yellow highlighted narrow empty slider track, rounded ends and cream interior, NO handle",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/scrollbar/horizontal_hover_thumb.png",
+          "row": 3,
+          "column": 4,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.5714285714285714,
+            0.5,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "horizontal warm honey-yellow highlighted compact rounded slider handle, a small candy lozenge",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/scrollbar/horizontal_idle_bar.png",
+          "row": 3,
+          "column": 5,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.7142857142857143,
+            0.5,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "horizontal soft strawberry-pink idle narrow empty slider track, rounded ends and cream interior, NO handle",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/scrollbar/horizontal_idle_thumb.png",
+          "row": 3,
+          "column": 6,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.8571428571428571,
+            0.5,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "horizontal soft strawberry-pink idle compact rounded slider handle, a small candy lozenge",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/scrollbar/vertical_hover_bar.png",
+          "row": 4,
+          "column": 0,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.0,
+            0.6666666666666666,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "vertical warm honey-yellow highlighted narrow empty slider track, rounded ends and cream interior, NO handle",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/scrollbar/vertical_hover_thumb.png",
+          "row": 4,
+          "column": 1,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.14285714285714285,
+            0.6666666666666666,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "vertical warm honey-yellow highlighted compact rounded slider handle, a small candy lozenge",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/scrollbar/vertical_idle_bar.png",
+          "row": 4,
+          "column": 2,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.2857142857142857,
+            0.6666666666666666,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "vertical soft strawberry-pink idle narrow empty slider track, rounded ends and cream interior, NO handle",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/scrollbar/vertical_idle_thumb.png",
+          "row": 4,
+          "column": 3,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.42857142857142855,
+            0.6666666666666666,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "vertical soft strawberry-pink idle compact rounded slider handle, a small candy lozenge",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/slider/horizontal_hover_bar.png",
+          "row": 4,
+          "column": 4,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.5714285714285714,
+            0.6666666666666666,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "horizontal warm honey-yellow highlighted narrow empty slider track, rounded ends and cream interior, NO handle",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/slider/horizontal_hover_thumb.png",
+          "row": 4,
+          "column": 5,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.7142857142857143,
+            0.6666666666666666,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "horizontal warm honey-yellow highlighted compact rounded slider handle, a small candy lozenge",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/slider/horizontal_idle_bar.png",
+          "row": 4,
+          "column": 6,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.8571428571428571,
+            0.6666666666666666,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "horizontal soft strawberry-pink idle narrow empty slider track, rounded ends and cream interior, NO handle",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/slider/horizontal_idle_thumb.png",
+          "row": 5,
+          "column": 0,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.0,
+            0.8333333333333334,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "horizontal soft strawberry-pink idle compact rounded slider handle, a small candy lozenge",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/slider/vertical_hover_bar.png",
+          "row": 5,
+          "column": 1,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.14285714285714285,
+            0.8333333333333334,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "vertical warm honey-yellow highlighted narrow empty slider track, rounded ends and cream interior, NO handle",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/slider/vertical_hover_thumb.png",
+          "row": 5,
+          "column": 2,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.2857142857142857,
+            0.8333333333333334,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "vertical warm honey-yellow highlighted compact rounded slider handle, a small candy lozenge",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/slider/vertical_idle_bar.png",
+          "row": 5,
+          "column": 3,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.42857142857142855,
+            0.8333333333333334,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "vertical soft strawberry-pink idle narrow empty slider track, rounded ends and cream interior, NO handle",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/slider/vertical_idle_thumb.png",
+          "row": 5,
+          "column": 4,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.5714285714285714,
+            0.8333333333333334,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "vertical soft strawberry-pink idle compact rounded slider handle, a small candy lozenge",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        }
+      ],
+      "width": 1355,
+      "height": 1161,
+      "sha256": "48fe2fb871a82aed2d790712b3645d7ed08879742f8322bf5aee0af273a40c6a",
+      "bytes": 549783,
+      "mode": "RGBA",
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "generation_tool": "built-in image_gen",
+      "postprocessing": "None; original generated PNG copied without resampling, cropping, recoloring, or background editing.",
+      "alpha_statistics": {
+        "fully_transparent_pixels": 1246206,
+        "opaque_pixels": 4015,
+        "total_pixels": 1573155
+      },
+      "qa": {
+        "visual_inspection": "Completed on the native generation output displayed in the task.",
+        "nominal_cell_alpha_occupancy": [
+          0.1142,
+          0.1452,
+          0.1435,
+          0.1189,
+          0.1686,
+          0.1784,
+          0.1754,
+          0.1734,
+          0.1883,
+          0.1317,
+          0.1792,
+          0.1382,
+          0.1607,
+          0.1185,
+          0.151,
+          0.1574,
+          0.187,
+          0.1357,
+          0.186,
+          0.1519,
+          0.1637,
+          0.155,
+          0.1537,
+          0.1634,
+          0.1897,
+          0.1596,
+          0.1886,
+          0.1574,
+          0.1617,
+          0.1508,
+          0.1518,
+          0.157,
+          0.1859,
+          0.1511,
+          0.1841,
+          0.15,
+          0.1761,
+          0.1573,
+          0.1522,
+          0.1757
+        ],
+        "true_alpha_verified": true,
+        "status": "reviewed",
+        "observed_grid": "7 by 6 ordered slots verified visually; uniform UV grid retained.",
+        "uv_corrected_cells": 0,
+        "limitations": [
+          "Minor hand-drawn alpha fringes may remain around generated silhouettes.",
+          "These atlas pieces are newly illustrated replacements; original nine-slice border metrics are not guaranteed."
+        ],
+        "glyph_text_review": "No sentence text generated on buttons or panels."
+      }
+    },
+    {
+      "name": "ui-buttons",
+      "source_group": "ui_buttons",
+      "atlas": "assets/atlases/ui-buttons.png",
+      "prompt": "prompts/ui-buttons.txt",
+      "references": [
+        "analysis/reference/style/contact_gui.jpg"
+      ],
+      "rows": 6,
+      "columns": 7,
+      "status": "generated",
+      "cells": [
+        {
+          "source": "gui/button/check_foreground.png",
+          "row": 0,
+          "column": 0,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.0,
+            0.0,
+            0.012055455093429777,
+            0.02109704641350211
+          ],
+          "description": "small rounded square checkbox, empty cream center",
+          "expected_empty": true,
+          "nominal_uv": [
+            0.0,
+            0.0,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "measured_bounds_px": [
+            61,
+            38,
+            152,
+            130
+          ],
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              0
+            ],
+            "empty_source_preserved": true
+          },
+          "mapping_note": "Original component is fully transparent; intentionally mapped to verified blank alpha pixels in the new atlas."
+        },
+        {
+          "source": "gui/button/check_selected_foreground.png",
+          "row": 0,
+          "column": 1,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.15852923447860157,
+            0.04008438818565401,
+            0.055455093429776975,
+            0.0970464135021097
+          ],
+          "description": "small rounded square checkbox, raspberry heart-shaped check inside",
+          "expected_empty": false,
+          "nominal_uv": [
+            0.14285714285714285,
+            0.0,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "measured_bounds_px": [
+            263,
+            38,
+            355,
+            130
+          ],
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/button/choice_hover_background.png",
+          "row": 0,
+          "column": 2,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.2489451476793249,
+            0.04430379746835443,
+            0.15491259795057263,
+            0.08649789029535865
+          ],
+          "description": "wide blank cream dialogue-choice capsule, highlighted honey-yellow border, no writing",
+          "expected_empty": false,
+          "nominal_uv": [
+            0.2857142857142857,
+            0.0,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "measured_bounds_px": [
+            413,
+            42,
+            670,
+            124
+          ],
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/button/choice_idle_background.png",
+          "row": 0,
+          "column": 3,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.4177215189873418,
+            0.04535864978902954,
+            0.16576250753465943,
+            0.08544303797468354
+          ],
+          "description": "wide blank cream dialogue-choice capsule, strawberry-pink idle border, no writing",
+          "expected_empty": false,
+          "nominal_uv": [
+            0.42857142857142855,
+            0.0,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "measured_bounds_px": [
+            693,
+            43,
+            968,
+            124
+          ],
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/button/filepagebuttonl_hover.png",
+          "row": 0,
+          "column": 4,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.622664255575648,
+            0.029535864978902954,
+            0.056660638939119955,
+            0.11919831223628692
+          ],
+          "description": "left-pointing triangular navigation arrow, highlighted honey-yellow border",
+          "expected_empty": false,
+          "nominal_uv": [
+            0.5714285714285714,
+            0.0,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "measured_bounds_px": [
+            1033,
+            28,
+            1127,
+            141
+          ],
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/button/filepagebuttonl_idle.png",
+          "row": 0,
+          "column": 5,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.755877034358047,
+            0.029535864978902954,
+            0.05605786618444846,
+            0.11814345991561181
+          ],
+          "description": "left-pointing triangular navigation arrow, strawberry-pink idle border",
+          "expected_empty": false,
+          "nominal_uv": [
+            0.7142857142857143,
+            0.0,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "measured_bounds_px": [
+            1254,
+            28,
+            1347,
+            140
+          ],
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/button/filepagebuttonl_insensitive.png",
+          "row": 0,
+          "column": 6,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.8999397227245328,
+            0.029535864978902954,
+            0.055455093429776975,
+            0.11814345991561181
+          ],
+          "description": "left-pointing triangular navigation arrow, faded pale-pink disabled state",
+          "expected_empty": false,
+          "nominal_uv": [
+            0.8571428571428571,
+            0.0,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "measured_bounds_px": [
+            1493,
+            28,
+            1585,
+            140
+          ],
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/button/filepagebuttonr_hover.png",
+          "row": 1,
+          "column": 0,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.045207956600361664,
+            0.19198312236286919,
+            0.056660638939119955,
+            0.1149789029535865
+          ],
+          "description": "right-pointing triangular navigation arrow, highlighted honey-yellow border",
+          "expected_empty": false,
+          "nominal_uv": [
+            0.0,
+            0.16666666666666666,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "measured_bounds_px": [
+            75,
+            182,
+            169,
+            291
+          ],
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/button/filepagebuttonr_idle.png",
+          "row": 1,
+          "column": 1,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.17058468957203135,
+            0.19198312236286919,
+            0.05605786618444846,
+            0.1149789029535865
+          ],
+          "description": "right-pointing triangular navigation arrow, strawberry-pink idle border",
+          "expected_empty": false,
+          "nominal_uv": [
+            0.14285714285714285,
+            0.16666666666666666,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "measured_bounds_px": [
+            283,
+            182,
+            376,
+            291
+          ],
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/button/filepagebuttonr_insensitive.png",
+          "row": 1,
+          "column": 2,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.297166968053044,
+            0.19198312236286919,
+            0.055455093429776975,
+            0.1149789029535865
+          ],
+          "description": "right-pointing triangular navigation arrow, faded pale-pink disabled state",
+          "expected_empty": false,
+          "nominal_uv": [
+            0.2857142857142857,
+            0.16666666666666666,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "measured_bounds_px": [
+            493,
+            182,
+            585,
+            291
+          ],
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/button/hebrew_hover.png",
+          "row": 1,
+          "column": 3,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.43158529234478604,
+            0.19831223628691982,
+            0.11874623267028331,
+            0.10759493670886076
+          ],
+          "description": "small language selector capsule with simple globe symbol, highlighted honey-yellow border, no words or letters",
+          "expected_empty": false,
+          "nominal_uv": [
+            0.42857142857142855,
+            0.16666666666666666,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "measured_bounds_px": [
+            716,
+            188,
+            913,
+            290
+          ],
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/button/hebrew_idle.png",
+          "row": 1,
+          "column": 4,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.5828812537673297,
+            0.19725738396624473,
+            0.11934900542495479,
+            0.10759493670886076
+          ],
+          "description": "small language selector capsule with simple globe symbol, strawberry-pink idle border, no words or letters",
+          "expected_empty": false,
+          "nominal_uv": [
+            0.5714285714285714,
+            0.16666666666666666,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "measured_bounds_px": [
+            967,
+            187,
+            1165,
+            289
+          ],
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/button/hebrew_selected_hover.png",
+          "row": 1,
+          "column": 5,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.733574442435202,
+            0.19725738396624473,
+            0.11934900542495479,
+            0.10864978902953587
+          ],
+          "description": "small language selector capsule with simple globe symbol, raspberry filled selected state, highlighted honey-yellow border, no words or letters",
+          "expected_empty": false,
+          "nominal_uv": [
+            0.7142857142857143,
+            0.16666666666666666,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "measured_bounds_px": [
+            1217,
+            187,
+            1415,
+            290
+          ],
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/button/hebrew_selected_idle.png",
+          "row": 1,
+          "column": 6,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.8722121760096444,
+            0.19725738396624473,
+            0.11814345991561181,
+            0.10759493670886076
+          ],
+          "description": "small language selector capsule with simple globe symbol, raspberry filled selected state, strawberry-pink idle border, no words or letters",
+          "expected_empty": false,
+          "nominal_uv": [
+            0.8571428571428571,
+            0.16666666666666666,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "measured_bounds_px": [
+            1447,
+            187,
+            1643,
+            289
+          ],
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/button/helpme_hover.png",
+          "row": 2,
+          "column": 0,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.0108499095840868,
+            0.3407172995780591,
+            0.11814345991561181,
+            0.12763713080168776
+          ],
+          "description": "small candy-shaped help badge with one clear question mark ?, highlighted honey-yellow border",
+          "expected_empty": false,
+          "nominal_uv": [
+            0.0,
+            0.3333333333333333,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "measured_bounds_px": [
+            18,
+            323,
+            214,
+            444
+          ],
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/button/helpme_idle.png",
+          "row": 2,
+          "column": 1,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.14466546112115733,
+            0.3407172995780591,
+            0.11814345991561181,
+            0.12763713080168776
+          ],
+          "description": "small candy-shaped help badge with one clear question mark ?, strawberry-pink idle border",
+          "expected_empty": false,
+          "nominal_uv": [
+            0.14285714285714285,
+            0.3333333333333333,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "measured_bounds_px": [
+            240,
+            323,
+            436,
+            444
+          ],
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/button/hover_background.png",
+          "row": 2,
+          "column": 2,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.0,
+            0.0,
+            0.012055455093429777,
+            0.02109704641350211
+          ],
+          "description": "generic blank rounded rectangle button, highlighted honey-yellow border, no writing",
+          "expected_empty": true,
+          "nominal_uv": [
+            0.2857142857142857,
+            0.3333333333333333,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "measured_bounds_px": [
+            471,
+            334,
+            670,
+            428
+          ],
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              0
+            ],
+            "empty_source_preserved": true
+          },
+          "mapping_note": "Original component is fully transparent; intentionally mapped to verified blank alpha pixels in the new atlas."
+        },
+        {
+          "source": "gui/button/idle_background.png",
+          "row": 2,
+          "column": 3,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.0,
+            0.0,
+            0.012055455093429777,
+            0.02109704641350211
+          ],
+          "description": "generic blank rounded rectangle button, strawberry-pink idle border, no writing",
+          "expected_empty": true,
+          "nominal_uv": [
+            0.42857142857142855,
+            0.3333333333333333,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "measured_bounds_px": [
+            707,
+            332,
+            913,
+            426
+          ],
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              0
+            ],
+            "empty_source_preserved": true
+          },
+          "mapping_note": "Original component is fully transparent; intentionally mapped to verified blank alpha pixels in the new atlas."
+        },
+        {
+          "source": "gui/button/mute_hover.png",
+          "row": 2,
+          "column": 4,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.6045810729355033,
+            0.3407172995780591,
+            0.08197709463532249,
+            0.11919831223628692
+          ],
+          "description": "speaker with two simple sound wave arcs, highlighted honey-yellow border",
+          "expected_empty": false,
+          "nominal_uv": [
+            0.5714285714285714,
+            0.3333333333333333,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "measured_bounds_px": [
+            1003,
+            323,
+            1139,
+            436
+          ],
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/button/mute_idle.png",
+          "row": 2,
+          "column": 5,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.7462326702833032,
+            0.3407172995780591,
+            0.08318264014466546,
+            0.12025316455696203
+          ],
+          "description": "speaker with two simple sound wave arcs, strawberry-pink idle border",
+          "expected_empty": false,
+          "nominal_uv": [
+            0.7142857142857143,
+            0.3333333333333333,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "measured_bounds_px": [
+            1238,
+            323,
+            1376,
+            437
+          ],
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/button/mute_selected_idle.png",
+          "row": 2,
+          "column": 6,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.8993369499698614,
+            0.3407172995780591,
+            0.06148282097649186,
+            0.11814345991561181
+          ],
+          "description": "muted speaker with diagonal slash, strawberry-pink idle border",
+          "expected_empty": false,
+          "nominal_uv": [
+            0.8571428571428571,
+            0.3333333333333333,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "measured_bounds_px": [
+            1492,
+            323,
+            1594,
+            435
+          ],
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/button/quick_hover_background.png",
+          "row": 3,
+          "column": 0,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.0,
+            0.0,
+            0.012055455093429777,
+            0.02109704641350211
+          ],
+          "description": "small blank quick-menu capsule, highlighted honey-yellow border",
+          "expected_empty": true,
+          "nominal_uv": [
+            0.0,
+            0.5,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "measured_bounds_px": [
+            25,
+            498,
+            196,
+            562
+          ],
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              0
+            ],
+            "empty_source_preserved": true
+          },
+          "mapping_note": "Original component is fully transparent; intentionally mapped to verified blank alpha pixels in the new atlas."
+        },
+        {
+          "source": "gui/button/quick_idle_background.png",
+          "row": 3,
+          "column": 1,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.0,
+            0.0,
+            0.012055455093429777,
+            0.02109704641350211
+          ],
+          "description": "small blank quick-menu capsule, strawberry-pink idle border",
+          "expected_empty": true,
+          "nominal_uv": [
+            0.14285714285714285,
+            0.5,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "measured_bounds_px": [
+            240,
+            498,
+            419,
+            562
+          ],
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              0
+            ],
+            "empty_source_preserved": true
+          },
+          "mapping_note": "Original component is fully transparent; intentionally mapped to verified blank alpha pixels in the new atlas."
+        },
+        {
+          "source": "gui/button/radio_foreground.png",
+          "row": 3,
+          "column": 2,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.0,
+            0.0,
+            0.012055455093429777,
+            0.02109704641350211
+          ],
+          "description": "small round radio control, empty cream center",
+          "expected_empty": true,
+          "nominal_uv": [
+            0.2857142857142857,
+            0.5,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "measured_bounds_px": [
+            532,
+            483,
+            617,
+            569
+          ],
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              0
+            ],
+            "empty_source_preserved": true
+          },
+          "mapping_note": "Original component is fully transparent; intentionally mapped to verified blank alpha pixels in the new atlas."
+        },
+        {
+          "source": "gui/button/radio_selected_foreground.png",
+          "row": 3,
+          "column": 3,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.46594333936106086,
+            0.5063291139240507,
+            0.056660638939119955,
+            0.09915611814345991
+          ],
+          "description": "small round radio control, raspberry center dot",
+          "expected_empty": false,
+          "nominal_uv": [
+            0.42857142857142855,
+            0.5,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "measured_bounds_px": [
+            773,
+            480,
+            867,
+            574
+          ],
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/button/slot_hover_background.png",
+          "row": 3,
+          "column": 4,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.5780590717299579,
+            0.47257383966244726,
+            0.12658227848101267,
+            0.1540084388185654
+          ],
+          "description": "rounded save-slot card, pale-pink thumbnail inset with a small wrapped-candy silhouette and empty lower caption band, highlighted honey-yellow border, no writing",
+          "expected_empty": false,
+          "nominal_uv": [
+            0.5714285714285714,
+            0.5,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "measured_bounds_px": [
+            959,
+            448,
+            1169,
+            594
+          ],
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/button/slot_idle_background.png",
+          "row": 3,
+          "column": 5,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.7245328511151296,
+            0.47151898734177217,
+            0.12658227848101267,
+            0.1540084388185654
+          ],
+          "description": "rounded save-slot card, pale-pink thumbnail inset with a small wrapped-candy silhouette and empty lower caption band, strawberry-pink idle border, no writing",
+          "expected_empty": false,
+          "nominal_uv": [
+            0.7142857142857143,
+            0.5,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "measured_bounds_px": [
+            1202,
+            447,
+            1412,
+            593
+          ],
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/phone/button/check_foreground.png",
+          "row": 3,
+          "column": 6,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.0,
+            0.0,
+            0.012055455093429777,
+            0.02109704641350211
+          ],
+          "description": "larger touch-friendly version; small rounded square checkbox, empty cream center",
+          "expected_empty": true,
+          "nominal_uv": [
+            0.8571428571428571,
+            0.5,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "measured_bounds_px": [
+            1472,
+            463,
+            1601,
+            585
+          ],
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              0
+            ],
+            "empty_source_preserved": true
+          },
+          "mapping_note": "Original component is fully transparent; intentionally mapped to verified blank alpha pixels in the new atlas."
+        },
+        {
+          "source": "gui/phone/button/check_selected_foreground.png",
+          "row": 4,
+          "column": 0,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.02531645569620253,
+            0.6518987341772152,
+            0.08016877637130802,
+            0.13185654008438819
+          ],
+          "description": "larger touch-friendly version; small rounded square checkbox, raspberry heart-shaped check inside",
+          "expected_empty": false,
+          "nominal_uv": [
+            0.0,
+            0.6666666666666666,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "measured_bounds_px": [
+            42,
+            618,
+            175,
+            743
+          ],
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/phone/button/choice_hover_background.png",
+          "row": 4,
+          "column": 1,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.12597950572634117,
+            0.6656118143459916,
+            0.14828209764918626,
+            0.09915611814345991
+          ],
+          "description": "larger touch-friendly version; wide blank cream dialogue-choice capsule, highlighted honey-yellow border, no writing",
+          "expected_empty": false,
+          "nominal_uv": [
+            0.14285714285714285,
+            0.6666666666666666,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "measured_bounds_px": [
+            209,
+            631,
+            455,
+            725
+          ],
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/phone/button/choice_idle_background.png",
+          "row": 4,
+          "column": 2,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.27848101265822783,
+            0.6656118143459916,
+            0.14888487040385776,
+            0.0981012658227848
+          ],
+          "description": "larger touch-friendly version; wide blank cream dialogue-choice capsule, strawberry-pink idle border, no writing",
+          "expected_empty": false,
+          "nominal_uv": [
+            0.2857142857142857,
+            0.6666666666666666,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "measured_bounds_px": [
+            462,
+            631,
+            709,
+            724
+          ],
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/phone/button/hover_background.png",
+          "row": 4,
+          "column": 3,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.0,
+            0.0,
+            0.012055455093429777,
+            0.02109704641350211
+          ],
+          "description": "larger touch-friendly version; generic blank rounded rectangle button, highlighted honey-yellow border, no writing",
+          "expected_empty": true,
+          "nominal_uv": [
+            0.42857142857142855,
+            0.6666666666666666,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "measured_bounds_px": [
+            726,
+            615,
+            945,
+            741
+          ],
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              0
+            ],
+            "empty_source_preserved": true
+          },
+          "mapping_note": "Original component is fully transparent; intentionally mapped to verified blank alpha pixels in the new atlas."
+        },
+        {
+          "source": "gui/phone/button/idle_background.png",
+          "row": 4,
+          "column": 4,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.0,
+            0.0,
+            0.012055455093429777,
+            0.02109704641350211
+          ],
+          "description": "larger touch-friendly version; generic blank rounded rectangle button, strawberry-pink idle border, no writing",
+          "expected_empty": true,
+          "nominal_uv": [
+            0.5714285714285714,
+            0.6666666666666666,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "measured_bounds_px": [
+            972,
+            615,
+            1200,
+            741
+          ],
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              0
+            ],
+            "empty_source_preserved": true
+          },
+          "mapping_note": "Original component is fully transparent; intentionally mapped to verified blank alpha pixels in the new atlas."
+        },
+        {
+          "source": "gui/phone/button/mygames_idle.png",
+          "row": 4,
+          "column": 5,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.7516576250753466,
+            0.6413502109704642,
+            0.09282700421940929,
+            0.1540084388185654
+          ],
+          "description": "larger touch-friendly version; rounded square games-library icon with a wrapped candy emblem, bright strawberry pink, no writing",
+          "expected_empty": false,
+          "nominal_uv": [
+            0.7142857142857143,
+            0.6666666666666666,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "measured_bounds_px": [
+            1247,
+            608,
+            1401,
+            754
+          ],
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/phone/button/mygames_idle0.png",
+          "row": 4,
+          "column": 6,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.8824593128390597,
+            0.6413502109704642,
+            0.09101868595539482,
+            0.1540084388185654
+          ],
+          "description": "larger touch-friendly version; rounded square games-library icon with a wrapped candy emblem, soft secondary pink, no writing",
+          "expected_empty": false,
+          "nominal_uv": [
+            0.8571428571428571,
+            0.6666666666666666,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "measured_bounds_px": [
+            1464,
+            608,
+            1615,
+            754
+          ],
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/phone/button/radio_foreground.png",
+          "row": 5,
+          "column": 0,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.0,
+            0.0,
+            0.012055455093429777,
+            0.02109704641350211
+          ],
+          "description": "larger touch-friendly version; small round radio control, empty cream center",
+          "expected_empty": true,
+          "nominal_uv": [
+            0.0,
+            0.8333333333333334,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "measured_bounds_px": [
+            49,
+            789,
+            166,
+            905
+          ],
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              0
+            ],
+            "empty_source_preserved": true
+          },
+          "mapping_note": "Original component is fully transparent; intentionally mapped to verified blank alpha pixels in the new atlas."
+        },
+        {
+          "source": "gui/phone/button/radio_selected_foreground.png",
+          "row": 5,
+          "column": 1,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.1621458710066305,
+            0.8322784810126582,
+            0.0705244122965642,
+            0.12236286919831224
+          ],
+          "description": "larger touch-friendly version; small round radio control, raspberry center dot",
+          "expected_empty": false,
+          "nominal_uv": [
+            0.14285714285714285,
+            0.8333333333333334,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "measured_bounds_px": [
+            269,
+            789,
+            386,
+            905
+          ],
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/phone/button/slot_hover_background.png",
+          "row": 5,
+          "column": 2,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.26763110307414106,
+            0.7974683544303798,
+            0.14225437010247136,
+            0.169831223628692
+          ],
+          "description": "larger touch-friendly version; rounded save-slot card, pale-pink thumbnail inset with a small wrapped-candy silhouette and empty lower caption band, highlighted honey-yellow border, no writing",
+          "expected_empty": false,
+          "nominal_uv": [
+            0.2857142857142857,
+            0.8333333333333334,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "measured_bounds_px": [
+            444,
+            756,
+            680,
+            917
+          ],
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/phone/button/slot_idle_background.png",
+          "row": 5,
+          "column": 3,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.4243520192887282,
+            0.7974683544303798,
+            0.14345991561181434,
+            0.169831223628692
+          ],
+          "description": "larger touch-friendly version; rounded save-slot card, pale-pink thumbnail inset with a small wrapped-candy silhouette and empty lower caption band, strawberry-pink idle border, no writing",
+          "expected_empty": false,
+          "nominal_uv": [
+            0.42857142857142855,
+            0.8333333333333334,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "measured_bounds_px": [
+            704,
+            756,
+            942,
+            917
+          ],
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        }
+      ],
+      "width": 1659,
+      "height": 948,
+      "sha256": "3fb3747f8e78654b4680306a5d2c7b770eb0096a11ab1bfdbbd44a54a067b869",
+      "bytes": 968746,
+      "mode": "RGBA",
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "generation_tool": "built-in image_gen",
+      "postprocessing": "None; original generated PNG copied without resampling, cropping, recoloring, or background editing.",
+      "alpha_statistics": {
+        "fully_transparent_pixels": 932321,
+        "opaque_pixels": 6390,
+        "total_pixels": 1572732
+      },
+      "qa": {
+        "visual_inspection": "Completed on the native generation output displayed in the task.",
+        "nominal_cell_alpha_occupancy": [
+          0.1872,
+          0.2888,
+          0.3922,
+          0.469,
+          0.1899,
+          0.165,
+          0.1625,
+          0.1632,
+          0.162,
+          0.1602,
+          0.4404,
+          0.4415,
+          0.444,
+          0.4388,
+          0.396,
+          0.3938,
+          0.4352,
+          0.4469,
+          0.3538,
+          0.3554,
+          0.1959,
+          0.2717,
+          0.2532,
+          0.1349,
+          0.2346,
+          0.7069,
+          0.6953,
+          0.4087,
+          0.3967,
+          0.5247,
+          0.6857,
+          0.7773,
+          0.5851,
+          0.4813,
+          0.445,
+          0.2587,
+          0.3467,
+          0.6849,
+          0.7516
+        ],
+        "true_alpha_verified": true,
+        "status": "reviewed",
+        "observed_grid": "Nominal regular grid with drift; non-empty controls have measured UV rectangles.",
+        "uv_corrected_cells": 39,
+        "limitations": [
+          "Minor hand-drawn alpha fringes may remain around generated silhouettes.",
+          "These atlas pieces are newly illustrated replacements; original nine-slice border metrics are not guaranteed.",
+          "Wide buttons have nonuniform horizontal placement; measured UVs correct preview crops without modifying the PNG."
+        ],
+        "glyph_text_review": "No sentence text generated on buttons or panels."
+      }
+    },
+    {
+      "name": "ui-controller-glyphs",
+      "source_group": "ui_controller_glyphs",
+      "atlas": "assets/atlases/ui-controller-glyphs.png",
+      "prompt": "prompts/ui-controller-glyphs.txt",
+      "references": [
+        "analysis/reference/style/contact_gui.jpg"
+      ],
+      "rows": 6,
+      "columns": 7,
+      "status": "generated",
+      "cells": [
+        {
+          "source": "gui/button/console/face_empty.png",
+          "row": 0,
+          "column": 0,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.0,
+            0.0,
+            0.014760147601476014,
+            0.017226528854435832
+          ],
+          "description": "intentionally COMPLETELY EMPTY transparent cell, no mark",
+          "expected_empty": true,
+          "nominal_uv": [
+            0.0,
+            0.0,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              0
+            ],
+            "empty_source_preserved": true
+          },
+          "mapping_note": "Original component is fully transparent; intentionally mapped to verified blank alpha pixels in the new atlas."
+        },
+        {
+          "source": "gui/button/console/ps4_L1.png",
+          "row": 0,
+          "column": 1,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.14285714285714285,
+            0.0,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "rounded shoulder-button capsule containing precise clear uppercase text \"L1\"; exact geometry and legible short glyph, no other marks",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/button/console/ps4_L2.png",
+          "row": 0,
+          "column": 2,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.2857142857142857,
+            0.0,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "rounded shoulder-button capsule containing precise clear uppercase text \"L2\"; exact geometry and legible short glyph, no other marks",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/button/console/ps4_opt.png",
+          "row": 0,
+          "column": 3,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.42857142857142855,
+            0.0,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "rounded shoulder-button capsule containing precise clear uppercase text \"OPT\"; exact geometry and legible short glyph, no other marks",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/button/console/ps4_R1.png",
+          "row": 0,
+          "column": 4,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.5714285714285714,
+            0.0,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "rounded shoulder-button capsule containing precise clear uppercase text \"R1\"; exact geometry and legible short glyph, no other marks",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/button/console/ps4_R2.png",
+          "row": 0,
+          "column": 5,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.7142857142857143,
+            0.0,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "rounded shoulder-button capsule containing precise clear uppercase text \"R2\"; exact geometry and legible short glyph, no other marks",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/button/console/ps4_touch.png",
+          "row": 0,
+          "column": 6,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.8571428571428571,
+            0.0,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "rounded shoulder-button capsule containing tiny rounded-rectangle touchpad with small dot pattern, no text; exact geometry and legible short glyph, no other marks",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/button/console/ps_dpad.png",
+          "row": 1,
+          "column": 0,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.0,
+            0.16666666666666666,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "small round cream controller button with raspberry outline containing simple four-direction D-pad cross; exact geometry and legible short glyph, no other marks",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/button/console/ps_o.png",
+          "row": 1,
+          "column": 1,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.14285714285714285,
+            0.16666666666666666,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "small round cream controller button with raspberry outline containing hollow circle geometry, not the letter O; exact geometry and legible short glyph, no other marks",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/button/console/ps_sq.png",
+          "row": 1,
+          "column": 2,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.2857142857142857,
+            0.16666666666666666,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "small round cream controller button with raspberry outline containing hollow square geometry; exact geometry and legible short glyph, no other marks",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/button/console/ps_tri.png",
+          "row": 1,
+          "column": 3,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.42857142857142855,
+            0.16666666666666666,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "small round cream controller button with raspberry outline containing hollow upright triangle geometry; exact geometry and legible short glyph, no other marks",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/button/console/ps_x.png",
+          "row": 1,
+          "column": 4,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.5714285714285714,
+            0.16666666666666666,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "small round cream controller button with raspberry outline containing two diagonal strokes forming a cross; exact geometry and legible short glyph, no other marks",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/button/console/switch_a.png",
+          "row": 1,
+          "column": 5,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.7142857142857143,
+            0.16666666666666666,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "small round cream controller button with raspberry outline containing precise clear uppercase text \"A\"; exact geometry and legible short glyph, no other marks",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/button/console/switch_b.png",
+          "row": 1,
+          "column": 6,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.8571428571428571,
+            0.16666666666666666,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "small round cream controller button with raspberry outline containing precise clear uppercase text \"B\"; exact geometry and legible short glyph, no other marks",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/button/console/switch_dpad.png",
+          "row": 2,
+          "column": 0,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.0,
+            0.3333333333333333,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "small round cream controller button with raspberry outline containing simple four-direction D-pad cross; exact geometry and legible short glyph, no other marks",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/button/console/switch_l.png",
+          "row": 2,
+          "column": 1,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.14285714285714285,
+            0.3333333333333333,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "rounded shoulder-button capsule containing precise clear uppercase text \"L\"; exact geometry and legible short glyph, no other marks",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/button/console/switch_minus.png",
+          "row": 2,
+          "column": 2,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.2857142857142857,
+            0.3333333333333333,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "small round cream controller button with raspberry outline containing one minus sign −; exact geometry and legible short glyph, no other marks",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/button/console/switch_plus.png",
+          "row": 2,
+          "column": 3,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.42857142857142855,
+            0.3333333333333333,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "small round cream controller button with raspberry outline containing one plus sign +; exact geometry and legible short glyph, no other marks",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/button/console/switch_r.png",
+          "row": 2,
+          "column": 4,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.5714285714285714,
+            0.3333333333333333,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "rounded shoulder-button capsule containing precise clear uppercase text \"R\"; exact geometry and legible short glyph, no other marks",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/button/console/switch_x.png",
+          "row": 2,
+          "column": 5,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.7142857142857143,
+            0.3333333333333333,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "small round cream controller button with raspberry outline containing precise clear uppercase text \"X\"; exact geometry and legible short glyph, no other marks",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/button/console/switch_y.png",
+          "row": 2,
+          "column": 6,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.8571428571428571,
+            0.3333333333333333,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "small round cream controller button with raspberry outline containing precise clear uppercase text \"Y\"; exact geometry and legible short glyph, no other marks",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/button/console/switch_zl.png",
+          "row": 3,
+          "column": 0,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.0,
+            0.5,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "rounded shoulder-button capsule containing precise clear uppercase text \"ZL\"; exact geometry and legible short glyph, no other marks",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/button/console/switch_zr.png",
+          "row": 3,
+          "column": 1,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.14285714285714285,
+            0.5,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "rounded shoulder-button capsule containing precise clear uppercase text \"ZR\"; exact geometry and legible short glyph, no other marks",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/button/console/vita_l.png",
+          "row": 3,
+          "column": 2,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.2857142857142857,
+            0.5,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "rounded shoulder-button capsule containing precise clear uppercase text \"L\"; exact geometry and legible short glyph, no other marks",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/button/console/vita_o.png",
+          "row": 3,
+          "column": 3,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.42857142857142855,
+            0.5,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "small round cream controller button with raspberry outline containing hollow circle geometry, not the letter O; exact geometry and legible short glyph, no other marks",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/button/console/vita_r.png",
+          "row": 3,
+          "column": 4,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.5714285714285714,
+            0.5,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "rounded shoulder-button capsule containing precise clear uppercase text \"R\"; exact geometry and legible short glyph, no other marks",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/button/console/vita_select.png",
+          "row": 3,
+          "column": 5,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.7142857142857143,
+            0.5,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "rounded shoulder-button capsule containing precise clear uppercase text \"SELECT\"; exact geometry and legible short glyph, no other marks",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/button/console/vita_sq.png",
+          "row": 3,
+          "column": 6,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.8571428571428571,
+            0.5,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "small round cream controller button with raspberry outline containing hollow square geometry; exact geometry and legible short glyph, no other marks",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/button/console/vita_start.png",
+          "row": 4,
+          "column": 0,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.0,
+            0.6666666666666666,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "rounded shoulder-button capsule containing precise clear uppercase text \"START\"; exact geometry and legible short glyph, no other marks",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/button/console/vita_tri.png",
+          "row": 4,
+          "column": 1,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.14285714285714285,
+            0.6666666666666666,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "small round cream controller button with raspberry outline containing hollow upright triangle geometry; exact geometry and legible short glyph, no other marks",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/button/console/vita_x.png",
+          "row": 4,
+          "column": 2,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.2857142857142857,
+            0.6666666666666666,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "small round cream controller button with raspberry outline containing two diagonal strokes forming a cross; exact geometry and legible short glyph, no other marks",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/button/console/xbox_a.png",
+          "row": 4,
+          "column": 3,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.42857142857142855,
+            0.6666666666666666,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "small round cream controller button with raspberry outline containing precise clear uppercase text \"A\"; exact geometry and legible short glyph, no other marks",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/button/console/xbox_b.png",
+          "row": 4,
+          "column": 4,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.5714285714285714,
+            0.6666666666666666,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "small round cream controller button with raspberry outline containing precise clear uppercase text \"B\"; exact geometry and legible short glyph, no other marks",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/button/console/xbox_dpad.png",
+          "row": 4,
+          "column": 5,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.7142857142857143,
+            0.6666666666666666,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "small round cream controller button with raspberry outline containing simple four-direction D-pad cross; exact geometry and legible short glyph, no other marks",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/button/console/xbox_lb.png",
+          "row": 4,
+          "column": 6,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.8571428571428571,
+            0.6666666666666666,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "rounded shoulder-button capsule containing precise clear uppercase text \"LB\"; exact geometry and legible short glyph, no other marks",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/button/console/xbox_lt.png",
+          "row": 5,
+          "column": 0,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.0,
+            0.8333333333333334,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "rounded shoulder-button capsule containing precise clear uppercase text \"LT\"; exact geometry and legible short glyph, no other marks",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/button/console/xbox_menu.png",
+          "row": 5,
+          "column": 1,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.14285714285714285,
+            0.8333333333333334,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "small round cream controller button with raspberry outline containing three short horizontal menu bars; exact geometry and legible short glyph, no other marks",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/button/console/xbox_nav.png",
+          "row": 5,
+          "column": 2,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.2857142857142857,
+            0.8333333333333334,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "small round cream controller button with raspberry outline containing two overlapping small rectangles; exact geometry and legible short glyph, no other marks",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/button/console/xbox_rb.png",
+          "row": 5,
+          "column": 3,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.42857142857142855,
+            0.8333333333333334,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "rounded shoulder-button capsule containing precise clear uppercase text \"RB\"; exact geometry and legible short glyph, no other marks",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/button/console/xbox_rt.png",
+          "row": 5,
+          "column": 4,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.5714285714285714,
+            0.8333333333333334,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "rounded shoulder-button capsule containing precise clear uppercase text \"RT\"; exact geometry and legible short glyph, no other marks",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/button/console/xbox_x.png",
+          "row": 5,
+          "column": 5,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.7142857142857143,
+            0.8333333333333334,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "small round cream controller button with raspberry outline containing precise clear uppercase text \"X\"; exact geometry and legible short glyph, no other marks",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/button/console/xbox_y.png",
+          "row": 5,
+          "column": 6,
+          "rows": 6,
+          "columns": 7,
+          "uv": [
+            0.8571428571428571,
+            0.8333333333333334,
+            0.14285714285714285,
+            0.16666666666666666
+          ],
+          "description": "small round cream controller button with raspberry outline containing precise clear uppercase text \"Y\"; exact geometry and legible short glyph, no other marks",
+          "expected_empty": false,
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        }
+      ],
+      "width": 1355,
+      "height": 1161,
+      "sha256": "293fdceeb0691ea8fd724f450472c6497939945f2ca73553fb0b91f8324bda61",
+      "bytes": 1267439,
+      "mode": "RGBA",
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "generation_tool": "built-in image_gen",
+      "postprocessing": "None; original generated PNG copied without resampling, cropping, recoloring, or background editing.",
+      "alpha_statistics": {
+        "fully_transparent_pixels": 894429,
+        "opaque_pixels": 5190,
+        "total_pixels": 1573155
+      },
+      "qa": {
+        "visual_inspection": "Completed on the native generation output displayed in the task.",
+        "nominal_cell_alpha_occupancy": [
+          0.0,
+          0.3803,
+          0.3639,
+          0.3568,
+          0.3664,
+          0.3682,
+          0.3644,
+          0.4094,
+          0.4158,
+          0.4168,
+          0.4134,
+          0.419,
+          0.4376,
+          0.4267,
+          0.4013,
+          0.3869,
+          0.4129,
+          0.4198,
+          0.3925,
+          0.406,
+          0.4143,
+          0.3758,
+          0.3816,
+          0.3785,
+          0.3992,
+          0.3908,
+          0.4055,
+          0.3889,
+          0.3758,
+          0.4031,
+          0.3945,
+          0.4021,
+          0.3991,
+          0.3948,
+          0.3822,
+          0.3673,
+          0.3979,
+          0.409,
+          0.3865,
+          0.3912,
+          0.3925,
+          0.4029
+        ],
+        "true_alpha_verified": true,
+        "status": "reviewed",
+        "observed_grid": "7 by 6 ordered slots verified visually; uniform UV grid retained.",
+        "uv_corrected_cells": 0,
+        "limitations": [
+          "Minor hand-drawn alpha fringes may remain around generated silhouettes.",
+          "These atlas pieces are newly illustrated replacements; original nine-slice border metrics are not guaranteed."
+        ],
+        "glyph_text_review": "L1 L2 OPT R1 R2 L R ZL ZR SELECT START A B X Y LB LT RB RT and geometric symbols visually checked."
+      }
+    },
+    {
+      "name": "ui-panels-a",
+      "source_group": "ui_panels_and_screens",
+      "atlas": "assets/atlases/ui-panels-a.png",
+      "prompt": "prompts/ui-panels-a.txt",
+      "references": [
+        "analysis/reference/style/contact_gui.jpg"
+      ],
+      "rows": 3,
+      "columns": 4,
+      "status": "generated",
+      "cells": [
+        {
+          "source": "gui/confirm_frame.png",
+          "row": 0,
+          "column": 0,
+          "rows": 3,
+          "columns": 4,
+          "uv": [
+            0.008287292817679558,
+            0.22191528545119704,
+            0.2451657458563536,
+            0.14732965009208104
+          ],
+          "description": "confirmation dialog: thick rounded dark-raspberry outer frame, pale-pink inner panel, blank generous center; landscape 2.4:1 shape",
+          "expected_empty": false,
+          "nominal_uv": [
+            0.0,
+            0.0,
+            0.25,
+            0.3333333333333333
+          ],
+          "measured_bounds_px": [
+            12,
+            241,
+            367,
+            401
+          ],
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/frame.png",
+          "row": 0,
+          "column": 1,
+          "rows": 3,
+          "columns": 4,
+          "uv": [
+            0.26312154696132595,
+            0.22007366482504603,
+            0.22790055248618785,
+            0.14732965009208104
+          ],
+          "description": "generic rounded dark-raspberry panel, blank inside, landscape 2.4:1",
+          "expected_empty": false,
+          "nominal_uv": [
+            0.25,
+            0.0,
+            0.25,
+            0.3333333333333333
+          ],
+          "measured_bounds_px": [
+            381,
+            239,
+            711,
+            399
+          ],
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/frame2.png",
+          "row": 0,
+          "column": 2,
+          "rows": 3,
+          "columns": 4,
+          "uv": [
+            0.5048342541436464,
+            0.22007366482504603,
+            0.23687845303867403,
+            0.1464088397790055
+          ],
+          "description": "generic rounded pastel-pink panel with cream edge, blank inside, landscape 2.4:1",
+          "expected_empty": false,
+          "nominal_uv": [
+            0.5,
+            0.0,
+            0.25,
+            0.3333333333333333
+          ],
+          "measured_bounds_px": [
+            731,
+            239,
+            1074,
+            398
+          ],
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/game_menu.png",
+          "row": 0,
+          "column": 3,
+          "rows": 3,
+          "columns": 4,
+          "uv": [
+            0.7493093922651933,
+            0.19613259668508287,
+            0.2451657458563536,
+            0.19521178637200737
+          ],
+          "description": "landscape 16:9 cream-yellow game-menu background, small stylized candy sprinkles and candy silhouettes confined to edge border, empty light center",
+          "expected_empty": false,
+          "nominal_uv": [
+            0.75,
+            0.0,
+            0.25,
+            0.3333333333333333
+          ],
+          "measured_bounds_px": [
+            1085,
+            213,
+            1440,
+            425
+          ],
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/history.png",
+          "row": 1,
+          "column": 0,
+          "rows": 3,
+          "columns": 4,
+          "uv": [
+            0.04143646408839779,
+            0.4604051565377532,
+            0.17610497237569062,
+            0.1270718232044199
+          ],
+          "description": "small rounded pale pink translucent paper tile with faint cream border, blank and repeatable",
+          "expected_empty": false,
+          "nominal_uv": [
+            0.0,
+            0.3333333333333333,
+            0.25,
+            0.3333333333333333
+          ],
+          "measured_bounds_px": [
+            60,
+            500,
+            315,
+            638
+          ],
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/main_menu.png",
+          "row": 1,
+          "column": 1,
+          "rows": 3,
+          "columns": 4,
+          "uv": [
+            0.2534530386740331,
+            0.4152854511970534,
+            0.2472375690607735,
+            0.20626151012891344
+          ],
+          "description": "landscape 16:9 pale-lavender main-menu background, very simple darker lavender candy-town silhouette only along bottom 15%, two thin cream header lines, empty upper area",
+          "expected_empty": false,
+          "nominal_uv": [
+            0.25,
+            0.3333333333333333,
+            0.25,
+            0.3333333333333333
+          ],
+          "measured_bounds_px": [
+            367,
+            451,
+            725,
+            675
+          ],
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/namebox.png",
+          "row": 1,
+          "column": 2,
+          "rows": 3,
+          "columns": 4,
+          "uv": [
+            0.5075966850828729,
+            0.48250460405156537,
+            0.23480662983425415,
+            0.08011049723756906
+          ],
+          "description": "wide low white-cream speaker name pill with thick pink outline and subtle cream outside edge, no text",
+          "expected_empty": false,
+          "nominal_uv": [
+            0.5,
+            0.3333333333333333,
+            0.25,
+            0.3333333333333333
+          ],
+          "measured_bounds_px": [
+            735,
+            524,
+            1075,
+            611
+          ],
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/notify.png",
+          "row": 1,
+          "column": 3,
+          "rows": 3,
+          "columns": 4,
+          "uv": [
+            0.75,
+            0.494475138121547,
+            0.2265193370165746,
+            0.056169429097605895
+          ],
+          "description": "thin long raspberry-pink flourish underline, small wrapped-candy flourish on left, fades to transparent toward right, no text",
+          "expected_empty": false,
+          "nominal_uv": [
+            0.75,
+            0.3333333333333333,
+            0.25,
+            0.3333333333333333
+          ],
+          "measured_bounds_px": [
+            1086,
+            537,
+            1414,
+            598
+          ],
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/nvl.png",
+          "row": 2,
+          "column": 0,
+          "rows": 3,
+          "columns": 4,
+          "uv": [
+            0.0,
+            0.0,
+            0.013812154696132596,
+            0.01841620626151013
+          ],
+          "description": "intentionally COMPLETELY EMPTY transparent narration overlay cell, no mark or frame",
+          "expected_empty": true,
+          "nominal_uv": [
+            0.0,
+            0.6666666666666666,
+            0.25,
+            0.3333333333333333
+          ],
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              0
+            ],
+            "empty_source_preserved": true
+          },
+          "mapping_note": "Original component is fully transparent; intentionally mapped to verified blank alpha pixels in the new atlas."
+        },
+        {
+          "source": "gui/overlay/confirm.png",
+          "row": 2,
+          "column": 1,
+          "rows": 3,
+          "columns": 4,
+          "uv": [
+            0.2548342541436464,
+            0.6482504604051565,
+            0.24378453038674033,
+            0.1694290976058932
+          ],
+          "description": "landscape 16:9 uniform semitransparent deep plum scrim at about 40% opacity, no writing or symbols",
+          "expected_empty": false,
+          "nominal_uv": [
+            0.25,
+            0.6666666666666666,
+            0.25,
+            0.3333333333333333
+          ],
+          "measured_bounds_px": [
+            369,
+            704,
+            722,
+            888
+          ],
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              221
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/overlay/game_menu.png",
+          "row": 2,
+          "column": 2,
+          "rows": 3,
+          "columns": 4,
+          "uv": [
+            0.0,
+            0.0,
+            0.013812154696132596,
+            0.01841620626151013
+          ],
+          "description": "intentionally COMPLETELY EMPTY transparent game menu overlay cell, no mark",
+          "expected_empty": true,
+          "nominal_uv": [
+            0.5,
+            0.6666666666666666,
+            0.25,
+            0.3333333333333333
+          ],
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              0
+            ],
+            "empty_source_preserved": true
+          },
+          "mapping_note": "Original component is fully transparent; intentionally mapped to verified blank alpha pixels in the new atlas."
+        },
+        {
+          "source": "gui/overlay/main_menu.png",
+          "row": 2,
+          "column": 3,
+          "rows": 3,
+          "columns": 4,
+          "uv": [
+            0.0,
+            0.0,
+            0.013812154696132596,
+            0.01841620626151013
+          ],
+          "description": "intentionally COMPLETELY EMPTY transparent main menu overlay cell, no mark",
+          "expected_empty": true,
+          "nominal_uv": [
+            0.75,
+            0.6666666666666666,
+            0.25,
+            0.3333333333333333
+          ],
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              0
+            ],
+            "empty_source_preserved": true
+          },
+          "mapping_note": "Original component is fully transparent; intentionally mapped to verified blank alpha pixels in the new atlas."
+        }
+      ],
+      "width": 1448,
+      "height": 1086,
+      "sha256": "a06a73ef7e352e4182ca2736e2b2efb04d65692bd00e51a0d65f6c98952e0074",
+      "bytes": 602703,
+      "mode": "RGBA",
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "generation_tool": "built-in image_gen",
+      "postprocessing": "None; original generated PNG copied without resampling, cropping, recoloring, or background editing.",
+      "alpha_statistics": {
+        "fully_transparent_pixels": 1071624,
+        "opaque_pixels": 1702,
+        "total_pixels": 1572528
+      },
+      "qa": {
+        "visual_inspection": "Completed on the native generation output displayed in the task.",
+        "nominal_cell_alpha_occupancy": [
+          0.3103,
+          0.2954,
+          0.306,
+          0.3888,
+          0.3432,
+          0.714,
+          0.2771,
+          0.2165,
+          0.0,
+          0.4259,
+          0.0,
+          0.0
+        ],
+        "true_alpha_verified": true,
+        "status": "reviewed",
+        "observed_grid": "Nominal regular grid with drift; non-empty controls have measured UV rectangles.",
+        "uv_corrected_cells": 9,
+        "limitations": [
+          "Minor hand-drawn alpha fringes may remain around generated silhouettes.",
+          "These atlas pieces are newly illustrated replacements; original nine-slice border metrics are not guaranteed.",
+          "The generated panel layout did not honor exact row boundaries; measured UVs correct preview crops without modifying the PNG."
+        ],
+        "glyph_text_review": "No sentence text generated on buttons or panels."
+      }
+    },
+    {
+      "name": "ui-panels-b",
+      "source_group": "ui_panels_and_screens",
+      "atlas": "assets/atlases/ui-panels-b.png",
+      "prompt": "prompts/ui-panels-b.txt",
+      "references": [
+        "analysis/reference/style/contact_gui.jpg"
+      ],
+      "rows": 3,
+      "columns": 4,
+      "status": "generated",
+      "cells": [
+        {
+          "source": "gui/phone/nvl.png",
+          "row": 0,
+          "column": 0,
+          "rows": 3,
+          "columns": 4,
+          "uv": [
+            0.013812154696132596,
+            0.0,
+            0.013812154696132596,
+            0.01841620626151013
+          ],
+          "description": "intentionally COMPLETELY EMPTY transparent mobile narration overlay cell, no mark",
+          "expected_empty": true,
+          "nominal_uv": [
+            0.0,
+            0.0,
+            0.25,
+            0.3333333333333333
+          ],
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              0
+            ],
+            "empty_source_preserved": true
+          },
+          "mapping_note": "Original component is fully transparent; intentionally mapped to verified blank alpha pixels in the new atlas."
+        },
+        {
+          "source": "gui/phone/overlay/game_menu.png",
+          "row": 0,
+          "column": 1,
+          "rows": 3,
+          "columns": 4,
+          "uv": [
+            0.013812154696132596,
+            0.0,
+            0.013812154696132596,
+            0.01841620626151013
+          ],
+          "description": "intentionally COMPLETELY EMPTY transparent mobile game-menu overlay cell, no mark",
+          "expected_empty": true,
+          "nominal_uv": [
+            0.25,
+            0.0,
+            0.25,
+            0.3333333333333333
+          ],
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              0
+            ],
+            "empty_source_preserved": true
+          },
+          "mapping_note": "Original component is fully transparent; intentionally mapped to verified blank alpha pixels in the new atlas."
+        },
+        {
+          "source": "gui/phone/overlay/main_menu.png",
+          "row": 0,
+          "column": 2,
+          "rows": 3,
+          "columns": 4,
+          "uv": [
+            0.013812154696132596,
+            0.0,
+            0.013812154696132596,
+            0.01841620626151013
+          ],
+          "description": "intentionally COMPLETELY EMPTY transparent mobile main-menu overlay cell, no mark",
+          "expected_empty": true,
+          "nominal_uv": [
+            0.5,
+            0.0,
+            0.25,
+            0.3333333333333333
+          ],
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              0
+            ],
+            "empty_source_preserved": true
+          },
+          "mapping_note": "Original component is fully transparent; intentionally mapped to verified blank alpha pixels in the new atlas."
+        },
+        {
+          "source": "gui/phone/textbox.png",
+          "row": 0,
+          "column": 3,
+          "rows": 3,
+          "columns": 4,
+          "uv": [
+            0.7465469613259669,
+            0.1712707182320442,
+            0.2534530386740331,
+            0.072744014732965
+          ],
+          "description": "large touch-friendly long cream-white dialogue panel with rounded strawberry-pink outline and tiny wrapped-candy ends, blank center, landscape 6:1",
+          "expected_empty": false,
+          "nominal_uv": [
+            0.75,
+            0.0,
+            0.25,
+            0.3333333333333333
+          ],
+          "measured_bounds_px": [
+            1081,
+            186,
+            1448,
+            265
+          ],
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/phone/textbox0.png",
+          "row": 1,
+          "column": 0,
+          "rows": 3,
+          "columns": 4,
+          "uv": [
+            0.008977900552486187,
+            0.44106813996316757,
+            0.23964088397790057,
+            0.12062615101289134
+          ],
+          "description": "alternate touch-friendly long cream-white dialogue panel, slightly taller proportions, doubled strawberry-pink edge, blank center, landscape 5:1",
+          "expected_empty": false,
+          "nominal_uv": [
+            0.0,
+            0.3333333333333333,
+            0.25,
+            0.3333333333333333
+          ],
+          "measured_bounds_px": [
+            13,
+            479,
+            360,
+            610
+          ],
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/skip.png",
+          "row": 1,
+          "column": 1,
+          "rows": 3,
+          "columns": 4,
+          "uv": [
+            0.013812154696132596,
+            0.0,
+            0.013812154696132596,
+            0.01841620626151013
+          ],
+          "description": "intentionally COMPLETELY EMPTY transparent skip-notification backing cell, no mark",
+          "expected_empty": true,
+          "nominal_uv": [
+            0.25,
+            0.3333333333333333,
+            0.25,
+            0.3333333333333333
+          ],
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              0
+            ],
+            "empty_source_preserved": true
+          },
+          "mapping_note": "Original component is fully transparent; intentionally mapped to verified blank alpha pixels in the new atlas."
+        },
+        {
+          "source": "gui/textbox.png",
+          "row": 1,
+          "column": 2,
+          "rows": 3,
+          "columns": 4,
+          "uv": [
+            0.4993093922651934,
+            0.47697974217311234,
+            0.2534530386740331,
+            0.0570902394106814
+          ],
+          "description": "long cream-white dialogue panel with thin pink hand-drawn outline and tiny wrapped-candy knots at both ends, wide blank center, landscape 7:1",
+          "expected_empty": false,
+          "nominal_uv": [
+            0.5,
+            0.3333333333333333,
+            0.25,
+            0.3333333333333333
+          ],
+          "measured_bounds_px": [
+            723,
+            518,
+            1090,
+            580
+          ],
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        },
+        {
+          "source": "gui/window_icon.png",
+          "row": 1,
+          "column": 3,
+          "rows": 3,
+          "columns": 4,
+          "uv": [
+            0.774171270718232,
+            0.40239410681399634,
+            0.20511049723756905,
+            0.18968692449355432
+          ],
+          "description": "square app icon: one large strawberry-pink wrapped candy with dark raspberry outline, cream-white heart on the center, transparent outside candy silhouette",
+          "expected_empty": false,
+          "nominal_uv": [
+            0.75,
+            0.3333333333333333,
+            0.25,
+            0.3333333333333333
+          ],
+          "measured_bounds_px": [
+            1121,
+            437,
+            1418,
+            643
+          ],
+          "qa": {
+            "alpha_extrema_in_uv": [
+              0,
+              255
+            ],
+            "empty_source_preserved": null
+          }
+        }
+      ],
+      "width": 1448,
+      "height": 1086,
+      "sha256": "f5624d9bcee7fbf0309508bd8eb8b60ef971fad2b4063081f3bae28a5f8bc956",
+      "bytes": 225590,
+      "mode": "RGBA",
+      "has_alpha_channel": true,
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "generation_tool": "built-in image_gen",
+      "postprocessing": "None; original generated PNG copied without resampling, cropping, recoloring, or background editing.",
+      "alpha_statistics": {
+        "fully_transparent_pixels": 1445999,
+        "opaque_pixels": 1447,
+        "total_pixels": 1572528
+      },
+      "qa": {
+        "visual_inspection": "Completed on the native generation output displayed in the task.",
+        "nominal_cell_alpha_occupancy": [
+          0.0,
+          0.0,
+          0.0001,
+          0.1791,
+          0.3066,
+          0.0,
+          0.1383,
+          0.2705
+        ],
+        "true_alpha_verified": true,
+        "status": "reviewed",
+        "observed_grid": "Nominal regular grid with drift; non-empty controls have measured UV rectangles.",
+        "uv_corrected_cells": 4,
+        "limitations": [
+          "Minor hand-drawn alpha fringes may remain around generated silhouettes.",
+          "These atlas pieces are newly illustrated replacements; original nine-slice border metrics are not guaranteed."
+        ],
+        "glyph_text_review": "No sentence text generated on buttons or panels."
+      }
+    }
+  ],
+  "qa_summary": {
+    "tool_calls": 5,
+    "generated_atlases": 5,
+    "mapped_source_files": 141,
+    "all_true_alpha": true,
+    "empty_source_failures": [],
+    "raw_pngs_preserved": true,
+    "uv_coordinates": "Normalized [x,y,width,height]; per-cell uv overrides nominal row/column layout when generation drifts.",
+    "empty_slots_verified": 18
+  }
+}

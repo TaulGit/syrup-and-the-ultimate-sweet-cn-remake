@@ -1,0 +1,11 @@
+// Platform SDK v2.4.9/rev29; standalone development is a separate adapter.
+export async function connectStorage(onIdentityChange=()=>{}) {
+ const standalone=window.parent===window&&['127.0.0.1','localhost','[::1]'].includes(location.hostname);
+ const prefix='candy-workshop:v1:';
+ if(standalone)return {mode:'local',async get(key){const raw=localStorage.getItem(prefix+key);return raw?JSON.parse(raw):null;},async set(key,value){localStorage.setItem(prefix+key,JSON.stringify(value));},async del(key){localStorage.removeItem(prefix+key);}};
+ if(!window.GameSDK)await new Promise((resolve,reject)=>{const script=document.createElement('script');script.src='https://gz-vchar-pub.nosdn.127.net/star-letter/game-sdk/v2/sdk.iife.js';script.onload=resolve;script.onerror=()=>reject(Error('平台连接未完成，请刷新重试。'));document.head.append(script);});
+ const sdk=await window.GameSDK.init();let identity=sdk.context.user?.id;const versions=new Map();let writes=Promise.resolve();
+ sdk.on('context.update',()=>{if(identity!==sdk.context.user?.id){identity=sdk.context.user?.id;versions.clear();onIdentityChange();}});
+ function explain(e){if(window.GameSDK.isPlatformSDKError(e)){const labels={STORAGE_CONFLICT:'另一窗口已更新存档，请重新读取后再保存。',STORAGE_REQUIRE_LOGIN:'请先在平台登录，再保存进度。',STORAGE_RATE_LIMITED:'保存得有些频繁，请稍后重试。',STORAGE_VALUE_TOO_LARGE:'存档过大，请导出进度后联系作者。',STORAGE_QUOTA_EXCEEDED:'存储空间不足，请删除不需要的存档。'};return Error(labels[e.code]||`存档服务暂时不可用（${e.code}），当前游戏可以继续。`);}return e;}
+ const adapter={mode:'platform',async get(key){try{const {value,version}=await sdk.storage.get({key:prefix+key,scope:'user'});versions.set(key,version);return value;}catch(e){throw explain(e);}},async set(key,value){const plain=JSON.parse(JSON.stringify(value));const job=writes.then(async()=>{try{if(!versions.has(key))await adapter.get(key);await sdk.storage.set({key:prefix+key,value:plain,scope:'user',ifVersion:versions.get(key)}).then(r=>versions.set(key,r.version));}catch(e){throw explain(e);}});writes=job.catch(()=>{});return job;},async del(key){const job=writes.then(async()=>{try{await sdk.storage.del({key:prefix+key,scope:'user'});versions.delete(key);}catch(e){throw explain(e);}});writes=job.catch(()=>{});return job;}};return adapter;
+}

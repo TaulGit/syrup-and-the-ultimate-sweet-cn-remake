@@ -1,0 +1,327 @@
+{
+  "gameId": 7776,
+  "status": "draft",
+  "editingVersionId": 23372,
+  "liveVersionId": null,
+  "checked": 40,
+  "failed": [
+    {
+      "file": "atlases/backgrounds-shop-v2.png",
+      "status": 403
+    },
+    {
+      "file": "1792312477021-tyg1r5jp1l7v3wdp/index.html",
+      "status": 403
+    },
+    {
+      "file": "atlases/backgrounds-cottage.png",
+      "status": 403
+    },
+    {
+      "file": "atlases/bs-normal.png",
+      "status": 403
+    },
+    {
+      "file": "atlases/bs-snow.png",
+      "status": 403
+    },
+    {
+      "file": "atlases/backgrounds-ice.png",
+      "status": 403
+    },
+    {
+      "file": "atlases/backgrounds-town.png",
+      "status": 403
+    },
+    {
+      "file": "atlases/cg-01.png",
+      "status": 403
+    },
+    {
+      "file": "atlases/bs-chubby.png",
+      "status": 403
+    },
+    {
+      "file": "atlases/bs-warm.png",
+      "status": 403
+    },
+    {
+      "file": "atlases/cg-04.png",
+      "status": 403
+    },
+    {
+      "file": "atlases/gallery-extras.png",
+      "status": 403
+    },
+    {
+      "file": "atlases/effects-menu.png",
+      "status": 403
+    },
+    {
+      "file": "atlases/gum-uniform-long.png",
+      "status": 403
+    },
+    {
+      "file": "atlases/gallery-concepts.png",
+      "status": 403
+    },
+    {
+      "file": "atlases/cg-02.png",
+      "status": 403
+    },
+    {
+      "file": "atlases/gum-frosting.png",
+      "status": 403
+    },
+    {
+      "file": "atlases/npc.png",
+      "status": 403
+    },
+    {
+      "file": "atlases/gum-uniform-short.png",
+      "status": 403
+    },
+    {
+      "file": "atlases/cg-03.png",
+      "status": 403
+    },
+    {
+      "file": "atlases/syrup-after-coat-v2.png",
+      "status": 403
+    },
+    {
+      "file": "atlases/storybook-frames.png",
+      "status": 403
+    },
+    {
+      "file": "atlases/syrup-normal-b.png",
+      "status": 403
+    },
+    {
+      "file": "atlases/syrup-winter.png",
+      "status": 403
+    },
+    {
+      "file": "atlases/syrup-normal-a.png",
+      "status": 403
+    },
+    {
+      "file": "atlases/pas-normal.png",
+      "status": 403
+    },
+    {
+      "file": "atlases/ui-bars-sliders.png",
+      "status": 403
+    },
+    {
+      "file": "atlases/pas-winter.png",
+      "status": 403
+    },
+    {
+      "file": "atlases/ui-panels-a.png",
+      "status": 403
+    },
+    {
+      "file": "atlases/ui-controller-glyphs.png",
+      "status": 403
+    },
+    {
+      "file": "atlases/ui-panels-b.png",
+      "status": 403
+    },
+    {
+      "file": "atlases/title-bilingual.png",
+      "status": 403
+    },
+    {
+      "file": "atlases/ui-buttons.png",
+      "status": 403
+    },
+    {
+      "file": "game/storage.js",
+      "status": 403
+    },
+    {
+      "file": "game/assets.json",
+      "status": 403
+    },
+    {
+      "file": "game/app.js",
+      "status": 403
+    },
+    {
+      "file": "atlases/toffee.png",
+      "status": 403
+    },
+    {
+      "file": "game/story.js",
+      "status": 403
+    },
+    {
+      "file": "game/style.css",
+      "status": 403
+    }
+  ],
+  "results": [
+    {
+      "file": "1792312476516-6rx5cwpyr264yli8/cover.png",
+      "status": 200
+    },
+    {
+      "file": "atlases/backgrounds-shop-v2.png",
+      "status": 403
+    },
+    {
+      "file": "1792312477021-tyg1r5jp1l7v3wdp/index.html",
+      "status": 403
+    },
+    {
+      "file": "atlases/backgrounds-cottage.png",
+      "status": 403
+    },
+    {
+      "file": "atlases/bs-normal.png",
+      "status": 403
+    },
+    {
+      "file": "atlases/bs-snow.png",
+      "status": 403
+    },
+    {
+      "file": "atlases/backgrounds-ice.png",
+      "status": 403
+    },
+    {
+      "file": "atlases/backgrounds-town.png",
+      "status": 403
+    },
+    {
+      "file": "atlases/cg-01.png",
+      "status": 403
+    },
+    {
+      "file": "atlases/bs-chubby.png",
+      "status": 403
+    },
+    {
+      "file": "atlases/bs-warm.png",
+      "status": 403
+    },
+    {
+      "file": "atlases/cg-04.png",
+      "status": 403
+    },
+    {
+      "file": "atlases/gallery-extras.png",
+      "status": 403
+    },
+    {
+      "file": "atlases/effects-menu.png",
+      "status": 403
+    },
+    {
+      "file": "atlases/gum-uniform-long.png",
+      "status": 403
+    },
+    {
+      "file": "atlases/gallery-concepts.png",
+      "status": 403
+    },
+    {
+      "file": "atlases/cg-02.png",
+      "status": 403
+    },
+    {
+      "file": "atlases/gum-frosting.png",
+      "status": 403
+    },
+    {
+      "file": "atlases/npc.png",
+      "status": 403
+    },
+    {
+      "file": "atlases/gum-uniform-short.png",
+      "status": 403
+    },
+    {
+      "file": "atlases/cg-03.png",
+      "status": 403
+    },
+    {
+      "file": "atlases/syrup-after-coat-v2.png",
+      "status": 403
+    },
+    {
+      "file": "atlases/storybook-frames.png",
+      "status": 403
+    },
+    {
+      "file": "atlases/syrup-normal-b.png",
+      "status": 403
+    },
+    {
+      "file": "atlases/syrup-winter.png",
+      "status": 403
+    },
+    {
+      "file": "atlases/syrup-normal-a.png",
+      "status": 403
+    },
+    {
+      "file": "atlases/pas-normal.png",
+      "status": 403
+    },
+    {
+      "file": "atlases/ui-bars-sliders.png",
+      "status": 403
+    },
+    {
+      "file": "atlases/pas-winter.png",
+      "status": 403
+    },
+    {
+      "file": "atlases/ui-panels-a.png",
+      "status": 403
+    },
+    {
+      "file": "atlases/ui-controller-glyphs.png",
+      "status": 403
+    },
+    {
+      "file": "atlases/ui-panels-b.png",
+      "status": 403
+    },
+    {
+      "file": "atlases/title-bilingual.png",
+      "status": 403
+    },
+    {
+      "file": "atlases/ui-buttons.png",
+      "status": 403
+    },
+    {
+      "file": "game/storage.js",
+      "status": 403
+    },
+    {
+      "file": "game/assets.json",
+      "status": 403
+    },
+    {
+      "file": "game/app.js",
+      "status": 403
+    },
+    {
+      "file": "atlases/toffee.png",
+      "status": 403
+    },
+    {
+      "file": "game/story.js",
+      "status": 403
+    },
+    {
+      "file": "game/style.css",
+      "status": 403
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>糖果工坊 · 素材研究室</title>
+  <link rel="stylesheet" href="/preview/style.css">
+  <script type="module" src="/preview/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳转到内容</a>
+  <aside class="sidebar">
+    <a class="brand" href="#assets"><span class="brand-mark" aria-hidden="true">✿</span><span>糖果工坊<small>素材研究室</small></span></a>
+    <p class="sidebar-label">工作台</p>
+    <nav aria-label="主导航">
+      <button class="nav-button active" data-view="assets"><span aria-hidden="true">▦</span>素材总览<span id="nav-count" class="nav-count">—</span></button>
+      <button class="nav-button" data-view="atlases"><span aria-hidden="true">▧</span>生成图集</button>
+      <button class="nav-button" data-view="story"><span aria-hidden="true">⌘</span>剧情结构</button>
+      <button class="nav-button" data-view="reports"><span aria-hidden="true">▤</span>研究报告</button>
+    </nav>
+    <div class="sidebar-note"><span class="tiny-star" aria-hidden="true">✧</span><strong>一点糖，一点新灵感。</strong><p>原作研究、素材映射与新绘制图集，放在同一个小工坊。</p><span class="local-tag"><i></i>本地交付查看器</span></div>
+  </aside>
+
+  <main id="main">
+    <header class="topbar"><div><span class="breadcrumb">希乐普与终极糖果</span><span class="breadcrumb-divider">/</span><span>素材交付</span></div><button id="refresh" class="quiet-button"><span aria-hidden="true">↻</span>刷新进度</button></header>
+    <section class="hero" aria-labelledby="page-title"><div><p class="eyebrow">SWEET LITTLE WORKSHOP</p><h1 id="page-title">把糖果世界，重新绘制。</h1><p id="page-description">浏览角色、场景与界面素材，检查每一张新图的提示词和对应关系。</p></div><div class="hero-stamp" aria-hidden="true"><span>✦</span><b>made with<br>a little sweetness</b><span>✦</span></div></section>
+    <div class="stats" aria-label="交付进度"><div><span class="stat-icon pink" aria-hidden="true">▦</span><p><strong id="total-count">—</strong><span>源视觉文件</span></p></div><div><span class="stat-icon yellow" aria-hidden="true">✧</span><p><strong id="ready-count">—</strong><span>已映射新素材</span></p></div><div><span class="stat-icon lavender" aria-hidden="true">▧</span><p><strong id="atlas-count">—</strong><span>已生成图集</span></p></div><div class="progress-stat"><p><strong id="progress-count">—</strong><span>素材覆盖进度</span></p><div class="progress-track"><i id="progress-bar"></i></div></div></div>
+    <div id="notice" class="notice" role="status" hidden></div>
+
+    <section id="assets-view" class="view" aria-label="素材总览">
+      <div class="section-heading"><div><h2>素材收藏夹<span id="results-count" class="count-pill">—</span></h2><p>按原始文件逐项核对，单击卡片查看生成槽位与提示词。</p></div><span class="view-note">新图预览 · 保留原文件索引</span></div>
+      <div class="filters"><label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="搜索文件名、角色或描述…" aria-label="搜索素材"><kbd>/</kbd></label><label class="filter-select"><span>角色</span><select id="role-filter"><option value="">全部角色</option></select></label><label class="filter-select"><span>状态</span><select id="status-filter"><option value="">全部状态</option><option value="ready">已生成</option><option value="pending">待生成</option><option value="failed">生成异常</option></select></label></div>
+      <div id="category-filters" class="category-filters" role="group" aria-label="按素材分类筛选"></div>
+      <div id="asset-grid" class="asset-grid"></div>
+      <p id="empty-state" class="empty-state" hidden>没有找到对应素材。试试其他关键词，或清空筛选。</p>
+      <div class="pagination"><button id="previous-page" class="soft-button">← 上一页</button><span id="page-indicator" aria-live="polite"></span><button id="next-page" class="soft-button">下一页 →</button></div>
+    </section>
+
+    <section id="atlases-view" class="view" aria-label="生成图集" hidden><div class="section-heading"><div><h2>新绘图集</h2><p>完整图集与单槽共用同一份图片文件，预览通过 CSS 背景位置裁显。</p></div></div><div id="atlas-grid" class="atlas-grid"></div><div id="atlas-empty" class="empty-state" hidden>图集正在准备中。生成清单写入后，点击「刷新进度」即可查看。</div></section>
+    <section id="story-view" class="view" aria-label="剧情结构" hidden><div class="section-heading"><div><h2>从一次选择，到十种结局</h2><p>这里展示结构与条件摘要，便于理解原作玩法。</p></div><a class="soft-button" href="/analysis/gameplay-analysis.md" target="_blank" rel="noopener">打开完整分析 ↗</a></div><div id="story-summary" class="story-summary"></div><div id="ending-grid" class="ending-grid"></div><h3 class="subheading">全部选择节点</h3><div id="menu-list" class="menu-list"></div></section>
+    <section id="reports-view" class="view" aria-label="研究报告" hidden><div class="section-heading"><div><h2>工坊研究手册</h2><p>玩法、视觉规范与逐文件映射，可从这里继续检查。</p></div></div><div class="report-grid"><a href="/analysis/gameplay-analysis.md" target="_blank" rel="noopener"><span>01 / GAMEPLAY</span><h3>玩法与中文剧情结构</h3><p>变量、菜单分支、十个结局与存档行为。</p><b>阅读报告 ↗</b></a><a href="/analysis/visual-style.md" target="_blank" rel="noopener"><span>02 / VISUAL STYLE</span><h3>画风与素材规范</h3><p>角色、色彩、构图及素材制作要求。</p><b>阅读报告 ↗</b></a><a href="/analysis/asset-inventory.md" target="_blank" rel="noopener"><span>03 / INVENTORY</span><h3>源素材完整清单</h3><p>每份视觉文件的分类、尺寸和生成分组。</p><b>阅读清单 ↗</b></a><a href="/analysis/story-graph.json" target="_blank" rel="noopener"><span>04 / STORY GRAPH</span><h3>机器可读剧情图</h3><p>全部 label、条件、状态和图结构。</p><b>查看 JSON ↗</b></a></div><div class="report-footnote">图像预览只读取 <code>assets/</code> 下的新素材。原始研究包不通过此查看器提供访问。</div></section>
+    <footer>糖果工坊 · 本地素材研究与交付<span id="footer-version">SOURCE v3.1.0</span></footer>
+  </main>
+
+  <dialog id="asset-dialog" aria-labelledby="detail-title"><div class="dialog-top"><span class="eyebrow">ASSET DETAILS</span><button id="close-dialog" class="icon-button" aria-label="关闭详情">×</button></div><div class="detail-layout"><div class="detail-visual"><div class="segmented" aria-label="预览方式"><button id="single-view" class="active">单槽预览</button><button id="whole-view">完整图集</button></div><div id="detail-stage" class="detail-stage checkerboard"></div><div id="detail-caption" class="detail-caption"></div></div><div class="detail-info"><span id="detail-category" class="category-label"></span><h2 id="detail-title"></h2><div id="detail-status"></div><dl id="detail-metadata"></dl><div class="prompt-heading"><h3>绘制提示词</h3><button id="copy-prompt" class="quiet-button" disabled>复制</button></div><p id="prompt-note" class="muted"></p><pre id="detail-prompt" tabindex="0">正在读取…</pre><a id="open-atlas" class="soft-button" target="_blank" rel="noopener" hidden>打开新图原文件 ↗</a></div></div></dialog>
+  <noscript><p class="notice">查看器需要启用 JavaScript 才能读取素材清单。</p></noscript>
+</body>
+</html>

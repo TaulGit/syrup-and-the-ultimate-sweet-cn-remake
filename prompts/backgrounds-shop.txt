@@ -1,0 +1,8 @@
+Use case: stylized-concept. Asset type: four-panel background atlas for a 2D candy fantasy visual novel.
+Create exactly 2 columns x 2 rows of FOUR separate 16:9 landscape scenes, equal rectangular tiles filling the image edge-to-edge. No panel borders, gutters, titles, people or text. Preferred full image 2560x1440.
+Reference image is ONLY the rendering style and candy-shop setting: simplified fine rose-pink linework, pale pastel flat fills, TWO or THREE color families, huge clean diagonal block of sunlight, no material textures or realistic rendering. Clear empty central character staging space. Redraw original new compositions.
+Top-left: cheerful interior candy shop in pale blush pink, glass counter on left, wooden sweets counter behind, high jars and lollipop shelves at sides, cozy small village shop.
+Top-right: matching same shop layout with backroom curtain open and extra worktable visible, slightly warmer late morning light; maintain pink monochrome line art.
+Bottom-left: exterior of a small whimsical two-story candy shop, curved timber door, large display windows, candy-shaped emblem with NO lettering, adjacent pastel village houses, daylight.
+Bottom-right: same candy shop interior at night, muted mauve and lavender monochrome linework, tiny warm window glow and a broad dark diagonal moonlit plane.
+All four cells must be complete landscape backgrounds with no character and no logos. Flat gentle colored lines only, not thick black character outlines. Match humble hand-drawn 2015 indie VN background style.

@@ -1,0 +1,21 @@
+Use case: stylized-concept
+Asset type: production 2D visual-novel UI sprite atlas, new artwork inspired by the supplied GUI contact sheet only for broad visual language.
+Primary request: create precisely aligned reusable UI assets for a cozy candy-alchemy visual novel. Hand-drawn flat 2D candy UI: clean slightly organic raspberry outlines, pale strawberry pink, vanilla cream, honey-yellow hover accents, gentle lavender. Simple rounded candy shapes and occasional tiny heart or wrapped-candy ornament. Match the reference's playful graphic simplicity, not photorealism, not 3D, not glassmorphism.
+Input image: the provided contact sheet is STYLE REFERENCE ONLY. Do not reproduce the contact sheet layout, labels, screenshots, thumbnails, gray background, or surrounding page.
+Background: genuine transparent PNG alpha. Empty space must be truly transparent, no checkerboard pixels, no white page or gray panel behind the atlas. Keep opacity only in the actual drawn UI pieces. Do not add a watermark, signature, sheet title, slot numbers, filenames, grid lines, or decorative background.
+Layout: ONE single seamless atlas with the exact grid specified below. Every cell has equal width and equal height. Reading order left to right, then top to bottom. No outer sheet padding, no gutters between cells, no visible cell boundaries. Every sprite is isolated in its OWN cell, centered with at least 8% breathing room from its cell boundaries. Never let an element cross cells. Keep the requested orientation of thin horizontal and vertical components. Leave unused final cells fully transparent.
+Grid: EXACTLY 4 columns by 3 rows; prefer a 1024 x 768 pixel canvas. 8 requested slots. A slot has exactly one independent UI sprite.
+Slot specifications (1-based row and column; no numbers should be visible on the image):
+Row 1 column 1: intentionally COMPLETELY EMPTY transparent mobile narration overlay cell, no mark.
+Row 1 column 2: intentionally COMPLETELY EMPTY transparent mobile game-menu overlay cell, no mark.
+Row 1 column 3: intentionally COMPLETELY EMPTY transparent mobile main-menu overlay cell, no mark.
+Row 1 column 4: large touch-friendly long cream-white dialogue panel with rounded strawberry-pink outline and tiny wrapped-candy ends, blank center, landscape 6:1.
+Row 2 column 1: alternate touch-friendly long cream-white dialogue panel, slightly taller proportions, doubled strawberry-pink edge, blank center, landscape 5:1.
+Row 2 column 2: intentionally COMPLETELY EMPTY transparent skip-notification backing cell, no mark.
+Row 2 column 3: long cream-white dialogue panel with thin pink hand-drawn outline and tiny wrapped-candy knots at both ends, wide blank center, landscape 7:1.
+Row 2 column 4: square app icon: one large strawberry-pink wrapped candy with dark raspberry outline, cream-white heart on the center, transparent outside candy silhouette.
+Row 3 column 1: completely empty transparent unused cell.
+Row 3 column 2: completely empty transparent unused cell.
+Row 3 column 3: completely empty transparent unused cell.
+Row 3 column 4: completely empty transparent unused cell.
+Finish: clean usable raster game assets, crisp anti-aliased edges, true alpha transparency, no drop-shadow bleeding across cells.

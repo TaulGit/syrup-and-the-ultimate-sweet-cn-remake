@@ -1,0 +1,11 @@
+Use case: stylized-concept. Asset type: eight 16:9 screen-art tiles in one EXACT 2-column x 4-row grid. Preferred overall 2048x2304, every tile equal size, edge-to-edge no gutters. New flat candy-fantasy visual-novel artwork, restrained simple colors, clean graphic silhouettes.
+Reading order of eight cells:
+1. Blank open-storybook page BACKGROUND, warm ivory paper with a thin taupe decorative corner border and small curled floral ornaments at four corners; large uninterrupted empty central region, no actual book spine.
+2. Identical border layout but dark charcoal paper and almost black decorative corner outlines for ominous narration; empty middle.
+3. Clean warm-white splash screen with one small centered original pink heart-wrapped-candy emblem; NO author name, NO words, NO copied logo.
+4. Gallery thumbnail frame: rounded pale pink rectangular card, white inner line and tiny candy corner ornaments; EMPTY center pale cream, no picture.
+5. Same gallery frame in selected/hover state with warm orange-gold outline and slightly brighter ivory middle; preserve identical geometry.
+6. Same gallery frame in disabled state, muted dusty lavender-gray, empty center.
+7. PERFECTLY FLAT, UNIFORM solid dark blue-gray screen, color #302E43, absolutely no marks, border, texture, gradient, shapes or lighting.
+8. Blank cream storybook page with tiny pink candy corner ornaments and generous empty center (a spare reusable frame).
+No typography anywhere. No characters. No realistic paper texture. Every decorative element stays within its own tile. Do not add grid lines.

@@ -1,0 +1,17 @@
+Use case: stylized-concept. Asset type: transparent visual novel sprite atlas. NEW redraws for a candy fantasy visual novel. Adult chibi characters, 3.5-head proportions, thick rounded black contours, flat pastel fills, one crisp cel shadow, large simple oval eyes, two tiny white hair highlight dots, plain readable silhouettes. Retain the supplied reference character identity. No photorealism, no 3D, no textured painting, no elaborate anime rendering, no text or watermark.
+Same Syrup as reference: brown skin, blue eyes, asymmetrical long mint fringe, shaved beige side, mint side ponytail, cyan goggles on forehead, white lab coat, gray tank, navy pants and blue lollipop. Match the redraw style of syrup-normal-a.png.
+EXACTLY 4 columns x 3 rows of equal cells, edge-to-edge regular grid, no gutters, borders or labels. Every sprite from hair to upper thighs, same scale and center and bottom baseline, keep hands and hair inside its cell. TRUE transparent background. Preferred 3072x2304.
+Twelve cell subjects reading order:
+1 'aww': awkward sympathetic smile, arms folded.
+2 'cool': relaxed smug look, coat open and one hand hip.
+3 'crystalball': holding a pale lavender crystal ball carefully with both hands.
+4 'dakara': assertive explaining pose, palm up.
+5 'frick': annoyed clenched small teeth, one hand raised.
+6 'grr2': very irritated glare, shoulders tensed.
+7 'hahano': disbelieving dry laugh, eyes half closed.
+8 'heeey': sharply calling out with one hand raised.
+9 'heh': quiet amused closed-mouth smile.
+10 'tch': looking away with annoyed tongue click.
+11 'um': unsure hesitant expression, hands awkwardly together.
+12 'yo': friendly short greeting, one hand raised.
+No extra character. No typography. No background. Clean alpha.

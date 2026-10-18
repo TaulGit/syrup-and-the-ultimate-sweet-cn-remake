@@ -1,0 +1,1264 @@
+{
+  "schemaVersion": 1,
+  "indexBase": 0,
+  "sourceCount": 74,
+  "atlasCount": 7,
+  "groups": [
+    {
+      "id": "gum-frosting",
+      "path": "assets/atlases/gum-frosting.png",
+      "promptPath": "prompts/gum-frosting.txt",
+      "columns": 4,
+      "rows": 4,
+      "width": 1261,
+      "height": 1247,
+      "sha256": "d85e87ebe2b87d58e90b87d4b6f0e54cbddf86a92fc8450de83df47962bc439f",
+      "generationMode": "built-in-imagegen",
+      "status": "generated",
+      "generationOutputPath": "assets/atlases/gum-frosting.png",
+      "slots": [
+        {
+          "sourcePath": "images/gum broken.png",
+          "index": 0,
+          "row": 0,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.0,
+            0.25,
+            0.25
+          ],
+          "description": "Shocked and shaken, long hair ends irregular and slightly cracked frosting at sleeve edges, arms lowered; non-gory magical damage."
+        },
+        {
+          "sourcePath": "images/gum determined.png",
+          "index": 1,
+          "row": 0,
+          "column": 1,
+          "uv": [
+            0.25,
+            0.0,
+            0.25,
+            0.25
+          ],
+          "description": "Determined small frown, both fists held near chest."
+        },
+        {
+          "sourcePath": "images/gum doll.png",
+          "index": 2,
+          "row": 0,
+          "column": 2,
+          "uv": [
+            0.5,
+            0.0,
+            0.25,
+            0.25
+          ],
+          "description": "Emotionless doll-like half-lidded stare, arms hanging straight down."
+        },
+        {
+          "sourcePath": "images/gum friendlier.png",
+          "index": 3,
+          "row": 0,
+          "column": 3,
+          "uv": [
+            0.75,
+            0.0,
+            0.25,
+            0.25
+          ],
+          "description": "Trying to sound friendly, small open mouth, arms at sides."
+        },
+        {
+          "sourcePath": "images/gum happy.png",
+          "index": 4,
+          "row": 1,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "description": "Gentle happy closed-mouth smile, fists tucked at chest."
+        },
+        {
+          "sourcePath": "images/gum hey.png",
+          "index": 5,
+          "row": 1,
+          "column": 1,
+          "uv": [
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "description": "Greeting with a small open mouth, fists tucked at chest."
+        },
+        {
+          "sourcePath": "images/gum lost.png",
+          "index": 6,
+          "row": 1,
+          "column": 2,
+          "uv": [
+            0.5,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "description": "Lost and sad, arched worried eyebrows, arms lowered."
+        },
+        {
+          "sourcePath": "images/gum noo.png",
+          "index": 7,
+          "row": 1,
+          "column": 3,
+          "uv": [
+            0.75,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "description": "Crying protest, eyes tightly shut, mouth open, hands pressed beneath cheeks."
+        },
+        {
+          "sourcePath": "images/gum pls.png",
+          "index": 8,
+          "row": 2,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.5,
+            0.25,
+            0.25
+          ],
+          "description": "Pleading imploring closed eyes, hands under chin, small anxious pout."
+        },
+        {
+          "sourcePath": "images/gum shutdown.png",
+          "index": 9,
+          "row": 2,
+          "column": 1,
+          "uv": [
+            0.25,
+            0.5,
+            0.25,
+            0.25
+          ],
+          "description": "Exhausted and shut down, droopy half-lidded eyes, arms lowered."
+        },
+        {
+          "sourcePath": "images/gum surprise.png",
+          "index": 10,
+          "row": 2,
+          "column": 2,
+          "uv": [
+            0.5,
+            0.5,
+            0.25,
+            0.25
+          ],
+          "description": "Surprised wide oval eyes, small round open mouth, hands near chest."
+        },
+        {
+          "sourcePath": "images/gum umm.png",
+          "index": 11,
+          "row": 2,
+          "column": 3,
+          "uv": [
+            0.75,
+            0.5,
+            0.25,
+            0.25
+          ],
+          "description": "Hesitating, worried eyebrows, small open mouth, hands clasped near chest."
+        },
+        {
+          "sourcePath": "images/gum yay.png",
+          "index": 12,
+          "row": 3,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.75,
+            0.25,
+            0.25
+          ],
+          "description": "Excited open-mouth smile, both fists raised near chest."
+        },
+        {
+          "sourcePath": "images/gum yayyy.png",
+          "index": 13,
+          "row": 3,
+          "column": 1,
+          "uv": [
+            0.25,
+            0.75,
+            0.25,
+            0.25
+          ],
+          "description": "Joyful closed-eye grin, both fists raised near chest."
+        }
+      ],
+      "limitations": [
+        "Original smooth unclothed candy-body state is intentionally replaced by a fully opaque, modest pink frosting dress with short sleeves and a closed neckline.",
+        "Generated canvas dimensions are not exactly divisible by the requested grid; use normalized per-cell UVs with source rounding, not integer cell-size multiplication."
+      ],
+      "qa": {
+        "visualInspection": "passed: viewed generated atlas and checkerboard-composited analysis contact sheet; all requested cells contain clear distinct sprites, character design and clothing states readable, no text/watermark, no visible background plate or broad glow.",
+        "alphaMode": "RGBA",
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "fullyTransparentFraction": 0.3841,
+        "usedCellNontransparentFractions": [
+          0.7135,
+          0.6695,
+          0.6513,
+          0.6764,
+          0.6887,
+          0.7134,
+          0.7009,
+          0.7204,
+          0.7275,
+          0.6798,
+          0.7168,
+          0.68,
+          0.7486,
+          0.7472
+        ],
+        "analysisImage": "analysis/reference/style/generated-characters-qa.jpg"
+      }
+    },
+    {
+      "id": "gum-uniform-long",
+      "path": "assets/atlases/gum-uniform-long.png",
+      "promptPath": "prompts/gum-uniform-long.txt",
+      "columns": 4,
+      "rows": 4,
+      "width": 1261,
+      "height": 1247,
+      "sha256": "6f799f6a45ab278fc2cbb713c72aa9ad8ac00dba0986ab0bbe4779dd85bc4201",
+      "generationMode": "built-in-imagegen",
+      "status": "generated",
+      "generationOutputPath": "assets/atlases/gum-uniform-long.png",
+      "slots": [
+        {
+          "sourcePath": "images/gum aw.png",
+          "index": 0,
+          "row": 0,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.0,
+            0.25,
+            0.25
+          ],
+          "description": "Soft sympathetic worried smile, hands clasped at waist."
+        },
+        {
+          "sourcePath": "images/gum baw.png",
+          "index": 1,
+          "row": 0,
+          "column": 1,
+          "uv": [
+            0.25,
+            0.0,
+            0.25,
+            0.25
+          ],
+          "description": "Soft comforting smile, eyes a little sad, hands clasped at waist."
+        },
+        {
+          "sourcePath": "images/gum dress.png",
+          "index": 2,
+          "row": 0,
+          "column": 2,
+          "uv": [
+            0.5,
+            0.0,
+            0.25,
+            0.25
+          ],
+          "description": "Bright gentle smile, both fists tucked near collar."
+        },
+        {
+          "sourcePath": "images/gum frozen.png",
+          "index": 3,
+          "row": 0,
+          "column": 3,
+          "uv": [
+            0.75,
+            0.0,
+            0.25,
+            0.25
+          ],
+          "description": "Frozen in a brave running pose leaning to the right, one elbow forward, eyes closed, slight ice-blue rim and tiny snow specks, still fully uniformed."
+        },
+        {
+          "sourcePath": "images/gum hey2.png",
+          "index": 4,
+          "row": 1,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "description": "Greeting with small open mouth, hands tucked near collar."
+        },
+        {
+          "sourcePath": "images/gum mad.png",
+          "index": 5,
+          "row": 1,
+          "column": 1,
+          "uv": [
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "description": "Unhappy frown and lowered brows, clasped hands at waist."
+        },
+        {
+          "sourcePath": "images/gum nooo.png",
+          "index": 6,
+          "row": 1,
+          "column": 2,
+          "uv": [
+            0.5,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "description": "Crying protest, eyes closed, mouth open, hands beneath cheeks."
+        },
+        {
+          "sourcePath": "images/gum ooh.png",
+          "index": 7,
+          "row": 1,
+          "column": 3,
+          "uv": [
+            0.75,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "description": "Impressed with sparkling open eyes and round open mouth, hands near collar."
+        },
+        {
+          "sourcePath": "images/gum surprise2.png",
+          "index": 8,
+          "row": 2,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.5,
+            0.25,
+            0.25
+          ],
+          "description": "Surprised wide eyes and tiny round mouth, hands near collar."
+        },
+        {
+          "sourcePath": "images/gum worry.png",
+          "index": 9,
+          "row": 2,
+          "column": 1,
+          "uv": [
+            0.25,
+            0.5,
+            0.25,
+            0.25
+          ],
+          "description": "Worried arched eyebrows, small open mouth, hands clasped at waist."
+        },
+        {
+          "sourcePath": "images/gum yay2.png",
+          "index": 10,
+          "row": 2,
+          "column": 2,
+          "uv": [
+            0.5,
+            0.5,
+            0.25,
+            0.25
+          ],
+          "description": "Excited open-mouth grin, both fists raised near collar."
+        },
+        {
+          "sourcePath": "images/gum yayyy2.png",
+          "index": 11,
+          "row": 2,
+          "column": 3,
+          "uv": [
+            0.75,
+            0.5,
+            0.25,
+            0.25
+          ],
+          "description": "Very joyful closed-eye grin, both fists raised near collar."
+        },
+        {
+          "sourcePath": "images/gum yes.png",
+          "index": 12,
+          "row": 3,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.75,
+            0.25,
+            0.25
+          ],
+          "description": "Enthusiastic yes, open smile and raised hands."
+        },
+        {
+          "sourcePath": "images/gum yes2.png",
+          "index": 13,
+          "row": 3,
+          "column": 1,
+          "uv": [
+            0.25,
+            0.75,
+            0.25,
+            0.25
+          ],
+          "description": "Calm satisfied small smile, bright eyes, hands near collar."
+        }
+      ],
+      "limitations": [
+        "Generated canvas dimensions are not exactly divisible by the requested grid; use normalized per-cell UVs with source rounding, not integer cell-size multiplication."
+      ],
+      "qa": {
+        "visualInspection": "passed: viewed generated atlas and checkerboard-composited analysis contact sheet; all requested cells contain clear distinct sprites, character design and clothing states readable, no text/watermark, no visible background plate or broad glow.",
+        "alphaMode": "RGBA",
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "fullyTransparentFraction": 0.4277,
+        "usedCellNontransparentFractions": [
+          0.5799,
+          0.5828,
+          0.6041,
+          0.8112,
+          0.6682,
+          0.6224,
+          0.6493,
+          0.6372,
+          0.6325,
+          0.6398,
+          0.643,
+          0.6702,
+          0.7844,
+          0.6333
+        ],
+        "analysisImage": "analysis/reference/style/generated-characters-qa.jpg"
+      }
+    },
+    {
+      "id": "gum-uniform-short",
+      "path": "assets/atlases/gum-uniform-short.png",
+      "promptPath": "prompts/gum-uniform-short.txt",
+      "columns": 4,
+      "rows": 4,
+      "width": 1278,
+      "height": 1230,
+      "sha256": "f0acc16fc84065504c5a8c88d013df05a07b0443f2da7d900e88b4dadcf5ee42",
+      "generationMode": "built-in-imagegen",
+      "status": "generated",
+      "generationOutputPath": "assets/atlases/gum-uniform-short.png",
+      "slots": [
+        {
+          "sourcePath": "images/gums aw.png",
+          "index": 0,
+          "row": 0,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.0,
+            0.25,
+            0.25
+          ],
+          "description": "Soft sympathetic worried smile, hands clasped at waist."
+        },
+        {
+          "sourcePath": "images/gums baw.png",
+          "index": 1,
+          "row": 0,
+          "column": 1,
+          "uv": [
+            0.25,
+            0.0,
+            0.25,
+            0.25
+          ],
+          "description": "Comforting small smile, slightly sad eyes, clasped hands."
+        },
+        {
+          "sourcePath": "images/gums dress.png",
+          "index": 2,
+          "row": 0,
+          "column": 2,
+          "uv": [
+            0.5,
+            0.0,
+            0.25,
+            0.25
+          ],
+          "description": "Bright gentle smile, both fists tucked near collar."
+        },
+        {
+          "sourcePath": "images/gums frozen.png",
+          "index": 3,
+          "row": 0,
+          "column": 3,
+          "uv": [
+            0.75,
+            0.0,
+            0.25,
+            0.25
+          ],
+          "description": "Frozen brave running pose leaning right, one elbow forward, eyes shut, tiny icy blue rim/snow specks; short hair remains above shoulders."
+        },
+        {
+          "sourcePath": "images/gums hey2.png",
+          "index": 4,
+          "row": 1,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "description": "Greeting, small open mouth, hands near collar."
+        },
+        {
+          "sourcePath": "images/gums mad.png",
+          "index": 5,
+          "row": 1,
+          "column": 1,
+          "uv": [
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "description": "Unhappy frown and lowered eyebrows, hands clasped."
+        },
+        {
+          "sourcePath": "images/gums ooh.png",
+          "index": 6,
+          "row": 1,
+          "column": 2,
+          "uv": [
+            0.5,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "description": "Impressed wide pink eyes and small round open mouth."
+        },
+        {
+          "sourcePath": "images/gums surprise2.png",
+          "index": 7,
+          "row": 1,
+          "column": 3,
+          "uv": [
+            0.75,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "description": "Surprised big eyes and tiny open mouth, hands raised near collar."
+        },
+        {
+          "sourcePath": "images/gums worry.png",
+          "index": 8,
+          "row": 2,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.5,
+            0.25,
+            0.25
+          ],
+          "description": "Worried brows, small open mouth, clasped hands at waist."
+        },
+        {
+          "sourcePath": "images/gums yay2.png",
+          "index": 9,
+          "row": 2,
+          "column": 1,
+          "uv": [
+            0.25,
+            0.5,
+            0.25,
+            0.25
+          ],
+          "description": "Excited open-mouth grin, hands tucked near collar."
+        },
+        {
+          "sourcePath": "images/gums yayyy2.png",
+          "index": 10,
+          "row": 2,
+          "column": 2,
+          "uv": [
+            0.5,
+            0.5,
+            0.25,
+            0.25
+          ],
+          "description": "Very joyful closed-eye grin, both fists raised near collar."
+        },
+        {
+          "sourcePath": "images/gums yes.png",
+          "index": 11,
+          "row": 2,
+          "column": 3,
+          "uv": [
+            0.75,
+            0.5,
+            0.25,
+            0.25
+          ],
+          "description": "Enthusiastic smiling yes, raised hands."
+        },
+        {
+          "sourcePath": "images/gums yes2.png",
+          "index": 12,
+          "row": 3,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.75,
+            0.25,
+            0.25
+          ],
+          "description": "Calm satisfied closed-mouth smile, hands near collar."
+        },
+        {
+          "sourcePath": "images/gum eaten.png",
+          "index": 13,
+          "row": 3,
+          "column": 1,
+          "uv": [
+            0.25,
+            0.75,
+            0.25,
+            0.25
+          ],
+          "description": "Tired blank half-lidded eyes, short slightly ragged bob, arms down; uniform intact, no bodily injury, preserve only the subdued emotion."
+        }
+      ],
+      "limitations": [
+        "The original gum eaten.png long-group slot uses a short bob and tired expression in intact clothing, placed here to share the short-haired costume; no bodily injury is drawn.",
+        "Generated canvas dimensions are not exactly divisible by the requested grid; use normalized per-cell UVs with source rounding, not integer cell-size multiplication."
+      ],
+      "qa": {
+        "visualInspection": "passed: viewed generated atlas and checkerboard-composited analysis contact sheet; all requested cells contain clear distinct sprites, character design and clothing states readable, no text/watermark, no visible background plate or broad glow.",
+        "alphaMode": "RGBA",
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "fullyTransparentFraction": 0.4764,
+        "usedCellNontransparentFractions": [
+          0.558,
+          0.5624,
+          0.5526,
+          0.7574,
+          0.608,
+          0.556,
+          0.5865,
+          0.6114,
+          0.5684,
+          0.5965,
+          0.5964,
+          0.6908,
+          0.5808,
+          0.5479
+        ],
+        "analysisImage": "analysis/reference/style/generated-characters-qa.jpg"
+      }
+    },
+    {
+      "id": "pas-normal",
+      "path": "assets/atlases/pas-normal.png",
+      "promptPath": "prompts/pas-normal.txt",
+      "columns": 4,
+      "rows": 4,
+      "width": 1261,
+      "height": 1247,
+      "sha256": "2e7bdf2a49c5c68cb0804be4d6d7af3095663eed17d97f6c910ca22b225cb79f",
+      "generationMode": "built-in-imagegen",
+      "status": "generated",
+      "generationOutputPath": "assets/atlases/pas-normal.png",
+      "slots": [
+        {
+          "sourcePath": "images/pas dang.png",
+          "index": 0,
+          "row": 0,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.0,
+            0.25,
+            0.25
+          ],
+          "description": "Disappointed neutral mouth, slightly lowered gold eyes, broom held upright."
+        },
+        {
+          "sourcePath": "images/pas eheh.png",
+          "index": 1,
+          "row": 0,
+          "column": 1,
+          "uv": [
+            0.25,
+            0.0,
+            0.25,
+            0.25
+          ],
+          "description": "Nervous small open grin, broom upright."
+        },
+        {
+          "sourcePath": "images/pas heh.png",
+          "index": 2,
+          "row": 0,
+          "column": 2,
+          "uv": [
+            0.5,
+            0.0,
+            0.25,
+            0.25
+          ],
+          "description": "Shy knowing little smile, eyes to the side, broom upright."
+        },
+        {
+          "sourcePath": "images/pas hmhm.png",
+          "index": 3,
+          "row": 0,
+          "column": 3,
+          "uv": [
+            0.75,
+            0.0,
+            0.25,
+            0.25
+          ],
+          "description": "Content closed eyes and small smile, broom upright."
+        },
+        {
+          "sourcePath": "images/pas mad.png",
+          "index": 4,
+          "row": 1,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "description": "Angry lowered brows and open mouth, broom upright."
+        },
+        {
+          "sourcePath": "images/pas patient.png",
+          "index": 5,
+          "row": 1,
+          "column": 1,
+          "uv": [
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "description": "Patient gentle smile and attentive eyes, broom upright."
+        },
+        {
+          "sourcePath": "images/pas ready.png",
+          "index": 6,
+          "row": 1,
+          "column": 2,
+          "uv": [
+            0.5,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "description": "Prepared serious neutral face, broom upright."
+        },
+        {
+          "sourcePath": "images/pas sad.png",
+          "index": 7,
+          "row": 1,
+          "column": 3,
+          "uv": [
+            0.75,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "description": "Sad tired half-lidded eyes and downturned mouth, broom upright."
+        },
+        {
+          "sourcePath": "images/pas smile.png",
+          "index": 8,
+          "row": 2,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.5,
+            0.25,
+            0.25
+          ],
+          "description": "Warm gentle smile, gold eyes open, broom upright."
+        },
+        {
+          "sourcePath": "images/pas sorry.png",
+          "index": 9,
+          "row": 2,
+          "column": 1,
+          "uv": [
+            0.25,
+            0.5,
+            0.25,
+            0.25
+          ],
+          "description": "Apologetic blush, one hand at mouth while holding broom diagonally."
+        },
+        {
+          "sourcePath": "images/pas wahh.png",
+          "index": 10,
+          "row": 2,
+          "column": 2,
+          "uv": [
+            0.5,
+            0.5,
+            0.25,
+            0.25
+          ],
+          "description": "Startled crying yelp, eyes squeezed shut, clutching broom diagonally with both hands."
+        },
+        {
+          "sourcePath": "images/pas worry.png",
+          "index": 11,
+          "row": 2,
+          "column": 3,
+          "uv": [
+            0.75,
+            0.5,
+            0.25,
+            0.25
+          ],
+          "description": "Concerned eyebrows and slight frown, broom upright."
+        },
+        {
+          "sourcePath": "images/pas yum.png",
+          "index": 12,
+          "row": 3,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.75,
+            0.25,
+            0.25
+          ],
+          "description": "Excited delighted wide eyes and open grin, clutching broom diagonally."
+        }
+      ],
+      "limitations": [
+        "Generated canvas dimensions are not exactly divisible by the requested grid; use normalized per-cell UVs with source rounding, not integer cell-size multiplication."
+      ],
+      "qa": {
+        "visualInspection": "passed: viewed generated atlas and checkerboard-composited analysis contact sheet; all requested cells contain clear distinct sprites, character design and clothing states readable, no text/watermark, no visible background plate or broad glow.",
+        "alphaMode": "RGBA",
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "fullyTransparentFraction": 0.5227,
+        "usedCellNontransparentFractions": [
+          0.6091,
+          0.5572,
+          0.5478,
+          0.5616,
+          0.6621,
+          0.5895,
+          0.5942,
+          0.6116,
+          0.5655,
+          0.5901,
+          0.5769,
+          0.578,
+          0.5732
+        ],
+        "analysisImage": "analysis/reference/style/generated-characters-qa.jpg"
+      }
+    },
+    {
+      "id": "pas-winter",
+      "path": "assets/atlases/pas-winter.png",
+      "promptPath": "prompts/pas-winter.txt",
+      "columns": 2,
+      "rows": 2,
+      "width": 1254,
+      "height": 1254,
+      "sha256": "683ce3c2e56d9fdf80dff2b4af77ea8816cfd64cbe4b79b95c0d2bd0d15cf44d",
+      "generationMode": "built-in-imagegen",
+      "status": "generated",
+      "generationOutputPath": "assets/atlases/pas-winter.png",
+      "slots": [
+        {
+          "sourcePath": "images/pas cold.png",
+          "index": 0,
+          "row": 0,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.0,
+            0.5,
+            0.5
+          ],
+          "description": "Mild friendly smile, arms at sides."
+        },
+        {
+          "sourcePath": "images/pas coldnervous.png",
+          "index": 1,
+          "row": 0,
+          "column": 1,
+          "uv": [
+            0.5,
+            0.0,
+            0.5,
+            0.5
+          ],
+          "description": "Nervous open-mouth smile, concerned eyebrows, arms at sides."
+        },
+        {
+          "sourcePath": "images/pas coldpatient.png",
+          "index": 2,
+          "row": 1,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "description": "Calm patient small smile and relaxed eyes, arms at sides."
+        }
+      ],
+      "limitations": [],
+      "qa": {
+        "visualInspection": "passed: viewed generated atlas and checkerboard-composited analysis contact sheet; all requested cells contain clear distinct sprites, character design and clothing states readable, no text/watermark, no visible background plate or broad glow.",
+        "alphaMode": "RGBA",
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "fullyTransparentFraction": 0.7166,
+        "usedCellNontransparentFractions": [
+          0.3776,
+          0.3761,
+          0.3781
+        ],
+        "analysisImage": "analysis/reference/style/generated-characters-qa.jpg"
+      }
+    },
+    {
+      "id": "toffee",
+      "path": "assets/atlases/toffee.png",
+      "promptPath": "prompts/toffee.txt",
+      "columns": 4,
+      "rows": 2,
+      "width": 1774,
+      "height": 887,
+      "sha256": "eb371cf7dc89870b3a20a23974b58ff8cfd69e8b91174306ce3babf2c9fc15b6",
+      "generationMode": "built-in-imagegen",
+      "status": "generated",
+      "generationOutputPath": "assets/atlases/toffee.png",
+      "slots": [
+        {
+          "sourcePath": "images/tof fret.png",
+          "index": 0,
+          "row": 0,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ],
+          "description": "Worried raised eyebrows and tiny open mouth, standing upright."
+        },
+        {
+          "sourcePath": "images/tof heh.png",
+          "index": 1,
+          "row": 0,
+          "column": 1,
+          "uv": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ],
+          "description": "Knowing mischievous half-lidded smile, standing upright."
+        },
+        {
+          "sourcePath": "images/tof help.png",
+          "index": 2,
+          "row": 0,
+          "column": 2,
+          "uv": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ],
+          "description": "Speaking calmly, small open mouth, half-lidded gold eyes."
+        },
+        {
+          "sourcePath": "images/tof hmm.png",
+          "index": 3,
+          "row": 0,
+          "column": 3,
+          "uv": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ],
+          "description": "Eyes closed, thoughtful small pout, head slightly lowered."
+        },
+        {
+          "sourcePath": "images/tof myow.png",
+          "index": 4,
+          "row": 1,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ],
+          "description": "Comically shocked cat yowl, huge gold eyes, jagged open mouth, both paws raised, hair and tail puffed."
+        },
+        {
+          "sourcePath": "images/tof nyan.png",
+          "index": 5,
+          "row": 1,
+          "column": 1,
+          "uv": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ],
+          "description": "Relaxed small cat smile, upright."
+        },
+        {
+          "sourcePath": "images/tof sly.png",
+          "index": 6,
+          "row": 1,
+          "column": 2,
+          "uv": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ],
+          "description": "Sly teasing lean to one side, head tilted, one paw beneath chin, tail curled prominently."
+        },
+        {
+          "sourcePath": "images/tof tsun.png",
+          "index": 7,
+          "row": 1,
+          "column": 3,
+          "uv": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ],
+          "description": "Annoyed embarrassed side-eye with small frown, upright."
+        }
+      ],
+      "limitations": [
+        "Generated canvas dimensions are not exactly divisible by the requested grid; use normalized per-cell UVs with source rounding, not integer cell-size multiplication."
+      ],
+      "qa": {
+        "visualInspection": "passed: viewed generated atlas and checkerboard-composited analysis contact sheet; all requested cells contain clear distinct sprites, character design and clothing states readable, no text/watermark, no visible background plate or broad glow.",
+        "alphaMode": "RGBA",
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "fullyTransparentFraction": 0.5092,
+        "usedCellNontransparentFractions": [
+          0.4736,
+          0.4643,
+          0.5227,
+          0.4314,
+          0.5939,
+          0.4573,
+          0.4995,
+          0.484
+        ],
+        "analysisImage": "analysis/reference/style/generated-characters-qa.jpg"
+      }
+    },
+    {
+      "id": "npc",
+      "path": "assets/atlases/npc.png",
+      "promptPath": "prompts/npc.txt",
+      "columns": 4,
+      "rows": 2,
+      "width": 1774,
+      "height": 887,
+      "sha256": "421f4911a00a70e8f6cefc737a64a73a7ccd38c2ef832d405d5ef60bb324154e",
+      "generationMode": "built-in-imagegen",
+      "status": "generated",
+      "generationOutputPath": "assets/atlases/npc.png",
+      "slots": [
+        {
+          "sourcePath": "images/choco hello.png",
+          "index": 0,
+          "row": 0,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ],
+          "description": "TWO Chocolate adults shoulder to shoulder, black-haired Dark on left with hand on hip; white-haired Milk on right with fingers at chin, both politely smiling. Both entire heads and hats inside this ONE cell."
+        },
+        {
+          "sourcePath": "images/choco flowers.png",
+          "index": 1,
+          "row": 0,
+          "column": 1,
+          "uv": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ],
+          "description": "The SAME paired Chocolate adults, Dark left smiling and Milk right winking while holding a tiny brown top hat containing cream flowers. Both people inside this ONE cell."
+        },
+        {
+          "sourcePath": "images/treat.png",
+          "index": 2,
+          "row": 0,
+          "column": 2,
+          "uv": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ],
+          "description": "Treat alone with a flat slightly stern expression, hands in coat pockets."
+        },
+        {
+          "sourcePath": "images/treat aw.png",
+          "index": 3,
+          "row": 0,
+          "column": 3,
+          "uv": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ],
+          "description": "Treat alone with concerned sympathetic eyebrows, small anxious mouth."
+        },
+        {
+          "sourcePath": "images/treat meh.png",
+          "index": 4,
+          "row": 1,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ],
+          "description": "Treat alone with bored half-lidded eyes and a tiny unimpressed frown."
+        },
+        {
+          "sourcePath": "images/wolf.png",
+          "index": 5,
+          "row": 1,
+          "column": 1,
+          "uv": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ],
+          "description": "Gray-white fluffy nonhuman wolf head and shoulders, facing left, mouth open in a simple cheerful toothy expression."
+        },
+        {
+          "sourcePath": "images/wolf pink.png",
+          "index": 6,
+          "row": 1,
+          "column": 2,
+          "uv": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ],
+          "description": "Candy-pink fluffy nonhuman wolf head and shoulders, facing left, mouth open, slightly nervous expression and one tiny sweat drop."
+        },
+        {
+          "sourcePath": "images/wolf pink2.png",
+          "index": 7,
+          "row": 1,
+          "column": 3,
+          "uv": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ],
+          "description": "Candy-pink fluffy nonhuman wolf head and shoulders, facing left, mouth open, calmer confident eyes, no sweat drop."
+        }
+      ],
+      "limitations": [
+        "Generated canvas dimensions are not exactly divisible by the requested grid; use normalized per-cell UVs with source rounding, not integer cell-size multiplication."
+      ],
+      "qa": {
+        "visualInspection": "passed: viewed generated atlas and checkerboard-composited analysis contact sheet; all requested cells contain clear distinct sprites, character design and clothing states readable, no text/watermark, no visible background plate or broad glow.",
+        "alphaMode": "RGBA",
+        "alphaExtrema": [
+          0,
+          255
+        ],
+        "fullyTransparentFraction": 0.3665,
+        "usedCellNontransparentFractions": [
+          0.6983,
+          0.7186,
+          0.539,
+          0.4987,
+          0.5681,
+          0.6877,
+          0.6868,
+          0.6707
+        ],
+        "analysisImage": "analysis/reference/style/generated-characters-qa.jpg"
+      }
+    }
+  ],
+  "qa": {
+    "status": "passed",
+    "allSourcePathsCovered": true,
+    "duplicateSourcePaths": [],
+    "missingSourcePaths": [],
+    "allImagesCopiedIntoWorkspace": true,
+    "allUsedCellsNonempty": true,
+    "reviewImage": "analysis/reference/style/generated-characters-qa.jpg",
+    "note": "Only the analysis QA image was checkerboard composited; generated deliverable PNG pixels and alpha were preserved exactly."
+  }
+}

@@ -1,0 +1,16 @@
+Use case: illustration-story.
+Asset type: original bonus illustration gallery atlas, exact 3 columns x 3 rows, nine equal cells.
+Primary request: make nine new candy-fantasy bonus illustrations following the different categories of the reference gallery, preserving adult character identities from references but with new drawings.
+Style: simple 2015 indie candy-fantasy cartoon, rounded heavy black ink contours on characters, flat pastel colors, one crisp cel shadow, large simple eyes, tiny white hair highlights, chibi adult proportions. Match the newly generated Syrup atlas linework, not realistic anime polish. No textures, gradients, 3D, realism, text, labels, watermark or grid lines.
+Identity key: mint-haired brown-skinned adult scientist with cyan goggles and labcoat; pink adult candy girl with peppermint ornaments and full pink-white clothing; pink-haired adult male assistant with white headscarf and pink apron; orange-braided adult witch with huge purple hat; brown-skinned adult black cat-person with gold eyes and bell collar.
+Cell illustrations in reading order:
+1. pink long-haired candy girl singing with closed eyes and little music notes, peppermint ornaments, complete pink-white outfit; pale pink portrait square.
+2. color poster of five candy-fantasy adults in a lively close group, mint scientist central, orange witch above, pink candy girl, pink-haired male assistant and black cat-person around; green background.
+3. loose colored pencil doodle heads of five adult main characters, individual mint/pink/orange/brown strokes on transparent pale cream sketch patch.
+4. playful dynamic five-adult ensemble poster, mint scientist stepping forward below, pink candy girl and pink-haired assistant to sides, purple witch and black cat-person above, lilac town silhouette.
+5. rough monochrome concept sketch ensemble in energetic black lines, central pink candy-girl accent, imperfect charming doodle work on a light cream page patch.
+6. loose rough promo group in pastel-colored outline strokes, mint scientist, pink candy girl, pink-haired assistant, purple witch and yellow-toned cat-person, no final inking polish.
+7. dark burgundy graphic of pink candy girl in complete blouse and pink apron dress, peppermint hair ornaments, playful hand gesture, pink candy and flower silhouettes framing her; no slogan or lettering.
+8. adult black cat-person in a playful standing cat-paw pose, messy black hair, gold eyes, bell collar, black outfit and long thick curled tail on peach background.
+9. adult black cat-person sitting cross-legged in comfy sleeveless black outfit, black messy hair, gold eyes and large gold bell, curled tail behind, warm apricot background.
+Composition: each self-contained illustration fits entirely inside its regular cell with a small transparent margin, no cross-cell content. Each illustration can have its specified local pastel rectangular backdrop; background outside these patches is genuinely transparent. No text, slogans, titles, signatures, watermarks, grid lines or cell labels. Rough and doodle cells must remain sketch-like rather than become full-color finished paintings.

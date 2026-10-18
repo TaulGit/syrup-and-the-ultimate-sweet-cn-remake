@@ -1,0 +1,22 @@
+Use case: stylized-concept.
+Asset type: new transparent visual-novel character sprite atlas. EXACT regular 4 columns by 4 rows, equal cells.
+Primary request: redraw every requested Butterscotch expression as original new artwork from the supplied design and style references. Reference images are design and linework guidance, not edit targets.
+Adult woman Butterscotch: pale skin with orange freckles, orange-red oval eyes, orange blunt bangs and two short braided pigtails tied with purple bows. Enormous dark-purple floppy pointed witch hat with two vertical eye-like slits, dark-purple capelet, bow and long dress. Keep her face, hair, body scale and hat consistent across every cell, head to mid-thigh, whole hat and hands inside cell.
+Wardrobe: Standard witch capelet and dress. Each cell is an independent expression. Snow only in the specified magic-panicking cell.
+Style: simple 2015 indie candy-fantasy cartoon, rounded heavy black ink contours on characters, flat pastel colors, one crisp cel shadow, large simple eyes, tiny white hair highlights, chibi adult proportions. Match the newly generated Syrup atlas linework, not realistic anime polish. No textures, gradients, 3D, realism, text, labels, watermark or grid lines.
+Cells in reading order, left to right and top to bottom:
+1. shouting with eyes squeezed shut
+2. 炫耀 (brag)
+3. confident smirk while extending one hand to cast a tiny golden flower spell
+4. proud closed-eye smile, holding a tiny pink candy-girl doll upright on her open palm, doll clearly visible
+5. hungry daydreaming with a tiny cartoon drool
+6. 慌乱 (freakinout)
+7. casual friendly greeting, one hand raised
+8. 生气 (mad)
+9. panicking, spiral eyes and hands mid-spell; a few white snow clumps on her hat
+10. sudden worried realization, small open mouth
+11. 震惊 (shock)
+12. 得意笑 (smirk)
+13. offering a small object on one open palm
+14. blissfully enjoying candy, half closed eyes
+Composition: exactly 14 occupied cells, remaining cells empty transparent. Every figure same scale and baseline, no overlap or gutters; generous transparent padding so the broad hat and gesturing hands never touch a cell boundary. GENUINELY TRANSPARENT background throughout; no colored cell rectangles.

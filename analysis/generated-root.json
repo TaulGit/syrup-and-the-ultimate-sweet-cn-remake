@@ -1,0 +1,1517 @@
+{
+  "groups": [
+    {
+      "id": "syrup-normal-a",
+      "path": "assets/atlases/syrup-normal-a.png",
+      "promptPath": "prompts/syrup-normal-a.txt",
+      "columns": 4,
+      "rows": 3,
+      "width": 1448,
+      "height": 1086,
+      "mode": "RGBA",
+      "sha256": "2f6cd6c278c411a9f5066fefffeb2048a0aecb4464d79f9afce33d13a6b8133e",
+      "generationMode": "built-in-imagegen",
+      "status": "generated",
+      "slots": [
+        {
+          "sourcePath": "images/sy reg.png",
+          "index": 0,
+          "row": 0,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.0,
+            0.25,
+            0.3333333333333333
+          ]
+        },
+        {
+          "sourcePath": "images/sy hmm.png",
+          "index": 1,
+          "row": 0,
+          "column": 1,
+          "uv": [
+            0.25,
+            0.0,
+            0.25,
+            0.3333333333333333
+          ]
+        },
+        {
+          "sourcePath": "images/sy oh.png",
+          "index": 2,
+          "row": 0,
+          "column": 2,
+          "uv": [
+            0.5,
+            0.0,
+            0.25,
+            0.3333333333333333
+          ]
+        },
+        {
+          "sourcePath": "images/sy proud.png",
+          "index": 3,
+          "row": 0,
+          "column": 3,
+          "uv": [
+            0.75,
+            0.0,
+            0.25,
+            0.3333333333333333
+          ]
+        },
+        {
+          "sourcePath": "images/sy embarrassed.png",
+          "index": 4,
+          "row": 1,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.3333333333333333,
+            0.25,
+            0.3333333333333333
+          ]
+        },
+        {
+          "sourcePath": "images/sy grr.png",
+          "index": 5,
+          "row": 1,
+          "column": 1,
+          "uv": [
+            0.25,
+            0.3333333333333333,
+            0.25,
+            0.3333333333333333
+          ]
+        },
+        {
+          "sourcePath": "images/sy grr2.png",
+          "index": 6,
+          "row": 1,
+          "column": 2,
+          "uv": [
+            0.5,
+            0.3333333333333333,
+            0.25,
+            0.3333333333333333
+          ]
+        },
+        {
+          "sourcePath": "images/sy indifferent.png",
+          "index": 7,
+          "row": 1,
+          "column": 3,
+          "uv": [
+            0.75,
+            0.3333333333333333,
+            0.25,
+            0.3333333333333333
+          ]
+        },
+        {
+          "sourcePath": "images/sy thanks.png",
+          "index": 8,
+          "row": 2,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.6666666666666666,
+            0.25,
+            0.3333333333333333
+          ]
+        },
+        {
+          "sourcePath": "images/sy point.png",
+          "index": 9,
+          "row": 2,
+          "column": 1,
+          "uv": [
+            0.25,
+            0.6666666666666666,
+            0.25,
+            0.3333333333333333
+          ]
+        },
+        {
+          "sourcePath": "images/sy smirk.png",
+          "index": 10,
+          "row": 2,
+          "column": 2,
+          "uv": [
+            0.5,
+            0.6666666666666666,
+            0.25,
+            0.3333333333333333
+          ]
+        },
+        {
+          "sourcePath": "images/sy yo.png",
+          "index": 11,
+          "row": 2,
+          "column": 3,
+          "uv": [
+            0.75,
+            0.6666666666666666,
+            0.25,
+            0.3333333333333333
+          ]
+        }
+      ],
+      "limitations": [
+        "Sprites are newly drawn upper-body/upper-thigh portraits, not pixel-identical full source canvases."
+      ],
+      "qa": "Generated output visually reviewed; pixel dimensions and alpha read from saved PNG."
+    },
+    {
+      "id": "syrup-normal-b",
+      "path": "assets/atlases/syrup-normal-b.png",
+      "promptPath": "prompts/syrup-normal-b.txt",
+      "columns": 4,
+      "rows": 3,
+      "width": 1448,
+      "height": 1086,
+      "mode": "RGBA",
+      "sha256": "c81641ce3704b18691135ca5e934f13c843f1d9cd6b484377ddd74e99e1093e2",
+      "generationMode": "built-in-imagegen",
+      "status": "generated",
+      "slots": [
+        {
+          "sourcePath": "images/sy aww.png",
+          "index": 0,
+          "row": 0,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.0,
+            0.25,
+            0.3333333333333333
+          ]
+        },
+        {
+          "sourcePath": "images/sy cool.png",
+          "index": 1,
+          "row": 0,
+          "column": 1,
+          "uv": [
+            0.25,
+            0.0,
+            0.25,
+            0.3333333333333333
+          ]
+        },
+        {
+          "sourcePath": "images/sy crystalball.png",
+          "index": 2,
+          "row": 0,
+          "column": 2,
+          "uv": [
+            0.5,
+            0.0,
+            0.25,
+            0.3333333333333333
+          ]
+        },
+        {
+          "sourcePath": "images/sy dakara.png",
+          "index": 3,
+          "row": 0,
+          "column": 3,
+          "uv": [
+            0.75,
+            0.0,
+            0.25,
+            0.3333333333333333
+          ]
+        },
+        {
+          "sourcePath": "images/sy frick.png",
+          "index": 4,
+          "row": 1,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.3333333333333333,
+            0.25,
+            0.3333333333333333
+          ]
+        },
+        {
+          "sourcePath": "images/sy hahano.png",
+          "index": 6,
+          "row": 1,
+          "column": 2,
+          "uv": [
+            0.5,
+            0.3333333333333333,
+            0.25,
+            0.3333333333333333
+          ]
+        },
+        {
+          "sourcePath": "images/sy heeey.png",
+          "index": 7,
+          "row": 1,
+          "column": 3,
+          "uv": [
+            0.75,
+            0.3333333333333333,
+            0.25,
+            0.3333333333333333
+          ]
+        },
+        {
+          "sourcePath": "images/sy heh.png",
+          "index": 8,
+          "row": 2,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.6666666666666666,
+            0.25,
+            0.3333333333333333
+          ]
+        },
+        {
+          "sourcePath": "images/sy tch.png",
+          "index": 9,
+          "row": 2,
+          "column": 1,
+          "uv": [
+            0.25,
+            0.6666666666666666,
+            0.25,
+            0.3333333333333333
+          ]
+        },
+        {
+          "sourcePath": "images/sy um.png",
+          "index": 10,
+          "row": 2,
+          "column": 2,
+          "uv": [
+            0.5,
+            0.6666666666666666,
+            0.25,
+            0.3333333333333333
+          ]
+        }
+      ],
+      "limitations": [
+        "Cells 5 and 11 are spare generated variants and are intentionally not assigned to source slots."
+      ],
+      "qa": "Generated output visually reviewed; pixel dimensions and alpha read from saved PNG."
+    },
+    {
+      "id": "syrup-winter",
+      "path": "assets/atlases/syrup-winter.png",
+      "promptPath": "prompts/syrup-winter.txt",
+      "columns": 4,
+      "rows": 3,
+      "width": 1448,
+      "height": 1086,
+      "mode": "RGBA",
+      "sha256": "e532274375b4a46c6851f0cda2145ea71a48166edf6886e9da99a390ae4ce077",
+      "generationMode": "built-in-imagegen",
+      "status": "generated",
+      "slots": [
+        {
+          "sourcePath": "images/sy cold.png",
+          "index": 0,
+          "row": 0,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.0,
+            0.25,
+            0.3333333333333333
+          ]
+        },
+        {
+          "sourcePath": "images/sy coldcomfort.png",
+          "index": 1,
+          "row": 0,
+          "column": 1,
+          "uv": [
+            0.25,
+            0.0,
+            0.25,
+            0.3333333333333333
+          ]
+        },
+        {
+          "sourcePath": "images/sy coldhey.png",
+          "index": 2,
+          "row": 0,
+          "column": 2,
+          "uv": [
+            0.5,
+            0.0,
+            0.25,
+            0.3333333333333333
+          ]
+        },
+        {
+          "sourcePath": "images/sy coldhmm.png",
+          "index": 3,
+          "row": 0,
+          "column": 3,
+          "uv": [
+            0.75,
+            0.0,
+            0.25,
+            0.3333333333333333
+          ]
+        },
+        {
+          "sourcePath": "images/sy coldhuh.png",
+          "index": 4,
+          "row": 1,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.3333333333333333,
+            0.25,
+            0.3333333333333333
+          ]
+        },
+        {
+          "sourcePath": "images/sy coldsass.png",
+          "index": 5,
+          "row": 1,
+          "column": 1,
+          "uv": [
+            0.25,
+            0.3333333333333333,
+            0.25,
+            0.3333333333333333
+          ]
+        },
+        {
+          "sourcePath": "images/sy coldscared.png",
+          "index": 6,
+          "row": 1,
+          "column": 2,
+          "uv": [
+            0.5,
+            0.3333333333333333,
+            0.25,
+            0.3333333333333333
+          ]
+        },
+        {
+          "sourcePath": "images/sy coldsmirk.png",
+          "index": 7,
+          "row": 1,
+          "column": 3,
+          "uv": [
+            0.75,
+            0.3333333333333333,
+            0.25,
+            0.3333333333333333
+          ]
+        },
+        {
+          "sourcePath": "images/sy coldstop.png",
+          "index": 8,
+          "row": 2,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.6666666666666666,
+            0.25,
+            0.3333333333333333
+          ]
+        },
+        {
+          "sourcePath": "images/sy coldthought.png",
+          "index": 9,
+          "row": 2,
+          "column": 1,
+          "uv": [
+            0.25,
+            0.6666666666666666,
+            0.25,
+            0.3333333333333333
+          ]
+        },
+        {
+          "sourcePath": "images/sy coldyeah.png",
+          "index": 10,
+          "row": 2,
+          "column": 2,
+          "uv": [
+            0.5,
+            0.6666666666666666,
+            0.25,
+            0.3333333333333333
+          ]
+        },
+        {
+          "sourcePath": "images/sy coldyell.png",
+          "index": 11,
+          "row": 2,
+          "column": 3,
+          "uv": [
+            0.75,
+            0.6666666666666666,
+            0.25,
+            0.3333333333333333
+          ]
+        }
+      ],
+      "limitations": [],
+      "qa": "Generated output visually reviewed; pixel dimensions and alpha read from saved PNG."
+    },
+    {
+      "id": "syrup-after-coat-v2",
+      "path": "assets/atlases/syrup-after-coat-v2.png",
+      "promptPath": "prompts/syrup-after-coat.txt",
+      "columns": 3,
+      "rows": 2,
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGBA",
+      "sha256": "6b0e5efde9980fab225d1c979c00caafed44ba44c19b2f8982d61b48d7a433bd",
+      "generationMode": "built-in-imagegen",
+      "status": "generated",
+      "slots": [
+        {
+          "sourcePath": "images/sy colder.png",
+          "index": 0,
+          "row": 0,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.0,
+            0.3333333333333333,
+            0.5
+          ]
+        },
+        {
+          "sourcePath": "images/sy colderawkward.png",
+          "index": 1,
+          "row": 0,
+          "column": 1,
+          "uv": [
+            0.3333333333333333,
+            0.0,
+            0.3333333333333333,
+            0.5
+          ]
+        },
+        {
+          "sourcePath": "images/sy colderhey.png",
+          "index": 2,
+          "row": 0,
+          "column": 2,
+          "uv": [
+            0.6666666666666666,
+            0.0,
+            0.3333333333333333,
+            0.5
+          ]
+        },
+        {
+          "sourcePath": "images/sy coldersmile.png",
+          "index": 3,
+          "row": 1,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.5,
+            0.3333333333333333,
+            0.5
+          ]
+        },
+        {
+          "sourcePath": "images/sy colderstop.png",
+          "index": 4,
+          "row": 1,
+          "column": 1,
+          "uv": [
+            0.3333333333333333,
+            0.5,
+            0.3333333333333333,
+            0.5
+          ]
+        },
+        {
+          "sourcePath": "images/sy colderyeah.png",
+          "index": 5,
+          "row": 1,
+          "column": 2,
+          "uv": [
+            0.6666666666666666,
+            0.5,
+            0.3333333333333333,
+            0.5
+          ]
+        }
+      ],
+      "limitations": [
+        "The saved RGBA PNG contains hidden RGB outside the sprites, but sampled outside pixels have alpha=0; use alpha-aware rendering."
+      ],
+      "qa": "Generated output visually reviewed; pixel dimensions and alpha read from saved PNG.",
+      "promptHistory": [
+        "prompts/syrup-after-coat.txt",
+        "prompts/syrup-after-coat-v2.txt"
+      ]
+    },
+    {
+      "id": "backgrounds-shop-v2",
+      "path": "assets/atlases/backgrounds-shop-v2.png",
+      "promptPath": "prompts/backgrounds-shop.txt",
+      "columns": 2,
+      "rows": 2,
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "sha256": "0c9f69da962859f95de80e4e8d99cd96528ffab956a5d0cc961819e81a31ecbb",
+      "generationMode": "built-in-imagegen",
+      "status": "generated",
+      "slots": [
+        {
+          "sourcePath": "images/bg shop.jpg",
+          "index": 0,
+          "row": 0,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.0,
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "sourcePath": "images/bg shop2.jpg",
+          "index": 1,
+          "row": 0,
+          "column": 1,
+          "uv": [
+            0.5,
+            0.0,
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "sourcePath": "images/bg shopext.jpg",
+          "index": 2,
+          "row": 1,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.5,
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "sourcePath": "images/bg nightshop.jpg",
+          "index": 3,
+          "row": 1,
+          "column": 1,
+          "uv": [
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ]
+        }
+      ],
+      "limitations": [
+        "New scene geometry differs from the source. Day and night counterparts share the new candy-shop setting; shop2 has a caramel palette correction."
+      ],
+      "qa": "Generated output visually reviewed; pixel dimensions and alpha read from saved PNG.",
+      "promptHistory": [
+        "prompts/backgrounds-shop.txt",
+        "prompts/backgrounds-shop-v2.txt"
+      ]
+    },
+    {
+      "id": "backgrounds-cottage",
+      "path": "assets/atlases/backgrounds-cottage.png",
+      "promptPath": "prompts/backgrounds-cottage.txt",
+      "columns": 2,
+      "rows": 2,
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "sha256": "de617f27b7fdbaa29478bbac5397d3ff125181c155c97a0c2f68eab4f7d14e24",
+      "generationMode": "built-in-imagegen",
+      "status": "generated",
+      "slots": [
+        {
+          "sourcePath": "images/bg cottage.jpg",
+          "index": 0,
+          "row": 0,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.0,
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "sourcePath": "images/bg cottagedoor.jpg",
+          "index": 1,
+          "row": 0,
+          "column": 1,
+          "uv": [
+            0.5,
+            0.0,
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "sourcePath": "images/bg cottageint.jpg",
+          "index": 2,
+          "row": 1,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.5,
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "sourcePath": "images/bg nightcottage.jpg",
+          "index": 3,
+          "row": 1,
+          "column": 1,
+          "uv": [
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ]
+        }
+      ],
+      "limitations": [],
+      "qa": "Generated output visually reviewed; pixel dimensions and alpha read from saved PNG."
+    },
+    {
+      "id": "backgrounds-ice",
+      "path": "assets/atlases/backgrounds-ice.png",
+      "promptPath": "prompts/backgrounds-ice.txt",
+      "columns": 2,
+      "rows": 2,
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "sha256": "0cd51e7b295348dd54e0d57d4c61fe233244f011a6ed71df549d3c47d60deb29",
+      "generationMode": "built-in-imagegen",
+      "status": "generated",
+      "slots": [
+        {
+          "sourcePath": "images/bg icecave.jpg",
+          "index": 0,
+          "row": 0,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.0,
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "sourcePath": "images/bg icecave2.jpg",
+          "index": 1,
+          "row": 0,
+          "column": 1,
+          "uv": [
+            0.5,
+            0.0,
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "sourcePath": "images/bg mountain.jpg",
+          "index": 2,
+          "row": 1,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.5,
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "sourcePath": "images/bg snow.jpg",
+          "index": 3,
+          "row": 1,
+          "column": 1,
+          "uv": [
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ]
+        }
+      ],
+      "limitations": [],
+      "qa": "Generated output visually reviewed; pixel dimensions and alpha read from saved PNG."
+    },
+    {
+      "id": "backgrounds-town",
+      "path": "assets/atlases/backgrounds-town.png",
+      "promptPath": "prompts/backgrounds-town.txt",
+      "columns": 2,
+      "rows": 2,
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "sha256": "fba8e0338274280416b772b15bc86ca32de16599b465a2492d6121a44bd7d891",
+      "generationMode": "built-in-imagegen",
+      "status": "generated",
+      "slots": [
+        {
+          "sourcePath": "images/bg lab.png",
+          "index": 0,
+          "row": 0,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.0,
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "sourcePath": "images/bg library.jpg",
+          "index": 1,
+          "row": 0,
+          "column": 1,
+          "uv": [
+            0.5,
+            0.0,
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "sourcePath": "images/bg market.jpg",
+          "index": 2,
+          "row": 1,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.5,
+            0.5,
+            0.5
+          ]
+        },
+        {
+          "sourcePath": "images/bg cabin.jpg",
+          "index": 3,
+          "row": 1,
+          "column": 1,
+          "uv": [
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ]
+        }
+      ],
+      "limitations": [
+        "New backgrounds use somewhat more line detail than the original while keeping the limited pastel palettes."
+      ],
+      "qa": "Generated output visually reviewed; pixel dimensions and alpha read from saved PNG."
+    },
+    {
+      "id": "title-bilingual",
+      "path": "assets/atlases/title-bilingual.png",
+      "promptPath": "prompts/title-bilingual.txt",
+      "columns": 1,
+      "rows": 2,
+      "width": 1774,
+      "height": 887,
+      "mode": "RGBA",
+      "sha256": "786b41dedc3a6a46532499e37afb42b790107d8e1c4863c916136acd6c5a9e76",
+      "generationMode": "built-in-imagegen",
+      "status": "generated",
+      "slots": [
+        {
+          "sourcePath": "tl/chinese/images/title.png",
+          "index": 0,
+          "row": 0,
+          "column": 0,
+          "uv": [
+            0,
+            0.06764374295377677,
+            1,
+            0.34949267192784667
+          ]
+        },
+        {
+          "sourcePath": "images/title.png",
+          "index": 1,
+          "row": 1,
+          "column": 0,
+          "uv": [
+            0,
+            0.47350620067643745,
+            1,
+            0.496054114994363
+          ]
+        }
+      ],
+      "limitations": [
+        "English title lettering uses tight decorative spacing. The eight Chinese title characters were visually checked."
+      ],
+      "qa": "Generated output visually reviewed; pixel dimensions and alpha read from saved PNG."
+    },
+    {
+      "id": "storybook-frames",
+      "path": "assets/atlases/storybook-frames.png",
+      "promptPath": "prompts/storybook-frames.txt",
+      "columns": 2,
+      "rows": 4,
+      "width": 1182,
+      "height": 1330,
+      "mode": "RGB",
+      "sha256": "5322b1aa38d303039c7347ca09a938eb2e21614e4caa47c6fcfbbd6e7cceffac",
+      "generationMode": "built-in-imagegen",
+      "status": "generated",
+      "slots": [
+        {
+          "sourcePath": "images/storybook.jpg",
+          "index": 0,
+          "row": 0,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.0,
+            0.5,
+            0.25
+          ]
+        },
+        {
+          "sourcePath": "images/storybook2.jpg",
+          "index": 1,
+          "row": 0,
+          "column": 1,
+          "uv": [
+            0.5,
+            0.0,
+            0.5,
+            0.25
+          ]
+        },
+        {
+          "sourcePath": "images/splash.jpg",
+          "index": 2,
+          "row": 1,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.25,
+            0.5,
+            0.25
+          ]
+        },
+        {
+          "sourcePath": "images/gallery/galframe_idle.png",
+          "index": 3,
+          "row": 1,
+          "column": 1,
+          "uv": [
+            0.5,
+            0.25,
+            0.5,
+            0.25
+          ]
+        },
+        {
+          "sourcePath": "images/gallery/galframe_hover.png",
+          "index": 4,
+          "row": 2,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.5,
+            0.5,
+            0.25
+          ]
+        },
+        {
+          "sourcePath": "images/gallery/galframe_insensitive.png",
+          "index": 5,
+          "row": 2,
+          "column": 1,
+          "uv": [
+            0.5,
+            0.5,
+            0.5,
+            0.25
+          ]
+        },
+        {
+          "sourcePath": "images/bg black.png",
+          "index": 6,
+          "row": 3,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.75,
+            0.5,
+            0.25
+          ]
+        }
+      ],
+      "limitations": [
+        "Source author logo is replaced by a new candy emblem; the original author credit remains in the report.",
+        "The source uniform transition color is represented by a newly generated dark tile, with slight tonal texture."
+      ],
+      "qa": "Generated output visually reviewed; pixel dimensions and alpha read from saved PNG."
+    },
+    {
+      "id": "effects-menu",
+      "path": "assets/atlases/effects-menu.png",
+      "promptPath": "prompts/effects-menu.txt",
+      "columns": 4,
+      "rows": 3,
+      "width": 1448,
+      "height": 1086,
+      "mode": "RGBA",
+      "sha256": "685179ec7409efe6c9492545714cee678218af7227d257b193283643351f5f5f",
+      "generationMode": "built-in-imagegen",
+      "status": "generated",
+      "slots": [
+        {
+          "sourcePath": "images/clouds.png",
+          "index": 0,
+          "row": 0,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.0,
+            0.25,
+            0.3333333333333333
+          ]
+        },
+        {
+          "sourcePath": "images/flowers1.png",
+          "index": 1,
+          "row": 0,
+          "column": 1,
+          "uv": [
+            0.25,
+            0.0,
+            0.25,
+            0.3333333333333333
+          ]
+        },
+        {
+          "sourcePath": "images/flowers2.png",
+          "index": 2,
+          "row": 0,
+          "column": 2,
+          "uv": [
+            0.5,
+            0.0,
+            0.25,
+            0.3333333333333333
+          ]
+        },
+        {
+          "sourcePath": "images/flowers3.png",
+          "index": 3,
+          "row": 0,
+          "column": 3,
+          "uv": [
+            0.75,
+            0.0,
+            0.25,
+            0.3333333333333333
+          ]
+        },
+        {
+          "sourcePath": "images/light1.png",
+          "index": 4,
+          "row": 1,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.3333333333333333,
+            0.25,
+            0.3333333333333333
+          ]
+        },
+        {
+          "sourcePath": "images/light2.png",
+          "index": 5,
+          "row": 1,
+          "column": 1,
+          "uv": [
+            0.25,
+            0.3333333333333333,
+            0.25,
+            0.3333333333333333
+          ]
+        },
+        {
+          "sourcePath": "images/light3.png",
+          "index": 6,
+          "row": 1,
+          "column": 2,
+          "uv": [
+            0.5,
+            0.3333333333333333,
+            0.25,
+            0.3333333333333333
+          ]
+        },
+        {
+          "sourcePath": "images/pastfilter.png",
+          "index": 7,
+          "row": 1,
+          "column": 3,
+          "uv": [
+            0.75,
+            0.3333333333333333,
+            0.25,
+            0.3333333333333333
+          ]
+        },
+        {
+          "sourcePath": "images/ani1.png",
+          "index": 8,
+          "row": 2,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.6666666666666666,
+            0.25,
+            0.3333333333333333
+          ]
+        },
+        {
+          "sourcePath": "images/ani2.png",
+          "index": 9,
+          "row": 2,
+          "column": 1,
+          "uv": [
+            0.25,
+            0.6666666666666666,
+            0.25,
+            0.3333333333333333
+          ]
+        },
+        {
+          "sourcePath": "images/ani3.png",
+          "index": 10,
+          "row": 2,
+          "column": 2,
+          "uv": [
+            0.5,
+            0.6666666666666666,
+            0.25,
+            0.3333333333333333
+          ]
+        }
+      ],
+      "limitations": [
+        "Effects are new interpretive redraws. The memory filter uses sparse cream flecks rather than an identical source texture.",
+        "Animation cells are three new phases; timing is documented separately in the source analysis."
+      ],
+      "qa": "Generated output visually reviewed; pixel dimensions and alpha read from saved PNG."
+    },
+    {
+      "id": "derived-backgrounds-town",
+      "path": "assets/atlases/backgrounds-town.png",
+      "promptPath": "prompts/backgrounds-town.txt",
+      "columns": 2,
+      "rows": 2,
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "sha256": "fba8e0338274280416b772b15bc86ca32de16599b465a2492d6121a44bd7d891",
+      "generationMode": "built-in-imagegen",
+      "status": "generated",
+      "slots": [
+        {
+          "sourcePath": "images/gallery/gal_cabin.jpg",
+          "index": 3,
+          "row": 1,
+          "column": 1,
+          "uv": [
+            0.5,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "derived_from": "images/bg cabin.jpg"
+        },
+        {
+          "sourcePath": "images/gallery/gal_lab.jpg",
+          "index": 0,
+          "row": 0,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.0,
+            0.5,
+            0.5
+          ],
+          "derived_from": "images/bg lab.png"
+        },
+        {
+          "sourcePath": "images/gallery/gal_market.jpg",
+          "index": 2,
+          "row": 1,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "derived_from": "images/bg market.jpg"
+        }
+      ],
+      "limitations": [
+        "Intentional thumbnail reuse of a newly generated background or character pose, rendered with CSS UVs. This is not a separate image generation."
+      ]
+    },
+    {
+      "id": "derived-backgrounds-cottage",
+      "path": "assets/atlases/backgrounds-cottage.png",
+      "promptPath": "prompts/backgrounds-cottage.txt",
+      "columns": 2,
+      "rows": 2,
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "sha256": "de617f27b7fdbaa29478bbac5397d3ff125181c155c97a0c2f68eab4f7d14e24",
+      "generationMode": "built-in-imagegen",
+      "status": "generated",
+      "slots": [
+        {
+          "sourcePath": "images/gallery/gal_cottage.jpg",
+          "index": 0,
+          "row": 0,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.0,
+            0.5,
+            0.5
+          ],
+          "derived_from": "images/bg cottage.jpg"
+        }
+      ],
+      "limitations": [
+        "Intentional thumbnail reuse of a newly generated background or character pose, rendered with CSS UVs. This is not a separate image generation."
+      ]
+    },
+    {
+      "id": "derived-backgrounds-ice",
+      "path": "assets/atlases/backgrounds-ice.png",
+      "promptPath": "prompts/backgrounds-ice.txt",
+      "columns": 2,
+      "rows": 2,
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "sha256": "0cd51e7b295348dd54e0d57d4c61fe233244f011a6ed71df549d3c47d60deb29",
+      "generationMode": "built-in-imagegen",
+      "status": "generated",
+      "slots": [
+        {
+          "sourcePath": "images/gallery/gal_mountain.jpg",
+          "index": 2,
+          "row": 1,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.5,
+            0.5,
+            0.5
+          ],
+          "derived_from": "images/bg mountain.jpg"
+        }
+      ],
+      "limitations": [
+        "Intentional thumbnail reuse of a newly generated background or character pose, rendered with CSS UVs. This is not a separate image generation."
+      ]
+    },
+    {
+      "id": "derived-backgrounds-shop-v2",
+      "path": "assets/atlases/backgrounds-shop-v2.png",
+      "promptPath": "prompts/backgrounds-shop.txt",
+      "columns": 2,
+      "rows": 2,
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "sha256": "0c9f69da962859f95de80e4e8d99cd96528ffab956a5d0cc961819e81a31ecbb",
+      "generationMode": "built-in-imagegen",
+      "status": "generated",
+      "slots": [
+        {
+          "sourcePath": "images/gallery/gal_shop.jpg",
+          "index": 0,
+          "row": 0,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.0,
+            0.5,
+            0.5
+          ],
+          "derived_from": "images/bg shop.jpg"
+        }
+      ],
+      "limitations": [
+        "Intentional thumbnail reuse of a newly generated background or character pose, rendered with CSS UVs. This is not a separate image generation."
+      ]
+    },
+    {
+      "id": "derived-syrup-normal-a",
+      "path": "assets/atlases/syrup-normal-a.png",
+      "promptPath": "prompts/syrup-normal-a.txt",
+      "columns": 4,
+      "rows": 3,
+      "width": 1448,
+      "height": 1086,
+      "mode": "RGBA",
+      "sha256": "2f6cd6c278c411a9f5066fefffeb2048a0aecb4464d79f9afce33d13a6b8133e",
+      "generationMode": "built-in-imagegen",
+      "status": "generated",
+      "slots": [
+        {
+          "sourcePath": "images/mmsyrup.png",
+          "index": 0,
+          "row": 0,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.0,
+            0.25,
+            0.3333333333333333
+          ],
+          "derived_from": "images/sy reg.png"
+        },
+        {
+          "sourcePath": "images/mmsyrup2.png",
+          "index": 10,
+          "row": 2,
+          "column": 2,
+          "uv": [
+            0.5,
+            0.6666666666666666,
+            0.25,
+            0.3333333333333333
+          ],
+          "derived_from": "images/sy smirk.png"
+        }
+      ],
+      "limitations": [
+        "Intentional thumbnail reuse of a newly generated background or character pose, rendered with CSS UVs. This is not a separate image generation."
+      ]
+    },
+    {
+      "id": "derived-gum-uniform-long",
+      "path": "assets/atlases/gum-uniform-long.png",
+      "promptPath": "prompts/gum-uniform-long.txt",
+      "columns": 4,
+      "rows": 4,
+      "width": 1261,
+      "height": 1247,
+      "mode": "RGBA",
+      "sha256": "6f799f6a45ab278fc2cbb713c72aa9ad8ac00dba0986ab0bbe4779dd85bc4201",
+      "generationMode": "built-in-imagegen",
+      "status": "generated",
+      "slots": [
+        {
+          "sourcePath": "images/mmgum.png",
+          "index": 2,
+          "row": 0,
+          "column": 2,
+          "uv": [
+            0.5,
+            0.0,
+            0.25,
+            0.25
+          ],
+          "derived_from": "images/gum dress.png"
+        }
+      ],
+      "limitations": [
+        "Intentional thumbnail reuse of a newly generated background or character pose, rendered with CSS UVs. This is not a separate image generation."
+      ]
+    },
+    {
+      "id": "derived-gum-frosting",
+      "path": "assets/atlases/gum-frosting.png",
+      "promptPath": "prompts/gum-frosting.txt",
+      "columns": 4,
+      "rows": 4,
+      "width": 1261,
+      "height": 1247,
+      "mode": "RGBA",
+      "sha256": "d85e87ebe2b87d58e90b87d4b6f0e54cbddf86a92fc8450de83df47962bc439f",
+      "generationMode": "built-in-imagegen",
+      "status": "generated",
+      "slots": [
+        {
+          "sourcePath": "images/mmgum2.png",
+          "index": 12,
+          "row": 3,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.75,
+            0.25,
+            0.25
+          ],
+          "derived_from": "images/gum yay.png"
+        }
+      ],
+      "limitations": [
+        "Intentional thumbnail reuse of a newly generated background or character pose, rendered with CSS UVs. This is not a separate image generation."
+      ]
+    },
+    {
+      "id": "derived-pas-normal",
+      "path": "assets/atlases/pas-normal.png",
+      "promptPath": "prompts/pas-normal.txt",
+      "columns": 4,
+      "rows": 4,
+      "width": 1261,
+      "height": 1247,
+      "mode": "RGBA",
+      "sha256": "2e7bdf2a49c5c68cb0804be4d6d7af3095663eed17d97f6c910ca22b225cb79f",
+      "generationMode": "built-in-imagegen",
+      "status": "generated",
+      "slots": [
+        {
+          "sourcePath": "images/mmpas.png",
+          "index": 8,
+          "row": 2,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.5,
+            0.25,
+            0.25
+          ],
+          "derived_from": "images/pas smile.png"
+        },
+        {
+          "sourcePath": "images/mmpas2.png",
+          "index": 1,
+          "row": 0,
+          "column": 1,
+          "uv": [
+            0.25,
+            0.0,
+            0.25,
+            0.25
+          ],
+          "derived_from": "images/pas eheh.png"
+        }
+      ],
+      "limitations": [
+        "Intentional thumbnail reuse of a newly generated background or character pose, rendered with CSS UVs. This is not a separate image generation."
+      ]
+    },
+    {
+      "id": "derived-bs-normal",
+      "path": "assets/atlases/bs-normal.png",
+      "promptPath": "prompts/bs-normal.txt",
+      "columns": 4,
+      "rows": 4,
+      "width": 1448,
+      "height": 1086,
+      "mode": "RGBA",
+      "sha256": "eadbecb26a5c46b429074f73791c0081d8f82900c10258b4e06c8c3ca9dde78d",
+      "generationMode": "built-in-imagegen",
+      "status": "generated",
+      "slots": [
+        {
+          "sourcePath": "images/mmbs.png",
+          "index": 6,
+          "row": 1,
+          "column": 2,
+          "uv": [
+            0.5,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "derived_from": "images/bs hey.png"
+        },
+        {
+          "sourcePath": "images/mmbs2.png",
+          "index": 11,
+          "row": 2,
+          "column": 3,
+          "uv": [
+            0.75,
+            0.5,
+            0.25,
+            0.25
+          ],
+          "derived_from": "images/bs smirk.png"
+        }
+      ],
+      "limitations": [
+        "Intentional thumbnail reuse of a newly generated background or character pose, rendered with CSS UVs. This is not a separate image generation."
+      ]
+    },
+    {
+      "id": "derived-toffee",
+      "path": "assets/atlases/toffee.png",
+      "promptPath": "prompts/toffee.txt",
+      "columns": 4,
+      "rows": 2,
+      "width": 1774,
+      "height": 887,
+      "mode": "RGBA",
+      "sha256": "eb371cf7dc89870b3a20a23974b58ff8cfd69e8b91174306ce3babf2c9fc15b6",
+      "generationMode": "built-in-imagegen",
+      "status": "generated",
+      "slots": [
+        {
+          "sourcePath": "images/mmtof.png",
+          "index": 5,
+          "row": 1,
+          "column": 1,
+          "uv": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ],
+          "derived_from": "images/tof nyan.png"
+        },
+        {
+          "sourcePath": "images/mmtof2.png",
+          "index": 4,
+          "row": 1,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ],
+          "derived_from": "images/tof myow.png"
+        }
+      ],
+      "limitations": [
+        "Intentional thumbnail reuse of a newly generated background or character pose, rendered with CSS UVs. This is not a separate image generation."
+      ]
+    }
+  ]
+}

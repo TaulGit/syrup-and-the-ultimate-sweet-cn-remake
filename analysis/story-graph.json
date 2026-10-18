@@ -1,0 +1,8138 @@
+{
+  "schema_version": 1,
+  "metadata": {
+    "game": "Syrup and the Ultimate Sweet",
+    "title_zh": "希乐普与终极糖果",
+    "game_version": "3.1.0",
+    "renpy_script_version": "8.5.2",
+    "archive_sha256": "3b01e88b68be2f41e8305215c30863c6ee4063bea6fe72b0a6f496841c8edf9a",
+    "rea_archive_evidence": "ev_8e5d4de3c042817e24abd04ae3ccfbc41adc264b16b149e573d5e4ff40685a02",
+    "source_root": "analysis/reference/unpacked/game",
+    "coverage": "Static control-flow extraction from shipped plaintext scripts; no dialogue transcript copied; state enumeration is a structural model, not live RenPy execution."
+  },
+  "entrypoints": [
+    "start",
+    "splashscreen"
+  ],
+  "initial_story_state": {
+    "bp": 0,
+    "gp": 0,
+    "pp": 0,
+    "biopsy": false,
+    "nopets": false,
+    "candyslave": false,
+    "candydate": false,
+    "gotlost": false,
+    "foundcandy": false,
+    "paranoid": false,
+    "salesman": false,
+    "gentlelady": false,
+    "forgiven": false,
+    "forgotit": false
+  },
+  "counts": {
+    "labels": 49,
+    "menus": 19,
+    "choices": 40,
+    "jumps": 48,
+    "nodes": 353,
+    "edges": 417
+  },
+  "labels": [
+    {
+      "name": "splashscreen",
+      "source_line": 35,
+      "body": [
+        {
+          "kind": "if",
+          "line": 37,
+          "branches": [
+            {
+              "condition": "not persistent.setlanguage",
+              "line": 37,
+              "body": [
+                {
+                  "kind": "call_screen",
+                  "line": 38,
+                  "screen": "langset"
+                },
+                {
+                  "kind": "effect",
+                  "line": 39,
+                  "code": "persistent.setlanguage=True"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "effect",
+          "line": 41,
+          "code": "achievement.sync()"
+        },
+        {
+          "kind": "return",
+          "line": 46
+        }
+      ],
+      "summary_zh": "首次语言设置、成就同步与启动画面"
+    },
+    {
+      "name": "start",
+      "source_line": 49,
+      "body": [
+        {
+          "kind": "effect",
+          "line": 52,
+          "code": "bp = 0"
+        },
+        {
+          "kind": "effect",
+          "line": 53,
+          "code": "gp = 0"
+        },
+        {
+          "kind": "effect",
+          "line": 54,
+          "code": "pp = 0"
+        },
+        {
+          "kind": "effect",
+          "line": 57,
+          "code": "biopsy = False"
+        },
+        {
+          "kind": "effect",
+          "line": 58,
+          "code": "nopets = False"
+        },
+        {
+          "kind": "effect",
+          "line": 59,
+          "code": "candyslave = False"
+        },
+        {
+          "kind": "effect",
+          "line": 60,
+          "code": "candydate= False"
+        },
+        {
+          "kind": "effect",
+          "line": 61,
+          "code": "gotlost = False"
+        },
+        {
+          "kind": "effect",
+          "line": 62,
+          "code": "foundcandy = False"
+        },
+        {
+          "kind": "effect",
+          "line": 63,
+          "code": "paranoid = False"
+        },
+        {
+          "kind": "effect",
+          "line": 64,
+          "code": "salesman = False"
+        },
+        {
+          "kind": "effect",
+          "line": 65,
+          "code": "gentlelady = False"
+        },
+        {
+          "kind": "effect",
+          "line": 66,
+          "code": "forgiven = False"
+        },
+        {
+          "kind": "effect",
+          "line": 67,
+          "code": "forgotit = False"
+        },
+        {
+          "kind": "effect",
+          "line": 70,
+          "code": "Syrup = _(\"Candy Alchemist\")"
+        },
+        {
+          "kind": "effect",
+          "line": 71,
+          "code": "Gumdrop = _(\"Candy Girl\")"
+        },
+        {
+          "kind": "effect",
+          "line": 72,
+          "code": "Butterscotch = _(\"Bratty Witch\")"
+        },
+        {
+          "kind": "effect",
+          "line": 73,
+          "code": "Toffee = _(\"Cat Person?\")"
+        },
+        {
+          "kind": "effect",
+          "line": 74,
+          "code": "Treat = _(\"Wolf Girl\")"
+        },
+        {
+          "kind": "effect",
+          "line": 75,
+          "code": "Wolf = _(\"Scary Wolf\")"
+        },
+        {
+          "kind": "effect",
+          "line": 77,
+          "code": "save_name = _(\"Atelier Sweets\")"
+        },
+        {
+          "kind": "effect",
+          "line": 101,
+          "code": "renpy.notify(_(\"Syrup's Candy Laboratory\"))"
+        },
+        {
+          "kind": "effect",
+          "line": 111,
+          "code": "Syrup = _(\"Syrup\")"
+        },
+        {
+          "kind": "menu",
+          "line": 140,
+          "choices": [
+            {
+              "kind": "choice",
+              "line": 141,
+              "text_en": "In that case...",
+              "text_zh": "既然这样的话……",
+              "condition": null,
+              "body": [
+                {
+                  "kind": "effect",
+                  "line": 142,
+                  "code": "biopsy = True"
+                },
+                {
+                  "kind": "jump",
+                  "line": 143,
+                  "target": "candybiopsy"
+                }
+              ]
+            },
+            {
+              "kind": "choice",
+              "line": 144,
+              "text_en": "DO NOT EAT THE CUTE CANDY GIRL",
+              "text_zh": "不要吃这个可爱的糖果女孩",
+              "condition": null,
+              "body": [
+                {
+                  "kind": "jump",
+                  "line": 145,
+                  "target": "continued"
+                }
+              ]
+            }
+          ],
+          "summary_zh": "最初对糖果女孩的处理"
+        }
+      ],
+      "summary_zh": "初始化关系分数与标记，发现糖果女孩"
+    },
+    {
+      "name": "candybiopsy",
+      "source_line": 146,
+      "body": [
+        {
+          "kind": "menu",
+          "line": 195,
+          "choices": [
+            {
+              "kind": "choice",
+              "line": 196,
+              "text_en": "...Okay I see your point",
+              "text_zh": "……好吧，你说得有理",
+              "condition": null,
+              "body": [
+                {
+                  "kind": "effect",
+                  "line": 197,
+                  "code": "pp += 1"
+                },
+                {
+                  "kind": "effect",
+                  "line": 233,
+                  "code": "Gumdrop = _(\"Candy Spy\")"
+                },
+                {
+                  "kind": "effect",
+                  "line": 237,
+                  "code": "Gumdrop = _(\"Candy Girl\")"
+                },
+                {
+                  "kind": "jump",
+                  "line": 239,
+                  "target": "newassistant"
+                }
+              ]
+            },
+            {
+              "kind": "choice",
+              "line": 240,
+              "text_en": "Eat her anyway",
+              "text_zh": "反正我就是要吃掉她",
+              "condition": null,
+              "body": [
+                {
+                  "kind": "jump",
+                  "line": 241,
+                  "target": "candibal"
+                }
+              ]
+            }
+          ],
+          "summary_zh": "是否仍要把女孩吃掉"
+        }
+      ],
+      "summary_zh": "检查糖果身体后决定是否继续吃掉她"
+    },
+    {
+      "name": "candibal",
+      "source_line": 242,
+      "body": [
+        {
+          "kind": "effect",
+          "line": 258,
+          "code": "renpy.notify(_(\"Two days later...\"))"
+        },
+        {
+          "kind": "effect",
+          "line": 286,
+          "code": "persistent.endclear = True"
+        },
+        {
+          "kind": "effect",
+          "line": 287,
+          "code": "persistent.candibalend = True"
+        },
+        {
+          "kind": "effect",
+          "line": 288,
+          "code": "achievement.grant(\"CANDIBAL_END\")"
+        },
+        {
+          "kind": "return",
+          "line": 293
+        }
+      ],
+      "summary_zh": "食人结局"
+    },
+    {
+      "name": "continued",
+      "source_line": 295,
+      "body": [],
+      "summary_zh": "未取食时与糖果女孩初次交谈"
+    },
+    {
+      "name": "newassistant",
+      "source_line": 424,
+      "body": [
+        {
+          "kind": "effect",
+          "line": 426,
+          "code": "renpy.notify(_(\"A little while later...\"))"
+        },
+        {
+          "kind": "menu",
+          "line": 471,
+          "choices": [
+            {
+              "kind": "choice",
+              "line": 472,
+              "text_en": "Alright, we'll keep her.",
+              "text_zh": "好吧，我们可以留她在这里。",
+              "condition": null,
+              "body": [
+                {
+                  "kind": "effect",
+                  "line": 473,
+                  "code": "gp += 1"
+                },
+                {
+                  "kind": "effect",
+                  "line": 474,
+                  "code": "pp += 1"
+                },
+                {
+                  "kind": "jump",
+                  "line": 475,
+                  "target": "adopted"
+                }
+              ]
+            },
+            {
+              "kind": "choice",
+              "line": 476,
+              "text_en": "I still don't like it.",
+              "text_zh": "我还是不喜欢她。",
+              "condition": null,
+              "body": [
+                {
+                  "kind": "effect",
+                  "line": 477,
+                  "code": "nopets = True"
+                }
+              ]
+            }
+          ],
+          "summary_zh": "是否接纳女孩"
+        }
+      ],
+      "summary_zh": "决定接纳或拒绝新助手"
+    },
+    {
+      "name": "nopetsallowed",
+      "source_line": 479,
+      "body": [
+        {
+          "kind": "effect",
+          "line": 496,
+          "code": "save_name = _(\"Butterscotch's Cottage\")"
+        },
+        {
+          "kind": "effect",
+          "line": 497,
+          "code": "renpy.notify(_(\"Butterscotch's Cottage\"))"
+        },
+        {
+          "kind": "effect",
+          "line": 525,
+          "code": "Toffee = _(\"Toffee\")"
+        },
+        {
+          "kind": "effect",
+          "line": 535,
+          "code": "Butterscotch = _(\"Butterscotch\")"
+        },
+        {
+          "kind": "menu",
+          "line": 560,
+          "choices": [
+            {
+              "kind": "choice",
+              "line": 561,
+              "text_en": "My mind's made up.",
+              "text_zh": "我已经下定决心了。",
+              "condition": null,
+              "body": [
+                {
+                  "kind": "jump",
+                  "line": 562,
+                  "target": "abandonher"
+                }
+              ]
+            },
+            {
+              "kind": "choice",
+              "line": 563,
+              "text_en": "On second thought...",
+              "text_zh": "容我三思……",
+              "condition": null,
+              "body": [
+                {
+                  "kind": "jump",
+                  "line": 565,
+                  "target": "keepher"
+                }
+              ]
+            }
+          ],
+          "summary_zh": "是否把她留在魔女家"
+        }
+      ],
+      "summary_zh": "将糖果女孩带到魔女家"
+    },
+    {
+      "name": "abandonher",
+      "source_line": 567,
+      "body": [],
+      "summary_zh": "决定把糖果女孩留给魔女"
+    },
+    {
+      "name": "candyslave",
+      "source_line": 603,
+      "body": [
+        {
+          "kind": "effect",
+          "line": 607,
+          "code": "candyslave = True"
+        },
+        {
+          "kind": "effect",
+          "line": 618,
+          "code": "save_name = _(\"Atelier Sweets\")"
+        },
+        {
+          "kind": "effect",
+          "line": 623,
+          "code": "renpy.notify(_(\"Atelier Sweets\"))"
+        },
+        {
+          "kind": "menu",
+          "line": 630,
+          "choices": [
+            {
+              "kind": "choice",
+              "line": 631,
+              "text_en": "Agree to help",
+              "text_zh": "答应帮忙",
+              "condition": null,
+              "body": [
+                {
+                  "kind": "effect",
+                  "line": 632,
+                  "code": "pp += 1"
+                },
+                {
+                  "kind": "jump",
+                  "line": 637,
+                  "target": "rescuemission"
+                }
+              ]
+            },
+            {
+              "kind": "choice",
+              "line": 638,
+              "text_en": "Ignore him",
+              "text_zh": "无视他",
+              "condition": null,
+              "body": [
+                {
+                  "kind": "jump",
+                  "line": 644,
+                  "target": "lonelystore"
+                }
+              ]
+            }
+          ],
+          "summary_zh": "是否响应帕斯提耶的接回请求"
+        }
+      ],
+      "summary_zh": "糖果女孩被改造成服从魔女的外观状态"
+    },
+    {
+      "name": "rescuemission",
+      "source_line": 646,
+      "body": [
+        {
+          "kind": "effect",
+          "line": 648,
+          "code": "save_name = _(\"Butterscotch's Cottage\")"
+        },
+        {
+          "kind": "effect",
+          "line": 654,
+          "code": "renpy.notify(_(\"Butterscotch's Cottage\"))"
+        },
+        {
+          "kind": "jump",
+          "line": 696,
+          "target": "homesweethome"
+        }
+      ],
+      "summary_zh": "回应帕斯提耶请求去接回女孩"
+    },
+    {
+      "name": "keepher",
+      "source_line": 698,
+      "body": [
+        {
+          "kind": "jump",
+          "line": 735,
+          "target": "homesweethome"
+        }
+      ],
+      "summary_zh": "在魔女家反悔并带女孩回家"
+    },
+    {
+      "name": "adopted",
+      "source_line": 737,
+      "body": [
+        {
+          "kind": "menu",
+          "line": 771,
+          "choices": [
+            {
+              "kind": "choice",
+              "line": 772,
+              "text_en": "Whatever floats your boat.",
+              "text_zh": "你开心就好。",
+              "condition": null,
+              "body": [
+                {
+                  "kind": "effect",
+                  "line": 773,
+                  "code": "gp += 1"
+                },
+                {
+                  "kind": "jump",
+                  "line": 777,
+                  "target": "shoppingduo"
+                }
+              ]
+            },
+            {
+              "kind": "choice",
+              "line": 778,
+              "text_en": "Get lost.",
+              "text_zh": "别烦我。",
+              "condition": null,
+              "body": [
+                {
+                  "kind": "effect",
+                  "line": 792,
+                  "code": "gotlost = True"
+                },
+                {
+                  "kind": "jump",
+                  "line": 793,
+                  "target": "shoppingalone"
+                }
+              ]
+            }
+          ],
+          "summary_zh": "是否带女孩一起采购"
+        }
+      ],
+      "summary_zh": "接纳女孩后决定是否一起采购"
+    },
+    {
+      "name": "shoppingduo",
+      "source_line": 795,
+      "body": [
+        {
+          "kind": "effect",
+          "line": 796,
+          "code": "save_name = _(\"Marketplace\")"
+        },
+        {
+          "kind": "effect",
+          "line": 797,
+          "code": "candydate = True"
+        },
+        {
+          "kind": "effect",
+          "line": 800,
+          "code": "renpy.notify(_(\"Marketplace\"))"
+        },
+        {
+          "kind": "effect",
+          "line": 846,
+          "code": "Toffee = _(\"Toffee\")"
+        },
+        {
+          "kind": "menu",
+          "line": 869,
+          "choices": [
+            {
+              "kind": "choice",
+              "line": 870,
+              "text_en": "Take her home",
+              "text_zh": "带她回家",
+              "condition": null,
+              "body": [
+                {
+                  "kind": "effect",
+                  "line": 871,
+                  "code": "gp += 1"
+                },
+                {
+                  "kind": "jump",
+                  "line": 886,
+                  "target": "homesweethome"
+                }
+              ]
+            },
+            {
+              "kind": "choice",
+              "line": 887,
+              "text_en": "Leave without her",
+              "text_zh": "把她丢弃在这里",
+              "condition": null,
+              "body": [
+                {
+                  "kind": "effect",
+                  "line": 904,
+                  "code": "gotlost = True"
+                },
+                {
+                  "kind": "jump",
+                  "line": 915,
+                  "target": "lostcandy"
+                }
+              ]
+            }
+          ],
+          "summary_zh": "采购结束是否带她回家"
+        }
+      ],
+      "summary_zh": "同行采购并决定是否带她回家"
+    },
+    {
+      "name": "shoppingalone",
+      "source_line": 917,
+      "body": [
+        {
+          "kind": "effect",
+          "line": 918,
+          "code": "save_name = _(\"Marketplace\")"
+        },
+        {
+          "kind": "effect",
+          "line": 922,
+          "code": "renpy.notify(_(\"Marketplace\"))"
+        },
+        {
+          "kind": "effect",
+          "line": 933,
+          "code": "Toffee = _(\"Toffee\")"
+        },
+        {
+          "kind": "effect",
+          "line": 953,
+          "code": "paranoid = True"
+        },
+        {
+          "kind": "jump",
+          "line": 963,
+          "target": "lostcandy"
+        }
+      ],
+      "summary_zh": "独自采购并增加对魔女的怀疑"
+    },
+    {
+      "name": "lostcandy",
+      "source_line": 965,
+      "body": [
+        {
+          "kind": "effect",
+          "line": 968,
+          "code": "save_name = _(\"Atelier Sweets\")"
+        },
+        {
+          "kind": "effect",
+          "line": 974,
+          "code": "renpy.notify(_(\"Atelier Sweets\"))"
+        },
+        {
+          "kind": "menu",
+          "line": 998,
+          "choices": [
+            {
+              "kind": "choice",
+              "line": 999,
+              "text_en": "...He's right.",
+              "text_zh": "……他说得对",
+              "condition": null,
+              "body": [
+                {
+                  "kind": "effect",
+                  "line": 1000,
+                  "code": "pp += 1"
+                },
+                {
+                  "kind": "jump",
+                  "line": 1004,
+                  "target": "search"
+                }
+              ]
+            },
+            {
+              "kind": "choice",
+              "line": 1005,
+              "text_en": "Whatever, bye.",
+              "text_zh": "管他呢，再见。",
+              "condition": null,
+              "body": [
+                {
+                  "kind": "jump",
+                  "line": 1006,
+                  "target": "lonelystore"
+                }
+              ]
+            }
+          ],
+          "summary_zh": "是否寻找走失的女孩"
+        }
+      ],
+      "summary_zh": "发现女孩走失并决定是否寻找"
+    },
+    {
+      "name": "lonelystore",
+      "source_line": 1008,
+      "body": [
+        {
+          "kind": "if",
+          "line": 1052,
+          "branches": [
+            {
+              "condition": "candyslave",
+              "line": 1052,
+              "body": []
+            },
+            {
+              "condition": null,
+              "line": 1059,
+              "body": [
+                {
+                  "kind": "if",
+                  "line": 1061,
+                  "branches": [
+                    {
+                      "condition": "paranoid",
+                      "line": 1061,
+                      "body": []
+                    },
+                    {
+                      "condition": null,
+                      "line": 1065,
+                      "body": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "menu",
+          "line": 1098,
+          "choices": [
+            {
+              "kind": "choice",
+              "line": 1099,
+              "text_en": "Hire the cat",
+              "text_zh": "雇用猫",
+              "condition": null,
+              "body": [
+                {
+                  "kind": "jump",
+                  "line": 1109,
+                  "target": "parttimecat"
+                }
+              ]
+            },
+            {
+              "kind": "choice",
+              "line": 1110,
+              "text_en": "I'm not that desperate",
+              "text_zh": "我还没绝望到那种地步",
+              "condition": null,
+              "body": []
+            }
+          ],
+          "summary_zh": "是否雇用托菲"
+        }
+      ],
+      "summary_zh": "帕斯提耶离开后独自经营的支线"
+    },
+    {
+      "name": "thentherewasone",
+      "source_line": 1114,
+      "body": [
+        {
+          "kind": "effect",
+          "line": 1125,
+          "code": "achievement.grant(\"BAD1_END\")"
+        },
+        {
+          "kind": "effect",
+          "line": 1126,
+          "code": "persistent.endclear = True"
+        },
+        {
+          "kind": "effect",
+          "line": 1127,
+          "code": "persistent.badend1 = True"
+        },
+        {
+          "kind": "return",
+          "line": 1131
+        }
+      ],
+      "summary_zh": "坏结局1：经营失败"
+    },
+    {
+      "name": "parttimecat",
+      "source_line": 1133,
+      "body": [
+        {
+          "kind": "effect",
+          "line": 1186,
+          "code": "achievement.grant(\"BAD2_END\")"
+        },
+        {
+          "kind": "effect",
+          "line": 1187,
+          "code": "persistent.endclear = True"
+        },
+        {
+          "kind": "effect",
+          "line": 1188,
+          "code": "persistent.badend2 = True"
+        },
+        {
+          "kind": "return",
+          "line": 1192
+        }
+      ],
+      "summary_zh": "坏结局2：托菲与魔女接管商店"
+    },
+    {
+      "name": "search",
+      "source_line": 1194,
+      "body": [
+        {
+          "kind": "effect",
+          "line": 1204,
+          "code": "save_name = _(\"Butterscotch's Cottage\")"
+        },
+        {
+          "kind": "effect",
+          "line": 1209,
+          "code": "renpy.notify(_(\"Near Butterscotch's Cottage\"))"
+        },
+        {
+          "kind": "effect",
+          "line": 1227,
+          "code": "foundcandy = True"
+        }
+      ],
+      "summary_zh": "与帕斯提耶找回女孩"
+    },
+    {
+      "name": "homesweethome",
+      "source_line": 1242,
+      "body": [
+        {
+          "kind": "if",
+          "line": 1245,
+          "branches": [
+            {
+              "condition": "candyslave",
+              "line": 1245,
+              "body": []
+            },
+            {
+              "condition": null,
+              "line": 1247,
+              "body": []
+            }
+          ]
+        },
+        {
+          "kind": "effect",
+          "line": 1259,
+          "code": "save_name = _(\"Atelier Sweets\")"
+        },
+        {
+          "kind": "effect",
+          "line": 1260,
+          "code": "renpy.notify(_(\"Atelier Sweets\"))"
+        },
+        {
+          "kind": "effect",
+          "line": 1278,
+          "code": "Gumdrop = _(\"Gumdrop\")"
+        }
+      ],
+      "summary_zh": "回店并为女孩命名"
+    },
+    {
+      "name": "customers",
+      "source_line": 1285,
+      "body": [
+        {
+          "kind": "menu",
+          "line": 1318,
+          "choices": [
+            {
+              "kind": "choice",
+              "line": 1319,
+              "text_en": "She's not for sale",
+              "text_zh": "她是非卖品",
+              "condition": null,
+              "body": [
+                {
+                  "kind": "effect",
+                  "line": 1320,
+                  "code": "gp += 1"
+                }
+              ]
+            },
+            {
+              "kind": "choice",
+              "line": 1327,
+              "text_en": "...How much we talkin'?",
+              "text_zh": "……我们可以谈谈价钱。",
+              "condition": null,
+              "body": [
+                {
+                  "kind": "effect",
+                  "line": 1328,
+                  "code": "salesman = True"
+                },
+                {
+                  "kind": "if",
+                  "line": 1333,
+                  "branches": [
+                    {
+                      "condition": "candyslave",
+                      "line": 1333,
+                      "body": []
+                    },
+                    {
+                      "condition": null,
+                      "line": 1337,
+                      "body": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "summary_zh": "是否拒绝把女孩卖掉"
+        },
+        {
+          "kind": "if",
+          "line": 1375,
+          "branches": [
+            {
+              "condition": "nopets",
+              "line": 1375,
+              "body": []
+            }
+          ]
+        },
+        {
+          "kind": "if",
+          "line": 1377,
+          "branches": [
+            {
+              "condition": "foundcandy",
+              "line": 1377,
+              "body": []
+            }
+          ]
+        },
+        {
+          "kind": "menu",
+          "line": 1394,
+          "choices": [
+            {
+              "kind": "choice",
+              "line": 1396,
+              "text_en": "Supervising Gumdrop",
+              "text_zh": "监督甘姆德洛普",
+              "condition": null,
+              "body": [
+                {
+                  "kind": "effect",
+                  "line": 1397,
+                  "code": "gp += 1"
+                },
+                {
+                  "kind": "jump",
+                  "line": 1418,
+                  "target": "withgumdrop"
+                }
+              ]
+            },
+            {
+              "kind": "choice",
+              "line": 1419,
+              "text_en": "Working with you",
+              "text_zh": "和你一起工作",
+              "condition": null,
+              "body": [
+                {
+                  "kind": "effect",
+                  "line": 1420,
+                  "code": "pp += 1"
+                },
+                {
+                  "kind": "jump",
+                  "line": 1440,
+                  "target": "withpastille"
+                }
+              ]
+            },
+            {
+              "kind": "choice",
+              "line": 1441,
+              "text_en": "Leaving",
+              "text_zh": "外出",
+              "condition": null,
+              "body": [
+                {
+                  "kind": "jump",
+                  "line": 1447,
+                  "target": "butterscotchvisit"
+                }
+              ]
+            }
+          ],
+          "summary_zh": "选择工作时的陪伴对象"
+        }
+      ],
+      "summary_zh": "巧克力双子来店，之后选择与谁共度工作时间"
+    },
+    {
+      "name": "withgumdrop",
+      "source_line": 1449,
+      "body": [
+        {
+          "kind": "effect",
+          "line": 1455,
+          "code": "renpy.notify(_(\"Syrup's Candy Laboratory\"))"
+        },
+        {
+          "kind": "if",
+          "line": 1467,
+          "branches": [
+            {
+              "condition": "candydate",
+              "line": 1467,
+              "body": []
+            }
+          ]
+        },
+        {
+          "kind": "if",
+          "line": 1495,
+          "branches": [
+            {
+              "condition": "biopsy",
+              "line": 1495,
+              "body": []
+            },
+            {
+              "condition": null,
+              "line": 1497,
+              "body": []
+            }
+          ]
+        },
+        {
+          "kind": "if",
+          "line": 1506,
+          "branches": [
+            {
+              "condition": "not biopsy",
+              "line": 1506,
+              "body": []
+            },
+            {
+              "condition": null,
+              "line": 1516,
+              "body": []
+            }
+          ]
+        },
+        {
+          "kind": "jump",
+          "line": 1525,
+          "target": "butterscotchvisit"
+        }
+      ],
+      "summary_zh": "与女孩相处的分支"
+    },
+    {
+      "name": "withpastille",
+      "source_line": 1527,
+      "body": [
+        {
+          "kind": "effect",
+          "line": 1529,
+          "code": "renpy.notify(_(\"Five minutes later...\"))"
+        },
+        {
+          "kind": "if",
+          "line": 1563,
+          "branches": [
+            {
+              "condition": "candyslave",
+              "line": 1563,
+              "body": []
+            },
+            {
+              "condition": "foundcandy",
+              "line": 1565,
+              "body": []
+            },
+            {
+              "condition": null,
+              "line": 1567,
+              "body": []
+            }
+          ]
+        }
+      ],
+      "summary_zh": "与帕斯提耶相处的分支"
+    },
+    {
+      "name": "butterscotchvisit",
+      "source_line": 1605,
+      "body": [
+        {
+          "kind": "effect",
+          "line": 1616,
+          "code": "Butterscotch = _(\"Butterscotch\")"
+        },
+        {
+          "kind": "if",
+          "line": 1625,
+          "branches": [
+            {
+              "condition": "not nopets",
+              "line": 1625,
+              "body": [
+                {
+                  "kind": "jump",
+                  "line": 1637,
+                  "target": "butterscotchvisit2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "if",
+          "line": 1657,
+          "branches": [
+            {
+              "condition": "candyslave",
+              "line": 1657,
+              "body": []
+            }
+          ]
+        }
+      ],
+      "summary_zh": "魔女初次来店，按此前经历分流对白"
+    },
+    {
+      "name": "butterscotchvisit2",
+      "source_line": 1678,
+      "body": [
+        {
+          "kind": "if",
+          "line": 1683,
+          "branches": [
+            {
+              "condition": "candyslave",
+              "line": 1683,
+              "body": []
+            },
+            {
+              "condition": null,
+              "line": 1685,
+              "body": []
+            }
+          ]
+        },
+        {
+          "kind": "if",
+          "line": 1689,
+          "branches": [
+            {
+              "condition": "candyslave",
+              "line": 1689,
+              "body": []
+            },
+            {
+              "condition": null,
+              "line": 1720,
+              "body": [
+                {
+                  "kind": "if",
+                  "line": 1721,
+                  "branches": [
+                    {
+                      "condition": "nopets",
+                      "line": 1721,
+                      "body": []
+                    },
+                    {
+                      "condition": "paranoid",
+                      "line": 1723,
+                      "body": []
+                    },
+                    {
+                      "condition": null,
+                      "line": 1729,
+                      "body": []
+                    }
+                  ]
+                },
+                {
+                  "kind": "if",
+                  "line": 1758,
+                  "branches": [
+                    {
+                      "condition": "gp <= 1",
+                      "line": 1758,
+                      "body": [
+                        {
+                          "kind": "jump",
+                          "line": 1760,
+                          "target": "mission"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "if",
+          "line": 1782,
+          "branches": [
+            {
+              "condition": "candyslave",
+              "line": 1782,
+              "body": []
+            },
+            {
+              "condition": null,
+              "line": 1786,
+              "body": []
+            }
+          ]
+        }
+      ],
+      "summary_zh": "魔女来访后向山区任务过渡"
+    },
+    {
+      "name": "mission",
+      "source_line": 1802,
+      "body": [
+        {
+          "kind": "effect",
+          "line": 1805,
+          "code": "renpy.notify(_(\"The next morning...\"))"
+        },
+        {
+          "kind": "if",
+          "line": 1856,
+          "branches": [
+            {
+              "condition": "renpy.variant(\"small\")",
+              "line": 1856,
+              "body": []
+            }
+          ]
+        }
+      ],
+      "summary_zh": "次日准备终极糖果的材料任务"
+    },
+    {
+      "name": "libraryvisit",
+      "source_line": 1901,
+      "body": [
+        {
+          "kind": "effect",
+          "line": 1902,
+          "code": "save_name = _(\"Choco Library\")"
+        },
+        {
+          "kind": "effect",
+          "line": 1908,
+          "code": "renpy.notify(_(\"Choco Library\"))"
+        },
+        {
+          "kind": "if",
+          "line": 1915,
+          "branches": [
+            {
+              "condition": "salesman",
+              "line": 1915,
+              "body": []
+            },
+            {
+              "condition": null,
+              "line": 1923,
+              "body": []
+            }
+          ]
+        },
+        {
+          "kind": "if",
+          "line": 1956,
+          "branches": [
+            {
+              "condition": "renpy.variant(\"small\")",
+              "line": 1956,
+              "body": []
+            }
+          ]
+        }
+      ],
+      "summary_zh": "进入巧克力图书馆寻找线索"
+    },
+    {
+      "name": "missingcandy",
+      "source_line": 2015,
+      "body": [
+        {
+          "kind": "effect",
+          "line": 2020,
+          "code": "save_name = _(\"Atelier Sweets\")"
+        },
+        {
+          "kind": "effect",
+          "line": 2021,
+          "code": "renpy.notify(_(\"Atelier Sweets\"))"
+        },
+        {
+          "kind": "if",
+          "line": 2033,
+          "branches": [
+            {
+              "condition": "foundcandy",
+              "line": 2033,
+              "body": []
+            }
+          ]
+        },
+        {
+          "kind": "effect",
+          "line": 2043,
+          "code": "save_name = _(\"Butterscotch's Cottage\")"
+        },
+        {
+          "kind": "effect",
+          "line": 2044,
+          "code": "renpy.notify(_(\"Butterscotch's Cottage\"))"
+        },
+        {
+          "kind": "if",
+          "line": 2071,
+          "branches": [
+            {
+              "condition": "candyslave",
+              "line": 2071,
+              "body": []
+            }
+          ]
+        },
+        {
+          "kind": "menu",
+          "line": 2084,
+          "choices": [
+            {
+              "kind": "choice",
+              "line": 2085,
+              "text_en": "Let her help",
+              "text_zh": "让她帮忙",
+              "condition": null,
+              "body": [
+                {
+                  "kind": "effect",
+                  "line": 2086,
+                  "code": "bp += 1"
+                }
+              ]
+            },
+            {
+              "kind": "choice",
+              "line": 2087,
+              "text_en": "This was a terrible idea",
+              "text_zh": "这是个糟糕的主意",
+              "condition": null,
+              "body": []
+            }
+          ],
+          "summary_zh": "是否接受魔女帮忙"
+        }
+      ],
+      "summary_zh": "女孩失踪后邀请魔女帮助"
+    },
+    {
+      "name": "adventure",
+      "source_line": 2107,
+      "body": [
+        {
+          "kind": "effect",
+          "line": 2110,
+          "code": "save_name = _(\"Mount Sorbet\")"
+        },
+        {
+          "kind": "effect",
+          "line": 2111,
+          "code": "renpy.notify(_(\"Mount Sorbet\"))"
+        },
+        {
+          "kind": "if",
+          "line": 2178,
+          "branches": [
+            {
+              "condition": "candyslave",
+              "line": 2178,
+              "body": []
+            }
+          ]
+        },
+        {
+          "kind": "effect",
+          "line": 2196,
+          "code": "Treat = _(\"Treat\")"
+        },
+        {
+          "kind": "effect",
+          "line": 2239,
+          "code": "Wolf = _(\"Pink Wolf?\")"
+        },
+        {
+          "kind": "menu",
+          "line": 2262,
+          "choices": [
+            {
+              "kind": "choice",
+              "line": 2263,
+              "text_en": "Offer her your coat",
+              "text_zh": "把外套给她",
+              "condition": null,
+              "body": [
+                {
+                  "kind": "effect",
+                  "line": 2264,
+                  "code": "bp += 1"
+                },
+                {
+                  "kind": "effect",
+                  "line": 2265,
+                  "code": "gentlelady = True"
+                }
+              ]
+            },
+            {
+              "kind": "choice",
+              "line": 2279,
+              "text_en": "She can deal",
+              "text_zh": "她能搞定的",
+              "condition": null,
+              "body": []
+            }
+          ],
+          "summary_zh": "是否把外套给魔女"
+        },
+        {
+          "kind": "effect",
+          "line": 2284,
+          "code": "Wolf = _(\"Pack of wolves\")"
+        },
+        {
+          "kind": "if",
+          "line": 2289,
+          "branches": [
+            {
+              "condition": "gentlelady",
+              "line": 2289,
+              "body": []
+            },
+            {
+              "condition": null,
+              "line": 2291,
+              "body": []
+            }
+          ]
+        },
+        {
+          "kind": "if",
+          "line": 2305,
+          "branches": [
+            {
+              "condition": "gentlelady",
+              "line": 2305,
+              "body": []
+            },
+            {
+              "condition": null,
+              "line": 2307,
+              "body": []
+            }
+          ]
+        }
+      ],
+      "summary_zh": "登山途中与魔女、德莉特互动"
+    },
+    {
+      "name": "thecave",
+      "source_line": 2311,
+      "body": [
+        {
+          "kind": "effect",
+          "line": 2322,
+          "code": "renpy.notify(_(\"Iced Cavern\"))"
+        },
+        {
+          "kind": "menu",
+          "line": 2353,
+          "choices": [
+            {
+              "kind": "choice",
+              "line": 2354,
+              "text_en": "Take all you can carry",
+              "text_zh": "有多少拿多少",
+              "condition": null,
+              "body": []
+            },
+            {
+              "kind": "choice",
+              "line": 2358,
+              "text_en": "Take only what you need",
+              "text_zh": "只拿你需要的份量",
+              "condition": null,
+              "body": [
+                {
+                  "kind": "effect",
+                  "line": 2359,
+                  "code": "bp += 1"
+                }
+              ]
+            }
+          ],
+          "summary_zh": "采集冰洞材料的份量"
+        },
+        {
+          "kind": "if",
+          "line": 2370,
+          "branches": [
+            {
+              "condition": "gentlelady",
+              "line": 2370,
+              "body": []
+            }
+          ]
+        }
+      ],
+      "summary_zh": "进入冰洞并决定取多少材料"
+    },
+    {
+      "name": "trapped",
+      "source_line": 2379,
+      "body": [
+        {
+          "kind": "menu",
+          "line": 2485,
+          "choices": [
+            {
+              "kind": "choice",
+              "line": 2486,
+              "text_en": "I don't hate you.",
+              "text_zh": "我不讨厌你。",
+              "condition": null,
+              "body": [
+                {
+                  "kind": "effect",
+                  "line": 2487,
+                  "code": "bp += 2"
+                },
+                {
+                  "kind": "jump",
+                  "line": 2488,
+                  "target": "hearttoheart"
+                }
+              ]
+            },
+            {
+              "kind": "choice",
+              "line": 2490,
+              "text_en": "Yeah, I hate you.",
+              "text_zh": "是的，我讨厌你。",
+              "condition": null,
+              "body": [
+                {
+                  "kind": "jump",
+                  "line": 2494,
+                  "target": "thingsgonesour"
+                }
+              ]
+            }
+          ],
+          "summary_zh": "被困时是否和解"
+        }
+      ],
+      "summary_zh": "被冰墙困住后决定如何回应魔女"
+    },
+    {
+      "name": "thingsgonesour",
+      "source_line": 2496,
+      "body": [
+        {
+          "kind": "if",
+          "line": 2526,
+          "branches": [
+            {
+              "condition": "pp >= 1 and gp >= 2 and not candyslave",
+              "line": 2526,
+              "body": [
+                {
+                  "kind": "jump",
+                  "line": 2529,
+                  "target": "saved"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "effect",
+          "line": 2531,
+          "code": "achievement.grant(\"FROZEN_END\")"
+        },
+        {
+          "kind": "effect",
+          "line": 2532,
+          "code": "persistent.endclear = True"
+        },
+        {
+          "kind": "effect",
+          "line": 2533,
+          "code": "persistent.frozenend = True"
+        },
+        {
+          "kind": "return",
+          "line": 2537
+        }
+      ],
+      "summary_zh": "拒绝和解，按同伴关系判断能否获救"
+    },
+    {
+      "name": "saved",
+      "source_line": 2539,
+      "body": [
+        {
+          "kind": "effect",
+          "line": 2551,
+          "code": "save_name = _(\"Treat's Cabin\")"
+        },
+        {
+          "kind": "effect",
+          "line": 2554,
+          "code": "renpy.notify(_(\"Treat's Cabin\"))"
+        },
+        {
+          "kind": "menu",
+          "line": 2608,
+          "choices": [
+            {
+              "kind": "choice",
+              "line": 2609,
+              "text_en": "...It's okay.",
+              "text_zh": "……没关系的。",
+              "condition": null,
+              "body": [
+                {
+                  "kind": "effect",
+                  "line": 2610,
+                  "code": "forgiven = True"
+                },
+                {
+                  "kind": "effect",
+                  "line": 2611,
+                  "code": "bp += 1"
+                },
+                {
+                  "kind": "jump",
+                  "line": 2627,
+                  "target": "backhome"
+                }
+              ]
+            },
+            {
+              "kind": "choice",
+              "line": 2628,
+              "text_en": "I still hate you.",
+              "text_zh": "我还是很讨厌你。",
+              "condition": null,
+              "body": [
+                {
+                  "kind": "effect",
+                  "line": 2648,
+                  "code": "achievement.grant(\"WORST_END\")"
+                },
+                {
+                  "kind": "effect",
+                  "line": 2649,
+                  "code": "persistent.endclear = True"
+                },
+                {
+                  "kind": "effect",
+                  "line": 2650,
+                  "code": "persistent.worstend = True"
+                },
+                {
+                  "kind": "return",
+                  "line": 2654
+                }
+              ]
+            }
+          ],
+          "summary_zh": "获救后是否原谅魔女"
+        }
+      ],
+      "summary_zh": "获救后再决定是否原谅魔女"
+    },
+    {
+      "name": "hearttoheart",
+      "source_line": 2656,
+      "body": [],
+      "summary_zh": "主动和解使魔女恢复行动能力"
+    },
+    {
+      "name": "backhome",
+      "source_line": 2714,
+      "body": [
+        {
+          "kind": "effect",
+          "line": 2722,
+          "code": "save_name = _(\"Butterscotch's Cottage\")"
+        },
+        {
+          "kind": "effect",
+          "line": 2723,
+          "code": "renpy.notify(_(\"Butterscotch's Cottage\"))"
+        },
+        {
+          "kind": "if",
+          "line": 2741,
+          "branches": [
+            {
+              "condition": "forgiven",
+              "line": 2741,
+              "body": []
+            },
+            {
+              "condition": null,
+              "line": 2743,
+              "body": []
+            }
+          ]
+        }
+      ],
+      "summary_zh": "离开山区回到魔女家"
+    },
+    {
+      "name": "missioncomplete",
+      "source_line": 2792,
+      "body": [
+        {
+          "kind": "effect",
+          "line": 2793,
+          "code": "save_name = _(\"Atelier Sweets\")"
+        },
+        {
+          "kind": "if",
+          "line": 2798,
+          "branches": [
+            {
+              "condition": "forgiven",
+              "line": 2798,
+              "body": []
+            },
+            {
+              "condition": null,
+              "line": 2800,
+              "body": []
+            }
+          ]
+        },
+        {
+          "kind": "effect",
+          "line": 2803,
+          "code": "renpy.notify(_(\"Atelier Sweets\"))"
+        },
+        {
+          "kind": "if",
+          "line": 2807,
+          "branches": [
+            {
+              "condition": "forgiven",
+              "line": 2807,
+              "body": []
+            },
+            {
+              "condition": null,
+              "line": 2817,
+              "body": []
+            }
+          ]
+        }
+      ],
+      "summary_zh": "回到商店完成材料任务"
+    },
+    {
+      "name": "makethething",
+      "source_line": 2831,
+      "body": [
+        {
+          "kind": "if",
+          "line": 2833,
+          "branches": [
+            {
+              "condition": "candyslave",
+              "line": 2833,
+              "body": []
+            },
+            {
+              "condition": null,
+              "line": 2835,
+              "body": []
+            }
+          ]
+        },
+        {
+          "kind": "menu",
+          "line": 2860,
+          "choices": [
+            {
+              "kind": "choice",
+              "line": 2861,
+              "text_en": "Look into the crystal ball",
+              "text_zh": "观看水晶球里的内容",
+              "condition": null,
+              "body": [
+                {
+                  "kind": "jump",
+                  "line": 2864,
+                  "target": "creation"
+                }
+              ]
+            },
+            {
+              "kind": "choice",
+              "line": 2865,
+              "text_en": "Forget it",
+              "text_zh": "还是算了吧",
+              "condition": null,
+              "body": [
+                {
+                  "kind": "effect",
+                  "line": 2866,
+                  "code": "forgotit = True"
+                },
+                {
+                  "kind": "jump",
+                  "line": 2880,
+                  "target": "ultimatesweet"
+                }
+              ]
+            }
+          ],
+          "summary_zh": "是否查看水晶球"
+        }
+      ],
+      "summary_zh": "决定是否查看水晶球揭示真相"
+    },
+    {
+      "name": "creation",
+      "source_line": 2882,
+      "body": [
+        {
+          "kind": "if",
+          "line": 2974,
+          "branches": [
+            {
+              "condition": "gp >= 4 and not candyslave",
+              "line": 2974,
+              "body": [
+                {
+                  "kind": "jump",
+                  "line": 2975,
+                  "target": "lonelygumdrop"
+                }
+              ]
+            },
+            {
+              "condition": null,
+              "line": 2976,
+              "body": [
+                {
+                  "kind": "jump",
+                  "line": 2978,
+                  "target": "afterwards"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "summary_zh": "水晶球揭示糖果女孩的创生经过"
+    },
+    {
+      "name": "lonelygumdrop",
+      "source_line": 2980,
+      "body": [
+        {
+          "kind": "jump",
+          "line": 3070,
+          "target": "ultimatesweet"
+        }
+      ],
+      "summary_zh": "关系足够亲密时与女孩深夜交流"
+    },
+    {
+      "name": "afterwards",
+      "source_line": 3072,
+      "body": [
+        {
+          "kind": "if",
+          "line": 3079,
+          "branches": [
+            {
+              "condition": "bp >= 3",
+              "line": 3079,
+              "body": [
+                {
+                  "kind": "jump",
+                  "line": 3086,
+                  "target": "toffeetalk"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "if",
+          "line": 3088,
+          "branches": [
+            {
+              "condition": "forgiven",
+              "line": 3088,
+              "body": []
+            }
+          ]
+        },
+        {
+          "kind": "jump",
+          "line": 3105,
+          "target": "ultimatesweet"
+        }
+      ],
+      "summary_zh": "查看真相后按魔女关系分数进入夜谈"
+    },
+    {
+      "name": "toffeetalk",
+      "source_line": 3107,
+      "body": [
+        {
+          "kind": "effect",
+          "line": 3113,
+          "code": "save_name = _(\"Butterscotch's Cottage\")"
+        },
+        {
+          "kind": "effect",
+          "line": 3114,
+          "code": "renpy.notify(_(\"Butterscotch's Cottage\"))"
+        }
+      ],
+      "summary_zh": "托菲说明魔女的背景"
+    },
+    {
+      "name": "ultimatesweet",
+      "source_line": 3178,
+      "body": [
+        {
+          "kind": "effect",
+          "line": 3186,
+          "code": "renpy.notify(_(\"Atelier Sweets\"))"
+        },
+        {
+          "kind": "if",
+          "line": 3206,
+          "branches": [
+            {
+              "condition": "forgotit",
+              "line": 3206,
+              "body": [
+                {
+                  "kind": "jump",
+                  "line": 3207,
+                  "target": "syrupend"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "if",
+          "line": 3209,
+          "branches": [
+            {
+              "condition": "gp >= 4 and not candyslave",
+              "line": 3209,
+              "body": [
+                {
+                  "kind": "jump",
+                  "line": 3213,
+                  "target": "gumdropend"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "if",
+          "line": 3215,
+          "branches": [
+            {
+              "condition": "bp >= 4",
+              "line": 3215,
+              "body": [
+                {
+                  "kind": "if",
+                  "line": 3221,
+                  "branches": [
+                    {
+                      "condition": "forgiven",
+                      "line": 3221,
+                      "body": [
+                        {
+                          "kind": "jump",
+                          "line": 3222,
+                          "target": "toffeeend"
+                        }
+                      ]
+                    },
+                    {
+                      "condition": "persistent.butterscotchend",
+                      "line": 3223,
+                      "body": [
+                        {
+                          "kind": "jump",
+                          "line": 3224,
+                          "target": "toffeeend"
+                        }
+                      ]
+                    },
+                    {
+                      "condition": null,
+                      "line": 3225,
+                      "body": [
+                        {
+                          "kind": "jump",
+                          "line": 3226,
+                          "target": "butterscotchend"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "if",
+          "line": 3228,
+          "branches": [
+            {
+              "condition": "pp >= 3",
+              "line": 3228,
+              "body": [
+                {
+                  "kind": "if",
+                  "line": 3232,
+                  "branches": [
+                    {
+                      "condition": "candyslave",
+                      "line": 3232,
+                      "body": []
+                    },
+                    {
+                      "condition": null,
+                      "line": 3242,
+                      "body": []
+                    }
+                  ]
+                },
+                {
+                  "kind": "jump",
+                  "line": 3244,
+                  "target": "pastilleend"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "summary_zh": "终极糖果完成，按优先级分发五种好结局"
+    },
+    {
+      "name": "syrupend",
+      "source_line": 3246,
+      "body": [
+        {
+          "kind": "if",
+          "line": 3255,
+          "branches": [
+            {
+              "condition": "not forgotit",
+              "line": 3255,
+              "body": []
+            }
+          ]
+        },
+        {
+          "kind": "effect",
+          "line": 3266,
+          "code": "save_name = _(\"Choco Library\")"
+        },
+        {
+          "kind": "effect",
+          "line": 3271,
+          "code": "renpy.notify(_(\"Choco Library\"))"
+        },
+        {
+          "kind": "effect",
+          "line": 3292,
+          "code": "achievement.grant(\"SYRUP_END\")"
+        },
+        {
+          "kind": "effect",
+          "line": 3293,
+          "code": "persistent.syrupend = True"
+        },
+        {
+          "kind": "jump",
+          "line": 3297,
+          "target": "credits"
+        }
+      ],
+      "summary_zh": "希乐普结局：投入制糖事业"
+    },
+    {
+      "name": "pastilleend",
+      "source_line": 3299,
+      "body": [
+        {
+          "kind": "if",
+          "line": 3360,
+          "branches": [
+            {
+              "condition": "renpy.variant(\"small\")",
+              "line": 3360,
+              "body": []
+            }
+          ]
+        },
+        {
+          "kind": "effect",
+          "line": 3365,
+          "code": "achievement.grant(\"PASTILLE_END\")"
+        },
+        {
+          "kind": "effect",
+          "line": 3366,
+          "code": "persistent.pastilleend = True"
+        },
+        {
+          "kind": "jump",
+          "line": 3370,
+          "target": "credits"
+        }
+      ],
+      "summary_zh": "帕斯提耶结局：结伴研究与冒险"
+    },
+    {
+      "name": "gumdropend",
+      "source_line": 3372,
+      "body": [
+        {
+          "kind": "if",
+          "line": 3412,
+          "branches": [
+            {
+              "condition": "renpy.variant(\"small\")",
+              "line": 3412,
+              "body": []
+            }
+          ]
+        },
+        {
+          "kind": "effect",
+          "line": 3417,
+          "code": "achievement.grant(\"GUMDROP_END\")"
+        },
+        {
+          "kind": "effect",
+          "line": 3418,
+          "code": "persistent.gumdropend = True"
+        },
+        {
+          "kind": "jump",
+          "line": 3422,
+          "target": "credits"
+        }
+      ],
+      "summary_zh": "甘姆德洛普结局：共同旅行"
+    },
+    {
+      "name": "butterscotchend",
+      "source_line": 3424,
+      "body": [
+        {
+          "kind": "effect",
+          "line": 3425,
+          "code": "save_name = _(\"Butterscotch's Cottage\")"
+        },
+        {
+          "kind": "effect",
+          "line": 3432,
+          "code": "renpy.notify(_(\"Butterscotch's Cottage\"))"
+        },
+        {
+          "kind": "if",
+          "line": 3500,
+          "branches": [
+            {
+              "condition": "renpy.variant(\"small\")",
+              "line": 3500,
+              "body": []
+            }
+          ]
+        },
+        {
+          "kind": "effect",
+          "line": 3503,
+          "code": "achievement.grant(\"BS_END\")"
+        },
+        {
+          "kind": "effect",
+          "line": 3504,
+          "code": "persistent.butterscotchend = True"
+        },
+        {
+          "kind": "jump",
+          "line": 3508,
+          "target": "credits"
+        }
+      ],
+      "summary_zh": "巴塔斯可琪结局：共享制糖技艺"
+    },
+    {
+      "name": "toffeeend",
+      "source_line": 3510,
+      "body": [
+        {
+          "kind": "effect",
+          "line": 3511,
+          "code": "save_name = _(\"Marketplace\")"
+        },
+        {
+          "kind": "effect",
+          "line": 3515,
+          "code": "renpy.notify(_(\"Marketplace\"))"
+        },
+        {
+          "kind": "menu",
+          "line": 3540,
+          "choices": [
+            {
+              "kind": "choice",
+              "line": 3541,
+              "text_en": "Of course",
+              "text_zh": "当然",
+              "condition": null,
+              "body": []
+            },
+            {
+              "kind": "choice",
+              "line": 3551,
+              "text_en": "Sounds like a lot of effort...",
+              "text_zh": "听起来很费劲……",
+              "condition": null,
+              "body": [
+                {
+                  "kind": "jump",
+                  "line": 3560,
+                  "target": "butterscotchend"
+                }
+              ]
+            }
+          ],
+          "summary_zh": "是否愿意了解托菲"
+        },
+        {
+          "kind": "effect",
+          "line": 3569,
+          "code": "save_name = _(\"Treat's Cabin\")"
+        },
+        {
+          "kind": "effect",
+          "line": 3575,
+          "code": "renpy.notify(_(\"Treat's Cabin\"))"
+        },
+        {
+          "kind": "menu",
+          "line": 3632,
+          "choices": [
+            {
+              "kind": "choice",
+              "line": 3634,
+              "text_en": "Boy?",
+              "text_zh": "男孩？",
+              "condition": null,
+              "body": []
+            },
+            {
+              "kind": "choice",
+              "line": 3636,
+              "text_en": "Girl?",
+              "text_zh": "女孩？",
+              "condition": null,
+              "body": []
+            },
+            {
+              "kind": "choice",
+              "line": 3638,
+              "text_en": "Neither",
+              "text_zh": "都不是",
+              "condition": "persistent.toffeeend",
+              "body": [
+                {
+                  "kind": "jump",
+                  "line": 3644,
+                  "target": "toffeeend2"
+                }
+              ]
+            }
+          ],
+          "summary_zh": "对托菲性别的判断"
+        }
+      ],
+      "summary_zh": "托菲支线邀请与身份选择"
+    },
+    {
+      "name": "toffeeend2",
+      "source_line": 3657,
+      "body": [
+        {
+          "kind": "effect",
+          "line": 3688,
+          "code": "achievement.grant(\"TOFFEE_END\")"
+        },
+        {
+          "kind": "effect",
+          "line": 3689,
+          "code": "persistent.toffeeend = True"
+        }
+      ],
+      "summary_zh": "托菲结局：形成新的陪伴关系"
+    },
+    {
+      "name": "credits",
+      "source_line": 3694,
+      "body": [
+        {
+          "kind": "effect",
+          "line": 3696,
+          "code": "persistent.endclear = True"
+        },
+        {
+          "kind": "if",
+          "line": 3697,
+          "branches": [
+            {
+              "condition": "renpy.variant(\"pc\")",
+              "line": 3697,
+              "body": [
+                {
+                  "kind": "effect",
+                  "line": 3698,
+                  "code": "mp.candyvn = True"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "effect",
+          "line": 3701,
+          "code": "_game_menu_screen = None"
+        },
+        {
+          "kind": "effect",
+          "line": 3702,
+          "code": "quick_menu = False"
+        },
+        {
+          "kind": "if",
+          "line": 3705,
+          "branches": [
+            {
+              "condition": "preferences.language is not None",
+              "line": 3705,
+              "body": []
+            },
+            {
+              "condition": null,
+              "line": 3711,
+              "body": []
+            }
+          ]
+        },
+        {
+          "kind": "return",
+          "line": 3724
+        }
+      ],
+      "summary_zh": "结算、持久化与制作人员画面"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "label:splashscreen",
+      "kind": "label",
+      "name": "splashscreen",
+      "source_line": 35
+    },
+    {
+      "id": "return:46",
+      "kind": "return",
+      "label": "splashscreen",
+      "source_line": 46
+    },
+    {
+      "id": "effect:41",
+      "kind": "effect",
+      "label": "splashscreen",
+      "source_line": 41,
+      "code": "achievement.sync()"
+    },
+    {
+      "id": "effect:39",
+      "kind": "effect",
+      "label": "splashscreen",
+      "source_line": 39,
+      "code": "persistent.setlanguage=True"
+    },
+    {
+      "id": "call_screen:38",
+      "kind": "call_screen",
+      "label": "splashscreen",
+      "source_line": 38,
+      "screen": "langset"
+    },
+    {
+      "id": "if:37",
+      "kind": "condition",
+      "label": "splashscreen",
+      "source_line": 37,
+      "expression": "not persistent.setlanguage"
+    },
+    {
+      "id": "label:start",
+      "kind": "label",
+      "name": "start",
+      "source_line": 49
+    },
+    {
+      "id": "menu:140",
+      "kind": "menu",
+      "label": "start",
+      "source_line": 140
+    },
+    {
+      "id": "choice:141",
+      "kind": "choice",
+      "label": "start",
+      "source_line": 141,
+      "choice_index": 1,
+      "text_en": "In that case...",
+      "text_zh": "既然这样的话……",
+      "guard": null
+    },
+    {
+      "id": "jump:143",
+      "kind": "jump",
+      "label": "start",
+      "source_line": 143,
+      "target": "candybiopsy"
+    },
+    {
+      "id": "effect:142",
+      "kind": "effect",
+      "label": "start",
+      "source_line": 142,
+      "code": "biopsy = True"
+    },
+    {
+      "id": "choice:144",
+      "kind": "choice",
+      "label": "start",
+      "source_line": 144,
+      "choice_index": 2,
+      "text_en": "DO NOT EAT THE CUTE CANDY GIRL",
+      "text_zh": "不要吃这个可爱的糖果女孩",
+      "guard": null
+    },
+    {
+      "id": "jump:145",
+      "kind": "jump",
+      "label": "start",
+      "source_line": 145,
+      "target": "continued"
+    },
+    {
+      "id": "effect:111",
+      "kind": "effect",
+      "label": "start",
+      "source_line": 111,
+      "code": "Syrup = _(\"Syrup\")"
+    },
+    {
+      "id": "effect:101",
+      "kind": "effect",
+      "label": "start",
+      "source_line": 101,
+      "code": "renpy.notify(_(\"Syrup's Candy Laboratory\"))"
+    },
+    {
+      "id": "effect:77",
+      "kind": "effect",
+      "label": "start",
+      "source_line": 77,
+      "code": "save_name = _(\"Atelier Sweets\")"
+    },
+    {
+      "id": "effect:75",
+      "kind": "effect",
+      "label": "start",
+      "source_line": 75,
+      "code": "Wolf = _(\"Scary Wolf\")"
+    },
+    {
+      "id": "effect:74",
+      "kind": "effect",
+      "label": "start",
+      "source_line": 74,
+      "code": "Treat = _(\"Wolf Girl\")"
+    },
+    {
+      "id": "effect:73",
+      "kind": "effect",
+      "label": "start",
+      "source_line": 73,
+      "code": "Toffee = _(\"Cat Person?\")"
+    },
+    {
+      "id": "effect:72",
+      "kind": "effect",
+      "label": "start",
+      "source_line": 72,
+      "code": "Butterscotch = _(\"Bratty Witch\")"
+    },
+    {
+      "id": "effect:71",
+      "kind": "effect",
+      "label": "start",
+      "source_line": 71,
+      "code": "Gumdrop = _(\"Candy Girl\")"
+    },
+    {
+      "id": "effect:70",
+      "kind": "effect",
+      "label": "start",
+      "source_line": 70,
+      "code": "Syrup = _(\"Candy Alchemist\")"
+    },
+    {
+      "id": "effect:67",
+      "kind": "effect",
+      "label": "start",
+      "source_line": 67,
+      "code": "forgotit = False"
+    },
+    {
+      "id": "effect:66",
+      "kind": "effect",
+      "label": "start",
+      "source_line": 66,
+      "code": "forgiven = False"
+    },
+    {
+      "id": "effect:65",
+      "kind": "effect",
+      "label": "start",
+      "source_line": 65,
+      "code": "gentlelady = False"
+    },
+    {
+      "id": "effect:64",
+      "kind": "effect",
+      "label": "start",
+      "source_line": 64,
+      "code": "salesman = False"
+    },
+    {
+      "id": "effect:63",
+      "kind": "effect",
+      "label": "start",
+      "source_line": 63,
+      "code": "paranoid = False"
+    },
+    {
+      "id": "effect:62",
+      "kind": "effect",
+      "label": "start",
+      "source_line": 62,
+      "code": "foundcandy = False"
+    },
+    {
+      "id": "effect:61",
+      "kind": "effect",
+      "label": "start",
+      "source_line": 61,
+      "code": "gotlost = False"
+    },
+    {
+      "id": "effect:60",
+      "kind": "effect",
+      "label": "start",
+      "source_line": 60,
+      "code": "candydate= False"
+    },
+    {
+      "id": "effect:59",
+      "kind": "effect",
+      "label": "start",
+      "source_line": 59,
+      "code": "candyslave = False"
+    },
+    {
+      "id": "effect:58",
+      "kind": "effect",
+      "label": "start",
+      "source_line": 58,
+      "code": "nopets = False"
+    },
+    {
+      "id": "effect:57",
+      "kind": "effect",
+      "label": "start",
+      "source_line": 57,
+      "code": "biopsy = False"
+    },
+    {
+      "id": "effect:54",
+      "kind": "effect",
+      "label": "start",
+      "source_line": 54,
+      "code": "pp = 0"
+    },
+    {
+      "id": "effect:53",
+      "kind": "effect",
+      "label": "start",
+      "source_line": 53,
+      "code": "gp = 0"
+    },
+    {
+      "id": "effect:52",
+      "kind": "effect",
+      "label": "start",
+      "source_line": 52,
+      "code": "bp = 0"
+    },
+    {
+      "id": "label:candybiopsy",
+      "kind": "label",
+      "name": "candybiopsy",
+      "source_line": 146
+    },
+    {
+      "id": "menu:195",
+      "kind": "menu",
+      "label": "candybiopsy",
+      "source_line": 195
+    },
+    {
+      "id": "choice:196",
+      "kind": "choice",
+      "label": "candybiopsy",
+      "source_line": 196,
+      "choice_index": 1,
+      "text_en": "...Okay I see your point",
+      "text_zh": "……好吧，你说得有理",
+      "guard": null
+    },
+    {
+      "id": "jump:239",
+      "kind": "jump",
+      "label": "candybiopsy",
+      "source_line": 239,
+      "target": "newassistant"
+    },
+    {
+      "id": "effect:237",
+      "kind": "effect",
+      "label": "candybiopsy",
+      "source_line": 237,
+      "code": "Gumdrop = _(\"Candy Girl\")"
+    },
+    {
+      "id": "effect:233",
+      "kind": "effect",
+      "label": "candybiopsy",
+      "source_line": 233,
+      "code": "Gumdrop = _(\"Candy Spy\")"
+    },
+    {
+      "id": "effect:197",
+      "kind": "effect",
+      "label": "candybiopsy",
+      "source_line": 197,
+      "code": "pp += 1"
+    },
+    {
+      "id": "choice:240",
+      "kind": "choice",
+      "label": "candybiopsy",
+      "source_line": 240,
+      "choice_index": 2,
+      "text_en": "Eat her anyway",
+      "text_zh": "反正我就是要吃掉她",
+      "guard": null
+    },
+    {
+      "id": "jump:241",
+      "kind": "jump",
+      "label": "candybiopsy",
+      "source_line": 241,
+      "target": "candibal"
+    },
+    {
+      "id": "label:candibal",
+      "kind": "label",
+      "name": "candibal",
+      "source_line": 242
+    },
+    {
+      "id": "return:293",
+      "kind": "return",
+      "label": "candibal",
+      "source_line": 293
+    },
+    {
+      "id": "effect:288",
+      "kind": "effect",
+      "label": "candibal",
+      "source_line": 288,
+      "code": "achievement.grant(\"CANDIBAL_END\")"
+    },
+    {
+      "id": "effect:287",
+      "kind": "effect",
+      "label": "candibal",
+      "source_line": 287,
+      "code": "persistent.candibalend = True"
+    },
+    {
+      "id": "effect:286",
+      "kind": "effect",
+      "label": "candibal",
+      "source_line": 286,
+      "code": "persistent.endclear = True"
+    },
+    {
+      "id": "effect:258",
+      "kind": "effect",
+      "label": "candibal",
+      "source_line": 258,
+      "code": "renpy.notify(_(\"Two days later...\"))"
+    },
+    {
+      "id": "label:continued",
+      "kind": "label",
+      "name": "continued",
+      "source_line": 295
+    },
+    {
+      "id": "label:newassistant",
+      "kind": "label",
+      "name": "newassistant",
+      "source_line": 424
+    },
+    {
+      "id": "menu:471",
+      "kind": "menu",
+      "label": "newassistant",
+      "source_line": 471
+    },
+    {
+      "id": "choice:472",
+      "kind": "choice",
+      "label": "newassistant",
+      "source_line": 472,
+      "choice_index": 1,
+      "text_en": "Alright, we'll keep her.",
+      "text_zh": "好吧，我们可以留她在这里。",
+      "guard": null
+    },
+    {
+      "id": "jump:475",
+      "kind": "jump",
+      "label": "newassistant",
+      "source_line": 475,
+      "target": "adopted"
+    },
+    {
+      "id": "effect:474",
+      "kind": "effect",
+      "label": "newassistant",
+      "source_line": 474,
+      "code": "pp += 1"
+    },
+    {
+      "id": "effect:473",
+      "kind": "effect",
+      "label": "newassistant",
+      "source_line": 473,
+      "code": "gp += 1"
+    },
+    {
+      "id": "choice:476",
+      "kind": "choice",
+      "label": "newassistant",
+      "source_line": 476,
+      "choice_index": 2,
+      "text_en": "I still don't like it.",
+      "text_zh": "我还是不喜欢她。",
+      "guard": null
+    },
+    {
+      "id": "effect:477",
+      "kind": "effect",
+      "label": "newassistant",
+      "source_line": 477,
+      "code": "nopets = True"
+    },
+    {
+      "id": "effect:426",
+      "kind": "effect",
+      "label": "newassistant",
+      "source_line": 426,
+      "code": "renpy.notify(_(\"A little while later...\"))"
+    },
+    {
+      "id": "label:nopetsallowed",
+      "kind": "label",
+      "name": "nopetsallowed",
+      "source_line": 479
+    },
+    {
+      "id": "menu:560",
+      "kind": "menu",
+      "label": "nopetsallowed",
+      "source_line": 560
+    },
+    {
+      "id": "choice:561",
+      "kind": "choice",
+      "label": "nopetsallowed",
+      "source_line": 561,
+      "choice_index": 1,
+      "text_en": "My mind's made up.",
+      "text_zh": "我已经下定决心了。",
+      "guard": null
+    },
+    {
+      "id": "jump:562",
+      "kind": "jump",
+      "label": "nopetsallowed",
+      "source_line": 562,
+      "target": "abandonher"
+    },
+    {
+      "id": "choice:563",
+      "kind": "choice",
+      "label": "nopetsallowed",
+      "source_line": 563,
+      "choice_index": 2,
+      "text_en": "On second thought...",
+      "text_zh": "容我三思……",
+      "guard": null
+    },
+    {
+      "id": "jump:565",
+      "kind": "jump",
+      "label": "nopetsallowed",
+      "source_line": 565,
+      "target": "keepher"
+    },
+    {
+      "id": "effect:535",
+      "kind": "effect",
+      "label": "nopetsallowed",
+      "source_line": 535,
+      "code": "Butterscotch = _(\"Butterscotch\")"
+    },
+    {
+      "id": "effect:525",
+      "kind": "effect",
+      "label": "nopetsallowed",
+      "source_line": 525,
+      "code": "Toffee = _(\"Toffee\")"
+    },
+    {
+      "id": "effect:497",
+      "kind": "effect",
+      "label": "nopetsallowed",
+      "source_line": 497,
+      "code": "renpy.notify(_(\"Butterscotch's Cottage\"))"
+    },
+    {
+      "id": "effect:496",
+      "kind": "effect",
+      "label": "nopetsallowed",
+      "source_line": 496,
+      "code": "save_name = _(\"Butterscotch's Cottage\")"
+    },
+    {
+      "id": "label:abandonher",
+      "kind": "label",
+      "name": "abandonher",
+      "source_line": 567
+    },
+    {
+      "id": "label:candyslave",
+      "kind": "label",
+      "name": "candyslave",
+      "source_line": 603
+    },
+    {
+      "id": "menu:630",
+      "kind": "menu",
+      "label": "candyslave",
+      "source_line": 630
+    },
+    {
+      "id": "choice:631",
+      "kind": "choice",
+      "label": "candyslave",
+      "source_line": 631,
+      "choice_index": 1,
+      "text_en": "Agree to help",
+      "text_zh": "答应帮忙",
+      "guard": null
+    },
+    {
+      "id": "jump:637",
+      "kind": "jump",
+      "label": "candyslave",
+      "source_line": 637,
+      "target": "rescuemission"
+    },
+    {
+      "id": "effect:632",
+      "kind": "effect",
+      "label": "candyslave",
+      "source_line": 632,
+      "code": "pp += 1"
+    },
+    {
+      "id": "choice:638",
+      "kind": "choice",
+      "label": "candyslave",
+      "source_line": 638,
+      "choice_index": 2,
+      "text_en": "Ignore him",
+      "text_zh": "无视他",
+      "guard": null
+    },
+    {
+      "id": "jump:644",
+      "kind": "jump",
+      "label": "candyslave",
+      "source_line": 644,
+      "target": "lonelystore"
+    },
+    {
+      "id": "effect:623",
+      "kind": "effect",
+      "label": "candyslave",
+      "source_line": 623,
+      "code": "renpy.notify(_(\"Atelier Sweets\"))"
+    },
+    {
+      "id": "effect:618",
+      "kind": "effect",
+      "label": "candyslave",
+      "source_line": 618,
+      "code": "save_name = _(\"Atelier Sweets\")"
+    },
+    {
+      "id": "effect:607",
+      "kind": "effect",
+      "label": "candyslave",
+      "source_line": 607,
+      "code": "candyslave = True"
+    },
+    {
+      "id": "label:rescuemission",
+      "kind": "label",
+      "name": "rescuemission",
+      "source_line": 646
+    },
+    {
+      "id": "jump:696",
+      "kind": "jump",
+      "label": "rescuemission",
+      "source_line": 696,
+      "target": "homesweethome"
+    },
+    {
+      "id": "effect:654",
+      "kind": "effect",
+      "label": "rescuemission",
+      "source_line": 654,
+      "code": "renpy.notify(_(\"Butterscotch's Cottage\"))"
+    },
+    {
+      "id": "effect:648",
+      "kind": "effect",
+      "label": "rescuemission",
+      "source_line": 648,
+      "code": "save_name = _(\"Butterscotch's Cottage\")"
+    },
+    {
+      "id": "label:keepher",
+      "kind": "label",
+      "name": "keepher",
+      "source_line": 698
+    },
+    {
+      "id": "jump:735",
+      "kind": "jump",
+      "label": "keepher",
+      "source_line": 735,
+      "target": "homesweethome"
+    },
+    {
+      "id": "label:adopted",
+      "kind": "label",
+      "name": "adopted",
+      "source_line": 737
+    },
+    {
+      "id": "menu:771",
+      "kind": "menu",
+      "label": "adopted",
+      "source_line": 771
+    },
+    {
+      "id": "choice:772",
+      "kind": "choice",
+      "label": "adopted",
+      "source_line": 772,
+      "choice_index": 1,
+      "text_en": "Whatever floats your boat.",
+      "text_zh": "你开心就好。",
+      "guard": null
+    },
+    {
+      "id": "jump:777",
+      "kind": "jump",
+      "label": "adopted",
+      "source_line": 777,
+      "target": "shoppingduo"
+    },
+    {
+      "id": "effect:773",
+      "kind": "effect",
+      "label": "adopted",
+      "source_line": 773,
+      "code": "gp += 1"
+    },
+    {
+      "id": "choice:778",
+      "kind": "choice",
+      "label": "adopted",
+      "source_line": 778,
+      "choice_index": 2,
+      "text_en": "Get lost.",
+      "text_zh": "别烦我。",
+      "guard": null
+    },
+    {
+      "id": "jump:793",
+      "kind": "jump",
+      "label": "adopted",
+      "source_line": 793,
+      "target": "shoppingalone"
+    },
+    {
+      "id": "effect:792",
+      "kind": "effect",
+      "label": "adopted",
+      "source_line": 792,
+      "code": "gotlost = True"
+    },
+    {
+      "id": "label:shoppingduo",
+      "kind": "label",
+      "name": "shoppingduo",
+      "source_line": 795
+    },
+    {
+      "id": "menu:869",
+      "kind": "menu",
+      "label": "shoppingduo",
+      "source_line": 869
+    },
+    {
+      "id": "choice:870",
+      "kind": "choice",
+      "label": "shoppingduo",
+      "source_line": 870,
+      "choice_index": 1,
+      "text_en": "Take her home",
+      "text_zh": "带她回家",
+      "guard": null
+    },
+    {
+      "id": "jump:886",
+      "kind": "jump",
+      "label": "shoppingduo",
+      "source_line": 886,
+      "target": "homesweethome"
+    },
+    {
+      "id": "effect:871",
+      "kind": "effect",
+      "label": "shoppingduo",
+      "source_line": 871,
+      "code": "gp += 1"
+    },
+    {
+      "id": "choice:887",
+      "kind": "choice",
+      "label": "shoppingduo",
+      "source_line": 887,
+      "choice_index": 2,
+      "text_en": "Leave without her",
+      "text_zh": "把她丢弃在这里",
+      "guard": null
+    },
+    {
+      "id": "jump:915",
+      "kind": "jump",
+      "label": "shoppingduo",
+      "source_line": 915,
+      "target": "lostcandy"
+    },
+    {
+      "id": "effect:904",
+      "kind": "effect",
+      "label": "shoppingduo",
+      "source_line": 904,
+      "code": "gotlost = True"
+    },
+    {
+      "id": "effect:846",
+      "kind": "effect",
+      "label": "shoppingduo",
+      "source_line": 846,
+      "code": "Toffee = _(\"Toffee\")"
+    },
+    {
+      "id": "effect:800",
+      "kind": "effect",
+      "label": "shoppingduo",
+      "source_line": 800,
+      "code": "renpy.notify(_(\"Marketplace\"))"
+    },
+    {
+      "id": "effect:797",
+      "kind": "effect",
+      "label": "shoppingduo",
+      "source_line": 797,
+      "code": "candydate = True"
+    },
+    {
+      "id": "effect:796",
+      "kind": "effect",
+      "label": "shoppingduo",
+      "source_line": 796,
+      "code": "save_name = _(\"Marketplace\")"
+    },
+    {
+      "id": "label:shoppingalone",
+      "kind": "label",
+      "name": "shoppingalone",
+      "source_line": 917
+    },
+    {
+      "id": "jump:963",
+      "kind": "jump",
+      "label": "shoppingalone",
+      "source_line": 963,
+      "target": "lostcandy"
+    },
+    {
+      "id": "effect:953",
+      "kind": "effect",
+      "label": "shoppingalone",
+      "source_line": 953,
+      "code": "paranoid = True"
+    },
+    {
+      "id": "effect:933",
+      "kind": "effect",
+      "label": "shoppingalone",
+      "source_line": 933,
+      "code": "Toffee = _(\"Toffee\")"
+    },
+    {
+      "id": "effect:922",
+      "kind": "effect",
+      "label": "shoppingalone",
+      "source_line": 922,
+      "code": "renpy.notify(_(\"Marketplace\"))"
+    },
+    {
+      "id": "effect:918",
+      "kind": "effect",
+      "label": "shoppingalone",
+      "source_line": 918,
+      "code": "save_name = _(\"Marketplace\")"
+    },
+    {
+      "id": "label:lostcandy",
+      "kind": "label",
+      "name": "lostcandy",
+      "source_line": 965
+    },
+    {
+      "id": "menu:998",
+      "kind": "menu",
+      "label": "lostcandy",
+      "source_line": 998
+    },
+    {
+      "id": "choice:999",
+      "kind": "choice",
+      "label": "lostcandy",
+      "source_line": 999,
+      "choice_index": 1,
+      "text_en": "...He's right.",
+      "text_zh": "……他说得对",
+      "guard": null
+    },
+    {
+      "id": "jump:1004",
+      "kind": "jump",
+      "label": "lostcandy",
+      "source_line": 1004,
+      "target": "search"
+    },
+    {
+      "id": "effect:1000",
+      "kind": "effect",
+      "label": "lostcandy",
+      "source_line": 1000,
+      "code": "pp += 1"
+    },
+    {
+      "id": "choice:1005",
+      "kind": "choice",
+      "label": "lostcandy",
+      "source_line": 1005,
+      "choice_index": 2,
+      "text_en": "Whatever, bye.",
+      "text_zh": "管他呢，再见。",
+      "guard": null
+    },
+    {
+      "id": "jump:1006",
+      "kind": "jump",
+      "label": "lostcandy",
+      "source_line": 1006,
+      "target": "lonelystore"
+    },
+    {
+      "id": "effect:974",
+      "kind": "effect",
+      "label": "lostcandy",
+      "source_line": 974,
+      "code": "renpy.notify(_(\"Atelier Sweets\"))"
+    },
+    {
+      "id": "effect:968",
+      "kind": "effect",
+      "label": "lostcandy",
+      "source_line": 968,
+      "code": "save_name = _(\"Atelier Sweets\")"
+    },
+    {
+      "id": "label:lonelystore",
+      "kind": "label",
+      "name": "lonelystore",
+      "source_line": 1008
+    },
+    {
+      "id": "menu:1098",
+      "kind": "menu",
+      "label": "lonelystore",
+      "source_line": 1098
+    },
+    {
+      "id": "choice:1099",
+      "kind": "choice",
+      "label": "lonelystore",
+      "source_line": 1099,
+      "choice_index": 1,
+      "text_en": "Hire the cat",
+      "text_zh": "雇用猫",
+      "guard": null
+    },
+    {
+      "id": "jump:1109",
+      "kind": "jump",
+      "label": "lonelystore",
+      "source_line": 1109,
+      "target": "parttimecat"
+    },
+    {
+      "id": "choice:1110",
+      "kind": "choice",
+      "label": "lonelystore",
+      "source_line": 1110,
+      "choice_index": 2,
+      "text_en": "I'm not that desperate",
+      "text_zh": "我还没绝望到那种地步",
+      "guard": null
+    },
+    {
+      "id": "if:1061",
+      "kind": "condition",
+      "label": "lonelystore",
+      "source_line": 1061,
+      "expression": "paranoid"
+    },
+    {
+      "id": "if:1052",
+      "kind": "condition",
+      "label": "lonelystore",
+      "source_line": 1052,
+      "expression": "candyslave"
+    },
+    {
+      "id": "label:thentherewasone",
+      "kind": "label",
+      "name": "thentherewasone",
+      "source_line": 1114
+    },
+    {
+      "id": "return:1131",
+      "kind": "return",
+      "label": "thentherewasone",
+      "source_line": 1131
+    },
+    {
+      "id": "effect:1127",
+      "kind": "effect",
+      "label": "thentherewasone",
+      "source_line": 1127,
+      "code": "persistent.badend1 = True"
+    },
+    {
+      "id": "effect:1126",
+      "kind": "effect",
+      "label": "thentherewasone",
+      "source_line": 1126,
+      "code": "persistent.endclear = True"
+    },
+    {
+      "id": "effect:1125",
+      "kind": "effect",
+      "label": "thentherewasone",
+      "source_line": 1125,
+      "code": "achievement.grant(\"BAD1_END\")"
+    },
+    {
+      "id": "label:parttimecat",
+      "kind": "label",
+      "name": "parttimecat",
+      "source_line": 1133
+    },
+    {
+      "id": "return:1192",
+      "kind": "return",
+      "label": "parttimecat",
+      "source_line": 1192
+    },
+    {
+      "id": "effect:1188",
+      "kind": "effect",
+      "label": "parttimecat",
+      "source_line": 1188,
+      "code": "persistent.badend2 = True"
+    },
+    {
+      "id": "effect:1187",
+      "kind": "effect",
+      "label": "parttimecat",
+      "source_line": 1187,
+      "code": "persistent.endclear = True"
+    },
+    {
+      "id": "effect:1186",
+      "kind": "effect",
+      "label": "parttimecat",
+      "source_line": 1186,
+      "code": "achievement.grant(\"BAD2_END\")"
+    },
+    {
+      "id": "label:search",
+      "kind": "label",
+      "name": "search",
+      "source_line": 1194
+    },
+    {
+      "id": "effect:1227",
+      "kind": "effect",
+      "label": "search",
+      "source_line": 1227,
+      "code": "foundcandy = True"
+    },
+    {
+      "id": "effect:1209",
+      "kind": "effect",
+      "label": "search",
+      "source_line": 1209,
+      "code": "renpy.notify(_(\"Near Butterscotch's Cottage\"))"
+    },
+    {
+      "id": "effect:1204",
+      "kind": "effect",
+      "label": "search",
+      "source_line": 1204,
+      "code": "save_name = _(\"Butterscotch's Cottage\")"
+    },
+    {
+      "id": "label:homesweethome",
+      "kind": "label",
+      "name": "homesweethome",
+      "source_line": 1242
+    },
+    {
+      "id": "effect:1278",
+      "kind": "effect",
+      "label": "homesweethome",
+      "source_line": 1278,
+      "code": "Gumdrop = _(\"Gumdrop\")"
+    },
+    {
+      "id": "effect:1260",
+      "kind": "effect",
+      "label": "homesweethome",
+      "source_line": 1260,
+      "code": "renpy.notify(_(\"Atelier Sweets\"))"
+    },
+    {
+      "id": "effect:1259",
+      "kind": "effect",
+      "label": "homesweethome",
+      "source_line": 1259,
+      "code": "save_name = _(\"Atelier Sweets\")"
+    },
+    {
+      "id": "if:1245",
+      "kind": "condition",
+      "label": "homesweethome",
+      "source_line": 1245,
+      "expression": "candyslave"
+    },
+    {
+      "id": "label:customers",
+      "kind": "label",
+      "name": "customers",
+      "source_line": 1285
+    },
+    {
+      "id": "menu:1394",
+      "kind": "menu",
+      "label": "customers",
+      "source_line": 1394
+    },
+    {
+      "id": "choice:1396",
+      "kind": "choice",
+      "label": "customers",
+      "source_line": 1396,
+      "choice_index": 1,
+      "text_en": "Supervising Gumdrop",
+      "text_zh": "监督甘姆德洛普",
+      "guard": null
+    },
+    {
+      "id": "jump:1418",
+      "kind": "jump",
+      "label": "customers",
+      "source_line": 1418,
+      "target": "withgumdrop"
+    },
+    {
+      "id": "effect:1397",
+      "kind": "effect",
+      "label": "customers",
+      "source_line": 1397,
+      "code": "gp += 1"
+    },
+    {
+      "id": "choice:1419",
+      "kind": "choice",
+      "label": "customers",
+      "source_line": 1419,
+      "choice_index": 2,
+      "text_en": "Working with you",
+      "text_zh": "和你一起工作",
+      "guard": null
+    },
+    {
+      "id": "jump:1440",
+      "kind": "jump",
+      "label": "customers",
+      "source_line": 1440,
+      "target": "withpastille"
+    },
+    {
+      "id": "effect:1420",
+      "kind": "effect",
+      "label": "customers",
+      "source_line": 1420,
+      "code": "pp += 1"
+    },
+    {
+      "id": "choice:1441",
+      "kind": "choice",
+      "label": "customers",
+      "source_line": 1441,
+      "choice_index": 3,
+      "text_en": "Leaving",
+      "text_zh": "外出",
+      "guard": null
+    },
+    {
+      "id": "jump:1447",
+      "kind": "jump",
+      "label": "customers",
+      "source_line": 1447,
+      "target": "butterscotchvisit"
+    },
+    {
+      "id": "if:1377",
+      "kind": "condition",
+      "label": "customers",
+      "source_line": 1377,
+      "expression": "foundcandy"
+    },
+    {
+      "id": "if:1375",
+      "kind": "condition",
+      "label": "customers",
+      "source_line": 1375,
+      "expression": "nopets"
+    },
+    {
+      "id": "menu:1318",
+      "kind": "menu",
+      "label": "customers",
+      "source_line": 1318
+    },
+    {
+      "id": "choice:1319",
+      "kind": "choice",
+      "label": "customers",
+      "source_line": 1319,
+      "choice_index": 1,
+      "text_en": "She's not for sale",
+      "text_zh": "她是非卖品",
+      "guard": null
+    },
+    {
+      "id": "effect:1320",
+      "kind": "effect",
+      "label": "customers",
+      "source_line": 1320,
+      "code": "gp += 1"
+    },
+    {
+      "id": "choice:1327",
+      "kind": "choice",
+      "label": "customers",
+      "source_line": 1327,
+      "choice_index": 2,
+      "text_en": "...How much we talkin'?",
+      "text_zh": "……我们可以谈谈价钱。",
+      "guard": null
+    },
+    {
+      "id": "if:1333",
+      "kind": "condition",
+      "label": "customers",
+      "source_line": 1333,
+      "expression": "candyslave"
+    },
+    {
+      "id": "effect:1328",
+      "kind": "effect",
+      "label": "customers",
+      "source_line": 1328,
+      "code": "salesman = True"
+    },
+    {
+      "id": "label:withgumdrop",
+      "kind": "label",
+      "name": "withgumdrop",
+      "source_line": 1449
+    },
+    {
+      "id": "jump:1525",
+      "kind": "jump",
+      "label": "withgumdrop",
+      "source_line": 1525,
+      "target": "butterscotchvisit"
+    },
+    {
+      "id": "if:1506",
+      "kind": "condition",
+      "label": "withgumdrop",
+      "source_line": 1506,
+      "expression": "not biopsy"
+    },
+    {
+      "id": "if:1495",
+      "kind": "condition",
+      "label": "withgumdrop",
+      "source_line": 1495,
+      "expression": "biopsy"
+    },
+    {
+      "id": "if:1467",
+      "kind": "condition",
+      "label": "withgumdrop",
+      "source_line": 1467,
+      "expression": "candydate"
+    },
+    {
+      "id": "effect:1455",
+      "kind": "effect",
+      "label": "withgumdrop",
+      "source_line": 1455,
+      "code": "renpy.notify(_(\"Syrup's Candy Laboratory\"))"
+    },
+    {
+      "id": "label:withpastille",
+      "kind": "label",
+      "name": "withpastille",
+      "source_line": 1527
+    },
+    {
+      "id": "if:1565",
+      "kind": "condition",
+      "label": "withpastille",
+      "source_line": 1565,
+      "expression": "foundcandy"
+    },
+    {
+      "id": "if:1563",
+      "kind": "condition",
+      "label": "withpastille",
+      "source_line": 1563,
+      "expression": "candyslave"
+    },
+    {
+      "id": "effect:1529",
+      "kind": "effect",
+      "label": "withpastille",
+      "source_line": 1529,
+      "code": "renpy.notify(_(\"Five minutes later...\"))"
+    },
+    {
+      "id": "label:butterscotchvisit",
+      "kind": "label",
+      "name": "butterscotchvisit",
+      "source_line": 1605
+    },
+    {
+      "id": "if:1657",
+      "kind": "condition",
+      "label": "butterscotchvisit",
+      "source_line": 1657,
+      "expression": "candyslave"
+    },
+    {
+      "id": "jump:1637",
+      "kind": "jump",
+      "label": "butterscotchvisit",
+      "source_line": 1637,
+      "target": "butterscotchvisit2"
+    },
+    {
+      "id": "if:1625",
+      "kind": "condition",
+      "label": "butterscotchvisit",
+      "source_line": 1625,
+      "expression": "not nopets"
+    },
+    {
+      "id": "effect:1616",
+      "kind": "effect",
+      "label": "butterscotchvisit",
+      "source_line": 1616,
+      "code": "Butterscotch = _(\"Butterscotch\")"
+    },
+    {
+      "id": "label:butterscotchvisit2",
+      "kind": "label",
+      "name": "butterscotchvisit2",
+      "source_line": 1678
+    },
+    {
+      "id": "if:1782",
+      "kind": "condition",
+      "label": "butterscotchvisit2",
+      "source_line": 1782,
+      "expression": "candyslave"
+    },
+    {
+      "id": "jump:1760",
+      "kind": "jump",
+      "label": "butterscotchvisit2",
+      "source_line": 1760,
+      "target": "mission"
+    },
+    {
+      "id": "if:1758",
+      "kind": "condition",
+      "label": "butterscotchvisit2",
+      "source_line": 1758,
+      "expression": "gp <= 1"
+    },
+    {
+      "id": "if:1723",
+      "kind": "condition",
+      "label": "butterscotchvisit2",
+      "source_line": 1723,
+      "expression": "paranoid"
+    },
+    {
+      "id": "if:1721",
+      "kind": "condition",
+      "label": "butterscotchvisit2",
+      "source_line": 1721,
+      "expression": "nopets"
+    },
+    {
+      "id": "if:1689",
+      "kind": "condition",
+      "label": "butterscotchvisit2",
+      "source_line": 1689,
+      "expression": "candyslave"
+    },
+    {
+      "id": "if:1683",
+      "kind": "condition",
+      "label": "butterscotchvisit2",
+      "source_line": 1683,
+      "expression": "candyslave"
+    },
+    {
+      "id": "label:mission",
+      "kind": "label",
+      "name": "mission",
+      "source_line": 1802
+    },
+    {
+      "id": "if:1856",
+      "kind": "condition",
+      "label": "mission",
+      "source_line": 1856,
+      "expression": "renpy.variant(\"small\")"
+    },
+    {
+      "id": "effect:1805",
+      "kind": "effect",
+      "label": "mission",
+      "source_line": 1805,
+      "code": "renpy.notify(_(\"The next morning...\"))"
+    },
+    {
+      "id": "label:libraryvisit",
+      "kind": "label",
+      "name": "libraryvisit",
+      "source_line": 1901
+    },
+    {
+      "id": "if:1956",
+      "kind": "condition",
+      "label": "libraryvisit",
+      "source_line": 1956,
+      "expression": "renpy.variant(\"small\")"
+    },
+    {
+      "id": "if:1915",
+      "kind": "condition",
+      "label": "libraryvisit",
+      "source_line": 1915,
+      "expression": "salesman"
+    },
+    {
+      "id": "effect:1908",
+      "kind": "effect",
+      "label": "libraryvisit",
+      "source_line": 1908,
+      "code": "renpy.notify(_(\"Choco Library\"))"
+    },
+    {
+      "id": "effect:1902",
+      "kind": "effect",
+      "label": "libraryvisit",
+      "source_line": 1902,
+      "code": "save_name = _(\"Choco Library\")"
+    },
+    {
+      "id": "label:missingcandy",
+      "kind": "label",
+      "name": "missingcandy",
+      "source_line": 2015
+    },
+    {
+      "id": "menu:2084",
+      "kind": "menu",
+      "label": "missingcandy",
+      "source_line": 2084
+    },
+    {
+      "id": "choice:2085",
+      "kind": "choice",
+      "label": "missingcandy",
+      "source_line": 2085,
+      "choice_index": 1,
+      "text_en": "Let her help",
+      "text_zh": "让她帮忙",
+      "guard": null
+    },
+    {
+      "id": "effect:2086",
+      "kind": "effect",
+      "label": "missingcandy",
+      "source_line": 2086,
+      "code": "bp += 1"
+    },
+    {
+      "id": "choice:2087",
+      "kind": "choice",
+      "label": "missingcandy",
+      "source_line": 2087,
+      "choice_index": 2,
+      "text_en": "This was a terrible idea",
+      "text_zh": "这是个糟糕的主意",
+      "guard": null
+    },
+    {
+      "id": "if:2071",
+      "kind": "condition",
+      "label": "missingcandy",
+      "source_line": 2071,
+      "expression": "candyslave"
+    },
+    {
+      "id": "effect:2044",
+      "kind": "effect",
+      "label": "missingcandy",
+      "source_line": 2044,
+      "code": "renpy.notify(_(\"Butterscotch's Cottage\"))"
+    },
+    {
+      "id": "effect:2043",
+      "kind": "effect",
+      "label": "missingcandy",
+      "source_line": 2043,
+      "code": "save_name = _(\"Butterscotch's Cottage\")"
+    },
+    {
+      "id": "if:2033",
+      "kind": "condition",
+      "label": "missingcandy",
+      "source_line": 2033,
+      "expression": "foundcandy"
+    },
+    {
+      "id": "effect:2021",
+      "kind": "effect",
+      "label": "missingcandy",
+      "source_line": 2021,
+      "code": "renpy.notify(_(\"Atelier Sweets\"))"
+    },
+    {
+      "id": "effect:2020",
+      "kind": "effect",
+      "label": "missingcandy",
+      "source_line": 2020,
+      "code": "save_name = _(\"Atelier Sweets\")"
+    },
+    {
+      "id": "label:adventure",
+      "kind": "label",
+      "name": "adventure",
+      "source_line": 2107
+    },
+    {
+      "id": "if:2305",
+      "kind": "condition",
+      "label": "adventure",
+      "source_line": 2305,
+      "expression": "gentlelady"
+    },
+    {
+      "id": "if:2289",
+      "kind": "condition",
+      "label": "adventure",
+      "source_line": 2289,
+      "expression": "gentlelady"
+    },
+    {
+      "id": "effect:2284",
+      "kind": "effect",
+      "label": "adventure",
+      "source_line": 2284,
+      "code": "Wolf = _(\"Pack of wolves\")"
+    },
+    {
+      "id": "menu:2262",
+      "kind": "menu",
+      "label": "adventure",
+      "source_line": 2262
+    },
+    {
+      "id": "choice:2263",
+      "kind": "choice",
+      "label": "adventure",
+      "source_line": 2263,
+      "choice_index": 1,
+      "text_en": "Offer her your coat",
+      "text_zh": "把外套给她",
+      "guard": null
+    },
+    {
+      "id": "effect:2265",
+      "kind": "effect",
+      "label": "adventure",
+      "source_line": 2265,
+      "code": "gentlelady = True"
+    },
+    {
+      "id": "effect:2264",
+      "kind": "effect",
+      "label": "adventure",
+      "source_line": 2264,
+      "code": "bp += 1"
+    },
+    {
+      "id": "choice:2279",
+      "kind": "choice",
+      "label": "adventure",
+      "source_line": 2279,
+      "choice_index": 2,
+      "text_en": "She can deal",
+      "text_zh": "她能搞定的",
+      "guard": null
+    },
+    {
+      "id": "effect:2239",
+      "kind": "effect",
+      "label": "adventure",
+      "source_line": 2239,
+      "code": "Wolf = _(\"Pink Wolf?\")"
+    },
+    {
+      "id": "effect:2196",
+      "kind": "effect",
+      "label": "adventure",
+      "source_line": 2196,
+      "code": "Treat = _(\"Treat\")"
+    },
+    {
+      "id": "if:2178",
+      "kind": "condition",
+      "label": "adventure",
+      "source_line": 2178,
+      "expression": "candyslave"
+    },
+    {
+      "id": "effect:2111",
+      "kind": "effect",
+      "label": "adventure",
+      "source_line": 2111,
+      "code": "renpy.notify(_(\"Mount Sorbet\"))"
+    },
+    {
+      "id": "effect:2110",
+      "kind": "effect",
+      "label": "adventure",
+      "source_line": 2110,
+      "code": "save_name = _(\"Mount Sorbet\")"
+    },
+    {
+      "id": "label:thecave",
+      "kind": "label",
+      "name": "thecave",
+      "source_line": 2311
+    },
+    {
+      "id": "if:2370",
+      "kind": "condition",
+      "label": "thecave",
+      "source_line": 2370,
+      "expression": "gentlelady"
+    },
+    {
+      "id": "menu:2353",
+      "kind": "menu",
+      "label": "thecave",
+      "source_line": 2353
+    },
+    {
+      "id": "choice:2354",
+      "kind": "choice",
+      "label": "thecave",
+      "source_line": 2354,
+      "choice_index": 1,
+      "text_en": "Take all you can carry",
+      "text_zh": "有多少拿多少",
+      "guard": null
+    },
+    {
+      "id": "choice:2358",
+      "kind": "choice",
+      "label": "thecave",
+      "source_line": 2358,
+      "choice_index": 2,
+      "text_en": "Take only what you need",
+      "text_zh": "只拿你需要的份量",
+      "guard": null
+    },
+    {
+      "id": "effect:2359",
+      "kind": "effect",
+      "label": "thecave",
+      "source_line": 2359,
+      "code": "bp += 1"
+    },
+    {
+      "id": "effect:2322",
+      "kind": "effect",
+      "label": "thecave",
+      "source_line": 2322,
+      "code": "renpy.notify(_(\"Iced Cavern\"))"
+    },
+    {
+      "id": "label:trapped",
+      "kind": "label",
+      "name": "trapped",
+      "source_line": 2379
+    },
+    {
+      "id": "menu:2485",
+      "kind": "menu",
+      "label": "trapped",
+      "source_line": 2485
+    },
+    {
+      "id": "choice:2486",
+      "kind": "choice",
+      "label": "trapped",
+      "source_line": 2486,
+      "choice_index": 1,
+      "text_en": "I don't hate you.",
+      "text_zh": "我不讨厌你。",
+      "guard": null
+    },
+    {
+      "id": "jump:2488",
+      "kind": "jump",
+      "label": "trapped",
+      "source_line": 2488,
+      "target": "hearttoheart"
+    },
+    {
+      "id": "effect:2487",
+      "kind": "effect",
+      "label": "trapped",
+      "source_line": 2487,
+      "code": "bp += 2"
+    },
+    {
+      "id": "choice:2490",
+      "kind": "choice",
+      "label": "trapped",
+      "source_line": 2490,
+      "choice_index": 2,
+      "text_en": "Yeah, I hate you.",
+      "text_zh": "是的，我讨厌你。",
+      "guard": null
+    },
+    {
+      "id": "jump:2494",
+      "kind": "jump",
+      "label": "trapped",
+      "source_line": 2494,
+      "target": "thingsgonesour"
+    },
+    {
+      "id": "label:thingsgonesour",
+      "kind": "label",
+      "name": "thingsgonesour",
+      "source_line": 2496
+    },
+    {
+      "id": "return:2537",
+      "kind": "return",
+      "label": "thingsgonesour",
+      "source_line": 2537
+    },
+    {
+      "id": "effect:2533",
+      "kind": "effect",
+      "label": "thingsgonesour",
+      "source_line": 2533,
+      "code": "persistent.frozenend = True"
+    },
+    {
+      "id": "effect:2532",
+      "kind": "effect",
+      "label": "thingsgonesour",
+      "source_line": 2532,
+      "code": "persistent.endclear = True"
+    },
+    {
+      "id": "effect:2531",
+      "kind": "effect",
+      "label": "thingsgonesour",
+      "source_line": 2531,
+      "code": "achievement.grant(\"FROZEN_END\")"
+    },
+    {
+      "id": "jump:2529",
+      "kind": "jump",
+      "label": "thingsgonesour",
+      "source_line": 2529,
+      "target": "saved"
+    },
+    {
+      "id": "if:2526",
+      "kind": "condition",
+      "label": "thingsgonesour",
+      "source_line": 2526,
+      "expression": "pp >= 1 and gp >= 2 and not candyslave"
+    },
+    {
+      "id": "label:saved",
+      "kind": "label",
+      "name": "saved",
+      "source_line": 2539
+    },
+    {
+      "id": "menu:2608",
+      "kind": "menu",
+      "label": "saved",
+      "source_line": 2608
+    },
+    {
+      "id": "choice:2609",
+      "kind": "choice",
+      "label": "saved",
+      "source_line": 2609,
+      "choice_index": 1,
+      "text_en": "...It's okay.",
+      "text_zh": "……没关系的。",
+      "guard": null
+    },
+    {
+      "id": "jump:2627",
+      "kind": "jump",
+      "label": "saved",
+      "source_line": 2627,
+      "target": "backhome"
+    },
+    {
+      "id": "effect:2611",
+      "kind": "effect",
+      "label": "saved",
+      "source_line": 2611,
+      "code": "bp += 1"
+    },
+    {
+      "id": "effect:2610",
+      "kind": "effect",
+      "label": "saved",
+      "source_line": 2610,
+      "code": "forgiven = True"
+    },
+    {
+      "id": "choice:2628",
+      "kind": "choice",
+      "label": "saved",
+      "source_line": 2628,
+      "choice_index": 2,
+      "text_en": "I still hate you.",
+      "text_zh": "我还是很讨厌你。",
+      "guard": null
+    },
+    {
+      "id": "return:2654",
+      "kind": "return",
+      "label": "saved",
+      "source_line": 2654
+    },
+    {
+      "id": "effect:2650",
+      "kind": "effect",
+      "label": "saved",
+      "source_line": 2650,
+      "code": "persistent.worstend = True"
+    },
+    {
+      "id": "effect:2649",
+      "kind": "effect",
+      "label": "saved",
+      "source_line": 2649,
+      "code": "persistent.endclear = True"
+    },
+    {
+      "id": "effect:2648",
+      "kind": "effect",
+      "label": "saved",
+      "source_line": 2648,
+      "code": "achievement.grant(\"WORST_END\")"
+    },
+    {
+      "id": "effect:2554",
+      "kind": "effect",
+      "label": "saved",
+      "source_line": 2554,
+      "code": "renpy.notify(_(\"Treat's Cabin\"))"
+    },
+    {
+      "id": "effect:2551",
+      "kind": "effect",
+      "label": "saved",
+      "source_line": 2551,
+      "code": "save_name = _(\"Treat's Cabin\")"
+    },
+    {
+      "id": "label:hearttoheart",
+      "kind": "label",
+      "name": "hearttoheart",
+      "source_line": 2656
+    },
+    {
+      "id": "label:backhome",
+      "kind": "label",
+      "name": "backhome",
+      "source_line": 2714
+    },
+    {
+      "id": "if:2741",
+      "kind": "condition",
+      "label": "backhome",
+      "source_line": 2741,
+      "expression": "forgiven"
+    },
+    {
+      "id": "effect:2723",
+      "kind": "effect",
+      "label": "backhome",
+      "source_line": 2723,
+      "code": "renpy.notify(_(\"Butterscotch's Cottage\"))"
+    },
+    {
+      "id": "effect:2722",
+      "kind": "effect",
+      "label": "backhome",
+      "source_line": 2722,
+      "code": "save_name = _(\"Butterscotch's Cottage\")"
+    },
+    {
+      "id": "label:missioncomplete",
+      "kind": "label",
+      "name": "missioncomplete",
+      "source_line": 2792
+    },
+    {
+      "id": "if:2807",
+      "kind": "condition",
+      "label": "missioncomplete",
+      "source_line": 2807,
+      "expression": "forgiven"
+    },
+    {
+      "id": "effect:2803",
+      "kind": "effect",
+      "label": "missioncomplete",
+      "source_line": 2803,
+      "code": "renpy.notify(_(\"Atelier Sweets\"))"
+    },
+    {
+      "id": "if:2798",
+      "kind": "condition",
+      "label": "missioncomplete",
+      "source_line": 2798,
+      "expression": "forgiven"
+    },
+    {
+      "id": "effect:2793",
+      "kind": "effect",
+      "label": "missioncomplete",
+      "source_line": 2793,
+      "code": "save_name = _(\"Atelier Sweets\")"
+    },
+    {
+      "id": "label:makethething",
+      "kind": "label",
+      "name": "makethething",
+      "source_line": 2831
+    },
+    {
+      "id": "menu:2860",
+      "kind": "menu",
+      "label": "makethething",
+      "source_line": 2860
+    },
+    {
+      "id": "choice:2861",
+      "kind": "choice",
+      "label": "makethething",
+      "source_line": 2861,
+      "choice_index": 1,
+      "text_en": "Look into the crystal ball",
+      "text_zh": "观看水晶球里的内容",
+      "guard": null
+    },
+    {
+      "id": "jump:2864",
+      "kind": "jump",
+      "label": "makethething",
+      "source_line": 2864,
+      "target": "creation"
+    },
+    {
+      "id": "choice:2865",
+      "kind": "choice",
+      "label": "makethething",
+      "source_line": 2865,
+      "choice_index": 2,
+      "text_en": "Forget it",
+      "text_zh": "还是算了吧",
+      "guard": null
+    },
+    {
+      "id": "jump:2880",
+      "kind": "jump",
+      "label": "makethething",
+      "source_line": 2880,
+      "target": "ultimatesweet"
+    },
+    {
+      "id": "effect:2866",
+      "kind": "effect",
+      "label": "makethething",
+      "source_line": 2866,
+      "code": "forgotit = True"
+    },
+    {
+      "id": "if:2833",
+      "kind": "condition",
+      "label": "makethething",
+      "source_line": 2833,
+      "expression": "candyslave"
+    },
+    {
+      "id": "label:creation",
+      "kind": "label",
+      "name": "creation",
+      "source_line": 2882
+    },
+    {
+      "id": "jump:2978",
+      "kind": "jump",
+      "label": "creation",
+      "source_line": 2978,
+      "target": "afterwards"
+    },
+    {
+      "id": "jump:2975",
+      "kind": "jump",
+      "label": "creation",
+      "source_line": 2975,
+      "target": "lonelygumdrop"
+    },
+    {
+      "id": "if:2974",
+      "kind": "condition",
+      "label": "creation",
+      "source_line": 2974,
+      "expression": "gp >= 4 and not candyslave"
+    },
+    {
+      "id": "label:lonelygumdrop",
+      "kind": "label",
+      "name": "lonelygumdrop",
+      "source_line": 2980
+    },
+    {
+      "id": "jump:3070",
+      "kind": "jump",
+      "label": "lonelygumdrop",
+      "source_line": 3070,
+      "target": "ultimatesweet"
+    },
+    {
+      "id": "label:afterwards",
+      "kind": "label",
+      "name": "afterwards",
+      "source_line": 3072
+    },
+    {
+      "id": "jump:3105",
+      "kind": "jump",
+      "label": "afterwards",
+      "source_line": 3105,
+      "target": "ultimatesweet"
+    },
+    {
+      "id": "if:3088",
+      "kind": "condition",
+      "label": "afterwards",
+      "source_line": 3088,
+      "expression": "forgiven"
+    },
+    {
+      "id": "jump:3086",
+      "kind": "jump",
+      "label": "afterwards",
+      "source_line": 3086,
+      "target": "toffeetalk"
+    },
+    {
+      "id": "if:3079",
+      "kind": "condition",
+      "label": "afterwards",
+      "source_line": 3079,
+      "expression": "bp >= 3"
+    },
+    {
+      "id": "label:toffeetalk",
+      "kind": "label",
+      "name": "toffeetalk",
+      "source_line": 3107
+    },
+    {
+      "id": "effect:3114",
+      "kind": "effect",
+      "label": "toffeetalk",
+      "source_line": 3114,
+      "code": "renpy.notify(_(\"Butterscotch's Cottage\"))"
+    },
+    {
+      "id": "effect:3113",
+      "kind": "effect",
+      "label": "toffeetalk",
+      "source_line": 3113,
+      "code": "save_name = _(\"Butterscotch's Cottage\")"
+    },
+    {
+      "id": "label:ultimatesweet",
+      "kind": "label",
+      "name": "ultimatesweet",
+      "source_line": 3178
+    },
+    {
+      "id": "jump:3244",
+      "kind": "jump",
+      "label": "ultimatesweet",
+      "source_line": 3244,
+      "target": "pastilleend"
+    },
+    {
+      "id": "if:3232",
+      "kind": "condition",
+      "label": "ultimatesweet",
+      "source_line": 3232,
+      "expression": "candyslave"
+    },
+    {
+      "id": "if:3228",
+      "kind": "condition",
+      "label": "ultimatesweet",
+      "source_line": 3228,
+      "expression": "pp >= 3"
+    },
+    {
+      "id": "jump:3226",
+      "kind": "jump",
+      "label": "ultimatesweet",
+      "source_line": 3226,
+      "target": "butterscotchend"
+    },
+    {
+      "id": "jump:3224",
+      "kind": "jump",
+      "label": "ultimatesweet",
+      "source_line": 3224,
+      "target": "toffeeend"
+    },
+    {
+      "id": "if:3223",
+      "kind": "condition",
+      "label": "ultimatesweet",
+      "source_line": 3223,
+      "expression": "persistent.butterscotchend"
+    },
+    {
+      "id": "jump:3222",
+      "kind": "jump",
+      "label": "ultimatesweet",
+      "source_line": 3222,
+      "target": "toffeeend"
+    },
+    {
+      "id": "if:3221",
+      "kind": "condition",
+      "label": "ultimatesweet",
+      "source_line": 3221,
+      "expression": "forgiven"
+    },
+    {
+      "id": "if:3215",
+      "kind": "condition",
+      "label": "ultimatesweet",
+      "source_line": 3215,
+      "expression": "bp >= 4"
+    },
+    {
+      "id": "jump:3213",
+      "kind": "jump",
+      "label": "ultimatesweet",
+      "source_line": 3213,
+      "target": "gumdropend"
+    },
+    {
+      "id": "if:3209",
+      "kind": "condition",
+      "label": "ultimatesweet",
+      "source_line": 3209,
+      "expression": "gp >= 4 and not candyslave"
+    },
+    {
+      "id": "jump:3207",
+      "kind": "jump",
+      "label": "ultimatesweet",
+      "source_line": 3207,
+      "target": "syrupend"
+    },
+    {
+      "id": "if:3206",
+      "kind": "condition",
+      "label": "ultimatesweet",
+      "source_line": 3206,
+      "expression": "forgotit"
+    },
+    {
+      "id": "effect:3186",
+      "kind": "effect",
+      "label": "ultimatesweet",
+      "source_line": 3186,
+      "code": "renpy.notify(_(\"Atelier Sweets\"))"
+    },
+    {
+      "id": "label:syrupend",
+      "kind": "label",
+      "name": "syrupend",
+      "source_line": 3246
+    },
+    {
+      "id": "jump:3297",
+      "kind": "jump",
+      "label": "syrupend",
+      "source_line": 3297,
+      "target": "credits"
+    },
+    {
+      "id": "effect:3293",
+      "kind": "effect",
+      "label": "syrupend",
+      "source_line": 3293,
+      "code": "persistent.syrupend = True"
+    },
+    {
+      "id": "effect:3292",
+      "kind": "effect",
+      "label": "syrupend",
+      "source_line": 3292,
+      "code": "achievement.grant(\"SYRUP_END\")"
+    },
+    {
+      "id": "effect:3271",
+      "kind": "effect",
+      "label": "syrupend",
+      "source_line": 3271,
+      "code": "renpy.notify(_(\"Choco Library\"))"
+    },
+    {
+      "id": "effect:3266",
+      "kind": "effect",
+      "label": "syrupend",
+      "source_line": 3266,
+      "code": "save_name = _(\"Choco Library\")"
+    },
+    {
+      "id": "if:3255",
+      "kind": "condition",
+      "label": "syrupend",
+      "source_line": 3255,
+      "expression": "not forgotit"
+    },
+    {
+      "id": "label:pastilleend",
+      "kind": "label",
+      "name": "pastilleend",
+      "source_line": 3299
+    },
+    {
+      "id": "jump:3370",
+      "kind": "jump",
+      "label": "pastilleend",
+      "source_line": 3370,
+      "target": "credits"
+    },
+    {
+      "id": "effect:3366",
+      "kind": "effect",
+      "label": "pastilleend",
+      "source_line": 3366,
+      "code": "persistent.pastilleend = True"
+    },
+    {
+      "id": "effect:3365",
+      "kind": "effect",
+      "label": "pastilleend",
+      "source_line": 3365,
+      "code": "achievement.grant(\"PASTILLE_END\")"
+    },
+    {
+      "id": "if:3360",
+      "kind": "condition",
+      "label": "pastilleend",
+      "source_line": 3360,
+      "expression": "renpy.variant(\"small\")"
+    },
+    {
+      "id": "label:gumdropend",
+      "kind": "label",
+      "name": "gumdropend",
+      "source_line": 3372
+    },
+    {
+      "id": "jump:3422",
+      "kind": "jump",
+      "label": "gumdropend",
+      "source_line": 3422,
+      "target": "credits"
+    },
+    {
+      "id": "effect:3418",
+      "kind": "effect",
+      "label": "gumdropend",
+      "source_line": 3418,
+      "code": "persistent.gumdropend = True"
+    },
+    {
+      "id": "effect:3417",
+      "kind": "effect",
+      "label": "gumdropend",
+      "source_line": 3417,
+      "code": "achievement.grant(\"GUMDROP_END\")"
+    },
+    {
+      "id": "if:3412",
+      "kind": "condition",
+      "label": "gumdropend",
+      "source_line": 3412,
+      "expression": "renpy.variant(\"small\")"
+    },
+    {
+      "id": "label:butterscotchend",
+      "kind": "label",
+      "name": "butterscotchend",
+      "source_line": 3424
+    },
+    {
+      "id": "jump:3508",
+      "kind": "jump",
+      "label": "butterscotchend",
+      "source_line": 3508,
+      "target": "credits"
+    },
+    {
+      "id": "effect:3504",
+      "kind": "effect",
+      "label": "butterscotchend",
+      "source_line": 3504,
+      "code": "persistent.butterscotchend = True"
+    },
+    {
+      "id": "effect:3503",
+      "kind": "effect",
+      "label": "butterscotchend",
+      "source_line": 3503,
+      "code": "achievement.grant(\"BS_END\")"
+    },
+    {
+      "id": "if:3500",
+      "kind": "condition",
+      "label": "butterscotchend",
+      "source_line": 3500,
+      "expression": "renpy.variant(\"small\")"
+    },
+    {
+      "id": "effect:3432",
+      "kind": "effect",
+      "label": "butterscotchend",
+      "source_line": 3432,
+      "code": "renpy.notify(_(\"Butterscotch's Cottage\"))"
+    },
+    {
+      "id": "effect:3425",
+      "kind": "effect",
+      "label": "butterscotchend",
+      "source_line": 3425,
+      "code": "save_name = _(\"Butterscotch's Cottage\")"
+    },
+    {
+      "id": "label:toffeeend",
+      "kind": "label",
+      "name": "toffeeend",
+      "source_line": 3510
+    },
+    {
+      "id": "menu:3632",
+      "kind": "menu",
+      "label": "toffeeend",
+      "source_line": 3632
+    },
+    {
+      "id": "choice:3634",
+      "kind": "choice",
+      "label": "toffeeend",
+      "source_line": 3634,
+      "choice_index": 1,
+      "text_en": "Boy?",
+      "text_zh": "男孩？",
+      "guard": null
+    },
+    {
+      "id": "choice:3636",
+      "kind": "choice",
+      "label": "toffeeend",
+      "source_line": 3636,
+      "choice_index": 2,
+      "text_en": "Girl?",
+      "text_zh": "女孩？",
+      "guard": null
+    },
+    {
+      "id": "choice:3638",
+      "kind": "choice",
+      "label": "toffeeend",
+      "source_line": 3638,
+      "choice_index": 3,
+      "text_en": "Neither",
+      "text_zh": "都不是",
+      "guard": "persistent.toffeeend"
+    },
+    {
+      "id": "jump:3644",
+      "kind": "jump",
+      "label": "toffeeend",
+      "source_line": 3644,
+      "target": "toffeeend2"
+    },
+    {
+      "id": "effect:3575",
+      "kind": "effect",
+      "label": "toffeeend",
+      "source_line": 3575,
+      "code": "renpy.notify(_(\"Treat's Cabin\"))"
+    },
+    {
+      "id": "effect:3569",
+      "kind": "effect",
+      "label": "toffeeend",
+      "source_line": 3569,
+      "code": "save_name = _(\"Treat's Cabin\")"
+    },
+    {
+      "id": "menu:3540",
+      "kind": "menu",
+      "label": "toffeeend",
+      "source_line": 3540
+    },
+    {
+      "id": "choice:3541",
+      "kind": "choice",
+      "label": "toffeeend",
+      "source_line": 3541,
+      "choice_index": 1,
+      "text_en": "Of course",
+      "text_zh": "当然",
+      "guard": null
+    },
+    {
+      "id": "choice:3551",
+      "kind": "choice",
+      "label": "toffeeend",
+      "source_line": 3551,
+      "choice_index": 2,
+      "text_en": "Sounds like a lot of effort...",
+      "text_zh": "听起来很费劲……",
+      "guard": null
+    },
+    {
+      "id": "jump:3560",
+      "kind": "jump",
+      "label": "toffeeend",
+      "source_line": 3560,
+      "target": "butterscotchend"
+    },
+    {
+      "id": "effect:3515",
+      "kind": "effect",
+      "label": "toffeeend",
+      "source_line": 3515,
+      "code": "renpy.notify(_(\"Marketplace\"))"
+    },
+    {
+      "id": "effect:3511",
+      "kind": "effect",
+      "label": "toffeeend",
+      "source_line": 3511,
+      "code": "save_name = _(\"Marketplace\")"
+    },
+    {
+      "id": "label:toffeeend2",
+      "kind": "label",
+      "name": "toffeeend2",
+      "source_line": 3657
+    },
+    {
+      "id": "effect:3689",
+      "kind": "effect",
+      "label": "toffeeend2",
+      "source_line": 3689,
+      "code": "persistent.toffeeend = True"
+    },
+    {
+      "id": "effect:3688",
+      "kind": "effect",
+      "label": "toffeeend2",
+      "source_line": 3688,
+      "code": "achievement.grant(\"TOFFEE_END\")"
+    },
+    {
+      "id": "label:credits",
+      "kind": "label",
+      "name": "credits",
+      "source_line": 3694
+    },
+    {
+      "id": "return:3724",
+      "kind": "return",
+      "label": "credits",
+      "source_line": 3724
+    },
+    {
+      "id": "if:3705",
+      "kind": "condition",
+      "label": "credits",
+      "source_line": 3705,
+      "expression": "preferences.language is not None"
+    },
+    {
+      "id": "effect:3702",
+      "kind": "effect",
+      "label": "credits",
+      "source_line": 3702,
+      "code": "quick_menu = False"
+    },
+    {
+      "id": "effect:3701",
+      "kind": "effect",
+      "label": "credits",
+      "source_line": 3701,
+      "code": "_game_menu_screen = None"
+    },
+    {
+      "id": "effect:3698",
+      "kind": "effect",
+      "label": "credits",
+      "source_line": 3698,
+      "code": "mp.candyvn = True"
+    },
+    {
+      "id": "if:3697",
+      "kind": "condition",
+      "label": "credits",
+      "source_line": 3697,
+      "expression": "renpy.variant(\"pc\")"
+    },
+    {
+      "id": "effect:3696",
+      "kind": "effect",
+      "label": "credits",
+      "source_line": 3696,
+      "code": "persistent.endclear = True"
+    }
+  ],
+  "edges": [
+    {
+      "from": "effect:41",
+      "to": "return:46",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:39",
+      "to": "effect:41",
+      "kind": "continue"
+    },
+    {
+      "from": "call_screen:38",
+      "to": "effect:39",
+      "kind": "continue"
+    },
+    {
+      "from": "if:37",
+      "to": "call_screen:38",
+      "kind": "true",
+      "condition": "not persistent.setlanguage"
+    },
+    {
+      "from": "if:37",
+      "to": "effect:41",
+      "kind": "false",
+      "condition": "not (not persistent.setlanguage)"
+    },
+    {
+      "from": "label:splashscreen",
+      "to": "if:37",
+      "kind": "enter"
+    },
+    {
+      "from": "menu:140",
+      "to": "choice:141",
+      "kind": "choice"
+    },
+    {
+      "from": "jump:143",
+      "to": "label:candybiopsy",
+      "kind": "jump"
+    },
+    {
+      "from": "effect:142",
+      "to": "jump:143",
+      "kind": "continue"
+    },
+    {
+      "from": "choice:141",
+      "to": "effect:142",
+      "kind": "continue"
+    },
+    {
+      "from": "menu:140",
+      "to": "choice:144",
+      "kind": "choice"
+    },
+    {
+      "from": "jump:145",
+      "to": "label:continued",
+      "kind": "jump"
+    },
+    {
+      "from": "choice:144",
+      "to": "jump:145",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:111",
+      "to": "menu:140",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:101",
+      "to": "effect:111",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:77",
+      "to": "effect:101",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:75",
+      "to": "effect:77",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:74",
+      "to": "effect:75",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:73",
+      "to": "effect:74",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:72",
+      "to": "effect:73",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:71",
+      "to": "effect:72",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:70",
+      "to": "effect:71",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:67",
+      "to": "effect:70",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:66",
+      "to": "effect:67",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:65",
+      "to": "effect:66",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:64",
+      "to": "effect:65",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:63",
+      "to": "effect:64",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:62",
+      "to": "effect:63",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:61",
+      "to": "effect:62",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:60",
+      "to": "effect:61",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:59",
+      "to": "effect:60",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:58",
+      "to": "effect:59",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:57",
+      "to": "effect:58",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:54",
+      "to": "effect:57",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:53",
+      "to": "effect:54",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:52",
+      "to": "effect:53",
+      "kind": "continue"
+    },
+    {
+      "from": "label:start",
+      "to": "effect:52",
+      "kind": "enter"
+    },
+    {
+      "from": "menu:195",
+      "to": "choice:196",
+      "kind": "choice"
+    },
+    {
+      "from": "jump:239",
+      "to": "label:newassistant",
+      "kind": "jump"
+    },
+    {
+      "from": "effect:237",
+      "to": "jump:239",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:233",
+      "to": "effect:237",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:197",
+      "to": "effect:233",
+      "kind": "continue"
+    },
+    {
+      "from": "choice:196",
+      "to": "effect:197",
+      "kind": "continue"
+    },
+    {
+      "from": "menu:195",
+      "to": "choice:240",
+      "kind": "choice"
+    },
+    {
+      "from": "jump:241",
+      "to": "label:candibal",
+      "kind": "jump"
+    },
+    {
+      "from": "choice:240",
+      "to": "jump:241",
+      "kind": "continue"
+    },
+    {
+      "from": "label:candybiopsy",
+      "to": "menu:195",
+      "kind": "enter"
+    },
+    {
+      "from": "effect:288",
+      "to": "return:293",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:287",
+      "to": "effect:288",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:286",
+      "to": "effect:287",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:258",
+      "to": "effect:286",
+      "kind": "continue"
+    },
+    {
+      "from": "label:candibal",
+      "to": "effect:258",
+      "kind": "enter"
+    },
+    {
+      "from": "label:continued",
+      "to": "label:newassistant",
+      "kind": "enter"
+    },
+    {
+      "from": "menu:471",
+      "to": "choice:472",
+      "kind": "choice"
+    },
+    {
+      "from": "jump:475",
+      "to": "label:adopted",
+      "kind": "jump"
+    },
+    {
+      "from": "effect:474",
+      "to": "jump:475",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:473",
+      "to": "effect:474",
+      "kind": "continue"
+    },
+    {
+      "from": "choice:472",
+      "to": "effect:473",
+      "kind": "continue"
+    },
+    {
+      "from": "menu:471",
+      "to": "choice:476",
+      "kind": "choice"
+    },
+    {
+      "from": "effect:477",
+      "to": "label:nopetsallowed",
+      "kind": "continue"
+    },
+    {
+      "from": "choice:476",
+      "to": "effect:477",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:426",
+      "to": "menu:471",
+      "kind": "continue"
+    },
+    {
+      "from": "label:newassistant",
+      "to": "effect:426",
+      "kind": "enter"
+    },
+    {
+      "from": "menu:560",
+      "to": "choice:561",
+      "kind": "choice"
+    },
+    {
+      "from": "jump:562",
+      "to": "label:abandonher",
+      "kind": "jump"
+    },
+    {
+      "from": "choice:561",
+      "to": "jump:562",
+      "kind": "continue"
+    },
+    {
+      "from": "menu:560",
+      "to": "choice:563",
+      "kind": "choice"
+    },
+    {
+      "from": "jump:565",
+      "to": "label:keepher",
+      "kind": "jump"
+    },
+    {
+      "from": "choice:563",
+      "to": "jump:565",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:535",
+      "to": "menu:560",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:525",
+      "to": "effect:535",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:497",
+      "to": "effect:525",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:496",
+      "to": "effect:497",
+      "kind": "continue"
+    },
+    {
+      "from": "label:nopetsallowed",
+      "to": "effect:496",
+      "kind": "enter"
+    },
+    {
+      "from": "label:abandonher",
+      "to": "label:candyslave",
+      "kind": "enter"
+    },
+    {
+      "from": "menu:630",
+      "to": "choice:631",
+      "kind": "choice"
+    },
+    {
+      "from": "jump:637",
+      "to": "label:rescuemission",
+      "kind": "jump"
+    },
+    {
+      "from": "effect:632",
+      "to": "jump:637",
+      "kind": "continue"
+    },
+    {
+      "from": "choice:631",
+      "to": "effect:632",
+      "kind": "continue"
+    },
+    {
+      "from": "menu:630",
+      "to": "choice:638",
+      "kind": "choice"
+    },
+    {
+      "from": "jump:644",
+      "to": "label:lonelystore",
+      "kind": "jump"
+    },
+    {
+      "from": "choice:638",
+      "to": "jump:644",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:623",
+      "to": "menu:630",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:618",
+      "to": "effect:623",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:607",
+      "to": "effect:618",
+      "kind": "continue"
+    },
+    {
+      "from": "label:candyslave",
+      "to": "effect:607",
+      "kind": "enter"
+    },
+    {
+      "from": "jump:696",
+      "to": "label:homesweethome",
+      "kind": "jump"
+    },
+    {
+      "from": "effect:654",
+      "to": "jump:696",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:648",
+      "to": "effect:654",
+      "kind": "continue"
+    },
+    {
+      "from": "label:rescuemission",
+      "to": "effect:648",
+      "kind": "enter"
+    },
+    {
+      "from": "jump:735",
+      "to": "label:homesweethome",
+      "kind": "jump"
+    },
+    {
+      "from": "label:keepher",
+      "to": "jump:735",
+      "kind": "enter"
+    },
+    {
+      "from": "menu:771",
+      "to": "choice:772",
+      "kind": "choice"
+    },
+    {
+      "from": "jump:777",
+      "to": "label:shoppingduo",
+      "kind": "jump"
+    },
+    {
+      "from": "effect:773",
+      "to": "jump:777",
+      "kind": "continue"
+    },
+    {
+      "from": "choice:772",
+      "to": "effect:773",
+      "kind": "continue"
+    },
+    {
+      "from": "menu:771",
+      "to": "choice:778",
+      "kind": "choice"
+    },
+    {
+      "from": "jump:793",
+      "to": "label:shoppingalone",
+      "kind": "jump"
+    },
+    {
+      "from": "effect:792",
+      "to": "jump:793",
+      "kind": "continue"
+    },
+    {
+      "from": "choice:778",
+      "to": "effect:792",
+      "kind": "continue"
+    },
+    {
+      "from": "label:adopted",
+      "to": "menu:771",
+      "kind": "enter"
+    },
+    {
+      "from": "menu:869",
+      "to": "choice:870",
+      "kind": "choice"
+    },
+    {
+      "from": "jump:886",
+      "to": "label:homesweethome",
+      "kind": "jump"
+    },
+    {
+      "from": "effect:871",
+      "to": "jump:886",
+      "kind": "continue"
+    },
+    {
+      "from": "choice:870",
+      "to": "effect:871",
+      "kind": "continue"
+    },
+    {
+      "from": "menu:869",
+      "to": "choice:887",
+      "kind": "choice"
+    },
+    {
+      "from": "jump:915",
+      "to": "label:lostcandy",
+      "kind": "jump"
+    },
+    {
+      "from": "effect:904",
+      "to": "jump:915",
+      "kind": "continue"
+    },
+    {
+      "from": "choice:887",
+      "to": "effect:904",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:846",
+      "to": "menu:869",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:800",
+      "to": "effect:846",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:797",
+      "to": "effect:800",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:796",
+      "to": "effect:797",
+      "kind": "continue"
+    },
+    {
+      "from": "label:shoppingduo",
+      "to": "effect:796",
+      "kind": "enter"
+    },
+    {
+      "from": "jump:963",
+      "to": "label:lostcandy",
+      "kind": "jump"
+    },
+    {
+      "from": "effect:953",
+      "to": "jump:963",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:933",
+      "to": "effect:953",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:922",
+      "to": "effect:933",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:918",
+      "to": "effect:922",
+      "kind": "continue"
+    },
+    {
+      "from": "label:shoppingalone",
+      "to": "effect:918",
+      "kind": "enter"
+    },
+    {
+      "from": "menu:998",
+      "to": "choice:999",
+      "kind": "choice"
+    },
+    {
+      "from": "jump:1004",
+      "to": "label:search",
+      "kind": "jump"
+    },
+    {
+      "from": "effect:1000",
+      "to": "jump:1004",
+      "kind": "continue"
+    },
+    {
+      "from": "choice:999",
+      "to": "effect:1000",
+      "kind": "continue"
+    },
+    {
+      "from": "menu:998",
+      "to": "choice:1005",
+      "kind": "choice"
+    },
+    {
+      "from": "jump:1006",
+      "to": "label:lonelystore",
+      "kind": "jump"
+    },
+    {
+      "from": "choice:1005",
+      "to": "jump:1006",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:974",
+      "to": "menu:998",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:968",
+      "to": "effect:974",
+      "kind": "continue"
+    },
+    {
+      "from": "label:lostcandy",
+      "to": "effect:968",
+      "kind": "enter"
+    },
+    {
+      "from": "menu:1098",
+      "to": "choice:1099",
+      "kind": "choice"
+    },
+    {
+      "from": "jump:1109",
+      "to": "label:parttimecat",
+      "kind": "jump"
+    },
+    {
+      "from": "choice:1099",
+      "to": "jump:1109",
+      "kind": "continue"
+    },
+    {
+      "from": "menu:1098",
+      "to": "choice:1110",
+      "kind": "choice"
+    },
+    {
+      "from": "choice:1110",
+      "to": "label:thentherewasone",
+      "kind": "continue"
+    },
+    {
+      "from": "if:1061",
+      "to": "menu:1098",
+      "kind": "true",
+      "condition": "paranoid"
+    },
+    {
+      "from": "if:1061",
+      "to": "menu:1098",
+      "kind": "false",
+      "condition": "not (paranoid)"
+    },
+    {
+      "from": "if:1052",
+      "to": "menu:1098",
+      "kind": "true",
+      "condition": "candyslave"
+    },
+    {
+      "from": "if:1052",
+      "to": "if:1061",
+      "kind": "false",
+      "condition": "not (candyslave)"
+    },
+    {
+      "from": "label:lonelystore",
+      "to": "if:1052",
+      "kind": "enter"
+    },
+    {
+      "from": "effect:1127",
+      "to": "return:1131",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:1126",
+      "to": "effect:1127",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:1125",
+      "to": "effect:1126",
+      "kind": "continue"
+    },
+    {
+      "from": "label:thentherewasone",
+      "to": "effect:1125",
+      "kind": "enter"
+    },
+    {
+      "from": "effect:1188",
+      "to": "return:1192",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:1187",
+      "to": "effect:1188",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:1186",
+      "to": "effect:1187",
+      "kind": "continue"
+    },
+    {
+      "from": "label:parttimecat",
+      "to": "effect:1186",
+      "kind": "enter"
+    },
+    {
+      "from": "effect:1227",
+      "to": "label:homesweethome",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:1209",
+      "to": "effect:1227",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:1204",
+      "to": "effect:1209",
+      "kind": "continue"
+    },
+    {
+      "from": "label:search",
+      "to": "effect:1204",
+      "kind": "enter"
+    },
+    {
+      "from": "effect:1278",
+      "to": "label:customers",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:1260",
+      "to": "effect:1278",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:1259",
+      "to": "effect:1260",
+      "kind": "continue"
+    },
+    {
+      "from": "if:1245",
+      "to": "effect:1259",
+      "kind": "true",
+      "condition": "candyslave"
+    },
+    {
+      "from": "if:1245",
+      "to": "effect:1259",
+      "kind": "false",
+      "condition": "not (candyslave)"
+    },
+    {
+      "from": "label:homesweethome",
+      "to": "if:1245",
+      "kind": "enter"
+    },
+    {
+      "from": "menu:1394",
+      "to": "choice:1396",
+      "kind": "choice"
+    },
+    {
+      "from": "jump:1418",
+      "to": "label:withgumdrop",
+      "kind": "jump"
+    },
+    {
+      "from": "effect:1397",
+      "to": "jump:1418",
+      "kind": "continue"
+    },
+    {
+      "from": "choice:1396",
+      "to": "effect:1397",
+      "kind": "continue"
+    },
+    {
+      "from": "menu:1394",
+      "to": "choice:1419",
+      "kind": "choice"
+    },
+    {
+      "from": "jump:1440",
+      "to": "label:withpastille",
+      "kind": "jump"
+    },
+    {
+      "from": "effect:1420",
+      "to": "jump:1440",
+      "kind": "continue"
+    },
+    {
+      "from": "choice:1419",
+      "to": "effect:1420",
+      "kind": "continue"
+    },
+    {
+      "from": "menu:1394",
+      "to": "choice:1441",
+      "kind": "choice"
+    },
+    {
+      "from": "jump:1447",
+      "to": "label:butterscotchvisit",
+      "kind": "jump"
+    },
+    {
+      "from": "choice:1441",
+      "to": "jump:1447",
+      "kind": "continue"
+    },
+    {
+      "from": "if:1377",
+      "to": "menu:1394",
+      "kind": "true",
+      "condition": "foundcandy"
+    },
+    {
+      "from": "if:1377",
+      "to": "menu:1394",
+      "kind": "false",
+      "condition": "not (foundcandy)"
+    },
+    {
+      "from": "if:1375",
+      "to": "if:1377",
+      "kind": "true",
+      "condition": "nopets"
+    },
+    {
+      "from": "if:1375",
+      "to": "if:1377",
+      "kind": "false",
+      "condition": "not (nopets)"
+    },
+    {
+      "from": "menu:1318",
+      "to": "choice:1319",
+      "kind": "choice"
+    },
+    {
+      "from": "effect:1320",
+      "to": "if:1375",
+      "kind": "continue"
+    },
+    {
+      "from": "choice:1319",
+      "to": "effect:1320",
+      "kind": "continue"
+    },
+    {
+      "from": "menu:1318",
+      "to": "choice:1327",
+      "kind": "choice"
+    },
+    {
+      "from": "if:1333",
+      "to": "if:1375",
+      "kind": "true",
+      "condition": "candyslave"
+    },
+    {
+      "from": "if:1333",
+      "to": "if:1375",
+      "kind": "false",
+      "condition": "not (candyslave)"
+    },
+    {
+      "from": "effect:1328",
+      "to": "if:1333",
+      "kind": "continue"
+    },
+    {
+      "from": "choice:1327",
+      "to": "effect:1328",
+      "kind": "continue"
+    },
+    {
+      "from": "label:customers",
+      "to": "menu:1318",
+      "kind": "enter"
+    },
+    {
+      "from": "jump:1525",
+      "to": "label:butterscotchvisit",
+      "kind": "jump"
+    },
+    {
+      "from": "if:1506",
+      "to": "jump:1525",
+      "kind": "true",
+      "condition": "not biopsy"
+    },
+    {
+      "from": "if:1506",
+      "to": "jump:1525",
+      "kind": "false",
+      "condition": "not (not biopsy)"
+    },
+    {
+      "from": "if:1495",
+      "to": "if:1506",
+      "kind": "true",
+      "condition": "biopsy"
+    },
+    {
+      "from": "if:1495",
+      "to": "if:1506",
+      "kind": "false",
+      "condition": "not (biopsy)"
+    },
+    {
+      "from": "if:1467",
+      "to": "if:1495",
+      "kind": "true",
+      "condition": "candydate"
+    },
+    {
+      "from": "if:1467",
+      "to": "if:1495",
+      "kind": "false",
+      "condition": "not (candydate)"
+    },
+    {
+      "from": "effect:1455",
+      "to": "if:1467",
+      "kind": "continue"
+    },
+    {
+      "from": "label:withgumdrop",
+      "to": "effect:1455",
+      "kind": "enter"
+    },
+    {
+      "from": "if:1565",
+      "to": "label:butterscotchvisit",
+      "kind": "true",
+      "condition": "foundcandy"
+    },
+    {
+      "from": "if:1565",
+      "to": "label:butterscotchvisit",
+      "kind": "false",
+      "condition": "not (foundcandy)"
+    },
+    {
+      "from": "if:1563",
+      "to": "label:butterscotchvisit",
+      "kind": "true",
+      "condition": "candyslave"
+    },
+    {
+      "from": "if:1563",
+      "to": "if:1565",
+      "kind": "false",
+      "condition": "not (candyslave)"
+    },
+    {
+      "from": "effect:1529",
+      "to": "if:1563",
+      "kind": "continue"
+    },
+    {
+      "from": "label:withpastille",
+      "to": "effect:1529",
+      "kind": "enter"
+    },
+    {
+      "from": "if:1657",
+      "to": "label:butterscotchvisit2",
+      "kind": "true",
+      "condition": "candyslave"
+    },
+    {
+      "from": "if:1657",
+      "to": "label:butterscotchvisit2",
+      "kind": "false",
+      "condition": "not (candyslave)"
+    },
+    {
+      "from": "jump:1637",
+      "to": "label:butterscotchvisit2",
+      "kind": "jump"
+    },
+    {
+      "from": "if:1625",
+      "to": "jump:1637",
+      "kind": "true",
+      "condition": "not nopets"
+    },
+    {
+      "from": "if:1625",
+      "to": "if:1657",
+      "kind": "false",
+      "condition": "not (not nopets)"
+    },
+    {
+      "from": "effect:1616",
+      "to": "if:1625",
+      "kind": "continue"
+    },
+    {
+      "from": "label:butterscotchvisit",
+      "to": "effect:1616",
+      "kind": "enter"
+    },
+    {
+      "from": "if:1782",
+      "to": "label:mission",
+      "kind": "true",
+      "condition": "candyslave"
+    },
+    {
+      "from": "if:1782",
+      "to": "label:mission",
+      "kind": "false",
+      "condition": "not (candyslave)"
+    },
+    {
+      "from": "jump:1760",
+      "to": "label:mission",
+      "kind": "jump"
+    },
+    {
+      "from": "if:1758",
+      "to": "jump:1760",
+      "kind": "true",
+      "condition": "gp <= 1"
+    },
+    {
+      "from": "if:1758",
+      "to": "if:1782",
+      "kind": "false",
+      "condition": "not (gp <= 1)"
+    },
+    {
+      "from": "if:1723",
+      "to": "if:1758",
+      "kind": "true",
+      "condition": "paranoid"
+    },
+    {
+      "from": "if:1723",
+      "to": "if:1758",
+      "kind": "false",
+      "condition": "not (paranoid)"
+    },
+    {
+      "from": "if:1721",
+      "to": "if:1758",
+      "kind": "true",
+      "condition": "nopets"
+    },
+    {
+      "from": "if:1721",
+      "to": "if:1723",
+      "kind": "false",
+      "condition": "not (nopets)"
+    },
+    {
+      "from": "if:1689",
+      "to": "if:1782",
+      "kind": "true",
+      "condition": "candyslave"
+    },
+    {
+      "from": "if:1689",
+      "to": "if:1721",
+      "kind": "false",
+      "condition": "not (candyslave)"
+    },
+    {
+      "from": "if:1683",
+      "to": "if:1689",
+      "kind": "true",
+      "condition": "candyslave"
+    },
+    {
+      "from": "if:1683",
+      "to": "if:1689",
+      "kind": "false",
+      "condition": "not (candyslave)"
+    },
+    {
+      "from": "label:butterscotchvisit2",
+      "to": "if:1683",
+      "kind": "enter"
+    },
+    {
+      "from": "if:1856",
+      "to": "label:libraryvisit",
+      "kind": "true",
+      "condition": "renpy.variant(\"small\")"
+    },
+    {
+      "from": "if:1856",
+      "to": "label:libraryvisit",
+      "kind": "false",
+      "condition": "not (renpy.variant(\"small\"))"
+    },
+    {
+      "from": "effect:1805",
+      "to": "if:1856",
+      "kind": "continue"
+    },
+    {
+      "from": "label:mission",
+      "to": "effect:1805",
+      "kind": "enter"
+    },
+    {
+      "from": "if:1956",
+      "to": "label:missingcandy",
+      "kind": "true",
+      "condition": "renpy.variant(\"small\")"
+    },
+    {
+      "from": "if:1956",
+      "to": "label:missingcandy",
+      "kind": "false",
+      "condition": "not (renpy.variant(\"small\"))"
+    },
+    {
+      "from": "if:1915",
+      "to": "if:1956",
+      "kind": "true",
+      "condition": "salesman"
+    },
+    {
+      "from": "if:1915",
+      "to": "if:1956",
+      "kind": "false",
+      "condition": "not (salesman)"
+    },
+    {
+      "from": "effect:1908",
+      "to": "if:1915",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:1902",
+      "to": "effect:1908",
+      "kind": "continue"
+    },
+    {
+      "from": "label:libraryvisit",
+      "to": "effect:1902",
+      "kind": "enter"
+    },
+    {
+      "from": "menu:2084",
+      "to": "choice:2085",
+      "kind": "choice"
+    },
+    {
+      "from": "effect:2086",
+      "to": "label:adventure",
+      "kind": "continue"
+    },
+    {
+      "from": "choice:2085",
+      "to": "effect:2086",
+      "kind": "continue"
+    },
+    {
+      "from": "menu:2084",
+      "to": "choice:2087",
+      "kind": "choice"
+    },
+    {
+      "from": "choice:2087",
+      "to": "label:adventure",
+      "kind": "continue"
+    },
+    {
+      "from": "if:2071",
+      "to": "menu:2084",
+      "kind": "true",
+      "condition": "candyslave"
+    },
+    {
+      "from": "if:2071",
+      "to": "menu:2084",
+      "kind": "false",
+      "condition": "not (candyslave)"
+    },
+    {
+      "from": "effect:2044",
+      "to": "if:2071",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:2043",
+      "to": "effect:2044",
+      "kind": "continue"
+    },
+    {
+      "from": "if:2033",
+      "to": "effect:2043",
+      "kind": "true",
+      "condition": "foundcandy"
+    },
+    {
+      "from": "if:2033",
+      "to": "effect:2043",
+      "kind": "false",
+      "condition": "not (foundcandy)"
+    },
+    {
+      "from": "effect:2021",
+      "to": "if:2033",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:2020",
+      "to": "effect:2021",
+      "kind": "continue"
+    },
+    {
+      "from": "label:missingcandy",
+      "to": "effect:2020",
+      "kind": "enter"
+    },
+    {
+      "from": "if:2305",
+      "to": "label:thecave",
+      "kind": "true",
+      "condition": "gentlelady"
+    },
+    {
+      "from": "if:2305",
+      "to": "label:thecave",
+      "kind": "false",
+      "condition": "not (gentlelady)"
+    },
+    {
+      "from": "if:2289",
+      "to": "if:2305",
+      "kind": "true",
+      "condition": "gentlelady"
+    },
+    {
+      "from": "if:2289",
+      "to": "if:2305",
+      "kind": "false",
+      "condition": "not (gentlelady)"
+    },
+    {
+      "from": "effect:2284",
+      "to": "if:2289",
+      "kind": "continue"
+    },
+    {
+      "from": "menu:2262",
+      "to": "choice:2263",
+      "kind": "choice"
+    },
+    {
+      "from": "effect:2265",
+      "to": "effect:2284",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:2264",
+      "to": "effect:2265",
+      "kind": "continue"
+    },
+    {
+      "from": "choice:2263",
+      "to": "effect:2264",
+      "kind": "continue"
+    },
+    {
+      "from": "menu:2262",
+      "to": "choice:2279",
+      "kind": "choice"
+    },
+    {
+      "from": "choice:2279",
+      "to": "effect:2284",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:2239",
+      "to": "menu:2262",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:2196",
+      "to": "effect:2239",
+      "kind": "continue"
+    },
+    {
+      "from": "if:2178",
+      "to": "effect:2196",
+      "kind": "true",
+      "condition": "candyslave"
+    },
+    {
+      "from": "if:2178",
+      "to": "effect:2196",
+      "kind": "false",
+      "condition": "not (candyslave)"
+    },
+    {
+      "from": "effect:2111",
+      "to": "if:2178",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:2110",
+      "to": "effect:2111",
+      "kind": "continue"
+    },
+    {
+      "from": "label:adventure",
+      "to": "effect:2110",
+      "kind": "enter"
+    },
+    {
+      "from": "if:2370",
+      "to": "label:trapped",
+      "kind": "true",
+      "condition": "gentlelady"
+    },
+    {
+      "from": "if:2370",
+      "to": "label:trapped",
+      "kind": "false",
+      "condition": "not (gentlelady)"
+    },
+    {
+      "from": "menu:2353",
+      "to": "choice:2354",
+      "kind": "choice"
+    },
+    {
+      "from": "choice:2354",
+      "to": "if:2370",
+      "kind": "continue"
+    },
+    {
+      "from": "menu:2353",
+      "to": "choice:2358",
+      "kind": "choice"
+    },
+    {
+      "from": "effect:2359",
+      "to": "if:2370",
+      "kind": "continue"
+    },
+    {
+      "from": "choice:2358",
+      "to": "effect:2359",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:2322",
+      "to": "menu:2353",
+      "kind": "continue"
+    },
+    {
+      "from": "label:thecave",
+      "to": "effect:2322",
+      "kind": "enter"
+    },
+    {
+      "from": "menu:2485",
+      "to": "choice:2486",
+      "kind": "choice"
+    },
+    {
+      "from": "jump:2488",
+      "to": "label:hearttoheart",
+      "kind": "jump"
+    },
+    {
+      "from": "effect:2487",
+      "to": "jump:2488",
+      "kind": "continue"
+    },
+    {
+      "from": "choice:2486",
+      "to": "effect:2487",
+      "kind": "continue"
+    },
+    {
+      "from": "menu:2485",
+      "to": "choice:2490",
+      "kind": "choice"
+    },
+    {
+      "from": "jump:2494",
+      "to": "label:thingsgonesour",
+      "kind": "jump"
+    },
+    {
+      "from": "choice:2490",
+      "to": "jump:2494",
+      "kind": "continue"
+    },
+    {
+      "from": "label:trapped",
+      "to": "menu:2485",
+      "kind": "enter"
+    },
+    {
+      "from": "effect:2533",
+      "to": "return:2537",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:2532",
+      "to": "effect:2533",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:2531",
+      "to": "effect:2532",
+      "kind": "continue"
+    },
+    {
+      "from": "jump:2529",
+      "to": "label:saved",
+      "kind": "jump"
+    },
+    {
+      "from": "if:2526",
+      "to": "jump:2529",
+      "kind": "true",
+      "condition": "pp >= 1 and gp >= 2 and not candyslave"
+    },
+    {
+      "from": "if:2526",
+      "to": "effect:2531",
+      "kind": "false",
+      "condition": "not (pp >= 1 and gp >= 2 and not candyslave)"
+    },
+    {
+      "from": "label:thingsgonesour",
+      "to": "if:2526",
+      "kind": "enter"
+    },
+    {
+      "from": "menu:2608",
+      "to": "choice:2609",
+      "kind": "choice"
+    },
+    {
+      "from": "jump:2627",
+      "to": "label:backhome",
+      "kind": "jump"
+    },
+    {
+      "from": "effect:2611",
+      "to": "jump:2627",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:2610",
+      "to": "effect:2611",
+      "kind": "continue"
+    },
+    {
+      "from": "choice:2609",
+      "to": "effect:2610",
+      "kind": "continue"
+    },
+    {
+      "from": "menu:2608",
+      "to": "choice:2628",
+      "kind": "choice"
+    },
+    {
+      "from": "effect:2650",
+      "to": "return:2654",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:2649",
+      "to": "effect:2650",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:2648",
+      "to": "effect:2649",
+      "kind": "continue"
+    },
+    {
+      "from": "choice:2628",
+      "to": "effect:2648",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:2554",
+      "to": "menu:2608",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:2551",
+      "to": "effect:2554",
+      "kind": "continue"
+    },
+    {
+      "from": "label:saved",
+      "to": "effect:2551",
+      "kind": "enter"
+    },
+    {
+      "from": "label:hearttoheart",
+      "to": "label:backhome",
+      "kind": "enter"
+    },
+    {
+      "from": "if:2741",
+      "to": "label:missioncomplete",
+      "kind": "true",
+      "condition": "forgiven"
+    },
+    {
+      "from": "if:2741",
+      "to": "label:missioncomplete",
+      "kind": "false",
+      "condition": "not (forgiven)"
+    },
+    {
+      "from": "effect:2723",
+      "to": "if:2741",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:2722",
+      "to": "effect:2723",
+      "kind": "continue"
+    },
+    {
+      "from": "label:backhome",
+      "to": "effect:2722",
+      "kind": "enter"
+    },
+    {
+      "from": "if:2807",
+      "to": "label:makethething",
+      "kind": "true",
+      "condition": "forgiven"
+    },
+    {
+      "from": "if:2807",
+      "to": "label:makethething",
+      "kind": "false",
+      "condition": "not (forgiven)"
+    },
+    {
+      "from": "effect:2803",
+      "to": "if:2807",
+      "kind": "continue"
+    },
+    {
+      "from": "if:2798",
+      "to": "effect:2803",
+      "kind": "true",
+      "condition": "forgiven"
+    },
+    {
+      "from": "if:2798",
+      "to": "effect:2803",
+      "kind": "false",
+      "condition": "not (forgiven)"
+    },
+    {
+      "from": "effect:2793",
+      "to": "if:2798",
+      "kind": "continue"
+    },
+    {
+      "from": "label:missioncomplete",
+      "to": "effect:2793",
+      "kind": "enter"
+    },
+    {
+      "from": "menu:2860",
+      "to": "choice:2861",
+      "kind": "choice"
+    },
+    {
+      "from": "jump:2864",
+      "to": "label:creation",
+      "kind": "jump"
+    },
+    {
+      "from": "choice:2861",
+      "to": "jump:2864",
+      "kind": "continue"
+    },
+    {
+      "from": "menu:2860",
+      "to": "choice:2865",
+      "kind": "choice"
+    },
+    {
+      "from": "jump:2880",
+      "to": "label:ultimatesweet",
+      "kind": "jump"
+    },
+    {
+      "from": "effect:2866",
+      "to": "jump:2880",
+      "kind": "continue"
+    },
+    {
+      "from": "choice:2865",
+      "to": "effect:2866",
+      "kind": "continue"
+    },
+    {
+      "from": "if:2833",
+      "to": "menu:2860",
+      "kind": "true",
+      "condition": "candyslave"
+    },
+    {
+      "from": "if:2833",
+      "to": "menu:2860",
+      "kind": "false",
+      "condition": "not (candyslave)"
+    },
+    {
+      "from": "label:makethething",
+      "to": "if:2833",
+      "kind": "enter"
+    },
+    {
+      "from": "jump:2978",
+      "to": "label:afterwards",
+      "kind": "jump"
+    },
+    {
+      "from": "jump:2975",
+      "to": "label:lonelygumdrop",
+      "kind": "jump"
+    },
+    {
+      "from": "if:2974",
+      "to": "jump:2975",
+      "kind": "true",
+      "condition": "gp >= 4 and not candyslave"
+    },
+    {
+      "from": "if:2974",
+      "to": "jump:2978",
+      "kind": "false",
+      "condition": "not (gp >= 4 and not candyslave)"
+    },
+    {
+      "from": "label:creation",
+      "to": "if:2974",
+      "kind": "enter"
+    },
+    {
+      "from": "jump:3070",
+      "to": "label:ultimatesweet",
+      "kind": "jump"
+    },
+    {
+      "from": "label:lonelygumdrop",
+      "to": "jump:3070",
+      "kind": "enter"
+    },
+    {
+      "from": "jump:3105",
+      "to": "label:ultimatesweet",
+      "kind": "jump"
+    },
+    {
+      "from": "if:3088",
+      "to": "jump:3105",
+      "kind": "true",
+      "condition": "forgiven"
+    },
+    {
+      "from": "if:3088",
+      "to": "jump:3105",
+      "kind": "false",
+      "condition": "not (forgiven)"
+    },
+    {
+      "from": "jump:3086",
+      "to": "label:toffeetalk",
+      "kind": "jump"
+    },
+    {
+      "from": "if:3079",
+      "to": "jump:3086",
+      "kind": "true",
+      "condition": "bp >= 3"
+    },
+    {
+      "from": "if:3079",
+      "to": "if:3088",
+      "kind": "false",
+      "condition": "not (bp >= 3)"
+    },
+    {
+      "from": "label:afterwards",
+      "to": "if:3079",
+      "kind": "enter"
+    },
+    {
+      "from": "effect:3114",
+      "to": "label:ultimatesweet",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:3113",
+      "to": "effect:3114",
+      "kind": "continue"
+    },
+    {
+      "from": "label:toffeetalk",
+      "to": "effect:3113",
+      "kind": "enter"
+    },
+    {
+      "from": "jump:3244",
+      "to": "label:pastilleend",
+      "kind": "jump"
+    },
+    {
+      "from": "if:3232",
+      "to": "jump:3244",
+      "kind": "true",
+      "condition": "candyslave"
+    },
+    {
+      "from": "if:3232",
+      "to": "jump:3244",
+      "kind": "false",
+      "condition": "not (candyslave)"
+    },
+    {
+      "from": "if:3228",
+      "to": "if:3232",
+      "kind": "true",
+      "condition": "pp >= 3"
+    },
+    {
+      "from": "if:3228",
+      "to": "label:syrupend",
+      "kind": "false",
+      "condition": "not (pp >= 3)"
+    },
+    {
+      "from": "jump:3226",
+      "to": "label:butterscotchend",
+      "kind": "jump"
+    },
+    {
+      "from": "jump:3224",
+      "to": "label:toffeeend",
+      "kind": "jump"
+    },
+    {
+      "from": "if:3223",
+      "to": "jump:3224",
+      "kind": "true",
+      "condition": "persistent.butterscotchend"
+    },
+    {
+      "from": "if:3223",
+      "to": "jump:3226",
+      "kind": "false",
+      "condition": "not (persistent.butterscotchend)"
+    },
+    {
+      "from": "jump:3222",
+      "to": "label:toffeeend",
+      "kind": "jump"
+    },
+    {
+      "from": "if:3221",
+      "to": "jump:3222",
+      "kind": "true",
+      "condition": "forgiven"
+    },
+    {
+      "from": "if:3221",
+      "to": "if:3223",
+      "kind": "false",
+      "condition": "not (forgiven)"
+    },
+    {
+      "from": "if:3215",
+      "to": "if:3221",
+      "kind": "true",
+      "condition": "bp >= 4"
+    },
+    {
+      "from": "if:3215",
+      "to": "if:3228",
+      "kind": "false",
+      "condition": "not (bp >= 4)"
+    },
+    {
+      "from": "jump:3213",
+      "to": "label:gumdropend",
+      "kind": "jump"
+    },
+    {
+      "from": "if:3209",
+      "to": "jump:3213",
+      "kind": "true",
+      "condition": "gp >= 4 and not candyslave"
+    },
+    {
+      "from": "if:3209",
+      "to": "if:3215",
+      "kind": "false",
+      "condition": "not (gp >= 4 and not candyslave)"
+    },
+    {
+      "from": "jump:3207",
+      "to": "label:syrupend",
+      "kind": "jump"
+    },
+    {
+      "from": "if:3206",
+      "to": "jump:3207",
+      "kind": "true",
+      "condition": "forgotit"
+    },
+    {
+      "from": "if:3206",
+      "to": "if:3209",
+      "kind": "false",
+      "condition": "not (forgotit)"
+    },
+    {
+      "from": "effect:3186",
+      "to": "if:3206",
+      "kind": "continue"
+    },
+    {
+      "from": "label:ultimatesweet",
+      "to": "effect:3186",
+      "kind": "enter"
+    },
+    {
+      "from": "jump:3297",
+      "to": "label:credits",
+      "kind": "jump"
+    },
+    {
+      "from": "effect:3293",
+      "to": "jump:3297",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:3292",
+      "to": "effect:3293",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:3271",
+      "to": "effect:3292",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:3266",
+      "to": "effect:3271",
+      "kind": "continue"
+    },
+    {
+      "from": "if:3255",
+      "to": "effect:3266",
+      "kind": "true",
+      "condition": "not forgotit"
+    },
+    {
+      "from": "if:3255",
+      "to": "effect:3266",
+      "kind": "false",
+      "condition": "not (not forgotit)"
+    },
+    {
+      "from": "label:syrupend",
+      "to": "if:3255",
+      "kind": "enter"
+    },
+    {
+      "from": "jump:3370",
+      "to": "label:credits",
+      "kind": "jump"
+    },
+    {
+      "from": "effect:3366",
+      "to": "jump:3370",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:3365",
+      "to": "effect:3366",
+      "kind": "continue"
+    },
+    {
+      "from": "if:3360",
+      "to": "effect:3365",
+      "kind": "true",
+      "condition": "renpy.variant(\"small\")"
+    },
+    {
+      "from": "if:3360",
+      "to": "effect:3365",
+      "kind": "false",
+      "condition": "not (renpy.variant(\"small\"))"
+    },
+    {
+      "from": "label:pastilleend",
+      "to": "if:3360",
+      "kind": "enter"
+    },
+    {
+      "from": "jump:3422",
+      "to": "label:credits",
+      "kind": "jump"
+    },
+    {
+      "from": "effect:3418",
+      "to": "jump:3422",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:3417",
+      "to": "effect:3418",
+      "kind": "continue"
+    },
+    {
+      "from": "if:3412",
+      "to": "effect:3417",
+      "kind": "true",
+      "condition": "renpy.variant(\"small\")"
+    },
+    {
+      "from": "if:3412",
+      "to": "effect:3417",
+      "kind": "false",
+      "condition": "not (renpy.variant(\"small\"))"
+    },
+    {
+      "from": "label:gumdropend",
+      "to": "if:3412",
+      "kind": "enter"
+    },
+    {
+      "from": "jump:3508",
+      "to": "label:credits",
+      "kind": "jump"
+    },
+    {
+      "from": "effect:3504",
+      "to": "jump:3508",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:3503",
+      "to": "effect:3504",
+      "kind": "continue"
+    },
+    {
+      "from": "if:3500",
+      "to": "effect:3503",
+      "kind": "true",
+      "condition": "renpy.variant(\"small\")"
+    },
+    {
+      "from": "if:3500",
+      "to": "effect:3503",
+      "kind": "false",
+      "condition": "not (renpy.variant(\"small\"))"
+    },
+    {
+      "from": "effect:3432",
+      "to": "if:3500",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:3425",
+      "to": "effect:3432",
+      "kind": "continue"
+    },
+    {
+      "from": "label:butterscotchend",
+      "to": "effect:3425",
+      "kind": "enter"
+    },
+    {
+      "from": "menu:3632",
+      "to": "choice:3634",
+      "kind": "choice"
+    },
+    {
+      "from": "choice:3634",
+      "to": "label:toffeeend2",
+      "kind": "continue"
+    },
+    {
+      "from": "menu:3632",
+      "to": "choice:3636",
+      "kind": "choice"
+    },
+    {
+      "from": "choice:3636",
+      "to": "label:toffeeend2",
+      "kind": "continue"
+    },
+    {
+      "from": "menu:3632",
+      "to": "choice:3638",
+      "kind": "choice",
+      "condition": "persistent.toffeeend"
+    },
+    {
+      "from": "jump:3644",
+      "to": "label:toffeeend2",
+      "kind": "jump"
+    },
+    {
+      "from": "choice:3638",
+      "to": "jump:3644",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:3575",
+      "to": "menu:3632",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:3569",
+      "to": "effect:3575",
+      "kind": "continue"
+    },
+    {
+      "from": "menu:3540",
+      "to": "choice:3541",
+      "kind": "choice"
+    },
+    {
+      "from": "choice:3541",
+      "to": "effect:3569",
+      "kind": "continue"
+    },
+    {
+      "from": "menu:3540",
+      "to": "choice:3551",
+      "kind": "choice"
+    },
+    {
+      "from": "jump:3560",
+      "to": "label:butterscotchend",
+      "kind": "jump"
+    },
+    {
+      "from": "choice:3551",
+      "to": "jump:3560",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:3515",
+      "to": "menu:3540",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:3511",
+      "to": "effect:3515",
+      "kind": "continue"
+    },
+    {
+      "from": "label:toffeeend",
+      "to": "effect:3511",
+      "kind": "enter"
+    },
+    {
+      "from": "effect:3689",
+      "to": "label:credits",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:3688",
+      "to": "effect:3689",
+      "kind": "continue"
+    },
+    {
+      "from": "label:toffeeend2",
+      "to": "effect:3688",
+      "kind": "enter"
+    },
+    {
+      "from": "if:3705",
+      "to": "return:3724",
+      "kind": "true",
+      "condition": "preferences.language is not None"
+    },
+    {
+      "from": "if:3705",
+      "to": "return:3724",
+      "kind": "false",
+      "condition": "not (preferences.language is not None)"
+    },
+    {
+      "from": "effect:3702",
+      "to": "if:3705",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:3701",
+      "to": "effect:3702",
+      "kind": "continue"
+    },
+    {
+      "from": "effect:3698",
+      "to": "effect:3701",
+      "kind": "continue"
+    },
+    {
+      "from": "if:3697",
+      "to": "effect:3698",
+      "kind": "true",
+      "condition": "renpy.variant(\"pc\")"
+    },
+    {
+      "from": "if:3697",
+      "to": "effect:3701",
+      "kind": "false",
+      "condition": "not (renpy.variant(\"pc\"))"
+    },
+    {
+      "from": "effect:3696",
+      "to": "if:3697",
+      "kind": "continue"
+    },
+    {
+      "from": "label:credits",
+      "to": "effect:3696",
+      "kind": "enter"
+    }
+  ],
+  "endings": [
+    {
+      "achievement_id": "CANDIBAL_END",
+      "label": "candibal",
+      "title_zh": "食人结局",
+      "condition": "menu:140 choose 1; menu:195 choose 2 -> candibal",
+      "example": {
+        "previous_butterscotch_ending": false,
+        "state_at_ending": {
+          "bp": 0,
+          "gp": 0,
+          "pp": 0,
+          "biopsy": true,
+          "nopets": false,
+          "candyslave": false,
+          "candydate": false,
+          "gotlost": false,
+          "foundcandy": false,
+          "paranoid": false,
+          "salesman": false,
+          "gentlelady": false,
+          "forgiven": false,
+          "forgotit": false
+        },
+        "choices": [
+          {
+            "menu_line": 140,
+            "choice_index": 1,
+            "choice_line": 141,
+            "choice_zh": "既然这样的话……"
+          },
+          {
+            "menu_line": 195,
+            "choice_index": 2,
+            "choice_line": 240,
+            "choice_zh": "反正我就是要吃掉她"
+          }
+        ]
+      }
+    },
+    {
+      "achievement_id": "BAD1_END",
+      "label": "badend1",
+      "title_zh": "坏结局1",
+      "condition": "Reach lonelystore by declining rescue/search; menu:1098 choose 2 -> thentherewasone",
+      "example": {
+        "previous_butterscotch_ending": false,
+        "state_at_ending": {
+          "bp": 0,
+          "gp": 1,
+          "pp": 1,
+          "biopsy": false,
+          "nopets": false,
+          "candyslave": false,
+          "candydate": false,
+          "gotlost": true,
+          "foundcandy": false,
+          "paranoid": true,
+          "salesman": false,
+          "gentlelady": false,
+          "forgiven": false,
+          "forgotit": false
+        },
+        "choices": [
+          {
+            "menu_line": 140,
+            "choice_index": 2,
+            "choice_line": 144,
+            "choice_zh": "不要吃这个可爱的糖果女孩"
+          },
+          {
+            "menu_line": 471,
+            "choice_index": 1,
+            "choice_line": 472,
+            "choice_zh": "好吧，我们可以留她在这里。"
+          },
+          {
+            "menu_line": 771,
+            "choice_index": 2,
+            "choice_line": 778,
+            "choice_zh": "别烦我。"
+          },
+          {
+            "menu_line": 998,
+            "choice_index": 2,
+            "choice_line": 1005,
+            "choice_zh": "管他呢，再见。"
+          },
+          {
+            "menu_line": 1098,
+            "choice_index": 2,
+            "choice_line": 1110,
+            "choice_zh": "我还没绝望到那种地步"
+          }
+        ]
+      }
+    },
+    {
+      "achievement_id": "BAD2_END",
+      "label": "badend2",
+      "title_zh": "坏结局2",
+      "condition": "Reach lonelystore by declining rescue/search; menu:1098 choose 1 -> parttimecat",
+      "example": {
+        "previous_butterscotch_ending": false,
+        "state_at_ending": {
+          "bp": 0,
+          "gp": 1,
+          "pp": 1,
+          "biopsy": false,
+          "nopets": false,
+          "candyslave": false,
+          "candydate": false,
+          "gotlost": true,
+          "foundcandy": false,
+          "paranoid": true,
+          "salesman": false,
+          "gentlelady": false,
+          "forgiven": false,
+          "forgotit": false
+        },
+        "choices": [
+          {
+            "menu_line": 140,
+            "choice_index": 2,
+            "choice_line": 144,
+            "choice_zh": "不要吃这个可爱的糖果女孩"
+          },
+          {
+            "menu_line": 471,
+            "choice_index": 1,
+            "choice_line": 472,
+            "choice_zh": "好吧，我们可以留她在这里。"
+          },
+          {
+            "menu_line": 771,
+            "choice_index": 2,
+            "choice_line": 778,
+            "choice_zh": "别烦我。"
+          },
+          {
+            "menu_line": 998,
+            "choice_index": 2,
+            "choice_line": 1005,
+            "choice_zh": "管他呢，再见。"
+          },
+          {
+            "menu_line": 1098,
+            "choice_index": 1,
+            "choice_line": 1099,
+            "choice_zh": "雇用猫"
+          }
+        ]
+      }
+    },
+    {
+      "achievement_id": "FROZEN_END",
+      "label": "thingsgonesour",
+      "title_zh": "冻僵结局",
+      "condition": "menu:2485 choose 2; not (pp >= 1 and gp >= 2 and not candyslave)",
+      "example": {
+        "previous_butterscotch_ending": false,
+        "state_at_ending": {
+          "bp": 2,
+          "gp": 2,
+          "pp": 0,
+          "biopsy": false,
+          "nopets": true,
+          "candyslave": false,
+          "candydate": false,
+          "gotlost": false,
+          "foundcandy": false,
+          "paranoid": false,
+          "salesman": false,
+          "gentlelady": true,
+          "forgiven": false,
+          "forgotit": false
+        },
+        "choices": [
+          {
+            "menu_line": 140,
+            "choice_index": 2,
+            "choice_line": 144,
+            "choice_zh": "不要吃这个可爱的糖果女孩"
+          },
+          {
+            "menu_line": 471,
+            "choice_index": 2,
+            "choice_line": 476,
+            "choice_zh": "我还是不喜欢她。"
+          },
+          {
+            "menu_line": 560,
+            "choice_index": 2,
+            "choice_line": 563,
+            "choice_zh": "容我三思……"
+          },
+          {
+            "menu_line": 1318,
+            "choice_index": 1,
+            "choice_line": 1319,
+            "choice_zh": "她是非卖品"
+          },
+          {
+            "menu_line": 1394,
+            "choice_index": 1,
+            "choice_line": 1396,
+            "choice_zh": "监督甘姆德洛普"
+          },
+          {
+            "menu_line": 2084,
+            "choice_index": 1,
+            "choice_line": 2085,
+            "choice_zh": "让她帮忙"
+          },
+          {
+            "menu_line": 2262,
+            "choice_index": 1,
+            "choice_line": 2263,
+            "choice_zh": "把外套给她"
+          },
+          {
+            "menu_line": 2353,
+            "choice_index": 1,
+            "choice_line": 2354,
+            "choice_zh": "有多少拿多少"
+          },
+          {
+            "menu_line": 2485,
+            "choice_index": 2,
+            "choice_line": 2490,
+            "choice_zh": "是的，我讨厌你。"
+          }
+        ]
+      }
+    },
+    {
+      "achievement_id": "WORST_END",
+      "label": "saved",
+      "title_zh": "最坏的结局",
+      "condition": "menu:2485 choose 2; pp >= 1 and gp >= 2 and not candyslave; menu:2608 choose 2",
+      "example": {
+        "previous_butterscotch_ending": false,
+        "state_at_ending": {
+          "bp": 2,
+          "gp": 2,
+          "pp": 1,
+          "biopsy": true,
+          "nopets": true,
+          "candyslave": false,
+          "candydate": false,
+          "gotlost": false,
+          "foundcandy": false,
+          "paranoid": false,
+          "salesman": false,
+          "gentlelady": true,
+          "forgiven": false,
+          "forgotit": false
+        },
+        "choices": [
+          {
+            "menu_line": 140,
+            "choice_index": 1,
+            "choice_line": 141,
+            "choice_zh": "既然这样的话……"
+          },
+          {
+            "menu_line": 195,
+            "choice_index": 1,
+            "choice_line": 196,
+            "choice_zh": "……好吧，你说得有理"
+          },
+          {
+            "menu_line": 471,
+            "choice_index": 2,
+            "choice_line": 476,
+            "choice_zh": "我还是不喜欢她。"
+          },
+          {
+            "menu_line": 560,
+            "choice_index": 2,
+            "choice_line": 563,
+            "choice_zh": "容我三思……"
+          },
+          {
+            "menu_line": 1318,
+            "choice_index": 1,
+            "choice_line": 1319,
+            "choice_zh": "她是非卖品"
+          },
+          {
+            "menu_line": 1394,
+            "choice_index": 1,
+            "choice_line": 1396,
+            "choice_zh": "监督甘姆德洛普"
+          },
+          {
+            "menu_line": 2084,
+            "choice_index": 1,
+            "choice_line": 2085,
+            "choice_zh": "让她帮忙"
+          },
+          {
+            "menu_line": 2262,
+            "choice_index": 1,
+            "choice_line": 2263,
+            "choice_zh": "把外套给她"
+          },
+          {
+            "menu_line": 2353,
+            "choice_index": 1,
+            "choice_line": 2354,
+            "choice_zh": "有多少拿多少"
+          },
+          {
+            "menu_line": 2485,
+            "choice_index": 2,
+            "choice_line": 2490,
+            "choice_zh": "是的，我讨厌你。"
+          },
+          {
+            "menu_line": 2608,
+            "choice_index": 2,
+            "choice_line": 2628,
+            "choice_zh": "我还是很讨厌你。"
+          }
+        ]
+      }
+    },
+    {
+      "achievement_id": "SYRUP_END",
+      "label": "syrupend",
+      "title_zh": "希乐普结局",
+      "condition": "Reach ultimatesweet; forgotit or ((gp < 4 or candyslave) and bp < 4 and pp < 3)",
+      "example": {
+        "previous_butterscotch_ending": false,
+        "state_at_ending": {
+          "bp": 4,
+          "gp": 2,
+          "pp": 0,
+          "biopsy": false,
+          "nopets": true,
+          "candyslave": false,
+          "candydate": false,
+          "gotlost": false,
+          "foundcandy": false,
+          "paranoid": false,
+          "salesman": false,
+          "gentlelady": true,
+          "forgiven": false,
+          "forgotit": true
+        },
+        "choices": [
+          {
+            "menu_line": 140,
+            "choice_index": 2,
+            "choice_line": 144,
+            "choice_zh": "不要吃这个可爱的糖果女孩"
+          },
+          {
+            "menu_line": 471,
+            "choice_index": 2,
+            "choice_line": 476,
+            "choice_zh": "我还是不喜欢她。"
+          },
+          {
+            "menu_line": 560,
+            "choice_index": 2,
+            "choice_line": 563,
+            "choice_zh": "容我三思……"
+          },
+          {
+            "menu_line": 1318,
+            "choice_index": 1,
+            "choice_line": 1319,
+            "choice_zh": "她是非卖品"
+          },
+          {
+            "menu_line": 1394,
+            "choice_index": 1,
+            "choice_line": 1396,
+            "choice_zh": "监督甘姆德洛普"
+          },
+          {
+            "menu_line": 2084,
+            "choice_index": 1,
+            "choice_line": 2085,
+            "choice_zh": "让她帮忙"
+          },
+          {
+            "menu_line": 2262,
+            "choice_index": 1,
+            "choice_line": 2263,
+            "choice_zh": "把外套给她"
+          },
+          {
+            "menu_line": 2353,
+            "choice_index": 1,
+            "choice_line": 2354,
+            "choice_zh": "有多少拿多少"
+          },
+          {
+            "menu_line": 2485,
+            "choice_index": 1,
+            "choice_line": 2486,
+            "choice_zh": "我不讨厌你。"
+          },
+          {
+            "menu_line": 2860,
+            "choice_index": 2,
+            "choice_line": 2865,
+            "choice_zh": "还是算了吧"
+          }
+        ]
+      }
+    },
+    {
+      "achievement_id": "PASTILLE_END",
+      "label": "pastilleend",
+      "title_zh": "帕斯提耶结局",
+      "condition": "Reach ultimatesweet; not forgotit and (gp < 4 or candyslave) and bp < 4 and pp >= 3",
+      "example": {
+        "previous_butterscotch_ending": false,
+        "state_at_ending": {
+          "bp": 3,
+          "gp": 2,
+          "pp": 3,
+          "biopsy": false,
+          "nopets": false,
+          "candyslave": false,
+          "candydate": false,
+          "gotlost": true,
+          "foundcandy": true,
+          "paranoid": true,
+          "salesman": false,
+          "gentlelady": false,
+          "forgiven": false,
+          "forgotit": false
+        },
+        "choices": [
+          {
+            "menu_line": 140,
+            "choice_index": 2,
+            "choice_line": 144,
+            "choice_zh": "不要吃这个可爱的糖果女孩"
+          },
+          {
+            "menu_line": 471,
+            "choice_index": 1,
+            "choice_line": 472,
+            "choice_zh": "好吧，我们可以留她在这里。"
+          },
+          {
+            "menu_line": 771,
+            "choice_index": 2,
+            "choice_line": 778,
+            "choice_zh": "别烦我。"
+          },
+          {
+            "menu_line": 998,
+            "choice_index": 1,
+            "choice_line": 999,
+            "choice_zh": "……他说得对"
+          },
+          {
+            "menu_line": 1318,
+            "choice_index": 1,
+            "choice_line": 1319,
+            "choice_zh": "她是非卖品"
+          },
+          {
+            "menu_line": 1394,
+            "choice_index": 2,
+            "choice_line": 1419,
+            "choice_zh": "和你一起工作"
+          },
+          {
+            "menu_line": 2084,
+            "choice_index": 1,
+            "choice_line": 2085,
+            "choice_zh": "让她帮忙"
+          },
+          {
+            "menu_line": 2262,
+            "choice_index": 2,
+            "choice_line": 2279,
+            "choice_zh": "她能搞定的"
+          },
+          {
+            "menu_line": 2353,
+            "choice_index": 1,
+            "choice_line": 2354,
+            "choice_zh": "有多少拿多少"
+          },
+          {
+            "menu_line": 2485,
+            "choice_index": 1,
+            "choice_line": 2486,
+            "choice_zh": "我不讨厌你。"
+          },
+          {
+            "menu_line": 2860,
+            "choice_index": 1,
+            "choice_line": 2861,
+            "choice_zh": "观看水晶球里的内容"
+          }
+        ]
+      }
+    },
+    {
+      "achievement_id": "GUMDROP_END",
+      "label": "gumdropend",
+      "title_zh": "甘姆德洛普结局",
+      "condition": "Reach ultimatesweet; not forgotit and gp >= 4 and not candyslave",
+      "example": {
+        "previous_butterscotch_ending": false,
+        "state_at_ending": {
+          "bp": 4,
+          "gp": 5,
+          "pp": 1,
+          "biopsy": false,
+          "nopets": false,
+          "candyslave": false,
+          "candydate": true,
+          "gotlost": false,
+          "foundcandy": false,
+          "paranoid": false,
+          "salesman": false,
+          "gentlelady": true,
+          "forgiven": false,
+          "forgotit": false
+        },
+        "choices": [
+          {
+            "menu_line": 140,
+            "choice_index": 2,
+            "choice_line": 144,
+            "choice_zh": "不要吃这个可爱的糖果女孩"
+          },
+          {
+            "menu_line": 471,
+            "choice_index": 1,
+            "choice_line": 472,
+            "choice_zh": "好吧，我们可以留她在这里。"
+          },
+          {
+            "menu_line": 771,
+            "choice_index": 1,
+            "choice_line": 772,
+            "choice_zh": "你开心就好。"
+          },
+          {
+            "menu_line": 869,
+            "choice_index": 1,
+            "choice_line": 870,
+            "choice_zh": "带她回家"
+          },
+          {
+            "menu_line": 1318,
+            "choice_index": 1,
+            "choice_line": 1319,
+            "choice_zh": "她是非卖品"
+          },
+          {
+            "menu_line": 1394,
+            "choice_index": 1,
+            "choice_line": 1396,
+            "choice_zh": "监督甘姆德洛普"
+          },
+          {
+            "menu_line": 2084,
+            "choice_index": 1,
+            "choice_line": 2085,
+            "choice_zh": "让她帮忙"
+          },
+          {
+            "menu_line": 2262,
+            "choice_index": 1,
+            "choice_line": 2263,
+            "choice_zh": "把外套给她"
+          },
+          {
+            "menu_line": 2353,
+            "choice_index": 1,
+            "choice_line": 2354,
+            "choice_zh": "有多少拿多少"
+          },
+          {
+            "menu_line": 2485,
+            "choice_index": 1,
+            "choice_line": 2486,
+            "choice_zh": "我不讨厌你。"
+          },
+          {
+            "menu_line": 2860,
+            "choice_index": 1,
+            "choice_line": 2861,
+            "choice_zh": "观看水晶球里的内容"
+          }
+        ]
+      }
+    },
+    {
+      "achievement_id": "BS_END",
+      "label": "butterscotchend",
+      "title_zh": "巴塔斯可琪结局",
+      "condition": "Reach ultimatesweet; not forgotit and (gp < 4 or candyslave) and bp >= 4; either (not forgiven and not persistent.butterscotchend) or (enter toffeeend and menu:3540 choose 2)",
+      "example": {
+        "previous_butterscotch_ending": false,
+        "state_at_ending": {
+          "bp": 4,
+          "gp": 2,
+          "pp": 0,
+          "biopsy": false,
+          "nopets": true,
+          "candyslave": false,
+          "candydate": false,
+          "gotlost": false,
+          "foundcandy": false,
+          "paranoid": false,
+          "salesman": false,
+          "gentlelady": true,
+          "forgiven": false,
+          "forgotit": false
+        },
+        "choices": [
+          {
+            "menu_line": 140,
+            "choice_index": 2,
+            "choice_line": 144,
+            "choice_zh": "不要吃这个可爱的糖果女孩"
+          },
+          {
+            "menu_line": 471,
+            "choice_index": 2,
+            "choice_line": 476,
+            "choice_zh": "我还是不喜欢她。"
+          },
+          {
+            "menu_line": 560,
+            "choice_index": 2,
+            "choice_line": 563,
+            "choice_zh": "容我三思……"
+          },
+          {
+            "menu_line": 1318,
+            "choice_index": 1,
+            "choice_line": 1319,
+            "choice_zh": "她是非卖品"
+          },
+          {
+            "menu_line": 1394,
+            "choice_index": 1,
+            "choice_line": 1396,
+            "choice_zh": "监督甘姆德洛普"
+          },
+          {
+            "menu_line": 2084,
+            "choice_index": 1,
+            "choice_line": 2085,
+            "choice_zh": "让她帮忙"
+          },
+          {
+            "menu_line": 2262,
+            "choice_index": 1,
+            "choice_line": 2263,
+            "choice_zh": "把外套给她"
+          },
+          {
+            "menu_line": 2353,
+            "choice_index": 1,
+            "choice_line": 2354,
+            "choice_zh": "有多少拿多少"
+          },
+          {
+            "menu_line": 2485,
+            "choice_index": 1,
+            "choice_line": 2486,
+            "choice_zh": "我不讨厌你。"
+          },
+          {
+            "menu_line": 2860,
+            "choice_index": 1,
+            "choice_line": 2861,
+            "choice_zh": "观看水晶球里的内容"
+          }
+        ]
+      }
+    },
+    {
+      "achievement_id": "TOFFEE_END",
+      "label": "toffeeend2",
+      "title_zh": "托菲结局",
+      "condition": "Reach ultimatesweet; not forgotit and (gp < 4 or candyslave) and bp >= 4 and (forgiven or persistent.butterscotchend); menu:3540 choose 1. menu:3632 all visible choices converge to toffeeend2",
+      "example": {
+        "previous_butterscotch_ending": true,
+        "state_at_ending": {
+          "bp": 4,
+          "gp": 2,
+          "pp": 0,
+          "biopsy": false,
+          "nopets": true,
+          "candyslave": false,
+          "candydate": false,
+          "gotlost": false,
+          "foundcandy": false,
+          "paranoid": false,
+          "salesman": false,
+          "gentlelady": true,
+          "forgiven": false,
+          "forgotit": false
+        },
+        "choices": [
+          {
+            "menu_line": 140,
+            "choice_index": 2,
+            "choice_line": 144,
+            "choice_zh": "不要吃这个可爱的糖果女孩"
+          },
+          {
+            "menu_line": 471,
+            "choice_index": 2,
+            "choice_line": 476,
+            "choice_zh": "我还是不喜欢她。"
+          },
+          {
+            "menu_line": 560,
+            "choice_index": 2,
+            "choice_line": 563,
+            "choice_zh": "容我三思……"
+          },
+          {
+            "menu_line": 1318,
+            "choice_index": 1,
+            "choice_line": 1319,
+            "choice_zh": "她是非卖品"
+          },
+          {
+            "menu_line": 1394,
+            "choice_index": 1,
+            "choice_line": 1396,
+            "choice_zh": "监督甘姆德洛普"
+          },
+          {
+            "menu_line": 2084,
+            "choice_index": 1,
+            "choice_line": 2085,
+            "choice_zh": "让她帮忙"
+          },
+          {
+            "menu_line": 2262,
+            "choice_index": 1,
+            "choice_line": 2263,
+            "choice_zh": "把外套给她"
+          },
+          {
+            "menu_line": 2353,
+            "choice_index": 1,
+            "choice_line": 2354,
+            "choice_zh": "有多少拿多少"
+          },
+          {
+            "menu_line": 2485,
+            "choice_index": 1,
+            "choice_line": 2486,
+            "choice_zh": "我不讨厌你。"
+          },
+          {
+            "menu_line": 2860,
+            "choice_index": 1,
+            "choice_line": 2861,
+            "choice_zh": "观看水晶球里的内容"
+          },
+          {
+            "menu_line": 3540,
+            "choice_index": 1,
+            "choice_line": 3541,
+            "choice_zh": "当然"
+          },
+          {
+            "menu_line": 3632,
+            "choice_index": 1,
+            "choice_line": 3634,
+            "choice_zh": "男孩？"
+          }
+        ]
+      },
+      "clean_persistent_example": {
+        "previous_butterscotch_ending": false,
+        "previous_toffee_ending": false,
+        "choices": [
+          {
+            "menu_line": 140,
+            "choice_index": 1,
+            "choice_zh": "既然这样的话……"
+          },
+          {
+            "menu_line": 195,
+            "choice_index": 1,
+            "choice_zh": "……好吧，你说得有理"
+          },
+          {
+            "menu_line": 471,
+            "choice_index": 2,
+            "choice_zh": "我还是不喜欢她。"
+          },
+          {
+            "menu_line": 560,
+            "choice_index": 2,
+            "choice_zh": "容我三思……"
+          },
+          {
+            "menu_line": 1318,
+            "choice_index": 1,
+            "choice_zh": "她是非卖品"
+          },
+          {
+            "menu_line": 1394,
+            "choice_index": 1,
+            "choice_zh": "监督甘姆德洛普"
+          },
+          {
+            "menu_line": 2084,
+            "choice_index": 1,
+            "choice_zh": "让她帮忙"
+          },
+          {
+            "menu_line": 2262,
+            "choice_index": 1,
+            "choice_zh": "把外套给她"
+          },
+          {
+            "menu_line": 2353,
+            "choice_index": 2,
+            "choice_zh": "只拿你需要的份量"
+          },
+          {
+            "menu_line": 2485,
+            "choice_index": 2,
+            "choice_zh": "是的，我讨厌你。"
+          },
+          {
+            "menu_line": 2608,
+            "choice_index": 1,
+            "choice_zh": "……没关系的。"
+          },
+          {
+            "menu_line": 2860,
+            "choice_index": 1,
+            "choice_zh": "观看水晶球里的内容"
+          },
+          {
+            "menu_line": 3540,
+            "choice_index": 1,
+            "choice_zh": "当然"
+          },
+          {
+            "menu_line": 3632,
+            "choice_index": 1,
+            "choice_zh": "男孩？"
+          }
+        ],
+        "state_at_dispatch": {
+          "bp": 4,
+          "gp": 2,
+          "pp": 1,
+          "forgiven": true,
+          "candyslave": false,
+          "forgotit": false
+        },
+        "validation": "Verified by walking extracted graph from a clean persistent state; reaches TOFFEE_END."
+      }
+    }
+  ],
+  "static_enumeration": {
+    "assumptions": {
+      "variant": "web",
+      "previous_toffee_ending": false,
+      "previous_butterscotch_ending": [
+        false,
+        true
+      ]
+    },
+    "counts_by_prior_butterscotch_state": {
+      "false": {
+        "GUMDROP_END": 160,
+        "SYRUP_END": 942,
+        "WORST_END": 264,
+        "BS_END": 223,
+        "PASTILLE_END": 163,
+        "TOFFEE_END": 46,
+        "BAD2_END": 6,
+        "BAD1_END": 6,
+        "FROZEN_END": 216,
+        "CANDIBAL_END": 1
+      },
+      "true": {
+        "GUMDROP_END": 160,
+        "SYRUP_END": 942,
+        "WORST_END": 264,
+        "TOFFEE_END": 446,
+        "BS_END": 223,
+        "PASTILLE_END": 163,
+        "BAD2_END": 6,
+        "BAD1_END": 6,
+        "FROZEN_END": 216,
+        "CANDIBAL_END": 1
+      }
+    }
+  },
+  "characters_zh": {
+    "Syrup": "希乐普",
+    "Gumdrop": "甘姆德洛普",
+    "Pastille": "帕斯提耶",
+    "Butterscotch": "巴塔斯可琪",
+    "Toffee": "托菲",
+    "Treat": "德莉特",
+    "Milk Chocolate": "米尔克查克利",
+    "Dark Chocolate": "达克查克利",
+    "Chocolate Twins": "查克利双子"
+  },
+  "state_variable_notes": {
+    "bp": "魔女关系分数；0开始，最高5，决定夜谈和最终魔女/托菲分支",
+    "gp": "糖果女孩关系分数；0开始，最高5；>=4且非candyslave时抢占其他角色结局",
+    "pp": "帕斯提耶关系分数；0开始，最高4；救援至少1，专属结局至少3",
+    "biopsy": "取样检查身体；主要改变后续对白",
+    "nopets": "曾拒绝接纳并带女孩到魔女家；后续对白分流",
+    "candyslave": "曾将女孩留给魔女；保留外观变体并阻断女孩好结局和同伴救援",
+    "candydate": "共同采购经历；后续对白分流",
+    "gotlost": "记录女孩走失；当前主脚本仅写入，未见条件读取",
+    "foundcandy": "共同寻找女孩；后续对白分流",
+    "paranoid": "独自购物后对魔女怀疑；后续对白分流",
+    "salesman": "曾议价出售女孩；图书馆对白分流",
+    "gentlelady": "把外套借给魔女；姿态/对白变化，同时该选择bp+1",
+    "forgiven": "先拒绝和解、获救后原谅魔女；bp+1并允许无前置通关进入托菲线",
+    "forgotit": "不看水晶球；最终强制希乐普结局"
+  }
+}

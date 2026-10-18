@@ -1,0 +1,38 @@
+{
+  "gameId": 7776,
+  "title": "希乐普与终极糖果 · 中文网页重制",
+  "tags": [
+    "视觉小说",
+    "糖果拟人",
+    "多结局"
+  ],
+  "gameCategory": [
+    10001
+  ],
+  "summary": "相信科学的制糖师遇见会说话的糖果女孩。十九处选择，十种结局，一份不能只用配方解释的甜。",
+  "cover": "./assets/cover.png",
+  "gameFile": "./dist",
+  "gameType": 0,
+  "screen": 0,
+  "priceType": 0,
+  "visibility": 1,
+  "capabilityDeclaration": {
+    "schemaVersion": 1,
+    "capabilities": {
+      "storage": {
+        "enabled": true
+      },
+      "oss": {
+        "enabled": false
+      },
+      "ai": {
+        "enabled": false
+      },
+      "exchange": {
+        "enabled": false
+      }
+    }
+  },
+  "description": "一位相信科学的制糖师，遇见一个会说话的糖果女孩。通过十九处选择，探索科学、魔法与陪伴之间的十种结局。支持存读档、回退、历史、自动播放与图鉴。33 张新生成图集覆盖角色、背景与绘本插画，另配独立封面。参考 NomnomNami 原作 Syrup and the Ultimate Sweet 的公开网页构建重建分支规则；中文对白为重新撰写的精简改编，视觉素材为本次重新生成。原作简中译者署名 Yuriatelier。本次上传为免费草稿，平台存档交互待预览验收。",
+  "controls": "点击对话框或空格推进；数字 1–3 选择选项；方向键 ← 回退；Esc 打开菜单。底部按钮提供存读档、历史、自动播放和已读快进。菜单可导入或导出 JSON 进度。"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "candy-workshop-remake",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "希乐普与终极糖果中文网页重制与全套新视觉素材",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/engine.test.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

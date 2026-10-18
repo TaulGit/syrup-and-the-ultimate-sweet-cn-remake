@@ -1,0 +1,11 @@
+Use case: stylized-concept. Asset type: transparent 2D visual novel sprite atlas, EXACT 3 columns x 2 rows of six equal cells, no gutters or labels. Preferred 2304x1536.
+Create new redraws of adult Syrup after lending her winter coat to a friend. THIS OUTFIT IS THE WHITE LAB COAT, NOT A PARKA. Brown skin, blue oval eyes, blue goggles on forehead, asymmetrical mint green fringe and long side ponytail, shaved beige side, white lab coat over gray tank and navy trousers, blue lollipop. Face and nose visibly flushed red from cold, small shiver marks.
+Style and scale match new syrup-normal-a.png: coarse thick rounded black lines, flat color, a single crisp cel shadow, 3.5-head adult chibi proportions, tiny round white hair highlights. Each cell head-to-upper-thigh framing at consistent scale, complete hands/hair with small safe padding.
+Reading order:
+1 suffering the cold, arms crossed and teeth tight;
+2 awkward embarrassed cold smile, gaze aside;
+3 urgently calling hey, raised hand;
+4 small relieved warm smile, arms folded;
+5 stop gesture, palm forward;
+6 resigned agreeing expression, half closed eyes.
+All six are distinct poses of SAME design. TRUE TRANSPARENT background. No scenery, gradient, painted texture, text, border or watermark.

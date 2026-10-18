@@ -1,0 +1,16 @@
+Use case: illustration-story.
+Asset type: new transparent atlas for a candy-fantasy visual novel storybook, EXACTLY 3 columns by 3 rows, nine equal cells, preferred 1920x2160.
+Primary request: create 9 independent tall oval vignette illustrations, ONE centered vertical oval per occupied cell. The reference contact sheet supplies visual grammar and scene ideas, not an edit target. Do not copy its labels, layout, exact drawing or textures.
+Style: flat paper-cut geometric color shapes, charming simplified small chibi adult characters, minimal tiny faces, NO thick black outlines, almost no line art, no gradients, no realistic details or painterly finish. Muted pastel candy fantasy palette, understated storybook abstraction. Each image has an upright oval silhouette; artwork and its scenery stay inside that oval, all corners outside oval are genuinely transparent.
+Identity key: Syrup is brown-skinned adult woman with mint-green side fringe and ponytail, cyan forehead goggles and white labcoat; Gumdrop is pink-skinned adult candy woman with pink hair and red-white peppermint twin hair ornaments, always fully clothed in white/pink blouse/dress; Pastille is pink-haired adult man with white headscarf and pink apron; Butterscotch is orange-braided adult witch in huge purple hat/dress; Toffee is brown-skinned adult black cat-person with gold bell; Treat is white-haired adult wolf-girl in gray fur-trim coat.
+Scene cells in reading order:
+1. snowy clearing near pointed fir trees: black cat-person at lower left, tiny mint-haired scientist near center, white-haired wolf-girl near right
+2. one tiny mint-haired scientist walking alone along a lilac street with crooked rounded candy-town buildings, pink moon overhead
+3. same lilac street under pink moon, mint-haired scientist walking together with pink candy girl wearing a complete pink dress; repeat matching building silhouettes
+4. simple burgundy closed padlock icon centered in a pale pink vertical oval
+5. short-haired pink candy girl in white blouse and pink apron standing proudly at center, warm gold backdrop with simplified cheering silhouettes
+6. same proud new candy assistant on warm gold backdrop with cheering silhouettes, friendly smiling mouth variation
+7. pink-haired assistant wearing pointed witch hat floating in upper left while mint-haired scientist travels below holding basket; pastel blue and pink sky with tiny bird silhouettes
+8. mint-haired scientist and pink-haired assistant carrying a basket while searching a dark navy candy-town street, crescent moon and stars
+9. friendly peach-and-cream candy shop exterior, warm lit display window, door and red roof, sunny establishing shot
+Composition: exactly 3 by 3 evenly divided canvas; consistent oval size and margins. Each oval fills 85 percent of cell width and 90 percent height. Unused cells stay empty transparent. No letters, labels, numbers, borders, title, signatures or watermark. Transparent canvas between the isolated oval artworks.

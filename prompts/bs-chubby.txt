@@ -1,0 +1,17 @@
+Use case: stylized-concept.
+Asset type: new transparent visual-novel character sprite atlas. EXACT regular 3 columns by 3 rows, equal cells.
+Primary request: redraw every requested Butterscotch expression as original new artwork from the supplied design and style references. Reference images are design and linework guidance, not edit targets.
+Adult woman Butterscotch: pale skin with orange freckles, orange-red oval eyes, orange blunt bangs and two short braided pigtails tied with purple bows. Enormous dark-purple floppy pointed witch hat with two vertical eye-like slits, dark-purple capelet, bow and long dress. Keep her face, hair, body scale and hat consistent across every cell, head to mid-thigh, whole hat and hands inside cell.
+Wardrobe: Same witch costume, softer round puffed cheeks and rounded fuller silhouette, cute nonsexual comedy.
+Style: simple 2015 indie candy-fantasy cartoon, rounded heavy black ink contours on characters, flat pastel colors, one crisp cel shadow, large simple eyes, tiny white hair highlights, chibi adult proportions. Match the newly generated Syrup atlas linework, not realistic anime polish. No textures, gradients, 3D, realism, text, labels, watermark or grid lines.
+Cells in reading order, left to right and top to bottom:
+1. 轻声安慰 (awchub)
+2. 大哭 (bawchub)
+3. 基础 (chub)
+4. 流泪 (chubtears)
+5. 不好意思地笑 (ehehchub)
+6. 开心 (happychub)
+7. 生气 (madchub)
+8. 羞怯 (shychub)
+9. 委屈 (wehchub)
+Composition: exactly 9 occupied cells, remaining cells empty transparent. Every figure same scale and baseline, no overlap or gutters; generous transparent padding so the broad hat and gesturing hands never touch a cell boundary. GENUINELY TRANSPARENT background throughout; no colored cell rectangles.

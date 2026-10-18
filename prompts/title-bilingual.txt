@@ -1,0 +1,7 @@
+Use case: logo-brand. Asset type: two transparent title logos stacked as an EXACT 1-column 2-row sprite atlas, equal tiles, no divider. Preferred 2048x1024.
+Reference role: ONLY typography style of the original game's Chinese logo. Draw fresh playful chunky hand-lettered white letters with heavy nearly-black rounded outline and a tiny pale pink offset shadow. Clean flat cartoon type, no illustration, no extra badges, no surrounding border.
+TOP tile text VERBATIM: "希乐普与终极糖果"
+There are exactly these eight characters: 希 乐 普 与 终 极 糖 果. Show all eight in a single slightly lively hand-lettered line, legible and accurately written.
+BOTTOM tile text VERBATIM: "Syrup and the Ultimate Sweet"
+Show the English in a readable playful bold hand-lettered two-line arrangement.
+Centre each full logo safely inside its own half with generous transparent padding. Truly transparent background, no white rectangle, no textures, no watermark. Do not add any other text.

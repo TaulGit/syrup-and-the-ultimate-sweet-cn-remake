@@ -1,0 +1,17 @@
+dist/
+release/
+analysis/reference/
+.star-letter-preview-store.json
+.star-letter-preview-store.tmp
+node_modules/
+analysis/evidence/
+analysis/delivery-receipt.json
+.env
+.env.*
+!.env.example
+credentials.json
+*.log
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db

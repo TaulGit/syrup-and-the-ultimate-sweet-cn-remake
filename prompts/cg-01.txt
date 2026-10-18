@@ -1,0 +1,16 @@
+Use case: illustration-story.
+Asset type: new transparent atlas for a candy-fantasy visual novel storybook, EXACTLY 3 columns by 3 rows, nine equal cells, preferred 1920x2160.
+Primary request: create 9 independent tall oval vignette illustrations, ONE centered vertical oval per occupied cell. The reference contact sheet supplies visual grammar and scene ideas, not an edit target. Do not copy its labels, layout, exact drawing or textures.
+Style: flat paper-cut geometric color shapes, charming simplified small chibi adult characters, minimal tiny faces, NO thick black outlines, almost no line art, no gradients, no realistic details or painterly finish. Muted pastel candy fantasy palette, understated storybook abstraction. Each image has an upright oval silhouette; artwork and its scenery stay inside that oval, all corners outside oval are genuinely transparent.
+Identity key: Syrup is brown-skinned adult woman with mint-green side fringe and ponytail, cyan forehead goggles and white labcoat; Gumdrop is pink-skinned adult candy woman with pink hair and red-white peppermint twin hair ornaments, always fully clothed in white/pink blouse/dress; Pastille is pink-haired adult man with white headscarf and pink apron; Butterscotch is orange-braided adult witch in huge purple hat/dress; Toffee is brown-skinned adult black cat-person with gold bell; Treat is white-haired adult wolf-girl in gray fur-trim coat.
+Scene cells in reading order:
+1. lonely candy shop exterior at night, dark purple shuttered building, no people
+2. tiny solitary girl silhouette on a windy dark lilac horizon, bleak emptiness
+3. orange-braided purple-hatted witch smiling in the right foreground beside a golden cauldron, mint-haired scientist small at left, warm gold backdrop
+4. mint-haired scientist in the near left foreground waving farewell; black cat-person far away on a winding path to the right, dark teal starry night
+5. small group of mint-haired scientist, pink candy girl, orange witch and pink-haired assistant waving farewell to the white-haired wolf-girl near a snowy hut; deep blue-gray winter
+6. only a broken red-and-white peppermint candy and a few fragments in a quiet gray oval; symbolic candy remains, no gore
+7. dark cat-person silhouette with raised paws, pink-violet background dotted with orange candy symbols
+8. mint-haired scientist in gray fur winter coat and purple-hatted witch trekking up a white snowy slope, pale violet sky
+9. dark indigo candy-shop counter seen from front, single pale lavender spotlight shining onto a small girl silhouette behind counter
+Composition: exactly 3 by 3 evenly divided canvas; consistent oval size and margins. Each oval fills 85 percent of cell width and 90 percent height. Unused cells stay empty transparent. No letters, labels, numbers, borders, title, signatures or watermark. Transparent canvas between the isolated oval artworks.

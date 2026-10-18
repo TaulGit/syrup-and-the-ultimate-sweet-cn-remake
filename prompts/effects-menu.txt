@@ -1,0 +1,15 @@
+Use case: stylized-concept. Asset type: TRUE TRANSPARENT game effects atlas, EXACT 4 columns x 3 rows, 12 equal square cells, preferred 2048x1536. No gutters, labels, captions or watermark. New minimal flat 2D candy-fantasy decorations, simple hard-edged pastel shapes, few lines.
+Reading order:
+1 wide thin horizontally drifting lavender cloud ribbon, mostly transparent.
+2 tiny pale apricot five-petal flower centred, no stem.
+3 larger simple apricot five-petal flower centred.
+4 a tiny flower cluster variant matching cell2.
+5 rose-pink thin organic concentric magic rings, transparent open middle, no glow haze.
+6 same pink magic rings breaking into five loose curved fragments.
+7 small pale white soft magical light bloom limited to very centre, outside remains truly clear.
+8 pale cream transparent tint overlay with sparse subtle flecks, intended as a memory filter, no scene or solid rectangle.
+9 very small pair of lavender silhouette decorations, one catlike tuft near left and another tiny candy shape near bottom, animation frame 1.
+10 SAME layout and silhouette decoration as9, subtly shifted, animation frame 2.
+11 SAME decoration, third subtle phase, animation frame 3.
+12 empty fully transparent cell.
+Match humble indie visual novel UI accents. Ensure all content lies safely within its own cell. Outside intended shapes alpha zero; no dark background or checkerboard painted into pixels.

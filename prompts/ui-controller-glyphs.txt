@@ -1,0 +1,52 @@
+Use case: stylized-concept
+Asset type: production 2D visual-novel UI sprite atlas, new artwork inspired by the supplied GUI contact sheet only for broad visual language.
+Primary request: create precisely aligned reusable UI assets for a cozy candy-alchemy visual novel. Hand-drawn flat 2D candy UI: clean slightly organic raspberry outlines, pale strawberry pink, vanilla cream, honey-yellow hover accents, gentle lavender. Simple rounded candy shapes and occasional tiny heart or wrapped-candy ornament. Match the reference's playful graphic simplicity, not photorealism, not 3D, not glassmorphism.
+Input image: the provided contact sheet is STYLE REFERENCE ONLY. Do not reproduce the contact sheet layout, labels, screenshots, thumbnails, gray background, or surrounding page.
+Background: genuine transparent PNG alpha. Empty space must be truly transparent, no checkerboard pixels, no white page or gray panel behind the atlas. Keep opacity only in the actual drawn UI pieces. Do not add a watermark, signature, sheet title, slot numbers, filenames, grid lines, or decorative background.
+Layout: ONE single seamless atlas with the exact grid specified below. Every cell has equal width and equal height. Reading order left to right, then top to bottom. No outer sheet padding, no gutters between cells, no visible cell boundaries. Every sprite is isolated in its OWN cell, centered with at least 8% breathing room from its cell boundaries. Never let an element cross cells. Keep the requested orientation of thin horizontal and vertical components. Leave unused final cells fully transparent.
+Grid: EXACTLY 7 columns by 6 rows; prefer a 1792 x 1536 pixel canvas. 42 requested slots. A slot has exactly one independent UI sprite.
+Typography exception: only the precise small controller letters stated per slot are allowed. Make every ASCII label perfectly legible. No handwritten words or invented letters.
+Slot specifications (1-based row and column; no numbers should be visible on the image):
+Row 1 column 1: intentionally COMPLETELY EMPTY transparent cell, no mark.
+Row 1 column 2: rounded shoulder-button capsule containing precise clear uppercase text "L1"; exact geometry and legible short glyph, no other marks.
+Row 1 column 3: rounded shoulder-button capsule containing precise clear uppercase text "L2"; exact geometry and legible short glyph, no other marks.
+Row 1 column 4: rounded shoulder-button capsule containing precise clear uppercase text "OPT"; exact geometry and legible short glyph, no other marks.
+Row 1 column 5: rounded shoulder-button capsule containing precise clear uppercase text "R1"; exact geometry and legible short glyph, no other marks.
+Row 1 column 6: rounded shoulder-button capsule containing precise clear uppercase text "R2"; exact geometry and legible short glyph, no other marks.
+Row 1 column 7: rounded shoulder-button capsule containing tiny rounded-rectangle touchpad with small dot pattern, no text; exact geometry and legible short glyph, no other marks.
+Row 2 column 1: small round cream controller button with raspberry outline containing simple four-direction D-pad cross; exact geometry and legible short glyph, no other marks.
+Row 2 column 2: small round cream controller button with raspberry outline containing hollow circle geometry, not the letter O; exact geometry and legible short glyph, no other marks.
+Row 2 column 3: small round cream controller button with raspberry outline containing hollow square geometry; exact geometry and legible short glyph, no other marks.
+Row 2 column 4: small round cream controller button with raspberry outline containing hollow upright triangle geometry; exact geometry and legible short glyph, no other marks.
+Row 2 column 5: small round cream controller button with raspberry outline containing two diagonal strokes forming a cross; exact geometry and legible short glyph, no other marks.
+Row 2 column 6: small round cream controller button with raspberry outline containing precise clear uppercase text "A"; exact geometry and legible short glyph, no other marks.
+Row 2 column 7: small round cream controller button with raspberry outline containing precise clear uppercase text "B"; exact geometry and legible short glyph, no other marks.
+Row 3 column 1: small round cream controller button with raspberry outline containing simple four-direction D-pad cross; exact geometry and legible short glyph, no other marks.
+Row 3 column 2: rounded shoulder-button capsule containing precise clear uppercase text "L"; exact geometry and legible short glyph, no other marks.
+Row 3 column 3: small round cream controller button with raspberry outline containing one minus sign −; exact geometry and legible short glyph, no other marks.
+Row 3 column 4: small round cream controller button with raspberry outline containing one plus sign +; exact geometry and legible short glyph, no other marks.
+Row 3 column 5: rounded shoulder-button capsule containing precise clear uppercase text "R"; exact geometry and legible short glyph, no other marks.
+Row 3 column 6: small round cream controller button with raspberry outline containing precise clear uppercase text "X"; exact geometry and legible short glyph, no other marks.
+Row 3 column 7: small round cream controller button with raspberry outline containing precise clear uppercase text "Y"; exact geometry and legible short glyph, no other marks.
+Row 4 column 1: rounded shoulder-button capsule containing precise clear uppercase text "ZL"; exact geometry and legible short glyph, no other marks.
+Row 4 column 2: rounded shoulder-button capsule containing precise clear uppercase text "ZR"; exact geometry and legible short glyph, no other marks.
+Row 4 column 3: rounded shoulder-button capsule containing precise clear uppercase text "L"; exact geometry and legible short glyph, no other marks.
+Row 4 column 4: small round cream controller button with raspberry outline containing hollow circle geometry, not the letter O; exact geometry and legible short glyph, no other marks.
+Row 4 column 5: rounded shoulder-button capsule containing precise clear uppercase text "R"; exact geometry and legible short glyph, no other marks.
+Row 4 column 6: rounded shoulder-button capsule containing precise clear uppercase text "SELECT"; exact geometry and legible short glyph, no other marks.
+Row 4 column 7: small round cream controller button with raspberry outline containing hollow square geometry; exact geometry and legible short glyph, no other marks.
+Row 5 column 1: rounded shoulder-button capsule containing precise clear uppercase text "START"; exact geometry and legible short glyph, no other marks.
+Row 5 column 2: small round cream controller button with raspberry outline containing hollow upright triangle geometry; exact geometry and legible short glyph, no other marks.
+Row 5 column 3: small round cream controller button with raspberry outline containing two diagonal strokes forming a cross; exact geometry and legible short glyph, no other marks.
+Row 5 column 4: small round cream controller button with raspberry outline containing precise clear uppercase text "A"; exact geometry and legible short glyph, no other marks.
+Row 5 column 5: small round cream controller button with raspberry outline containing precise clear uppercase text "B"; exact geometry and legible short glyph, no other marks.
+Row 5 column 6: small round cream controller button with raspberry outline containing simple four-direction D-pad cross; exact geometry and legible short glyph, no other marks.
+Row 5 column 7: rounded shoulder-button capsule containing precise clear uppercase text "LB"; exact geometry and legible short glyph, no other marks.
+Row 6 column 1: rounded shoulder-button capsule containing precise clear uppercase text "LT"; exact geometry and legible short glyph, no other marks.
+Row 6 column 2: small round cream controller button with raspberry outline containing three short horizontal menu bars; exact geometry and legible short glyph, no other marks.
+Row 6 column 3: small round cream controller button with raspberry outline containing two overlapping small rectangles; exact geometry and legible short glyph, no other marks.
+Row 6 column 4: rounded shoulder-button capsule containing precise clear uppercase text "RB"; exact geometry and legible short glyph, no other marks.
+Row 6 column 5: rounded shoulder-button capsule containing precise clear uppercase text "RT"; exact geometry and legible short glyph, no other marks.
+Row 6 column 6: small round cream controller button with raspberry outline containing precise clear uppercase text "X"; exact geometry and legible short glyph, no other marks.
+Row 6 column 7: small round cream controller button with raspberry outline containing precise clear uppercase text "Y"; exact geometry and legible short glyph, no other marks.
+Finish: clean usable raster game assets, crisp anti-aliased edges, true alpha transparency, no drop-shadow bleeding across cells.

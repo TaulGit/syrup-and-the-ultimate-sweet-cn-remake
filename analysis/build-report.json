@@ -1,0 +1,163 @@
+{
+  "assetSlots": 397,
+  "atlasFiles": 33,
+  "files": [
+    {
+      "path": "assets/atlases/backgrounds-cottage.png",
+      "size": 2436680
+    },
+    {
+      "path": "assets/atlases/backgrounds-ice.png",
+      "size": 1910092
+    },
+    {
+      "path": "assets/atlases/backgrounds-shop-v2.png",
+      "size": 2333889
+    },
+    {
+      "path": "assets/atlases/backgrounds-town.png",
+      "size": 2390086
+    },
+    {
+      "path": "assets/atlases/bs-chubby.png",
+      "size": 1485087
+    },
+    {
+      "path": "assets/atlases/bs-normal.png",
+      "size": 1439920
+    },
+    {
+      "path": "assets/atlases/bs-snow.png",
+      "size": 1531807
+    },
+    {
+      "path": "assets/atlases/bs-warm.png",
+      "size": 1932691
+    },
+    {
+      "path": "assets/atlases/cg-01.png",
+      "size": 1624455
+    },
+    {
+      "path": "assets/atlases/cg-02.png",
+      "size": 1661114
+    },
+    {
+      "path": "assets/atlases/cg-03.png",
+      "size": 1617546
+    },
+    {
+      "path": "assets/atlases/cg-04.png",
+      "size": 1550702
+    },
+    {
+      "path": "assets/atlases/effects-menu.png",
+      "size": 479708
+    },
+    {
+      "path": "assets/atlases/gallery-concepts.png",
+      "size": 2096856
+    },
+    {
+      "path": "assets/atlases/gallery-extras.png",
+      "size": 2493018
+    },
+    {
+      "path": "assets/atlases/gum-frosting.png",
+      "size": 2045989
+    },
+    {
+      "path": "assets/atlases/gum-uniform-long.png",
+      "size": 2005387
+    },
+    {
+      "path": "assets/atlases/gum-uniform-short.png",
+      "size": 1835192
+    },
+    {
+      "path": "assets/atlases/npc.png",
+      "size": 1938449
+    },
+    {
+      "path": "assets/atlases/pas-normal.png",
+      "size": 1723192
+    },
+    {
+      "path": "assets/atlases/pas-winter.png",
+      "size": 880176
+    },
+    {
+      "path": "assets/atlases/storybook-frames.png",
+      "size": 1192134
+    },
+    {
+      "path": "assets/atlases/syrup-after-coat-v2.png",
+      "size": 1985539
+    },
+    {
+      "path": "assets/atlases/syrup-normal-a.png",
+      "size": 1655264
+    },
+    {
+      "path": "assets/atlases/syrup-normal-b.png",
+      "size": 1821676
+    },
+    {
+      "path": "assets/atlases/syrup-winter.png",
+      "size": 1625086
+    },
+    {
+      "path": "assets/atlases/title-bilingual.png",
+      "size": 1178031
+    },
+    {
+      "path": "assets/atlases/toffee.png",
+      "size": 1327862
+    },
+    {
+      "path": "assets/atlases/ui-bars-sliders.png",
+      "size": 549783
+    },
+    {
+      "path": "assets/atlases/ui-buttons.png",
+      "size": 968746
+    },
+    {
+      "path": "assets/atlases/ui-controller-glyphs.png",
+      "size": 1267439
+    },
+    {
+      "path": "assets/atlases/ui-panels-a.png",
+      "size": 602703
+    },
+    {
+      "path": "assets/atlases/ui-panels-b.png",
+      "size": 225590
+    },
+    {
+      "path": "game/app.js",
+      "size": 20508
+    },
+    {
+      "path": "game/assets.json",
+      "size": 85905
+    },
+    {
+      "path": "game/storage.js",
+      "size": 2442
+    },
+    {
+      "path": "game/story.js",
+      "size": 21806
+    },
+    {
+      "path": "game/style.css",
+      "size": 11949
+    },
+    {
+      "path": "index.html",
+      "size": 3384
+    }
+  ],
+  "totalBytes": 51957883
+}

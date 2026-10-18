@@ -1,0 +1,24 @@
+Use case: stylized-concept.
+Asset type: production transparent 2D visual novel sprite atlas, one PNG, exactly 4 columns x 4 rows, 16 equal square cells.
+Primary request: create NEW redraws using the supplied references, preserving character identity, with a distinct expression/pose in each specified tile. The references are design/style inputs, not output assets.
+Input images: the new Syrup atlas supplies line style and cel shading; the original character image(s) supply only identity and clothing.
+Subject: Gumdrop is an ADULT magical candy woman, berry-pink skin, large pink oval eyes, spiral cheek marks, strawberry pink hair fading toward pale cream at the tips, straight soft rounded bangs, red-and-white peppermint swirl ornaments at both temples. Cheerful simple face and rounded silhouette. Outfit in every cell: white puff-shoulder blouse with long white sleeves and pink cuffs, pink candy brooch at collar, a pale pink apron over a dark chocolate brown skirt. Fully covered outfit. Long flowing hair.
+Style: Adult characters with stylized 3.5-head chibi proportions. Bold rounded black hand-drawn contours, flat pastel colors, only one crisp cel-shadow layer, large simple oval eyes, two or three tiny round white hair highlights. Match the simple compact cartoon rendering of the new Syrup atlas, without realistic anatomy, painterly rendering, 3D, fine texture or excessive anime polish. Frame every humanoid from full head to mid-thigh, same scale and baseline in every cell. Entire hair, hands, ears and tails stay within the cell with clear padding.
+Cell expressions, exact reading order (left to right, top to bottom):
+1. Soft sympathetic worried smile, hands clasped at waist.
+2. Soft comforting smile, eyes a little sad, hands clasped at waist.
+3. Bright gentle smile, both fists tucked near collar.
+4. Frozen in a brave running pose leaning to the right, one elbow forward, eyes closed, slight ice-blue rim and tiny snow specks, still fully uniformed.
+5. Greeting with small open mouth, hands tucked near collar.
+6. Unhappy frown and lowered brows, clasped hands at waist.
+7. Crying protest, eyes closed, mouth open, hands beneath cheeks.
+8. Impressed with sparkling open eyes and round open mouth, hands near collar.
+9. Surprised wide eyes and tiny round mouth, hands near collar.
+10. Worried arched eyebrows, small open mouth, hands clasped at waist.
+11. Excited open-mouth grin, both fists raised near collar.
+12. Very joyful closed-eye grin, both fists raised near collar.
+13. Enthusiastic yes, open smile and raised hands.
+14. Calm satisfied small smile, bright eyes, hands near collar.
+15. EMPTY TRANSPARENT TILE, no drawing.
+16. EMPTY TRANSPARENT TILE, no drawing.
+Composition: EXACT regular 4 by 4 grid of equal square tiles, no gutters, no grid lines, no overlap across cells. Every specified tile contains precisely its one sprite, except the explicitly paired Chocolate characters. Similar identity and clothing throughout each character group. GENUINELY TRANSPARENT background with clean alpha, not a painted checkerboard. No scene, no floor, no ground shadows, no written labels, no numbers, no text, no watermark.

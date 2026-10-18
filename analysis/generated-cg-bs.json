@@ -1,0 +1,1388 @@
+{
+  "groups": [
+    {
+      "id": "bs-normal",
+      "path": "assets/atlases/bs-normal.png",
+      "promptPath": "prompts/bs-normal.txt",
+      "columns": 4,
+      "rows": 4,
+      "references": [
+        "analysis/reference/unpacked/game/images/bs smirk.png",
+        "assets/atlases/syrup-normal-a.png"
+      ],
+      "slots": [
+        {
+          "sourcePath": "images/bs aaa.png",
+          "index": 0,
+          "row": 0,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.0,
+            0.25,
+            0.25
+          ],
+          "description": "Butterscotch / witch / 惊叫"
+        },
+        {
+          "sourcePath": "images/bs brag.png",
+          "index": 1,
+          "row": 0,
+          "column": 1,
+          "uv": [
+            0.25,
+            0.0,
+            0.25,
+            0.25
+          ],
+          "description": "Butterscotch / witch / 炫耀"
+        },
+        {
+          "sourcePath": "images/bs castin.png",
+          "index": 2,
+          "row": 0,
+          "column": 2,
+          "uv": [
+            0.5,
+            0.0,
+            0.25,
+            0.25
+          ],
+          "description": "Butterscotch / witch / 施法"
+        },
+        {
+          "sourcePath": "images/bs doll.png",
+          "index": 3,
+          "row": 0,
+          "column": 3,
+          "uv": [
+            0.75,
+            0.0,
+            0.25,
+            0.25
+          ],
+          "description": "Butterscotch / witch / 玩偶状态"
+        },
+        {
+          "sourcePath": "images/bs drool.png",
+          "index": 4,
+          "row": 1,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "description": "Butterscotch / witch / 馋嘴"
+        },
+        {
+          "sourcePath": "images/bs freakinout.png",
+          "index": 5,
+          "row": 1,
+          "column": 1,
+          "uv": [
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "description": "Butterscotch / witch / 慌乱"
+        },
+        {
+          "sourcePath": "images/bs hey.png",
+          "index": 6,
+          "row": 1,
+          "column": 2,
+          "uv": [
+            0.5,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "description": "Butterscotch / witch / 打招呼"
+        },
+        {
+          "sourcePath": "images/bs mad.png",
+          "index": 7,
+          "row": 1,
+          "column": 3,
+          "uv": [
+            0.75,
+            0.25,
+            0.25,
+            0.25
+          ],
+          "description": "Butterscotch / witch / 生气"
+        },
+        {
+          "sourcePath": "images/bs magics.png",
+          "index": 8,
+          "row": 2,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.5,
+            0.25,
+            0.25
+          ],
+          "description": "Butterscotch / witch / 魔法动作"
+        },
+        {
+          "sourcePath": "images/bs ohno.png",
+          "index": 9,
+          "row": 2,
+          "column": 1,
+          "uv": [
+            0.25,
+            0.5,
+            0.25,
+            0.25
+          ],
+          "description": "Butterscotch / witch / 不妙"
+        },
+        {
+          "sourcePath": "images/bs shock.png",
+          "index": 10,
+          "row": 2,
+          "column": 2,
+          "uv": [
+            0.5,
+            0.5,
+            0.25,
+            0.25
+          ],
+          "description": "Butterscotch / witch / 震惊"
+        },
+        {
+          "sourcePath": "images/bs smirk.png",
+          "index": 11,
+          "row": 2,
+          "column": 3,
+          "uv": [
+            0.75,
+            0.5,
+            0.25,
+            0.25
+          ],
+          "description": "Butterscotch / witch / 得意笑"
+        },
+        {
+          "sourcePath": "images/bs takeit.png",
+          "index": 12,
+          "row": 3,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.75,
+            0.25,
+            0.25
+          ],
+          "description": "Butterscotch / witch / 递出物品"
+        },
+        {
+          "sourcePath": "images/bs umai.png",
+          "index": 13,
+          "row": 3,
+          "column": 1,
+          "uv": [
+            0.25,
+            0.75,
+            0.25,
+            0.25
+          ],
+          "description": "Butterscotch / witch / 觉得美味"
+        }
+      ],
+      "generationMode": "built-in-imagegen",
+      "status": "generated",
+      "limitations": [],
+      "width": 1448,
+      "height": 1086,
+      "mode": "RGBA",
+      "sha256": "eadbecb26a5c46b429074f73791c0081d8f82900c10258b4e06c8c3ca9dde78d"
+    },
+    {
+      "id": "bs-chubby",
+      "path": "assets/atlases/bs-chubby.png",
+      "promptPath": "prompts/bs-chubby.txt",
+      "columns": 3,
+      "rows": 3,
+      "references": [
+        "analysis/reference/unpacked/game/images/bs smirk.png",
+        "assets/atlases/syrup-normal-a.png"
+      ],
+      "slots": [
+        {
+          "sourcePath": "images/bs awchub.png",
+          "index": 0,
+          "row": 0,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.0,
+            0.3333333333333333,
+            0.3333333333333333
+          ],
+          "description": "Butterscotch / chubby_witch / 轻声安慰"
+        },
+        {
+          "sourcePath": "images/bs bawchub.png",
+          "index": 1,
+          "row": 0,
+          "column": 1,
+          "uv": [
+            0.3333333333333333,
+            0.0,
+            0.3333333333333333,
+            0.3333333333333333
+          ],
+          "description": "Butterscotch / chubby_witch / 大哭"
+        },
+        {
+          "sourcePath": "images/bs chub.png",
+          "index": 2,
+          "row": 0,
+          "column": 2,
+          "uv": [
+            0.6666666666666666,
+            0.0,
+            0.3333333333333333,
+            0.3333333333333333
+          ],
+          "description": "Butterscotch / chubby_witch / 基础"
+        },
+        {
+          "sourcePath": "images/bs chubtears.png",
+          "index": 3,
+          "row": 1,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.3333333333333333,
+            0.3333333333333333,
+            0.3333333333333333
+          ],
+          "description": "Butterscotch / chubby_witch / 流泪"
+        },
+        {
+          "sourcePath": "images/bs ehehchub.png",
+          "index": 4,
+          "row": 1,
+          "column": 1,
+          "uv": [
+            0.3333333333333333,
+            0.3333333333333333,
+            0.3333333333333333,
+            0.3333333333333333
+          ],
+          "description": "Butterscotch / chubby_witch / 不好意思地笑"
+        },
+        {
+          "sourcePath": "images/bs happychub.png",
+          "index": 5,
+          "row": 1,
+          "column": 2,
+          "uv": [
+            0.6666666666666666,
+            0.3333333333333333,
+            0.3333333333333333,
+            0.3333333333333333
+          ],
+          "description": "Butterscotch / chubby_witch / 开心"
+        },
+        {
+          "sourcePath": "images/bs madchub.png",
+          "index": 6,
+          "row": 2,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.6666666666666666,
+            0.3333333333333333,
+            0.3333333333333333
+          ],
+          "description": "Butterscotch / chubby_witch / 生气"
+        },
+        {
+          "sourcePath": "images/bs shychub.png",
+          "index": 7,
+          "row": 2,
+          "column": 1,
+          "uv": [
+            0.3333333333333333,
+            0.6666666666666666,
+            0.3333333333333333,
+            0.3333333333333333
+          ],
+          "description": "Butterscotch / chubby_witch / 羞怯"
+        },
+        {
+          "sourcePath": "images/bs wehchub.png",
+          "index": 8,
+          "row": 2,
+          "column": 2,
+          "uv": [
+            0.6666666666666666,
+            0.6666666666666666,
+            0.3333333333333333,
+            0.3333333333333333
+          ],
+          "description": "Butterscotch / chubby_witch / 委屈"
+        }
+      ],
+      "generationMode": "built-in-imagegen",
+      "status": "generated",
+      "limitations": [],
+      "width": 1285,
+      "height": 1224,
+      "mode": "RGBA",
+      "sha256": "ac1e7557ac9e50f16545f0ff52536f23d48d9e192e50680bcf4c22a064f6b5d2"
+    },
+    {
+      "id": "bs-snow",
+      "path": "assets/atlases/bs-snow.png",
+      "promptPath": "prompts/bs-snow.txt",
+      "columns": 4,
+      "rows": 2,
+      "references": [
+        "analysis/reference/unpacked/game/images/bs smirk.png",
+        "assets/atlases/syrup-normal-a.png"
+      ],
+      "slots": [
+        {
+          "sourcePath": "images/bs cold.png",
+          "index": 0,
+          "row": 0,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.0,
+            0.25,
+            0.5
+          ],
+          "description": "Butterscotch / snowy_witch / 基础"
+        },
+        {
+          "sourcePath": "images/bs coldeheh.png",
+          "index": 1,
+          "row": 0,
+          "column": 1,
+          "uv": [
+            0.25,
+            0.0,
+            0.25,
+            0.5
+          ],
+          "description": "Butterscotch / snowy_witch / 不好意思地笑"
+        },
+        {
+          "sourcePath": "images/bs coldfreakinout.png",
+          "index": 2,
+          "row": 0,
+          "column": 2,
+          "uv": [
+            0.5,
+            0.0,
+            0.25,
+            0.5
+          ],
+          "description": "Butterscotch / snowy_witch / 慌乱"
+        },
+        {
+          "sourcePath": "images/bs coldgrr.png",
+          "index": 3,
+          "row": 0,
+          "column": 3,
+          "uv": [
+            0.75,
+            0.0,
+            0.25,
+            0.5
+          ],
+          "description": "Butterscotch / snowy_witch / 恼怒"
+        },
+        {
+          "sourcePath": "images/bs coldmad.png",
+          "index": 4,
+          "row": 1,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.5,
+            0.25,
+            0.5
+          ],
+          "description": "Butterscotch / snowy_witch / 生气"
+        },
+        {
+          "sourcePath": "images/bs coldpathetic.png",
+          "index": 5,
+          "row": 1,
+          "column": 1,
+          "uv": [
+            0.25,
+            0.5,
+            0.25,
+            0.5
+          ],
+          "description": "Butterscotch / snowy_witch / 可怜委屈"
+        },
+        {
+          "sourcePath": "images/bs coldtch.png",
+          "index": 6,
+          "row": 1,
+          "column": 2,
+          "uv": [
+            0.5,
+            0.5,
+            0.25,
+            0.5
+          ],
+          "description": "Butterscotch / snowy_witch / 不耐烦"
+        },
+        {
+          "sourcePath": "images/bs coldtears.png",
+          "index": 7,
+          "row": 1,
+          "column": 3,
+          "uv": [
+            0.75,
+            0.5,
+            0.25,
+            0.5
+          ],
+          "description": "Butterscotch / snowy_witch / 流泪"
+        }
+      ],
+      "generationMode": "built-in-imagegen",
+      "status": "generated",
+      "limitations": [],
+      "width": 1774,
+      "height": 887,
+      "mode": "RGBA",
+      "sha256": "5b33b0ab5d16a47ccd1c66e4a5ca35edb6b687544120b1f9529e5af410c160f9"
+    },
+    {
+      "id": "bs-warm",
+      "path": "assets/atlases/bs-warm.png",
+      "promptPath": "prompts/bs-warm.txt",
+      "columns": 3,
+      "rows": 2,
+      "references": [
+        "analysis/reference/unpacked/game/images/bs smirk.png",
+        "assets/atlases/syrup-normal-a.png"
+      ],
+      "slots": [
+        {
+          "sourcePath": "images/bs warm.png",
+          "index": 0,
+          "row": 0,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.0,
+            0.3333333333333333,
+            0.5
+          ],
+          "description": "Butterscotch / borrowed_wintercoat / 基础"
+        },
+        {
+          "sourcePath": "images/bs warmeheh.png",
+          "index": 1,
+          "row": 0,
+          "column": 1,
+          "uv": [
+            0.3333333333333333,
+            0.0,
+            0.3333333333333333,
+            0.5
+          ],
+          "description": "Butterscotch / borrowed_wintercoat / 不好意思地笑"
+        },
+        {
+          "sourcePath": "images/bs warmgrr.png",
+          "index": 2,
+          "row": 0,
+          "column": 2,
+          "uv": [
+            0.6666666666666666,
+            0.0,
+            0.3333333333333333,
+            0.5
+          ],
+          "description": "Butterscotch / borrowed_wintercoat / 恼怒"
+        },
+        {
+          "sourcePath": "images/bs warmpathetic.png",
+          "index": 3,
+          "row": 1,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.5,
+            0.3333333333333333,
+            0.5
+          ],
+          "description": "Butterscotch / borrowed_wintercoat / 可怜委屈"
+        },
+        {
+          "sourcePath": "images/bs warmscared.png",
+          "index": 4,
+          "row": 1,
+          "column": 1,
+          "uv": [
+            0.3333333333333333,
+            0.5,
+            0.3333333333333333,
+            0.5
+          ],
+          "description": "Butterscotch / borrowed_wintercoat / 害怕"
+        },
+        {
+          "sourcePath": "images/bs warmtch.png",
+          "index": 5,
+          "row": 1,
+          "column": 2,
+          "uv": [
+            0.6666666666666666,
+            0.5,
+            0.3333333333333333,
+            0.5
+          ],
+          "description": "Butterscotch / borrowed_wintercoat / 不耐烦"
+        }
+      ],
+      "generationMode": "built-in-imagegen",
+      "status": "generated",
+      "limitations": [],
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGBA",
+      "sha256": "2ab46a5b9ea66f6285cde5d9aef9c0cd8aae02931ca8fe6964fc8596917d2a91"
+    },
+    {
+      "id": "cg-01",
+      "path": "assets/atlases/cg-01.png",
+      "promptPath": "prompts/cg-01.txt",
+      "columns": 3,
+      "rows": 3,
+      "references": [
+        "analysis/reference/style/contact_cg.jpg",
+        "assets/atlases/syrup-normal-a.png"
+      ],
+      "slots": [
+        {
+          "sourcePath": "images/sb badend1.png",
+          "index": 0,
+          "row": 0,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.0,
+            0.3333333333333333,
+            0.3333333333333333
+          ],
+          "description": "剧情故事书插画：badend1"
+        },
+        {
+          "sourcePath": "images/sb badend2.png",
+          "index": 1,
+          "row": 0,
+          "column": 1,
+          "uv": [
+            0.3333333333333333,
+            0.0,
+            0.3333333333333333,
+            0.3333333333333333
+          ],
+          "description": "剧情故事书插画：badend2"
+        },
+        {
+          "sourcePath": "images/sb bsend.png",
+          "index": 2,
+          "row": 0,
+          "column": 2,
+          "uv": [
+            0.6666666666666666,
+            0.0,
+            0.3333333333333333,
+            0.3333333333333333
+          ],
+          "description": "剧情故事书插画：bsend"
+        },
+        {
+          "sourcePath": "images/sb byetoffee.png",
+          "index": 3,
+          "row": 1,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.3333333333333333,
+            0.3333333333333333,
+            0.3333333333333333
+          ],
+          "description": "剧情故事书插画：byetoffee"
+        },
+        {
+          "sourcePath": "images/sb byetreat.png",
+          "index": 4,
+          "row": 1,
+          "column": 1,
+          "uv": [
+            0.3333333333333333,
+            0.3333333333333333,
+            0.3333333333333333,
+            0.3333333333333333
+          ],
+          "description": "剧情故事书插画：byetreat"
+        },
+        {
+          "sourcePath": "images/sb candibal.png",
+          "index": 5,
+          "row": 1,
+          "column": 2,
+          "uv": [
+            0.6666666666666666,
+            0.3333333333333333,
+            0.3333333333333333,
+            0.3333333333333333
+          ],
+          "description": "剧情故事书插画：candibal"
+        },
+        {
+          "sourcePath": "images/sb cattakeover.png",
+          "index": 6,
+          "row": 2,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.6666666666666666,
+            0.3333333333333333,
+            0.3333333333333333
+          ],
+          "description": "剧情故事书插画：cattakeover"
+        },
+        {
+          "sourcePath": "images/sb climb.png",
+          "index": 7,
+          "row": 2,
+          "column": 1,
+          "uv": [
+            0.3333333333333333,
+            0.6666666666666666,
+            0.3333333333333333,
+            0.3333333333333333
+          ],
+          "description": "剧情故事书插画：climb"
+        },
+        {
+          "sourcePath": "images/sb counter.png",
+          "index": 8,
+          "row": 2,
+          "column": 2,
+          "uv": [
+            0.6666666666666666,
+            0.6666666666666666,
+            0.3333333333333333,
+            0.3333333333333333
+          ],
+          "description": "剧情故事书插画：counter"
+        }
+      ],
+      "generationMode": "built-in-imagegen",
+      "status": "generated",
+      "limitations": [],
+      "width": 1182,
+      "height": 1330,
+      "mode": "RGBA",
+      "sha256": "a5426b3b3b161ea2f5d57359fb04bf572ba70f7ef8a6bb363c4322cb21073d55"
+    },
+    {
+      "id": "cg-02",
+      "path": "assets/atlases/cg-02.png",
+      "promptPath": "prompts/cg-02.txt",
+      "columns": 3,
+      "rows": 3,
+      "references": [
+        "analysis/reference/style/contact_cg.jpg",
+        "assets/atlases/syrup-normal-a.png"
+      ],
+      "slots": [
+        {
+          "sourcePath": "images/sb creamilla.png",
+          "index": 0,
+          "row": 0,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.0,
+            0.3333333333333333,
+            0.3333333333333333
+          ],
+          "description": "剧情故事书插画：creamilla"
+        },
+        {
+          "sourcePath": "images/sb eatenaway1.png",
+          "index": 1,
+          "row": 0,
+          "column": 1,
+          "uv": [
+            0.3333333333333333,
+            0.0,
+            0.3333333333333333,
+            0.3333333333333333
+          ],
+          "description": "剧情故事书插画：eatenaway1"
+        },
+        {
+          "sourcePath": "images/sb eatenaway2.png",
+          "index": 2,
+          "row": 0,
+          "column": 2,
+          "uv": [
+            0.6666666666666666,
+            0.0,
+            0.3333333333333333,
+            0.3333333333333333
+          ],
+          "description": "剧情故事书插画：eatenaway2"
+        },
+        {
+          "sourcePath": "images/sb escape.png",
+          "index": 3,
+          "row": 1,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.3333333333333333,
+            0.3333333333333333,
+            0.3333333333333333
+          ],
+          "description": "剧情故事书插画：escape"
+        },
+        {
+          "sourcePath": "images/sb escape2.png",
+          "index": 4,
+          "row": 1,
+          "column": 1,
+          "uv": [
+            0.3333333333333333,
+            0.3333333333333333,
+            0.3333333333333333,
+            0.3333333333333333
+          ],
+          "description": "剧情故事书插画：escape2"
+        },
+        {
+          "sourcePath": "images/sb fixd.png",
+          "index": 5,
+          "row": 1,
+          "column": 2,
+          "uv": [
+            0.6666666666666666,
+            0.3333333333333333,
+            0.3333333333333333,
+            0.3333333333333333
+          ],
+          "description": "剧情故事书插画：fixd"
+        },
+        {
+          "sourcePath": "images/sb frozen.png",
+          "index": 6,
+          "row": 2,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.6666666666666666,
+            0.3333333333333333,
+            0.3333333333333333
+          ],
+          "description": "剧情故事书插画：frozen"
+        },
+        {
+          "sourcePath": "images/sb gumend.png",
+          "index": 7,
+          "row": 2,
+          "column": 1,
+          "uv": [
+            0.3333333333333333,
+            0.6666666666666666,
+            0.3333333333333333,
+            0.3333333333333333
+          ],
+          "description": "剧情故事书插画：gumend"
+        },
+        {
+          "sourcePath": "images/sb happyreturn.png",
+          "index": 8,
+          "row": 2,
+          "column": 2,
+          "uv": [
+            0.6666666666666666,
+            0.6666666666666666,
+            0.3333333333333333,
+            0.3333333333333333
+          ],
+          "description": "剧情故事书插画：happyreturn"
+        }
+      ],
+      "generationMode": "built-in-imagegen",
+      "status": "generated",
+      "limitations": [],
+      "width": 1182,
+      "height": 1330,
+      "mode": "RGBA",
+      "sha256": "3b0cdc903a90420cc65fef17225767fdabd98af8d82af42813be5fe5dc514e3c",
+      "promptHistory": [
+        "prompts/cg-02.txt",
+        "prompts/cg-02-identity-fix.txt"
+      ],
+      "qa": {
+        "visual_review": "Character identities reviewed after localized imagegen repair; incidental sketch variation remains."
+      }
+    },
+    {
+      "id": "cg-03",
+      "path": "assets/atlases/cg-03.png",
+      "promptPath": "prompts/cg-03.txt",
+      "columns": 3,
+      "rows": 3,
+      "references": [
+        "analysis/reference/style/contact_cg.jpg",
+        "assets/atlases/syrup-normal-a.png"
+      ],
+      "slots": [
+        {
+          "sourcePath": "images/sb hitreat.png",
+          "index": 0,
+          "row": 0,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.0,
+            0.3333333333333333,
+            0.3333333333333333
+          ],
+          "description": "剧情故事书插画：hitreat"
+        },
+        {
+          "sourcePath": "images/sb homealone.png",
+          "index": 1,
+          "row": 0,
+          "column": 1,
+          "uv": [
+            0.3333333333333333,
+            0.0,
+            0.3333333333333333,
+            0.3333333333333333
+          ],
+          "description": "剧情故事书插画：homealone"
+        },
+        {
+          "sourcePath": "images/sb hometogether.png",
+          "index": 2,
+          "row": 0,
+          "column": 2,
+          "uv": [
+            0.6666666666666666,
+            0.0,
+            0.3333333333333333,
+            0.3333333333333333
+          ],
+          "description": "剧情故事书插画：hometogether"
+        },
+        {
+          "sourcePath": "images/sb locked.png",
+          "index": 3,
+          "row": 1,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.3333333333333333,
+            0.3333333333333333,
+            0.3333333333333333
+          ],
+          "description": "未解锁剧情插画占位图"
+        },
+        {
+          "sourcePath": "images/sb newassistant.png",
+          "index": 4,
+          "row": 1,
+          "column": 1,
+          "uv": [
+            0.3333333333333333,
+            0.3333333333333333,
+            0.3333333333333333,
+            0.3333333333333333
+          ],
+          "description": "剧情故事书插画：newassistant"
+        },
+        {
+          "sourcePath": "images/sb newassistant2.png",
+          "index": 5,
+          "row": 1,
+          "column": 2,
+          "uv": [
+            0.6666666666666666,
+            0.3333333333333333,
+            0.3333333333333333,
+            0.3333333333333333
+          ],
+          "description": "剧情故事书插画：newassistant2"
+        },
+        {
+          "sourcePath": "images/sb pasend.png",
+          "index": 6,
+          "row": 2,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.6666666666666666,
+            0.3333333333333333,
+            0.3333333333333333
+          ],
+          "description": "剧情故事书插画：pasend"
+        },
+        {
+          "sourcePath": "images/sb search.png",
+          "index": 7,
+          "row": 2,
+          "column": 1,
+          "uv": [
+            0.3333333333333333,
+            0.6666666666666666,
+            0.3333333333333333,
+            0.3333333333333333
+          ],
+          "description": "剧情故事书插画：search"
+        },
+        {
+          "sourcePath": "images/sb shop.png",
+          "index": 8,
+          "row": 2,
+          "column": 2,
+          "uv": [
+            0.6666666666666666,
+            0.6666666666666666,
+            0.3333333333333333,
+            0.3333333333333333
+          ],
+          "description": "剧情故事书插画：shop"
+        }
+      ],
+      "generationMode": "built-in-imagegen",
+      "status": "generated",
+      "limitations": [],
+      "width": 1182,
+      "height": 1330,
+      "mode": "RGBA",
+      "sha256": "2c344aedd3f6fa92839f0fc97881c8a4b455530943fb5d3f05cfb8ec3e761cd7",
+      "promptHistory": [
+        "prompts/cg-03.txt",
+        "prompts/cg-03-identity-fix.txt"
+      ],
+      "qa": {
+        "visual_review": "Character identities reviewed after localized imagegen repair; incidental sketch variation remains."
+      }
+    },
+    {
+      "id": "cg-04",
+      "path": "assets/atlases/cg-04.png",
+      "promptPath": "prompts/cg-04.txt",
+      "columns": 3,
+      "rows": 3,
+      "references": [
+        "analysis/reference/style/contact_cg.jpg",
+        "assets/atlases/syrup-normal-a.png"
+      ],
+      "slots": [
+        {
+          "sourcePath": "images/sb sleep.png",
+          "index": 0,
+          "row": 0,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.0,
+            0.3333333333333333,
+            0.3333333333333333
+          ],
+          "description": "剧情故事书插画：sleep"
+        },
+        {
+          "sourcePath": "images/sb syrupend.png",
+          "index": 1,
+          "row": 0,
+          "column": 1,
+          "uv": [
+            0.3333333333333333,
+            0.0,
+            0.3333333333333333,
+            0.3333333333333333
+          ],
+          "description": "剧情故事书插画：syrupend"
+        },
+        {
+          "sourcePath": "images/sb tofend.png",
+          "index": 2,
+          "row": 0,
+          "column": 2,
+          "uv": [
+            0.6666666666666666,
+            0.0,
+            0.3333333333333333,
+            0.3333333333333333
+          ],
+          "description": "剧情故事书插画：tofend"
+        },
+        {
+          "sourcePath": "images/sb ultimatesweet.png",
+          "index": 3,
+          "row": 1,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.3333333333333333,
+            0.3333333333333333,
+            0.3333333333333333
+          ],
+          "description": "剧情故事书插画：ultimatesweet"
+        },
+        {
+          "sourcePath": "images/sb unsleep.png",
+          "index": 4,
+          "row": 1,
+          "column": 1,
+          "uv": [
+            0.3333333333333333,
+            0.3333333333333333,
+            0.3333333333333333,
+            0.3333333333333333
+          ],
+          "description": "剧情故事书插画：unsleep"
+        },
+        {
+          "sourcePath": "images/sb working.png",
+          "index": 5,
+          "row": 1,
+          "column": 2,
+          "uv": [
+            0.6666666666666666,
+            0.3333333333333333,
+            0.3333333333333333,
+            0.3333333333333333
+          ],
+          "description": "剧情故事书插画：working"
+        },
+        {
+          "sourcePath": "images/sb working2.png",
+          "index": 6,
+          "row": 2,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.6666666666666666,
+            0.3333333333333333,
+            0.3333333333333333
+          ],
+          "description": "剧情故事书插画：working2"
+        },
+        {
+          "sourcePath": "images/sb worstend.png",
+          "index": 7,
+          "row": 2,
+          "column": 1,
+          "uv": [
+            0.3333333333333333,
+            0.6666666666666666,
+            0.3333333333333333,
+            0.3333333333333333
+          ],
+          "description": "剧情故事书插画：worstend"
+        }
+      ],
+      "generationMode": "built-in-imagegen",
+      "status": "generated",
+      "limitations": [],
+      "width": 1182,
+      "height": 1330,
+      "mode": "RGBA",
+      "sha256": "28d669aca1cceae8d9ea0dd79104da092ec77e40570bb83f5214d5a76e50d9da"
+    },
+    {
+      "id": "gallery-concepts",
+      "path": "assets/atlases/gallery-concepts.png",
+      "promptPath": "prompts/gallery-concepts.txt",
+      "columns": 3,
+      "rows": 3,
+      "references": [
+        "analysis/reference/style/contact_gallery.jpg",
+        "assets/atlases/syrup-normal-a.png"
+      ],
+      "slots": [
+        {
+          "sourcePath": "images/gallery/concept assistant.png",
+          "index": 0,
+          "row": 0,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.0,
+            0.3333333333333333,
+            0.3333333333333333
+          ],
+          "description": "画廊角色概念设计图：assistant"
+        },
+        {
+          "sourcePath": "images/gallery/concept candyalchemist.png",
+          "index": 1,
+          "row": 0,
+          "column": 1,
+          "uv": [
+            0.3333333333333333,
+            0.0,
+            0.3333333333333333,
+            0.3333333333333333
+          ],
+          "description": "画廊角色概念设计图：candyalchemist"
+        },
+        {
+          "sourcePath": "images/gallery/concept candygirl.png",
+          "index": 2,
+          "row": 0,
+          "column": 2,
+          "uv": [
+            0.6666666666666666,
+            0.0,
+            0.3333333333333333,
+            0.3333333333333333
+          ],
+          "description": "画廊角色概念设计图：candygirl"
+        },
+        {
+          "sourcePath": "images/gallery/concept cat.png",
+          "index": 3,
+          "row": 1,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.3333333333333333,
+            0.3333333333333333,
+            0.3333333333333333
+          ],
+          "description": "画廊角色概念设计图：cat"
+        },
+        {
+          "sourcePath": "images/gallery/concept chocolate.png",
+          "index": 4,
+          "row": 1,
+          "column": 1,
+          "uv": [
+            0.3333333333333333,
+            0.3333333333333333,
+            0.3333333333333333,
+            0.3333333333333333
+          ],
+          "description": "画廊角色概念设计图：chocolate"
+        },
+        {
+          "sourcePath": "images/gallery/concept saveher.png",
+          "index": 5,
+          "row": 1,
+          "column": 2,
+          "uv": [
+            0.6666666666666666,
+            0.3333333333333333,
+            0.3333333333333333,
+            0.3333333333333333
+          ],
+          "description": "画廊角色概念设计图：saveher"
+        },
+        {
+          "sourcePath": "images/gallery/concept treat.png",
+          "index": 6,
+          "row": 2,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.6666666666666666,
+            0.3333333333333333,
+            0.3333333333333333
+          ],
+          "description": "画廊角色概念设计图：treat"
+        },
+        {
+          "sourcePath": "images/gallery/concept uniform.png",
+          "index": 7,
+          "row": 2,
+          "column": 1,
+          "uv": [
+            0.3333333333333333,
+            0.6666666666666666,
+            0.3333333333333333,
+            0.3333333333333333
+          ],
+          "description": "画廊角色概念设计图：uniform"
+        },
+        {
+          "sourcePath": "images/gallery/concept witch.png",
+          "index": 8,
+          "row": 2,
+          "column": 2,
+          "uv": [
+            0.6666666666666666,
+            0.6666666666666666,
+            0.3333333333333333,
+            0.3333333333333333
+          ],
+          "description": "画廊角色概念设计图：witch"
+        }
+      ],
+      "generationMode": "built-in-imagegen",
+      "status": "generated",
+      "limitations": [],
+      "width": 1328,
+      "height": 1184,
+      "mode": "RGBA",
+      "sha256": "a7f4bf742c6974f14fb8333a07c5cc79dfd0b1f03a3907f7876cf226a06d55be"
+    },
+    {
+      "id": "gallery-extras",
+      "path": "assets/atlases/gallery-extras.png",
+      "promptPath": "prompts/gallery-extras.txt",
+      "columns": 3,
+      "rows": 3,
+      "references": [
+        "analysis/reference/style/contact_gallery.jpg",
+        "assets/atlases/syrup-normal-a.png"
+      ],
+      "slots": [
+        {
+          "sourcePath": "images/gallery/extra albumart.png",
+          "index": 0,
+          "row": 0,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.0,
+            0.3333333333333333,
+            0.3333333333333333
+          ],
+          "description": "画廊附加插画：albumart"
+        },
+        {
+          "sourcePath": "images/gallery/extra candyprint.png",
+          "index": 1,
+          "row": 0,
+          "column": 1,
+          "uv": [
+            0.3333333333333333,
+            0.0,
+            0.3333333333333333,
+            0.3333333333333333
+          ],
+          "description": "画廊附加插画：candyprint"
+        },
+        {
+          "sourcePath": "images/gallery/extra doodles.png",
+          "index": 2,
+          "row": 0,
+          "column": 2,
+          "uv": [
+            0.6666666666666666,
+            0.0,
+            0.3333333333333333,
+            0.3333333333333333
+          ],
+          "description": "画廊附加插画：doodles"
+        },
+        {
+          "sourcePath": "images/gallery/extra promo.png",
+          "index": 3,
+          "row": 1,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.3333333333333333,
+            0.3333333333333333,
+            0.3333333333333333
+          ],
+          "description": "画廊附加插画：promo"
+        },
+        {
+          "sourcePath": "images/gallery/extra rough.png",
+          "index": 4,
+          "row": 1,
+          "column": 1,
+          "uv": [
+            0.3333333333333333,
+            0.3333333333333333,
+            0.3333333333333333,
+            0.3333333333333333
+          ],
+          "description": "画廊附加插画：rough"
+        },
+        {
+          "sourcePath": "images/gallery/extra roughpromo.png",
+          "index": 5,
+          "row": 1,
+          "column": 2,
+          "uv": [
+            0.6666666666666666,
+            0.3333333333333333,
+            0.3333333333333333,
+            0.3333333333333333
+          ],
+          "description": "画廊附加插画：roughpromo"
+        },
+        {
+          "sourcePath": "images/gallery/extra shirt.png",
+          "index": 6,
+          "row": 2,
+          "column": 0,
+          "uv": [
+            0.0,
+            0.6666666666666666,
+            0.3333333333333333,
+            0.3333333333333333
+          ],
+          "description": "画廊附加插画：shirt"
+        },
+        {
+          "sourcePath": "images/gallery/extra toffee1.png",
+          "index": 7,
+          "row": 2,
+          "column": 1,
+          "uv": [
+            0.3333333333333333,
+            0.6666666666666666,
+            0.3333333333333333,
+            0.3333333333333333
+          ],
+          "description": "画廊附加插画：toffee1"
+        },
+        {
+          "sourcePath": "images/gallery/extra toffee2.png",
+          "index": 8,
+          "row": 2,
+          "column": 2,
+          "uv": [
+            0.6666666666666666,
+            0.6666666666666666,
+            0.3333333333333333,
+            0.3333333333333333
+          ],
+          "description": "画廊附加插画：toffee2"
+        }
+      ],
+      "generationMode": "built-in-imagegen",
+      "status": "generated",
+      "limitations": [],
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGBA",
+      "sha256": "0bba3fdfd439c24d680448dcfc6e8f32f5581acdaa149d6488208334d2c305f6"
+    }
+  ]
+}

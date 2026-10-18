@@ -1,0 +1,20 @@
+Use case: stylized-concept.
+Asset type: production transparent 2D visual novel sprite atlas, one PNG, exactly 4 columns x 3 rows, 12 equal rectangular cells. Preferred resolution 3072 x 2304.
+Primary request: create NEW redraws of the adult candy scientist Syrup from the reference, preserving her recognizable character design and the original game's simple hand-drawn chibi look. The original PNG is a design reference, not an edit target.
+Reference role: sy reg.png supplies character identity; contact_characters.jpg supplies the game's coarse line-and-cel visual language.
+Subject: brown skin, bright blue oval eyes, long pale mint green asymmetrical fringe and low side ponytail, shaved beige side of head, cyan laboratory goggles on forehead, small dark square earrings, white lab coat over gray-blue tank top and navy trousers, blue lollipop. Adult woman with stylized 3.5-head chibi proportions. Frame from head to mid-thigh just as source, same scale and baseline in every cell.
+Style: bold rounded black hand-drawn contour, flat pastel color, one crisp cel shadow, tiny white dot hair highlights, expressive simple eyes. Match the humble compact 2015 indie cartoon rendering; avoid realistic anatomy, detailed anime rendering, gradients, texture or painterly polish.
+Cell expressions in reading order:
+1 neutral unimpressed, arms folded.
+2 thinking, hand near chin, eyes sideways.
+3 small surprised open mouth.
+4 proud confident smile, hand on hip.
+5 embarrassed slight blush, averting eyes.
+6 exasperated gritted teeth, arms folded.
+7 irritated raised brow.
+8 skeptical flat stare.
+9 warm thankful smile, hand near chest.
+10 explaining and pointing toward viewer's right.
+11 sly half smile.
+12 calling out, one hand raised.
+Composition: EXACT regular 4 by 3 tile grid, equal cell sizes, no gutters or dividers. Keep each entire sprite inside its cell with clear padding around hair and arms. No scene, no props beyond the lollipop and goggles, no written labels, no text, no watermark. GENUINELY TRANSPARENT background, clean alpha.

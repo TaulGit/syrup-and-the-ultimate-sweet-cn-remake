@@ -1,0 +1,15 @@
+Use case: stylized-concept.
+Asset type: newly drawn character concept gallery atlas, EXACT 3 columns x 3 rows, nine equal cells.
+Reference: contact_gallery.jpg for broad identities and original indie look only; generated Syrup atlas for new final linework.
+Primary request: nine independent full-body adult character concept sketches, same 3.5-head chibi proportions, regular scale and baseline, clean thick rounded ink contour, flat pastel colors with single cel shadow, simple warm expressions, small gray oval ground shadow directly under each figure. Genuinely transparent background outside each standalone figure. Clothes cover all characters.
+Cells in reading order:
+1. pink-haired adult male candy-shop assistant, white headscarf and blouse, pink apron, gold eyes, holding broom.
+2. brown-skinned adult mint-haired candy scientist, cyan goggles, white labcoat, gray-blue shirt, navy trousers.
+3. long-haired pink adult candy girl with peppermint twin ornaments, wearing full modest pink-and-white frosting dress.
+4. brown-skinned adult black cat-person, messy hair, yellow eyes, large gold bell collar, black sleeveless outfit, long curled tail.
+5. two adult chocolate confectioner men together: black-haired man in black tuxedo and tiny black top hat, white-haired man in brown tuxedo and tiny brown hat, warm brown skin, tiny gold cummerbunds.
+6. short-haired pink adult candy girl in shop uniform, hands at hips, clear small silhouette.
+7. white-haired adult wolf-girl, long wolf ears and tail, gray-blue fur-trim coat, dark leggings and winter boots.
+8. long-haired pink adult candy girl in white blouse and pink apron uniform, white and chocolate skirt accents.
+9. orange-braided adult witch, huge floppy purple hat and long purple cape dress, small orange candy charm.
+Constraints: no labels, words, letters, design notes, cell borders, page, grids or watermark. Do not combine separate cell figures into a group scene. Pad every cell and keep ears/hats/tails inside cell.
